@@ -128,11 +128,11 @@ def plan(root, sha, releases, repository=CANONICAL_REPO):
             lines += [f"Base de recursos: {previous_build.get('version')} → {manifest['version']}.", ""]
         lines += [f"[Comparar commits](https://github.com/{repository}/compare/{previous_tag}...{sha})", ""]
     else:
-        lines += [f"Primeiro pacote completo validado: {len(current)} unidades de texto em {len(candidate)} arquivos CSV. "
+        lines += [f"Primeiro pacote completo validado: {len(current)} unidades de texto em {len(candidate)} arquivos nativos. "
                   "Escopo: interface, tutorial, enciclopédia, eventos do jogo base e recursos de Bloodlines.", ""]
     lines += [f"Base analisada: {manifest['version']}. O pacote de textos não concede acesso ao DLC.",
               "Validação automatizada de formato, integridade e completude. Teste em execução não é comprovado por esta automação.", "",
-              "## Instalação", "", "Faça backup de Config, Core e BloodlinesDLC. Extraia **PTBR.zip** na pasta que contém "
+              "## Instalação", "", "Faça backup de Config, Core, BloodlinesDLC e da DLL Pawley.StarDynasties.Engine em StarDynasties_Data/Managed. Extraia **PTBR.zip** na pasta que contém "
               "StarDynasties.exe, mesclando as pastas. Use **English** no menu de idiomas. "
               "Consulte o README para compatibilidade, restauração e limitações.", "", "## Recursos nativos alterados", ""]
     lines += [f"- `{p}`" for p in native_changed]

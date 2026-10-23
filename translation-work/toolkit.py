@@ -13,7 +13,7 @@ import zipfile
 from collections import Counter
 from pathlib import Path
 
-from native import CONFIG, NON_TEXT, Document, Error, digest, encoded, fingerprint, safe_relative, validate_text
+from native import CONFIG, NON_TEXT, MANAGED_PATH, Document, Error, digest, encoded, fingerprint, safe_relative, validate_record
 from storage import Store, file_hash, read, safe_path, write_atomic
 
 WORK = "translation-work/"
@@ -67,6 +67,13 @@ def discover(tree: Path):
             raw = read(tree, relative)
             Document(relative, raw)
             files[relative] = raw
+    managed = safe_path(tree, "StarDynasties_Data/Managed")
+    if managed.exists():
+        target = safe_path(tree, MANAGED_PATH)
+        if target.is_file():
+            raw = read(tree, MANAGED_PATH)
+            Document(MANAGED_PATH, raw)
+            files[MANAGED_PATH] = raw
     if not files or "Config/text.csv" not in files:
         raise Error("Árvore incompleta: Config/text.csv ausente; informe a raiz do jogo/EN")
     folded = [x.casefold() for x in files]
@@ -265,10 +272,12 @@ class Toolkit:
         documents = {}
         for path, raw in sorted(files.items()):
             doc = Document(path, raw)
+            if getattr(doc, "is_patched", False):
+                raise Error("DLL já localizada não é uma fonte EN original")
             documents[path] = doc
             if doc.render({}) != raw:
                 raise Error(f"Round-trip não é lossless: {path}")
-            sources[path] = {"sha256": digest(raw), "bytes": len(raw), "records": len(doc.units), "encoding": "utf-8-bom" if doc.bom else "utf-8"}
+            sources[path] = {"sha256": digest(raw), "bytes": len(raw), "records": len(doc.units), "encoding": getattr(doc, "encoding", "utf-8-bom" if doc.bom else "utf-8")}
             for unit in doc.units:
                 if unit["id"] in units:
                     raise Error("ID nativo duplicado")
@@ -407,7 +416,7 @@ class Toolkit:
                 source_preconditions[source] = manifest["sources"][record["source_file"]]["sha256"]
                 if file_hash(self.root, source) != source_preconditions[source]:
                     raise Error("Fonte mudou em EN; execute sync")
-                validate_text(record["EN"], entry["PTBR"])
+                validate_record(record, entry["PTBR"])
                 if record["PTBR"] and record["PTBR"] != entry["PTBR"] and not replace:
                     raise Error("Tradução existente protegida; use --replace após revisão")
                 if record["PTBR"] != entry["PTBR"]:
@@ -452,7 +461,7 @@ class Toolkit:
                 raise Error("Inventário de fontes divergente")
         for record in records.values():
             if record["PTBR"]:
-                validate_text(record["EN"], record["PTBR"])
+                validate_record(record, record["PTBR"])
         translated = sum(bool(x["PTBR"].strip()) for x in records.values())
         if complete and translated != len(records):
             raise Error(f"Tradução incompleta: {translated}/{len(records)}; PTBR foi preservado")
@@ -470,6 +479,12 @@ class Toolkit:
                     safe_path(en, relative)
                     # EN is exclusively managed: even extra numeric config files are unexpected.
                     names.add(relative)
+        managed = safe_path(en, "StarDynasties_Data/Managed")
+        if managed.exists():
+            for path in managed.glob("*.dll"):
+                relative = path.relative_to(en).as_posix()
+                safe_path(en, relative)
+                names.add(relative)
         return names
 
     def build(self):
@@ -486,7 +501,11 @@ class Toolkit:
             rendered = Document(path, raw).render(by_file.get(path, {}))
             reopened = Document(path, rendered)
             values = {u["id"]: u["EN"] for u in reopened.units}
-            if values != by_file.get(path, {}):
+            expected_values = by_file.get(path, {})
+            if path == MANAGED_PATH:
+                from managed_codec import native_value
+                expected_values = {key: native_value(value) for key, value in expected_values.items()}
+            if values != expected_values:
                 raise Error(f"Valores reconstruídos divergentes: {path}")
             output[path] = rendered
         proof = {"schema": 1, "game": "Star Dynasties", "version": manifest["version"], "complete": True,
@@ -551,6 +570,14 @@ class Toolkit:
         profile = json.loads(raw)
         if profile.get("schema") != 1 or profile.get("deployable") is not True or profile.get("blockers"):
             raise Error("Build/publicação bloqueados por suporte incompleto do motor: " + "; ".join(profile.get("blockers", ["perfil inválido"])))
+        required = profile.get("required_sources", [])
+        if not isinstance(required, list) or any(not isinstance(path, str) for path in required):
+            raise Error("Inventário obrigatório do perfil do motor inválido")
+        if set(required) - self.load_manifest()["sources"].keys():
+            raise Error("Fonte obrigatória do motor ausente; restaure o catálogo de gramática")
+        for path, checksum in profile.get("adapter_files", {}).items():
+            if file_hash(self.root, path) != checksum:
+                raise Error(f"Adaptador de gramática mudou sem revalidação: {path}")
         return digest(raw)
 
     def package(self, target):

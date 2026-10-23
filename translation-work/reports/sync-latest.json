@@ -1,18 +1,924 @@
 {
-  "batches": [],
+  "batches": [
+    "batch-0039.jsonl"
+  ],
   "counts": {
+    "added": 100,
     "unchanged": 19047
   },
-  "details": [],
+  "details": [
+    {
+      "EN": "she",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADInternal%28Pawley.StarDynasties.Engine.Character%2CSystem.String%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "he",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADInternal%28Pawley.StarDynasties.Engine.Character%2CSystem.String%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADInternal%28Pawley.StarDynasties.Engine.Character%2CSystem.String%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "they",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADInternal%28Pawley.StarDynasties.Engine.Character%2CSystem.String%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3ADwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "She",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHe%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "He",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHe%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "You",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHe%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "They",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHe%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "She has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "He has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "You have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "They have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "She is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHeis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "He is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHeis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "You are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHeis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "They are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHeis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "She was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "He was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "You were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "They were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Her",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHim%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Him",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHim%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "You",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHim%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Them",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHim%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Her",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHis%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "His",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHis%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Your",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHis%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "Their",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AHis%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ad_s%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0}'s",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ad_s%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23reference-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adhas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adp_s%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0}'s",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adp_s%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23reference-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23player-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23unknown-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "{0} was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Adwas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%2CSystem.String%29%23visible-template:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "es",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aes%28Pawley.StarDynasties.Engine.Character%29%23other-suffix:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aes%28Pawley.StarDynasties.Engine.Character%29%23player-suffix:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "she",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahe%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "he",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahe%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahe%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "they",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahe%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "she has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "he has",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "they have",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahehas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "she is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aheis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "he is",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aheis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aheis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "they are",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Aheis%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "she was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "he was",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "they were",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahewas%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "her",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahim%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "him",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahim%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "you",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahim%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "them",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahim%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "herself",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahimself%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "himself",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahimself%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "yourself",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahimself%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "themself",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahimself%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "her",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahis%28Pawley.StarDynasties.Engine.Character%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "his",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahis%28Pawley.StarDynasties.Engine.Character%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahis%28Pawley.StarDynasties.Engine.Character%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "their",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3Ahis%28Pawley.StarDynasties.Engine.Character%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "and",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3AlistAsSentence%28Pawley.StarDynasties.Engine.Text.Parsing.ParsingContext%2CSystem.Object%2CSystem.String%29%23english-conjunction:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "s",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3As%28Pawley.StarDynasties.Engine.Character%29%23other-suffix:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.Object%20Pawley.StarDynasties.Engine.Text.Parsing.ParsingHelper%3A%3As%28Pawley.StarDynasties.Engine.Character%29%23player-suffix:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "her {0}",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AMapTerm%28System.String%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "his {0}",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AMapTerm%28System.String%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your {0}",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AMapTerm%28System.String%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "my {0}",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AMapTerm%28System.String%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23self:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "their {0}",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AMapTerm%28System.String%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "her distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "his distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-none:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "my distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-self:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "their distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseGeneticRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "her distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-female:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "his distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-male:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-none:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "your distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-player:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "my distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-self:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    {
+      "EN": "their distant relative",
+      "batch": "batch-0039.jsonl",
+      "classification": "added",
+      "id": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll#System.String%20Pawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer_eng%3A%3AVerbaliseRelationship%28Pawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Character%2CPawley.StarDynasties.Engine.Simulation.Kinship.KinRelationshipVerbalizer%2FPossessiveDeterminer%29%23distant-unknown:Grammar",
+      "previous_EN": null,
+      "previous_PTBR": null,
+      "source_file": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    }
+  ],
   "existing_pending": 19047,
   "files": {
-    "added": [],
+    "added": [
+      "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    ],
     "modified": [],
     "removed": []
   },
-  "generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
+  "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
   "next": "Ella: revisar briefing, diff e batches pendentes. PTBR não foi alterado.",
-  "pending": 19047,
+  "pending": 19147,
   "previous_generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
   "schema": 1,
   "status": "validated",

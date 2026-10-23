@@ -1,14 +1,8 @@
 {
-  "schema": 1,
   "distributions": [
     {
-      "schema": 1,
-      "game": "Star Dynasties",
-      "edition": "GOG base + Bloodlines resources",
-      "version": "1.0.4.0-gog",
-      "gog_build_id": "56067213234031252",
-      "steam_app_id": "1194590",
       "dlc_app_id": "1852400",
+      "edition": "GOG base + Bloodlines resources",
       "evidence": "logs/log.txt: Started (1.0.4.0-gog); GOG metadata; local pristine-resource baseline supplied by Yuri. Not an independent publisher signature.",
       "files": {
         "BloodlinesDLC/ChildUpbringing.csv": "6674fda7ef158a5a1be12f884a768496ca1f8c13cfea341e42298a1d176d41b6",
@@ -115,16 +109,23 @@
         "Core/TaskEvents.csv": "b031abff8aab01fb70d98dee9beb21456a3c93b5394c3495b1ce8daa41ce8bc5",
         "Core/TestPack.csv": "cd383b65b66bc628c0b8e836aeb34df611d0a901f838f1772a56c98471f47b17",
         "Core/childTraits.csv": "2a220ffb0fc09f733c457d7b2fabea1f443274da915c3b4ce2d924baaa318634",
-        "Core/sad.csv": "34634b3e9c77d461a421555b8d528c3683c2ff6df768953ba4fb57162fef005b"
+        "Core/sad.csv": "34634b3e9c77d461a421555b8d528c3683c2ff6df768953ba4fb57162fef005b",
+        "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll": "33e25bc3cf699f9f82703496a6ce81eab6b21a1e41d416963d56a6f499fe75b3"
       },
+      "game": "Star Dynasties",
+      "gog_build_id": "56067213234031252",
       "identity": {
-        "goggame-1177048612.info": "90f34a49520249bdea7008e207c64aac1320b06a48e84f56893da7d7d9d7d0f0",
-        "goggame-1567705613.info": "11b636e544cc6ea47baa7316decf09d7c13223d69ea10f88359cd10d6ec44b5d",
-        "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll": "33e25bc3cf699f9f82703496a6ce81eab6b21a1e41d416963d56a6f499fe75b3",
-        "StarDynasties_Data/Managed/Assembly-CSharp.dll": "bed7ff7db0335b743f95ded41a327fccfad6df2190c9f6f9f630f10696aabb5c",
+        "BloodlinesDLC/mod.xml": "5d3af25eec446a8673c98f49733f34a0637374c2fdba62d8c4076861e58d6e06",
         "Core/mod.xml": "dbb4f5b0ea27c9a20bada10c26d902a4d0be38123dc79eb4049dddfbe4e1b2fe",
-        "BloodlinesDLC/mod.xml": "5d3af25eec446a8673c98f49733f34a0637374c2fdba62d8c4076861e58d6e06"
-      }
+        "StarDynasties_Data/Managed/Assembly-CSharp.dll": "bed7ff7db0335b743f95ded41a327fccfad6df2190c9f6f9f630f10696aabb5c",
+        "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll": "33e25bc3cf699f9f82703496a6ce81eab6b21a1e41d416963d56a6f499fe75b3",
+        "goggame-1177048612.info": "90f34a49520249bdea7008e207c64aac1320b06a48e84f56893da7d7d9d7d0f0",
+        "goggame-1567705613.info": "11b636e544cc6ea47baa7316decf09d7c13223d69ea10f88359cd10d6ec44b5d"
+      },
+      "schema": 1,
+      "steam_app_id": "1194590",
+      "version": "1.0.4.0-gog"
     }
-  ]
+  ],
+  "schema": 1
 }

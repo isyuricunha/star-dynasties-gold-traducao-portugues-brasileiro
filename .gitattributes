@@ -8,6 +8,10 @@ LICENSE -text
 .gitattributes text eol=lf
 .gitignore text eol=lf
 *.py text eol=lf
+*.cs text eol=lf
+*.ps1 text eol=lf
+translation-work/managed/*.exe -text
+translation-work/vendor/** -text
 *.json text eol=lf
 *.jsonl text eol=lf
 *.md text eol=lf

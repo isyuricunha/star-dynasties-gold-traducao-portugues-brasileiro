@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "date": "2026-10-23T22:20:47.669258+00:00",
+  "game": "Star Dynasties + Bloodlines resources",
+  "version": "1.0.4.0-gog",
+  "delivery": "Grammar adapter implemented; linguistic translation and complete Unity validation remain pending",
+  "supersedes": "engineering-validation.json describes the earlier CSV-only snapshot and its then-unimplemented grammar blocker.",
+  "sources": {
+    "files": 106,
+    "csv_files": 105,
+    "managed_assemblies": 1,
+    "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
+    "grammar_units": 100,
+    "grammar_methods": 28
+  },
+  "batches": {
+    "total": 39,
+    "full_batches": 38,
+    "full_size": 500,
+    "last_size": 147
+  },
+  "integrity": {
+    "original_integrity_files_verified": 111,
+    "previous_records_preserved": 19047,
+    "previous_csvs_preserved": 105,
+    "unchanged_batch_files": 38,
+    "last_batch_original_records_preserved": 47,
+    "added_grammar_records": 100,
+    "records": 19147,
+    "all_PTBR_empty": true,
+    "no_native_PTBR_tree": true,
+    "protected_files_unchanged": {
+      "LICENSE": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+      "GAME-DEVELOPER-PERMISSION.md": "ce50138dce0c6070744790159ac6c358199d487102a5d10d1d60ad3057b891b7",
+      "CONTRIBUTING.md": "f65630fb144cc388f7615c438d787bc07e1d91a53d024d94c4b9d8ead1f0e33a",
+      ".github/PULL_REQUEST_TEMPLATE.md": "7f7a33f4a39091a8c9e1cdbf5d439bcd08321f0678d811e0f5b3233f8c7e74da",
+      ".github/workflows/release.yml": "d8673f77419e1e7bcac001f9571df28b86fb090f60473baad2d070004033dd5b"
+    },
+    "local_markdown_links_checked": 44
+  },
+  "tests": {
+    "full_suite": {
+      "command": "python -m unittest discover -s translation-work/tests -v",
+      "passed": 47,
+      "seconds": 372.375
+    },
+    "additional_unique_gate_test": {
+      "test": "test_adapter_fingerprints_block_changed_engineering_files",
+      "passed": 1,
+      "covers": [
+        "changed adapter fingerprints",
+        "missing required engine source"
+      ]
+    },
+    "after_final_gate_change_regressions": {
+      "passed": 3,
+      "covers": [
+        "complete native fixture build, ZIP and fast verification without CLR",
+        "blocked runtime profile",
+        "first/next/identical release and changelog fixtures"
+      ]
+    },
+    "unique_tests_passed": 48,
+    "headless_real_engine_checks": 111,
+    "headless_environment_substitutions": [
+      "Character player/visibility and display",
+      "Game player/view access and language",
+      "kinship source tables"
+    ],
+    "deterministic_reconstruction_and_full_100_value_reopen": true,
+    "per_unit_DLL_source_change_preserves_other_translations_and_history": true,
+    "scale": {
+      "applies": 500,
+      "batches": 101,
+      "retained_snapshots": 5,
+      "retained_bytes": 920310
+    },
+    "full_Unity_game_run": false
+  },
+  "runtime_support_sha256": "72ad9ea91c89f3775690ffd3bb7087141adcdcd933a01ef51010dc66ebd6a279",
+  "adapter_files": {
+    "translation-work/native.py": "adcd94c405b33ac70da95879616282aa1b489cba4f0698d437c2baee56c877aa",
+    "translation-work/managed_codec.py": "8c40f1e877863c6d276c4ee73a34289685486acf379e66fddc5bd86d068b173f",
+    "translation-work/toolkit.py": "2b27846acc17fb14abd52e872d76f5c5c5bcc7593b51de5ab12027d99f076329",
+    "translation-work/managed/GrammarTool.cs": "014fb110abfd6641c789d2ac99d0846fcb49f4d94954a9ed4355b2393d1a12ed",
+    "translation-work/managed/Launcher.cs": "32612dcbf711f3998eacc6a8e061cf11f2c6c863672aa1c76888bce03066a26f",
+    "translation-work/managed/GrammarTool.exe": "06d9da4ccebefa53d271ed37e784012a838c16c652892ea4fe5371b08445df5c",
+    "translation-work/managed/engine-shapes.json": "ae1338004bd801a745796d14460242f2579afb52827bd46af69d3cb1d1e71150",
+    "translation-work/managed/toolchain.json": "35ec9ac9072ff37a04a13027d4686558e9ea05aa00d3a9f9aa8f4ed628ff2ebb",
+    "translation-work/managed/build-helper.ps1": "18882010739a2a502f2e06cc3f2c88d5d4efc2c004af9ebc1d9f055f1c19ac47",
+    "translation-work/vendor/mono-cecil-0.11.6/Mono.Cecil.dll": "c41bdb9ffd3c5f6e17d2382c1012d73703e035e3f1100245fdd4e08c8dc6eb5b",
+    "translation-work/vendor/mono-cecil-0.11.6/LICENSE.txt": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e"
+  },
+  "current_state": {
+    "translated": 0,
+    "pending": 19147,
+    "incomplete_build_rejected": "Tradução incompleta: 0/19147; PTBR foi preservado",
+    "original_installation_written": false,
+    "live_release_published": false,
+    "commit_created": false,
+    "push_performed": false
+  },
+  "remaining": [
+    "Ella must define language choices, translate and review CSVs plus grammar units.",
+    "A complete translation needs authorized Unity UI and campaign/savegame validation before a public release.",
+    "Steam and other platform compatibility are unverified."
+  ]
+}

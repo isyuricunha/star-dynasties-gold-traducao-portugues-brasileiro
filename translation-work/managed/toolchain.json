@@ -1,0 +1,14 @@
+{
+  "compiler": ".NET Framework 4.x csc; C# source included",
+  "dependency": "Mono.Cecil 0.11.6 net40 (MIT)",
+  "files": {
+    "managed/GrammarTool.cs": "014fb110abfd6641c789d2ac99d0846fcb49f4d94954a9ed4355b2393d1a12ed",
+    "managed/GrammarTool.exe": "06d9da4ccebefa53d271ed37e784012a838c16c652892ea4fe5371b08445df5c",
+    "managed/Launcher.cs": "32612dcbf711f3998eacc6a8e061cf11f2c6c863672aa1c76888bce03066a26f",
+    "managed/engine-shapes.json": "ae1338004bd801a745796d14460242f2579afb52827bd46af69d3cb1d1e71150",
+    "vendor/mono-cecil-0.11.6/Mono.Cecil.dll": "c41bdb9ffd3c5f6e17d2382c1012d73703e035e3f1100245fdd4e08c8dc6eb5b"
+  },
+  "package_sha256": "d2a23832aaa948ba9a01acc42b5726e34c5f995958f1b30d45c0e7c70b3a72d5",
+  "package_url": "https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.6/mono.cecil.0.11.6.nupkg",
+  "schema": 1
+}

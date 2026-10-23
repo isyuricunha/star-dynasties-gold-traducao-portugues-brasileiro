@@ -80,7 +80,7 @@ A página oficial apresenta o desenho da família inicial, influência sobre o d
 ## Desafios concretos para PT-BR
 
 1. **Referências dinâmicas.** `{TargetCharacter}`, `{Actor}`, `{spouseOf(TargetCharacter)}` e outras expressões não são palavras para traduzir. Elas são avaliadas pelo motor. Mesmo duas entradas em inglês idênticas podem ter sujeitos e contextos diferentes.
-2. **Pronomes e verbos no código.** A inspeção estática confirmou que `ParsingHelper.he` contém `you/he/she/they`, e que outras funções contêm possessivos ou verbos ingleses. Não basta preservar a expressão e traduzir seu entorno. O build está bloqueado enquanto não houver uma solução técnica própria. A Ella não deve tentar contornar isso com nomes de funções inventados.
+2. **Pronomes e verbos no código.** A inspeção estática confirmou que `ParsingHelper.he` contém `you/he/she/they`, e que outras funções contêm possessivos ou verbos ingleses. Não basta preservar a expressão e traduzir seu entorno. O adaptador agora oferece 100 unidades próprias para essa gramática, ainda pendentes de tradução; leia [gramatica-dinamica.md](gramatica-dinamica.md). A Ella não deve tentar contornar isso com nomes de funções inventados.
 3. **Maiúsculas têm função.** `he` e `He`, `d` e `D` são funções diferentes. Não normalizar a caixa das expressões.
 4. **Gênero e perspectiva.** Uma função pode produzir uma referência à personagem do jogador ou a outra pessoa. O trecho precisa funcionar na perspectiva correta e com sujeitos de gêneros diferentes. A tradução automática de artigos e pronomes isolados não resolve esse problema.
 5. **Parentesco como composição.** `kinterms.csv` usa padrões e substituições como `$1` e `$2`; isso não é texto livre nem marcação descartável. A gramática de combinações precisa de revisão própria.
@@ -94,6 +94,6 @@ A página oficial apresenta o desenho da família inicial, influência sobre o d
 
 Antes de traduzir, ler [formato-localizacao.md](./formato-localizacao.md), [analise-do-motor.md](./analise-do-motor.md) e o relatório de fontes. O briefing fornece contexto factual; a Ella cria e mantém o [glossário](./glossario-ptbr.md) e as [diretrizes](./diretrizes-de-traducao.md).
 
-Questões a resolver com evidência: adaptação dos pronomes e verbos do motor; cobertura de textos fora dos CSVs; tratamento de parentesco em PT-BR; cortes e acentos na interface; compatibilidade com saves e com a distribuição Steam; ativação e testes dos eventos de Bloodlines. A solução do motor deve ser uma mudança de engenharia documentada, não uma decisão linguística improvisada em cada lote.
+Questões a resolver com evidência: revisão linguística dos pronomes e verbos adaptados do motor; cobertura de textos fora dos CSVs; tratamento de parentesco em PT-BR; cortes e acentos na interface; compatibilidade com saves e com a distribuição Steam; ativação e testes dos eventos de Bloodlines. A adaptação de engenharia foi documentada e testada isoladamente; as decisões linguísticas precisam ser consistentes entre lotes e confirmadas no jogo.
 
 Este documento evita revelar os desfechos das expedições e os resultados detalhados das escolhas. Ao ampliar a pesquisa com eventos específicos, marcar spoilers e limitar a descrição ao necessário para entender a fala ou a decisão.

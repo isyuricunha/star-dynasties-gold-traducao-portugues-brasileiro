@@ -2,20 +2,20 @@
 
 Workspace de engenharia e tradução manual, dentro do mesmo repositório público. **Sayuri prepara a infraestrutura; Ella decide a linguagem e traduz.** O README da raiz é destinado aos jogadores; este documento é o guia técnico.
 
-## Estado da entrega e bloqueio conhecido
+## Estado da entrega
 
 - Base examinada: GOG Windows `1.0.4.0-gog`, recursos do jogo base e Bloodlines.
-- 105 CSVs em `EN/`; 19.047 unidades em 39 JSONLs: 38 lotes de 500 e um de 47.
+- 105 CSVs e uma DLL em `EN/`; 19.147 unidades em 39 JSONLs: 38 lotes de 500 e um de 147.
 - Todas as traduções estão pendentes. Não houve tradução automática, aprovação fictícia ou execução de carga linguística.
 - O **briefing inicial já foi pesquisado e escrito pela desenvolvedora** em [docs/briefing-do-jogo.md](docs/briefing-do-jogo.md). Ella não precisa criá-lo do zero.
-- **Build e publicação bloqueados:** funções de gramática contêm palavras inglesas na DLL. O adaptador CSV não resolve essa parte. Evidência em [docs/analise-do-motor.md](docs/analise-do-motor.md); bloqueio verificável em [runtime-support.json](runtime-support.json).
+- **Adaptação de gramática implementada:** 100 unidades em 28 métodos, com testes isolados do motor. Todas continuam pendentes para a Ella. Evidência em [docs/analise-do-motor.md](docs/analise-do-motor.md); perfil verificável em [runtime-support.json](runtime-support.json).
 - Não existe `PTBR/` neste estado incompleto. Não existe Release publicada pelo toolkit. O fluxo de Release está implementado e é exercitado com fixtures; não foi executado no GitHub.
 
-O toolkit é uma infraestrutura utilizável para preparar e registrar a tradução dos recursos catalogados. **A localização integral do jogo não está tecnicamente concluída.** Não remova o bloqueio apenas para fazer os comandos passarem. A próxima etapa de engenharia é adaptar a gramática e auditar os textos fora dos CSVs, com testes próprios e um ambiente de execução autorizado.
+O toolkit permite traduzir os recursos catalogados e a gramática mapeada. **A tradução permanece incompleta.** A próxima etapa é a revisão linguística pela Ella e, após a conclusão, teste visual e de campanha em ambiente autorizado. O escopo não comprova cobertura de todo texto embutido na interface. Leia [docs/gramatica-dinamica.md](docs/gramatica-dinamica.md).
 
 ## Preparação
 
-Python **3.10+**, biblioteca padrão e Git são suficientes. O desenvolvimento foi testado com Python 3.14 no Windows; o workflow usa Python 3.14. Não há dependências de tradução, clientes de modelos, serviços de inferência ou chaves de API. A publicação usa apenas o token temporário do GitHub Actions.
+Use Python **3.10+** e Git. A leitura/reconstrução da DLL exige .NET Framework 4.x no Windows ou Mono com System.Web.Extensions. O auxiliar e Mono.Cecil 0.11.6 estão incluídos offline com seus hashes e licença MIT. A verificação rápida da Release exige apenas Python; não compila nem executa CLR. O desenvolvimento foi testado com Python 3.14 no Windows; o workflow usa Python 3.14. Não há dependências de tradução, clientes de modelos, serviços de inferência ou chaves de API. A publicação usa apenas o token temporário do GitHub Actions.
 
 Execute os comandos da raiz do repo:
 
@@ -25,7 +25,7 @@ python translation-work/toolkit.py check
 python -m unittest discover -s translation-work/tests -v
 ```
 
-A suíte usa diretórios temporários para aplicar valores sintéticos, criar commits/tags de fixture e simular publicação. **Ela não traduz, faz commits ou instala arquivos no projeto real nem na instalação do jogo.** Os testes de recursos reais apenas leem os CSVs e comprovam round-trip e estado pendente.
+A suíte usa diretórios temporários para aplicar valores sintéticos, criar commits/tags de fixture e simular publicação. **Ela não traduz, faz commits ou instala arquivos no projeto real nem na instalação do jogo.** Os testes leem os originais, comprovam round-trip e estado pendente e executam a gramática em cópia temporária com ambiente controlado. As 111 verificações isoladas não substituem um teste completo no Unity. O harness de execução exige Windows, o compilador C# do .NET Framework e a instalação original verificada por `update-sources`, registrada em `.state/local-install.json`: suas dependências são lidas, sem alteração, e não são redistribuídas pelo toolkit. O editor de metadados de produção usa somente a dependência incluída em `vendor/`.
 
 ## Organização e propriedade
 
@@ -34,8 +34,12 @@ A suíte usa diretórios temporários para aplicar valores sintéticos, criar co
 EN/Config/                          originais gerenciados, mesmos caminhos do jogo
 EN/Core/
 EN/BloodlinesDLC/
+EN/StarDynasties_Data/Managed/        DLL original do motor
 translation-work/toolkit.py          CLI
 translation-work/native.py           parser e reconstrução por células
+translation-work/managed_codec.py    contrato das 100 unidades de gramática
+translation-work/managed/            editor C# offline, perfil e fingerprints
+translation-work/vendor/             Mono.Cecil e licença MIT
 translation-work/storage.py          lock, journal, recuperação, retenção
 translation-work/release.py          ZIP, SemVer, changelog e GitHub Release
 translation-work/trusted-distributions.json
@@ -52,7 +56,7 @@ LICENSE                             texto oficial completo, fora do ZIP
 README.md                           apresentação e instruções para jogadores
 ```
 
-`EN/` e `PTBR/` espelham `Config/`, `Core/` e `BloodlinesDLC/` da raiz que contém `StarDynasties.exe`. O adaptador atual não cria um idioma novo: a proposta de implantação substitui recursos usados com **English**. XMLs, executáveis, assets, listas de nomes e alemão não são copiados para a saída CSV.
+`EN/` e `PTBR/` espelham `Config/`, `Core/`, `BloodlinesDLC/` e a DLL do motor em `StarDynasties_Data/Managed/` da raiz que contém `StarDynasties.exe`. O adaptador atual não cria um idioma novo: a proposta de implantação substitui recursos usados com **English**. XMLs, executáveis, outras bibliotecas, assets, listas de nomes e alemão não são copiados para a saída.
 
 As regras de `.gitattributes` impedem normalização de fim de linha em `EN/`, `PTBR/` e `LICENSE`. Preservá-las é necessário, especialmente em máquinas com `core.autocrlf=true`.
 
@@ -151,11 +155,11 @@ python translation-work/toolkit.py verify-output
 python translation-work/toolkit.py package --output translation-work/dist/PTBR.zip
 ```
 
-**Hoje, o build deve falhar:** os textos estão pendentes e existe o bloqueio de gramática. Esses comandos descrevem a interface implementada para depois da resolução técnica e da tradução completa.
+**Hoje, o build deve falhar porque todas as 19.147 traduções estão pendentes.** O adaptador de gramática está implementado; o perfil registra seus hashes validados. Não gere uma saída parcial.
 
-Somente `build` pode promover uma árvore nativa PTBR. Antes disso, verifica todas as entradas, fontes, contexto, tokens e perfil do motor; reconstrói em memória, reabre os CSVs e só então prepara a transação. O build manifest fica em `translation-work/reports/build-manifest.json`, fora da pasta instalável. Saída anterior válida é preservada em caso de falha e marcada como stale por comparação de fingerprints quando houver progresso novo.
+Somente `build` pode promover uma árvore nativa PTBR. Antes disso, verifica todas as entradas, fontes, contexto, tokens e perfil do motor; reconstrói em memória, reabre os CSVs e a DLL e só então prepara a transação. O build manifest fica em `translation-work/reports/build-manifest.json`, fora da pasta instalável. Saída anterior válida é preservada em caso de falha e marcada como stale por comparação de fingerprints quando houver progresso novo.
 
-`verify-output` é uma conferência de hashes, inventário, completude e tokens, sem reconstruir arquivos nem interpretar novamente o CSV. Confere EN, catálogo, JSONLs, perfil técnico e cada arquivo nativo. Um `complete=true` isolado não libera o pacote. O ZIP tem os caminhos nativos diretamente na raiz, sem `PTBR/`, sem LICENSE/README/ferramentas.
+`verify-output` é uma conferência de hashes, inventário, completude e tokens, sem reconstruir arquivos, interpretar novamente o CSV ou executar CLR. Confere EN, catálogo, JSONLs, perfil técnico e cada arquivo nativo. Um `complete=true` isolado não libera o pacote. O ZIP tem os caminhos nativos diretamente na raiz, sem `PTBR/`, sem LICENSE/README/ferramentas.
 
 ## Recuperação e espaço em disco
 
@@ -200,14 +204,14 @@ Nenhuma Release, mensagem externa, commit ou push foi realizado por esta entrega
 
 ## Primeiros passos da Ella
 
-1. Ler o **briefing já pesquisado** e a análise do motor. Entender o bloqueio antes de prometer uma tradução jogável.
+1. Ler o **briefing já pesquisado** e a análise do motor. Ler também o guia de gramática dinâmica antes de traduzir os novos campos.
 2. Consultar fontes e corrigir/ampliar fatos somente com evidência nova.
 3. Criar as decisões linguísticas nos arquivos de glossário e diretrizes. Eles começam sem decisões aprovadas.
 4. Executar `status` e `check`; ler o manifesto e o último diff.
 5. Trabalhar nos JSONLs em grupos pequenos; aplicar pelo payload com fonte e geração exatas.
 6. Validar, revisar e registrar o progresso em commits autorizados, sem tocar PTBR.
 7. Nas atualizações, usar `update-sources` ou `sync`, revisar apenas unidades afetadas e consultar `history`.
-8. Depois de resolvido o suporte de gramática, completar e revisar os textos, gerar build explicitamente e testar no ambiente autorizado.
+8. Completar e revisar os textos e a gramática, gerar build explicitamente e testar no ambiente autorizado.
 
 Sequência detalhada em [docs/fluxo-de-traducao.md](docs/fluxo-de-traducao.md).
 
@@ -215,6 +219,6 @@ Sequência detalhada em [docs/fluxo-de-traducao.md](docs/fluxo-de-traducao.md).
 
 O README público já inclui arte oficial verificada, universo, escopo real, situação honesta, instalação/restauração, compatibilidade, suporte, portal, Pix e créditos. Depois da **primeira publicação efetiva**, atualize status, cobertura medida, compatibilidade verificada e links reais do pacote/changelog, sem reduzir a apresentação existente. Uma edição só de README não deve publicar nova Release.
 
-`LICENSE` contém os **20.850 bytes do texto oficial CC BY-NC-SA 4.0**, obtido da [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt), SHA-256 `e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd`. Não está dentro de PTBR/ZIP. Os direitos do jogo e de terceiros permanecem separados, como explica o README público. Creative Commons não recomenda suas licenças para software; nenhuma licença separada foi inventada para o toolkit. Dependências/código de terceiros, caso sejam acrescentados, devem conservar suas licenças próprias.
+`LICENSE` contém os **20.850 bytes do texto oficial CC BY-NC-SA 4.0**, obtido da [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt), SHA-256 `e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd`. Não está dentro de PTBR/ZIP. Os direitos do jogo e de terceiros permanecem separados, como explica o README público. Creative Commons não recomenda suas licenças para software; nenhuma licença separada foi inventada para o toolkit. Mono.Cecil conserva sua licença MIT em `vendor/`; os direitos dessa dependência não são substituídos pela licença do projeto.
 
-**Commit inicial da licença:** o arquivo foi criado no começo da preparação, antes da extração e de qualquer tradução. Ele ainda deve ser incluído no commit inicial de engenharia pelo mantenedor. O prompt também proíbe commit automático; por isso não se alega que LICENSE já foi commitido.
+**Histórico da licença:** o arquivo foi preparado antes da tradução e integra a base de engenharia versionada do repositório. Esta implementação de gramática não faz commit ou push.

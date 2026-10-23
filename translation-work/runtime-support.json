@@ -2,11 +2,43 @@
   "schema": 1,
   "game": "Star Dynasties",
   "version": "1.0.4.0-gog",
-  "deployable": false,
-  "blockers": [
-    "ParsingHelper.he/He/his/His/hehas e outras funções contêm pronomes/verbos ingleses na DLL, fora dos CSVs. O adaptador atual preserva essas expressões e não resolve a gramática PT-BR.",
-    "Menus/textos fora dos 105 CSVs e a apresentação de acentos/concordância ainda não foram validados em execução."
+  "deployable": true,
+  "blockers": [],
+  "scope": {
+    "source": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll",
+    "logical_grammar_units": 100,
+    "mapped_methods": 28,
+    "language_mode": "English"
+  },
+  "required_sources": [
+    "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
   ],
+  "adapter_files": {
+    "translation-work/native.py": "adcd94c405b33ac70da95879616282aa1b489cba4f0698d437c2baee56c877aa",
+    "translation-work/managed_codec.py": "8c40f1e877863c6d276c4ee73a34289685486acf379e66fddc5bd86d068b173f",
+    "translation-work/toolkit.py": "2b27846acc17fb14abd52e872d76f5c5c5bcc7593b51de5ab12027d99f076329",
+    "translation-work/managed/GrammarTool.cs": "014fb110abfd6641c789d2ac99d0846fcb49f4d94954a9ed4355b2393d1a12ed",
+    "translation-work/managed/Launcher.cs": "32612dcbf711f3998eacc6a8e061cf11f2c6c863672aa1c76888bce03066a26f",
+    "translation-work/managed/GrammarTool.exe": "06d9da4ccebefa53d271ed37e784012a838c16c652892ea4fe5371b08445df5c",
+    "translation-work/managed/engine-shapes.json": "ae1338004bd801a745796d14460242f2579afb52827bd46af69d3cb1d1e71150",
+    "translation-work/managed/toolchain.json": "35ec9ac9072ff37a04a13027d4686558e9ea05aa00d3a9f9aa8f4ed628ff2ebb",
+    "translation-work/managed/build-helper.ps1": "18882010739a2a502f2e06cc3f2c88d5d4efc2c004af9ebc1d9f055f1c19ac47",
+    "translation-work/vendor/mono-cecil-0.11.6/Mono.Cecil.dll": "c41bdb9ffd3c5f6e17d2382c1012d73703e035e3f1100245fdd4e08c8dc6eb5b",
+    "translation-work/vendor/mono-cecil-0.11.6/LICENSE.txt": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e"
+  },
   "evidence": "docs/analise-do-motor.md",
-  "resolution": "Implementar e testar uma adaptação de gramática e auditar os textos restantes antes de habilitar build/publicação. Alterar deployable sozinho não implementa a adaptação."
+  "validation_report": "reports/grammar-validation.json",
+  "validation": {
+    "metadata_and_unrelated_IL_preserved": true,
+    "deterministic_binary_reconstruction": true,
+    "headless_real_engine_checks": 111,
+    "native_reference_context_preserved": true,
+    "new_CLR_dependencies_in_game": false,
+    "full_Unity_game_test": false
+  },
+  "limitations": [
+    "All translations, including the 100 grammar units, remain pending. Complete build validation is mandatory.",
+    "Headless grammar tests use fixture-only environment substitutions; they do not establish complete Unity UI, savegame or campaign compatibility.",
+    "Other embedded UI text, Steam and other platforms remain outside verified coverage."
+  ]
 }

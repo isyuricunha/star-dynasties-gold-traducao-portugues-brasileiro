@@ -1,45 +1,29 @@
-# Limite do adaptador CSV e bloqueio de publicação
+# Adaptação da gramática do motor
 
-## Evidência estática, sem alterar ou executar o jogo
+## Problema e solução implementada
 
-Inspeção em 23/10/2026 da biblioteca original `StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll`, cuja SHA-256 consta em [trusted-distributions.json](../trusted-distributions.json). Foi utilizada reflexão **ReflectionOnlyLoadFrom** do .NET Framework para ler tipos, assinaturas e operandos `ldstr` de métodos. Nenhum método da biblioteca foi invocado; nenhum arquivo da instalação foi escrito. As anotações abaixo resumem fatos técnicos, sem redistribuir uma DLL modificada.
+A inspeção da instalação GOG Windows `1.0.4.0-gog` confirmou palavras inglesas em `Pawley.StarDynasties.Engine.dll`, além dos CSVs. Por exemplo, `{he(Actor)}` seleciona `you/he/she/they`. Traduzir apenas a frase ao redor deixaria partes em inglês.
 
-O enum `Pawley.StarDynasties.Engine.Language` declara somente `English=0` e `German=1`. Há classes de parsing distintas `Text.Parsing.ParsingHelper` e `ParsingHelper_de`. A mera criação de `pt.csv` não registra um terceiro idioma nem escolhe regras gramaticais portuguesas.
+O toolkit agora cataloga **100 unidades de gramática em 28 métodos**. O original permanece em `EN/StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll`. A reconstrução acontece em memória a partir desse original; só um build completo pode produzir a DLL de saída em PTBR. Nenhum comando instala arquivos no jogo.
 
-Na classe `ParsingHelper`, a leitura dos operandos de métodos mostrou:
+O suporte inclui pronomes, reflexivos, possessivos, conjunção de listas, sufixos `s/es`, frases com verbos e referências a personagens, além das construções de parentesco mapeadas. As frases possuem formas independentes para jogador, masculino, feminino e referência desconhecida, conforme o contrato de cada método. Templates usam exatamente um `{0}` para inserir a referência nativa, conservando o contexto do vínculo clicável.
 
-| Método | Literais observados / encaminhamento |
-|---|---|
-| `he(Character)` | `you`, `he`, `she`, `they`, passados à rotina `pronoun` |
-| `He(Character)` | As mesmas formas iniciadas por maiúscula |
-| `his(Character)` / `His(Character)` | Possessivos ingleses, passados à rotina de pronomes |
-| `hehas(...)` / `Hehas(...)` | Pronomes ingleses e as formas ` have` / ` has` |
-| `DInternal(...)` | Formas inglesas de referência ao jogador/pessoa não visível e consulta a sexo/parentesco |
-| `pronoun(...)` | Consulta se é a personagem do jogador, se é visível e seu sexo |
+## Integridade e dependências
 
-A presença e o encaminhamento dessas constantes no corpo dos métodos são evidência de geração fora dos CSVs. `Config/Localization/de.csv` contém expressões alemãs próprias, reforçando que a localização oficial não se limita a trocar texto externo.
+O editor offline usa Mono.Cecil 0.11.6, com licença MIT preservada em `../vendor/`. Código C# e executável auxiliar estão em `../managed/`; fingerprints verificam sua correspondência e a dependência fixada. Para ler/reconstruir assemblies, exige .NET Framework 4.x no Windows ou Mono com System.Web.Extensions. A DLL gerada conserva o runtime CLR e as referências do original. Nenhuma dependência do auxiliar é acrescentada ao jogo.
 
-## Consequência para a tradução
+A estrutura dos métodos originais é conferida contra `engine-shapes.json`. Uma alteração estrutural desconhecida exige revisão; uma mudança isolada de texto invalida apenas a unidade afetada. Assemblies assinados ou já localizados não são aceitos como novos originais.
 
-Uma frase com `{he(Actor)}` pode manter um pronome em inglês mesmo quando as palavras ao redor estiverem traduzidas. O adaptador atual preserva expressões exatamente, como exige a integridade técnica. Portanto, **a tradução dos 19.047 campos não seria suficiente para afirmar uma experiência integral em PT-BR**.
+A reconstrução é determinística. Sem alterações de texto, retorna os bytes originais. Com alterações, compara identidade do assembly, runtime, referências, tipos, campos, propriedades, eventos, assinaturas, recursos embutidos e corpos dos métodos fora do escopo. O resultado é reaberto e os 100 valores são comparados com os aprovados. Não se promete igualdade de todos os bytes de uma DLL reserializada.
 
-Não foi implementado um substituidor de pronomes, um patch binário, um carregador de mods ou uma alteração das expressões. Inventar nomes de funções portuguesas ou remover tokens por conta própria não seria uma solução testada.
+## Texto dentro das expressões
 
-O controle versionado [runtime-support.json](../runtime-support.json) registra `deployable=false` e as pendências. `build` e `verify-output` recusam um perfil bloqueado, mesmo diante de JSONLs sintéticos completos; a CI não publica por consequência. Fixtures de teste usam um perfil independente que só autoriza os seus próprios recursos sintéticos.
+O validador permite traduzir argumentos textuais de apresentação conhecidos dentro das expressões dos CSVs. Preserva funções, condições, variáveis, ordem e quantidade de argumentos, IDs e strings de lógica. Sintaxe desconhecida continua protegida integralmente. O contrato está em [gramatica-dinamica.md](gramatica-dinamica.md).
 
-## Próxima etapa técnica necessária
+## Validação e limites
 
-1. Mapear todas as funções de gramática relevantes, seus contratos e superfícies de UI fora dos CSVs.
-2. Escolher uma extensão do motor comprovadamente suportada ou uma transformação nativa reconstruível, sem modificar a instalação original.
-3. Separar os valores linguísticos que a Ella deverá decidir da implementação e dos identificadores imutáveis.
-4. Testar reconstrução, atualização entre versões e execução em um ambiente autorizado, incluindo jogador/terceiros, sexo, visibilidade, parentesco e capitalização.
-5. Auditar termos gerados por código, menus e acentos; só então registrar a implementação/evidência e habilitar o build.
+O teste isolado executou **111 verificações** nos métodos reais de gramática, LazyText, referências e expressões compiladas. Usou uma cópia temporária da DLL com substituições de ambiente apenas no harness: jogador, visibilidade e acesso à interface. Essas substituições não fazem parte da reconstrução de produção. Confirmou acentos, casos nulos, conjunção de listas, parentesco e identidade do objeto nos elementos clicáveis.
 
-Essa etapa não foi concluída. Alterar apenas o booleano do perfil não implementa o suporte. O repositório preserva uma preparação utilizável, mas **a definição de pronto do projeto integral permanece bloqueada por essa limitação**.
+Isso não é uma execução completa do jogo Unity. Permanecem pendentes a revisão linguística, a inspeção visual de acentos/cortes/concordância, campanhas salvas, eventos de Bloodlines e compatibilidade com outras distribuições. O suporte não afirma catalogar todos os textos embutidos em toda a interface.
 
-## Outros limites identificados
-
-- Os logs consultados mostram versão `1.0.4.0-gog`; versões de `mod.xml` e “SavedOnGameVersion” se referem à autoria dos pacotes e não substituem a versão do runtime.
-- A presença de recursos de Bloodlines não comprova ativação; um log anterior registra a checagem GOG como falsa.
-- Não houve instalação nem teste em uma cópia executável do jogo. Compatibilidade com saves, Steam, outros sistemas operacionais e mods está sem validação.
-- Os CSVs são fontes externas acessíveis, mas não provam que todos os textos da interface estejam externos. O catálogo explicita o escopo e não apresenta sua completude como cobertura integral do jogo.
+O perfil [runtime-support.json](../runtime-support.json) registra o escopo e hashes do adaptador. Alterações nesses arquivos exigem revalidação antes de um novo build. A DLL de gramática é uma fonte obrigatória do perfil; excluí-la do catálogo não libera um pacote somente de CSVs. A autorização técnica não aprova traduções: todas as 19.147 unidades continuam pendentes e impedem build/publicação. As decisões de português pertencem à Ella.

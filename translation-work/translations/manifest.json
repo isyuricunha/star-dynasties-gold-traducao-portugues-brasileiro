@@ -230,16 +230,16 @@
       "translated": 0
     },
     "batch-0039.jsonl": {
-      "count": 47,
-      "original_sha256": "9142bb27f2576eacb20b94da4b913127f3d679ae9da7ab8d884cfefe5ea6e5ec",
-      "sha256": "47ec3b52953e64109c7063036ab1f7c6d84377a05f3c77e8362f8bdee717dcf1",
+      "count": 147,
+      "original_sha256": "e5eaa12fd4e9dc28d20e9bb9aa6652cd4c954362803c5333e9890f9d94e41af1",
+      "sha256": "6fbc1e614f83ceeb30b4b85e0697ded2a4f291a8f97f65adfa26d9e63c229e89",
       "translated": 0
     }
   },
-  "catalog_sha256": "9b94564388c665b217db6d12d3fd46b146fda817f730c977e5077a922bb1e8e7",
+  "catalog_sha256": "aa3ca94497c5187b34f6f776f0ec93ddb1103ca5e32a8a1c5d09eaf079d5e5ad",
   "game": "Star Dynasties",
-  "generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
-  "record_count": 19047,
+  "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
+  "record_count": 19147,
   "schema": 1,
   "source_language": "EN",
   "sources": {
@@ -872,6 +872,12 @@
       "encoding": "utf-8",
       "records": 46,
       "sha256": "34634b3e9c77d461a421555b8d528c3683c2ff6df768953ba4fb57162fef005b"
+    },
+    "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll": {
+      "bytes": 4300800,
+      "encoding": "cli-managed",
+      "records": 100,
+      "sha256": "33e25bc3cf699f9f82703496a6ce81eab6b21a1e41d416963d56a6f499fe75b3"
     }
   },
   "target_language": "pt-BR",

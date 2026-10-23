@@ -10,6 +10,8 @@ from collections import Counter
 from pathlib import PurePosixPath
 from urllib.parse import quote
 
+MANAGED_PATH = "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+
 
 class Error(ValueError):
     pass
@@ -117,7 +119,7 @@ def spans(text: str):
     return rows
 
 
-class Document:
+class CsvDocument:
     def __init__(self, path: str, raw: bytes):
         self.path = safe_relative(path)
         self.raw = raw
@@ -194,7 +196,7 @@ class Document:
 
 
 def protected(text: str):
-    # Preserve entire expressions; no unsupported invention of Portuguese engine functions.
+    # Preserve expression structure and logic; only known display literals may change.
     tokens = []
     depth = 0
     start = 0
@@ -208,7 +210,7 @@ def protected(text: str):
             if depth:
                 depth -= 1
                 if depth == 0:
-                    tokens.append(text[start:i + 1])
+                    tokens.append(script_signature(text[start:i + 1]))
             else:
                 outside.append("}")
     if depth:
@@ -217,6 +219,93 @@ def protected(text: str):
     tokens.extend(re.findall(r"</?[A-Za-z][^<>]*>", text))
     tokens.extend(re.findall(r"\$\d+|%(?:\d+\$)?[-+0 #]*\d*(?:\.\d+)?[sdif]", text))
     return Counter(tokens)
+
+
+# Only display-string argument positions are mutable. Keys, variables and boolean
+# selectors remain protected even when they happen to look like ordinary English.
+DISPLAY_ARGUMENTS = {
+    **{name: {1} for name in ("d", "D", "dhas", "Dhas", "dis", "Dis", "dwas", "Dwas", "d_s", "D_s")},
+    **{name: {2} for name in ("dp", "Dp", "dp_s", "Dp_s")},
+    "fb": {1}, "if": {1, 2}, "mf": {1, 2}, "concat": {0, 1}, "link": {0}, "listAsSentence": {1},
+}
+
+
+def script_signature(token: str):
+    text = token[1:-1]
+    offset = 0
+
+    def whitespace():
+        nonlocal offset
+        while offset < len(text) and text[offset].isspace():
+            offset += 1
+
+    def expression(parent=None, position=None):
+        nonlocal offset
+        whitespace()
+        if offset >= len(text):
+            raise ValueError("missing expression")
+        if text[offset] == '"':
+            offset += 1
+            start = offset
+            while offset < len(text) and text[offset] != '"':
+                offset += 1
+            if offset == len(text):
+                raise ValueError("unclosed literal")
+            value = text[start:offset]
+            offset += 1
+            if value and position in DISPLAY_ARGUMENTS.get(parent, ()):
+                if "{" in value or "}" in value:
+                    raise ValueError("script delimiters inside display literal")
+                return ("display-text",)
+            return ("constant", value)
+        match = re.match(r"[A-Za-z0-9_.:+-]+", text[offset:])
+        if not match:
+            raise ValueError("unknown token")
+        name = match.group(0)
+        offset += len(name)
+        whitespace()
+        if offset >= len(text) or text[offset] != "(":
+            return ("reference", name)
+        offset += 1
+        args = []
+        whitespace()
+        if offset < len(text) and text[offset] == ")":
+            offset += 1
+            return ("call", name, args)
+        while True:
+            args.append(expression(name, len(args)))
+            whitespace()
+            if offset < len(text) and text[offset] == ")":
+                offset += 1
+                break
+            if offset >= len(text) or text[offset] != ",":
+                raise ValueError("argument delimiter missing")
+            offset += 1
+        return ("call", name, args)
+
+    try:
+        result = expression()
+        whitespace()
+        if offset != len(text):
+            raise ValueError("trailing expression")
+        return "expression:" + json.dumps(result, ensure_ascii=False, separators=(",", ":"))
+    except ValueError:
+        return token  # Unknown native syntax stays immutable instead of being guessed.
+
+
+def validate_record(record, translated):
+    if record["source_file"] == MANAGED_PATH:
+        from managed_codec import validate_grammar
+        validate_grammar(record, translated)
+    else:
+        validate_text(record["EN"], translated)
+
+
+def Document(path, raw):
+    if path == MANAGED_PATH:
+        from managed_codec import ManagedDocument
+        return ManagedDocument(path, raw)
+    return CsvDocument(path, raw)
 
 
 def validate_text(original: str, translated: str):

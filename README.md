@@ -16,17 +16,17 @@
 
 ## 🚧 Situação do projeto
 
-**Em preparação técnica. Ainda não há tradução disponível para instalar.**
+**Em preparação. Ainda não há tradução disponível para instalar.**
 
-Os recursos de texto foram catalogados, mas a tradução linguística ainda não começou: **0 de 19.047 entradas concluídas**. Há também uma pendência no motor: parte dos pronomes e verbos é produzida em inglês pelo código do jogo. Essa parte precisa de uma adaptação própria antes que o projeto possa gerar e publicar um pacote completo.
+Os recursos de texto foram catalogados, mas a tradução linguística ainda não começou: **0 de 19.147 entradas concluídas**. O suporte técnico para traduzir a gramática gerada pelo código foi implementado, incluindo 100 entradas de pronomes, verbos e construções relacionadas.
 
-Por isso, **a geração do pacote e a publicação estão bloqueadas**. A existência deste repositório e de um fluxo de Releases não significa que uma tradução já esteja pronta. Nenhum teste desta tradução dentro do jogo foi realizado.
+A geração do pacote e a publicação dependem da conclusão e validação dos textos. A existência deste repositório e de um fluxo de Releases não significa que uma tradução já esteja pronta. Nenhum teste desta tradução dentro do jogo foi realizado.
 
 ## ✨ Sobre a tradução
 
 Em Star Dynasties, uma promessa quebrada pode ser tão perigosa quanto uma frota inimiga. Sua casa cresce, seus parentes se casam, seus aliados cobram favores e seus herdeiros recebem as consequências das decisões de hoje. Entender o que cada personagem pede — e o que está em jogo ao responder — faz parte da experiência.
 
-Este projeto pretende levar os textos acessíveis do jogo ao português brasileiro, preservando a clareza das regras e o tom dos dramas familiares. O escopo técnico inicial reúne **105 arquivos CSV**, com interface, tutorial, enciclopédia, notificações e eventos do jogo base e de **Bloodlines**.
+Este projeto pretende levar os textos acessíveis do jogo ao português brasileiro, preservando a clareza das regras e o tom dos dramas familiares. O escopo técnico reúne **105 arquivos CSV e 100 entradas de gramática na biblioteca do motor**, com interface, tutorial, enciclopédia, notificações e eventos do jogo base e de **Bloodlines**.
 
 Os números descrevem os textos identificados, não uma porcentagem de toda a interface do jogo. Elementos embutidos no executável, nas bibliotecas ou nas imagens precisam de investigação adicional. Não há dublagem ou substituição de áudio prevista neste pacote.
 
@@ -40,9 +40,9 @@ Os números descrevem os textos identificados, não uma porcentagem de toda a in
 | Cargos, habilidades, táticas, emoções e relações | Demais CSVs selecionados de `Config/` | Catalogados; tradução pendente |
 | Intrigas, romances, crises e expedições | 75 CSVs em `Core/` | Catalogados; tradução pendente |
 | Herança, criação dos filhos e evolução da dinastia | 16 CSVs em `BloodlinesDLC/` | Catalogados; tradução pendente |
-| Pronomes e construções gerados pelo código | Biblioteca do motor | **Adaptação pendente; bloqueia o pacote** |
+| Pronomes e construções gerados pelo código | Biblioteca do motor | Suporte implementado; tradução pendente |
 
-Ficam fora do pacote atual: executáveis e bibliotecas modificadas, imagens, áudio, listas de nomes próprios, textos de mods e o editor Creator. Os arquivos XML de eventos contêm regras e referências; não serão substituídos pelo adaptador CSV.
+A biblioteca `Pawley.StarDynasties.Engine.dll` integra o pacote para adaptar a gramática. Ficam fora: executáveis, outras bibliotecas, imagens, áudio, listas de nomes próprios, textos de mods e o editor Creator. Os arquivos XML de eventos contêm regras e referências; não serão substituídos pelo adaptador CSV.
 
 ## 🌌 Depois da Terra
 
@@ -66,7 +66,7 @@ As informações sobre o universo vêm da enciclopédia do jogo e das apresenta�
 
 ## 📦 Download e versões
 
-O download será publicado na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases), após a resolução das pendências técnicas e a conclusão e validação dos textos.
+O download será publicado na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases), após a conclusão e validação dos textos e os testes no jogo.
 
 O arquivo instalável terá o nome **`PTBR.zip`**. A primeira publicação estável será **`v1.0.0`**. Pacotes posteriores com conteúdo alterado seguirão `v1.0.1`, `v1.0.2` e assim por diante, acompanhados de um changelog com as alterações verificadas.
 
@@ -78,9 +78,9 @@ As orientações abaixo descrevem o layout nativo já identificado. A aprovaçã
 
 1. Feche o jogo.
 2. Localize a pasta que contém **`StarDynasties.exe`**. Na instalação GOG examinada, ela é `D:\GOG Games\Star Dynasties`; no seu computador, o caminho pode ser diferente.
-3. Guarde uma cópia das pastas **`Config`**, **`Core`** e **`BloodlinesDLC`** fora da instalação. Esse backup permite desfazer as substituições.
+3. Guarde uma cópia das pastas **`Config`**, **`Core`** e **`BloodlinesDLC`** e do arquivo **`StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll`** fora da instalação. Esse backup permite desfazer as substituições.
 4. Baixe **`PTBR.zip`** de uma Release deste projeto e extraia seu conteúdo na raiz do jogo, mesclando as pastas e substituindo os arquivos correspondentes.
-5. Para o adaptador de textos atualmente planejado, selecione **English** no menu de idiomas. O pacote substitui os recursos dessa opção; não cria uma opção “Português”.
+5. Selecione **English** no menu de idiomas. O pacote substitui os recursos dessa opção; não cria uma opção “Português”.
 
 O ZIP terá os arquivos diretamente nestes caminhos, **sem uma pasta `PTBR` envolvendo tudo**:
 
@@ -93,21 +93,23 @@ Pasta que contém StarDynasties.exe/
 │   └── demais CSVs do pacote
 ├── Core/
 │   └── CSVs de eventos
-└── BloodlinesDLC/
-    └── CSVs da expansão
+├── BloodlinesDLC/
+│   └── CSVs da expansão
+└── StarDynasties_Data/Managed/
+    └── Pawley.StarDynasties.Engine.dll
 ```
 
 Após a instalação, o teste recomendado será conferir o tutorial, abrir a enciclopédia e observar mensagens com personagens diferentes. Isso ajuda a verificar acentos, cortes de texto e concordância. Hoje, esses testes **ainda não foram executados**.
 
 ### Restaurar ou desinstalar
 
-Com o jogo fechado, restaure os arquivos das três pastas a partir do backup da **mesma versão do jogo**. Outra opção é restaurar a instalação pelos recursos da sua loja. Não misture originais de versões diferentes. Atualizações do jogo podem substituir os CSVs traduzidos; nesse caso, aguarde um pacote compatível antes de reaplicar.
+Com o jogo fechado, restaure os arquivos das três pastas e a DLL do motor a partir do backup da **mesma versão do jogo**. Outra opção é restaurar a instalação pelos recursos da sua loja. Não misture originais de versões diferentes. Atualizações do jogo podem substituir os CSVs e a DLL traduzidos; nesse caso, aguarde um pacote compatível antes de reaplicar.
 
 ## ⚙️ Compatibilidade e dúvidas
 
 | Ambiente | Evidência disponível |
 |---|---|
-| GOG para Windows, `1.0.4.0-gog` | Recursos analisados e preservados; tradução não testada em execução |
+| GOG para Windows, `1.0.4.0-gog` | Recursos e gramática analisados; testes isolados do motor concluídos; tradução não testada no jogo |
 | Bloodlines | Recursos identificados; ativação do conteúdo não verificada |
 | Steam | Identidade e expansão confirmadas; arquivos dessa distribuição não comparados |
 | Mods e outras versões | Compatibilidade não validada |
@@ -116,14 +118,14 @@ Com o jogo fechado, restaure os arquivos das três pastas a partir do backup da 
 <details>
 <summary><strong>Por que ainda não há download?</strong></summary>
 
-Os textos estão preparados para o trabalho de tradução, mas continuam pendentes. Além disso, o motor contém funções que geram palavras em inglês. O projeto bloqueia a publicação para evitar apresentar esse resultado como um pacote completo.
+Os textos e os campos de gramática estão preparados para tradução, mas continuam pendentes. O projeto exige conclusão, revisão e validação antes de publicar um pacote.
 
 </details>
 
 <details>
 <summary><strong>O jogo continuará mostrando “English”?</strong></summary>
 
-O adaptador CSV trabalha sobre os recursos do idioma inglês. Uma opção própria de português exigiria outro suporte no motor. A configuração definitiva será confirmada antes da primeira Release.
+Sim. Os textos e a gramática adaptada usam o modo English. O pacote não cria uma opção própria de português no menu.
 
 </details>
 
