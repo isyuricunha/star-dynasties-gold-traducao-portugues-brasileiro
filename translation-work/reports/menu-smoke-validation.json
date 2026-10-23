@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "game": "Star Dynasties",
+  "version": "1.0.4.0-gog",
+  "platform": "Windows / GOG",
+  "verification": "Manual run confirmed by Yuri; visual inspection of the supplied screenshot",
+  "evidence": {
+    "image": "translation-work/docs/evidencias/menu-ptbr-gog-1.0.4.0.png",
+    "sha256": "975fa666821f8a2241afda09de6437cd86c8ac4407fd1c118d722dd10dc84a9c",
+    "documentation": "translation-work/docs/teste-menu-ptbr.md"
+  },
+  "scope": {
+    "prepared_CSV_labels": 10,
+    "visible_verified_labels": 8,
+    "modified_native_files": [
+      "Config/text.csv"
+    ],
+    "game_DLL_modified_for_sample": false,
+    "font_modification_required_for_observed_sample": false
+  },
+  "visible_labels": {
+    "Menu.GuidedScenarioButton": "CENÁRIO GUIADO",
+    "Menu.NewGameButton": "NOVO JOGO",
+    "Menu.LoadGameButton": "CARREGAR JOGO",
+    "Menu.OptionsButton": "OPÇÕES",
+    "Menu.ChangeLogButton": "ALTERAÇÕES",
+    "Menu.FeedbackButton": "ENVIAR OPINIÃO",
+    "Menu.CreditsButton": "CRÉDITOS",
+    "Menu.ExitButton": "SAIR"
+  },
+  "observed_uppercase_glyphs": [
+    "Á",
+    "É",
+    "Ã",
+    "Õ",
+    "Ç"
+  ],
+  "missing_observed_glyphs": false,
+  "apparent_clipping_in_visible_buttons": false,
+  "not_visually_confirmed": [
+    "Menu.General.CloseButton",
+    "Menu.ReleaseNotesSubMenu.ReleaseNotes.Title"
+  ],
+  "remaining": [
+    "Other PT-BR glyphs, lowercase characters, fonts, sizes and screens",
+    "Dynamic grammar DLL during a game campaign",
+    "Tutorial, encyclopedia, campaign messages and savegame compatibility"
+  ],
+  "release_notes_body_translated": false,
+  "canonical_JSONL_changed": false,
+  "canonical_PTBR_created": false,
+  "canonical_translated_units": 0,
+  "canonical_pending_units": 19147,
+  "full_game_localization_validated": false
+}

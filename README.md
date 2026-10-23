@@ -18,9 +18,9 @@
 
 **Em preparação. Ainda não há tradução disponível para instalar.**
 
-Os recursos de texto foram catalogados, mas a tradução linguística ainda não começou: **0 de 19.147 entradas concluídas**. O suporte técnico para traduzir a gramática gerada pelo código foi implementado, incluindo 100 entradas de pronomes, verbos e construções relacionadas.
+Os recursos de texto foram catalogados, mas a tradução completa e revisada continua pendente: **0 de 19.147 entradas concluídas**. O suporte técnico para traduzir a gramática gerada pelo código foi implementado, incluindo 100 entradas de pronomes, verbos e construções relacionadas.
 
-A geração do pacote e a publicação dependem da conclusão e validação dos textos. A existência deste repositório e de um fluxo de Releases não significa que uma tradução já esteja pronta. Nenhum teste desta tradução dentro do jogo foi realizado.
+A geração do pacote e a publicação dependem da conclusão e validação dos textos. A existência deste repositório e de um fluxo de Releases não significa que uma tradução já esteja pronta. Uma amostra do menu foi testada no jogo: os glifos **Á, É, Ã, Õ e Ç** apareceram corretamente, sem cortes aparentes nos oito botões exibidos. O resultado está documentado no [teste mínimo do menu](translation-work/docs/teste-menu-ptbr.md). A campanha e a gramática dinâmica ainda aguardam validação em partida.
 
 ## ✨ Sobre a tradução
 
@@ -99,7 +99,7 @@ Pasta que contém StarDynasties.exe/
     └── Pawley.StarDynasties.Engine.dll
 ```
 
-Após a instalação, o teste recomendado será conferir o tutorial, abrir a enciclopédia e observar mensagens com personagens diferentes. Isso ajuda a verificar acentos, cortes de texto e concordância. Hoje, esses testes **ainda não foram executados**.
+Após a instalação, o teste recomendado será conferir o tutorial, abrir a enciclopédia e observar mensagens com personagens diferentes. Isso ajuda a verificar acentos, cortes de texto e concordância. O teste mínimo do menu já confirmou os glifos exibidos e o encaixe dos botões. Tutorial, enciclopédia, mensagens de campanha e concordância **ainda não foram testados**.
 
 ### Restaurar ou desinstalar
 
@@ -109,7 +109,7 @@ Com o jogo fechado, restaure os arquivos das três pastas e a DLL do motor a par
 
 | Ambiente | Evidência disponível |
 |---|---|
-| GOG para Windows, `1.0.4.0-gog` | Recursos e gramática analisados; testes isolados do motor concluídos; tradução não testada no jogo |
+| GOG para Windows, `1.0.4.0-gog` | Menu testado com glifos Á, É, Ã, Õ e Ç; testes isolados do motor concluídos; campanha e gramática dinâmica em partida pendentes |
 | Bloodlines | Recursos identificados; ativação do conteúdo não verificada |
 | Steam | Identidade e expansão confirmadas; arquivos dessa distribuição não comparados |
 | Mods e outras versões | Compatibilidade não validada |

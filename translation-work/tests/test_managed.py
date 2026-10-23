@@ -13,7 +13,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from managed_codec import EMPTY, ManagedDocument, command, invoke
+from managed_codec import EMPTY, ManagedDocument, check_toolchain, command, invoke
 from native import MANAGED_PATH, Document, Error, encoded, validate_record, validate_text
 from storage import file_hash
 from toolkit import Toolkit
@@ -21,9 +21,12 @@ from test_toolkit import Fixture, PROJECT, sources
 
 
 def compile_harness(work):
-    if os.name!='nt':raise unittest.SkipTest('The runtime regression compiler is installed on the Windows development host')
-    compiler=Path(os.environ.get('WINDIR',r'C:\Windows'))/'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
-    if not compiler.exists():raise AssertionError('Missing .NET Framework C# compiler')
+    if os.name == 'nt':
+        compiler=Path(os.environ.get('WINDIR',r'C:\Windows'))/'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
+        if not compiler.exists():raise AssertionError('Missing .NET Framework C# compiler')
+    else:
+        compiler=shutil.which('mcs')
+        if not compiler:raise AssertionError('Missing Mono C# compiler (mono-devel)')
     library=PROJECT/'translation-work/vendor/mono-cecil-0.11.6/Mono.Cecil.dll'
     shutil.copyfile(library,work/'Mono.Cecil.dll')
     executable=work/'RuntimeTests.exe'
@@ -32,6 +35,39 @@ def compile_harness(work):
                           str(PROJECT/'translation-work/tests/GrammarRuntimeTests.cs')],capture_output=True)
     if build.returncode:raise AssertionError(build.stdout.decode(errors='replace'))
     return executable
+
+
+def harness_command(executable):
+    return [str(executable)] if os.name == 'nt' else [shutil.which('mono'), str(executable)]
+
+
+class PortableToolchainTests(unittest.TestCase):
+    def test_pinned_files_survive_git_normalization_and_fresh_checkout(self):
+        lock=json.loads((PROJECT/'translation-work/managed/toolchain.json').read_bytes())
+        runtime=json.loads((PROJECT/'translation-work/runtime-support.json').read_bytes())
+        paths={"translation-work/"+p for p in lock['files']}
+        paths.update(runtime['adapter_files'])
+        paths.update(['.gitattributes','translation-work/managed/toolchain.json','EN/Config/text.csv'])
+        with tempfile.TemporaryDirectory(prefix='star git LF ') as folder:
+            root=Path(folder)/'repository';root.mkdir()
+            for name in paths:
+                target=root/name;target.parent.mkdir(parents=True,exist_ok=True)
+                shutil.copyfile(PROJECT/name,target)
+            def git(*args):
+                return subprocess.run(['git','-C',str(root),'-c','core.autocrlf=true',*args],
+                                      check=True,capture_output=True).stdout
+            git('init');git('add','.')
+            exported=Path(folder)/'checkout'
+            git('checkout-index','--all','--prefix='+exported.as_posix()+'/')
+            for name in paths:
+                self.assertEqual((root/name).read_bytes(),git('show',':'+name),name)
+                self.assertEqual((root/name).read_bytes(),(exported/name).read_bytes(),name)
+            with patch('managed_codec.HOME',exported/'translation-work'):
+                check_toolchain()
+                source=exported/'translation-work/managed/Launcher.cs'
+                source.write_bytes(source.read_bytes()+b'// changed\n')
+                with self.assertRaisesRegex(Error,'Launcher.cs'):
+                    check_toolchain()
 
 
 def markers(document):
@@ -89,6 +125,18 @@ class ManagedTests(Fixture):
         self.assertEqual(len({u['id'] for u in self.doc.units}),100)
         self.assertFalse(self.doc.is_patched)
         self.assertEqual(self.doc.data['runtime'],'v2.0.50727')
+
+    def test_real_dll_from_unrelated_directory_without_mono_path(self):
+        environment=os.environ.copy()
+        environment.pop('MONO_PATH',None)
+        process=subprocess.run(command()+['inspect-stdin'],input=base64.b64encode(self.raw),
+                               cwd=self.root,env=environment,capture_output=True)
+        self.assertEqual(process.returncode,0,process.stderr.decode('utf-8-sig',errors='replace'))
+        self.assertEqual(len(json.loads(process.stdout.decode('utf-8-sig'))['units']),100)
+
+    def test_empty_input_reports_payload_error(self):
+        with self.assertRaisesRegex(Error,'Assembly input is empty'):
+            invoke('inspect-stdin',b'\n')
 
     def test_deterministic_reconstruction_and_full_value_reopen(self):
         values=markers(self.doc)
@@ -196,6 +244,9 @@ class ManagedTests(Fixture):
                 self.tool.build()
 
     def test_real_engine_runtime_with_controlled_environment(self):
+        local_file=PROJECT/'translation-work/.state/local-install.json'
+        if not local_file.is_file():
+            self.skipTest('Real-engine execution requires read-only game dependencies in .state/local-install.json')
         work=self.root/'runtime-test'
         work.mkdir()
         executable=compile_harness(work)
@@ -204,9 +255,9 @@ class ManagedTests(Fixture):
         binary.write_bytes(self.doc.render(values))
         expected=work/'expected.json'
         expected.write_bytes(encoded({u['key']:('' if values[u['id']]==EMPTY else values[u['id']]) for u in self.doc.units}))
-        local=json.loads((PROJECT/'translation-work/.state/local-install.json').read_text(encoding='utf8'))
+        local=json.loads(local_file.read_text(encoding='utf8'))
         dependencies=Path(local['game_root'])/'StarDynasties_Data/Managed'
-        process=subprocess.run([str(executable),str(binary),str(work/'runtime-fixture.dll'),str(dependencies),str(expected)],capture_output=True)
+        process=subprocess.run(harness_command(executable)+[str(binary),str(work/'runtime-fixture.dll'),str(dependencies),str(expected)],capture_output=True)
         self.assertEqual(process.returncode,0,process.stderr.decode('utf8',errors='replace'))
         result=json.loads(process.stdout.decode('utf-8-sig'))
         self.assertGreaterEqual(result['runtime_checks'],111)
@@ -226,7 +277,7 @@ class ManagedTests(Fixture):
         executable=compile_harness(work)
         original=work/'original.dll';original.write_bytes(self.raw)
         changed=work/'changed.dll'
-        process=subprocess.run([str(executable),'source-change',str(original),str(changed)],capture_output=True)
+        process=subprocess.run(harness_command(executable)+['source-change',str(original),str(changed)],capture_output=True)
         self.assertEqual(process.returncode,0,process.stderr.decode(errors='replace'))
         with self.tool.store.lock():result=self.tool.synchronize({**sources(),MANAGED_PATH:changed.read_bytes()})
         self.assertEqual(result['counts']['modified'],1)

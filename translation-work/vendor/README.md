@@ -13,4 +13,4 @@ O adaptador de gramática usa **Mono.Cecil 0.11.6**, distribuição `net40`, sob
 
 A licença pública CC do repositório não substitui a licença MIT desta dependência nem os direitos sobre o jogo. Não há downloads em `extract`, `sync`, `build`, `check` ou CI. O binário, os fontes do adaptador e seus hashes estão incluídos para uso offline.
 
-O utilitário próprio está em `translation-work/managed/GrammarTool.exe`, com fontes C# ao lado e [instruções de recompilação](../managed/build-helper.ps1). No Windows, usa .NET Framework 4.x; em outro sistema, a execução do utilitário exige Mono com System.Web.Extensions. A verificação rápida e o empacotamento de uma Release já construída continuam em Python, sem executar CLR.
+O utilitário próprio está em `translation-work/managed/GrammarTool.exe`, com fontes C# ao lado e [recompilador offline para Windows/Linux](../managed/build-helper.py). No Windows, usa .NET Framework 4.x; em outro sistema, a execução do utilitário exige Mono com System.Web.Extensions. A verificação rápida e o empacotamento de uma Release já construída continuam em Python, sem executar CLR.

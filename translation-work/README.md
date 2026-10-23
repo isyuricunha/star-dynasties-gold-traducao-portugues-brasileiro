@@ -6,16 +6,17 @@ Workspace de engenharia e tradução manual, dentro do mesmo repositório públi
 
 - Base examinada: GOG Windows `1.0.4.0-gog`, recursos do jogo base e Bloodlines.
 - 105 CSVs e uma DLL em `EN/`; 19.147 unidades em 39 JSONLs: 38 lotes de 500 e um de 147.
-- Todas as traduções estão pendentes. Não houve tradução automática, aprovação fictícia ou execução de carga linguística.
+- Todas as traduções do catálogo canônico estão pendentes. Não houve tradução automática ou aprovação fictícia. A amostra temporária do menu não conta como progresso de tradução.
+- **Glifos confirmados no menu:** em teste manual no jogo GOG Windows `1.0.4.0-gog`, Á, É, Ã, Õ e Ç foram exibidos corretamente nos oito botões visíveis, sem cortes aparentes e sem alterar fontes. Evidência e limites em [docs/teste-menu-ptbr.md](docs/teste-menu-ptbr.md).
 - O **briefing inicial já foi pesquisado e escrito pela desenvolvedora** em [docs/briefing-do-jogo.md](docs/briefing-do-jogo.md). Ella não precisa criá-lo do zero.
 - **Adaptação de gramática implementada:** 100 unidades em 28 métodos, com testes isolados do motor. Todas continuam pendentes para a Ella. Evidência em [docs/analise-do-motor.md](docs/analise-do-motor.md); perfil verificável em [runtime-support.json](runtime-support.json).
 - Não existe `PTBR/` neste estado incompleto. Não existe Release publicada pelo toolkit. O fluxo de Release está implementado e é exercitado com fixtures; não foi executado no GitHub.
 
-O toolkit permite traduzir os recursos catalogados e a gramática mapeada. **A tradução permanece incompleta.** A próxima etapa é a revisão linguística pela Ella e, após a conclusão, teste visual e de campanha em ambiente autorizado. O escopo não comprova cobertura de todo texto embutido na interface. Leia [docs/gramatica-dinamica.md](docs/gramatica-dinamica.md).
+O toolkit permite traduzir os recursos catalogados e a gramática mapeada. **A tradução permanece incompleta.** A próxima etapa é a revisão linguística pela Ella e, após a conclusão, ampliar a validação visual além do menu e testar a campanha em ambiente autorizado. O escopo não comprova cobertura de todo texto embutido na interface. Leia [docs/gramatica-dinamica.md](docs/gramatica-dinamica.md).
 
 ## Preparação
 
-Use Python **3.10+** e Git. A leitura/reconstrução da DLL exige .NET Framework 4.x no Windows ou Mono com System.Web.Extensions. O auxiliar e Mono.Cecil 0.11.6 estão incluídos offline com seus hashes e licença MIT. A verificação rápida da Release exige apenas Python; não compila nem executa CLR. O desenvolvimento foi testado com Python 3.14 no Windows; o workflow usa Python 3.14. Não há dependências de tradução, clientes de modelos, serviços de inferência ou chaves de API. A publicação usa apenas o token temporário do GitHub Actions.
+Use Python **3.10+** e Git. A leitura/reconstrução da DLL exige .NET Framework 4.x no Windows ou Mono com System.Web.Extensions. O auxiliar e Mono.Cecil 0.11.6 estão incluídos offline com seus hashes e licença MIT. A verificação rápida da Release exige apenas Python; não compila nem executa CLR. O adaptador foi testado com Python 3.14 no Windows e Python 3.12.3 / Mono 6.8.0.105 em Linux ARM64; o workflow usa Python 3.14. Veja [docs/compatibilidade-do-toolkit.md](docs/compatibilidade-do-toolkit.md). Não há dependências de tradução, clientes de modelos, serviços de inferência ou chaves de API. A publicação usa apenas o token temporário do GitHub Actions.
 
 Execute os comandos da raiz do repo:
 
@@ -25,7 +26,7 @@ python translation-work/toolkit.py check
 python -m unittest discover -s translation-work/tests -v
 ```
 
-A suíte usa diretórios temporários para aplicar valores sintéticos, criar commits/tags de fixture e simular publicação. **Ela não traduz, faz commits ou instala arquivos no projeto real nem na instalação do jogo.** Os testes leem os originais, comprovam round-trip e estado pendente e executam a gramática em cópia temporária com ambiente controlado. As 111 verificações isoladas não substituem um teste completo no Unity. O harness de execução exige Windows, o compilador C# do .NET Framework e a instalação original verificada por `update-sources`, registrada em `.state/local-install.json`: suas dependências são lidas, sem alteração, e não são redistribuídas pelo toolkit. O editor de metadados de produção usa somente a dependência incluída em `vendor/`.
+A suíte usa diretórios temporários para aplicar valores sintéticos, criar commits/tags de fixture e simular publicação. **Ela não traduz, faz commits ou instala arquivos no projeto real nem na instalação do jogo.** Os testes leem os originais, comprovam round-trip e estado pendente e executam a gramática em cópia temporária com ambiente controlado. As 111 verificações isoladas não substituem um teste completo no Unity. O harness de execução pode usar o compilador C# do .NET Framework no Windows ou `mcs`/Mono no Linux. Exige acesso autorizado às dependências originais do jogo, com a raiz registrada em `.state/local-install.json`; elas são lidas sem alteração e não são redistribuídas pelo toolkit. Sem essas dependências, apenas o teste de execução do motor é explicitamente ignorado; a inspeção e a reconstrução da DLL em EN continuam obrigatórias. O editor de metadados de produção usa somente a dependência incluída em `vendor/`.
 
 ## Organização e propriedade
 

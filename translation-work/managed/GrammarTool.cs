@@ -404,6 +404,12 @@ public static class GrammarTool
             directory = directory.Parent;
         }
     }
+    static byte[] DecodeAssembly(string input)
+    {
+        if (String.IsNullOrWhiteSpace(input))
+            throw new InvalidDataException("Assembly input is empty; provide a base64-encoded managed DLL");
+        return Convert.FromBase64String(input);
+    }
     [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
     public static int Main(string[] args)
     {
@@ -413,14 +419,14 @@ public static class GrammarTool
         {
             if (args.Length == 1 && args[0] == "inspect-stdin")
             {
-                using (var a = AssemblyDefinition.ReadAssembly(new MemoryStream(Convert.FromBase64String(Console.In.ReadToEnd()))))
+                using (var a = AssemblyDefinition.ReadAssembly(new MemoryStream(DecodeAssembly(Console.In.ReadToEnd()))))
                     Console.Write(Json.Serialize(InspectAssembly(a)));
             }
             else if (args.Length == 1 && args[0] == "rewrite-stdin")
             {
                 var input = Json.Deserialize<Dictionary<string, object>>(Console.In.ReadToEnd());
                 var values = Json.Deserialize<Dictionary<string, string>>(Json.Serialize(input["translations"]));
-                var output = RewriteBytes(Convert.FromBase64String((string)input["assembly"]), values);
+                var output = RewriteBytes(DecodeAssembly((string)input["assembly"]), values);
                 Console.Write(Json.Serialize(new { assembly = Convert.ToBase64String(output) }));
             }
             else if (args.Length == 3 && args[0] == "inspect")
