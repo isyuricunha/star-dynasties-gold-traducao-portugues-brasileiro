@@ -1,0 +1,317 @@
+Key,Text
+NHEvents.UnrulyHeir.Update.Summary,""
+NHEvents.UnrulyHeir.Update.Title,"""{PlayerCharacter} is a weak-willed cur!"""
+NHEvents.UnrulyHeir.Update.Short,""
+NHEvents.UnrulyHeir.Update.Description,"{D(Heir)} is publicly badmouthing you"
+NHEvents.UnrulyHeir.Update.Help,""
+NHEvents.UnrulyHeir.StatusEvent.Description,"{D(Heir)} is publicly badmouthing you"
+NHEvents.UnrulyHeir.Choice.Title,"I won't waste my breath"
+NHEvents.UnrulyHeir.Choice.Description,"Show you are above such childish matters by ignoring them entirely"
+NHEvents.UnrulyHeir.Prereq.OverrideText,""
+NHEvents.UnrulyHeir.Prereq1.OverrideText,""
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Update.Summary,"{D(Heir)} has apologised for {his(Heir)} unruly behaviour"
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Update.Title,"{D(Heir)} apologises for {his(Heir)} unruly behaviour"
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Update.Short,""
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Update.Description,"A few days after the incident, {d(Heir)} storms into your chambers. ""You don't care about anything, do you?"" {he(Heir)} shouts.
+
+""Oh yes I certainly do,"" you reply, ""but out of respect for your autonomy, I gave you a chance to come to your senses by yourself.""
+
+{D(Heir)} attempts to reply, but you continue, ""next time you see an issue with my personal or political rulings, why don't you speak to me first? As my heir, I value your opinion more than you seem to realise.""
+
+{D(Heir)} stands in silence, {his(Heir)}'s fists slowly unclenching. ""I am ashamed for my behaviour,"" {d(Heir)} finally says. ""I would be honoured to be more involved in your matters."""
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Update.Help,""
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Emotion.Description,"Regained the respect of {his(PlayerCharacter)} heir"
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Flag.NameShown,""
+NHEvents.UnrulyHeir.HeirStopsAfterIgnore.Flag.Tooltip,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Update.Summary,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Update.Title,"{Heir} continues to insult {PlayerCharacter} in public"
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Update.Short,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Update.Description,"{D(Heir)} has only gotten bolder. {His(Heir)} more colourful insults are now the talk of {StarSystem}."
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Update.Help,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Flag.NameShown,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterIgnore.Flag.Tooltip,""
+NHEvents.UnrulyHeir.Choice1.Title,"{He(Heir)} clearly needs more parental attention"
+NHEvents.UnrulyHeir.Choice1.Description,"Sit {d(Heir)} down and talk this out"
+NHEvents.UnrulyHeir.Prereq2.OverrideText,""
+NHEvents.UnrulyHeir.Prereq3.OverrideText,""
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Update.Summary,"{D(Heir)} has apologised for {his(Heir)} unruly behaviour"
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Update.Title,"{D(Heir)} apologises for {his(Heir)} unruly behaviour"
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Update.Short,""
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Update.Description,"{D(Heir)} is surprised when, rather than your chambers, you guide {him(Heir)} to a flight deck. ""What troubles you?"" you ask {d(Heir)}, looking {him(Heir)} directly into the eyes.
+
+{Heir} averts your gaze, choosing to study the neighbouring gas giant instead. ""You never take me seriously,"" {he(Heir)} finally says.
+
+""Yes, maybe you are right,"" you reply. {D(Heir)} looks at you surprised. ""From today on, I'll make amends. You are my heir after all, and I value your opinion much more than I seem to have let on.""
+
+{D(Heir)} supresses {his(Heir)} tears. ""Thank you,"" {he(Heir)} says."
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Update.Help,""
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Emotion.Description,"Regained the respect of {his(PlayerCharacter)} heir"
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Emotion1.Description,"Valued by {PlayerCharacter}"
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Flag.NameShown,""
+NHEvents.UnrulyHeir.HeirStopsAfterConversation.Flag.Tooltip,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Update.Summary,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Update.Title,"{D(Heir)} continues to insult {d(PlayerCharacter)} in public"
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Update.Short,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Update.Description,"{D(Heir)} has only gotten bolder. {His(Heir)} more colourful insults are now the talk of {StarSystem}."
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Update.Help,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Flag.NameShown,""
+NHEvents.UnrulyHeir.HeirEscalatesAfterConversation.Flag.Tooltip,""
+NHEvents.UnrulyHeir.Choice2.Title,"Pain will serve as a good reminder of who is in charge"
+NHEvents.UnrulyHeir.Choice2.Description,"Nerve Whip {Heir}"
+NHEvents.UnrulyHeir.Prereq4.OverrideText,""
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Update.Summary,""
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Update.Title,"{D(PlayerCharacter)} tortured {d(Heir)} in retaliation for {his(Heir)} unruly behaviour"
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Update.Short,""
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Update.Description,"""The only language impudent children understand is pain"". That's how the Colonies used to run, and it kept their children strong. Contemporary rulers may see it as an overreaction, but you have made certain {d(Heir)} will not dishonour you again."
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Update.Help,""
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Flag.NameShown,""
+NHEvents.UnrulyHeir.HeirStopsAfterTorture.Flag.Tooltip,""
+NHEvents.PeasantLove.Update.Summary,""
+NHEvents.PeasantLove.Update.Title,"Unsanctioned affections"
+NHEvents.PeasantLove.Update.Short,""
+NHEvents.PeasantLove.Update.Description,"{D(UnmarriedCharacter)}’s eyes nervously dart across the room as she asks you for a moment in private. You nod and guide her to an empty observatory. 
+
+As soon as you shut the door, she blurts out: “I ask for permission to marry!”
+
+""I shall give it due consideration, naturally,"" you reply. But {d(UnmarriedCharacter)} avoids your gaze. Raising an eyebrow, you continue: “What house does he belong to?”
+
+“No house,” she replies.
+
+Startled, you laugh. “You want to marry a criminal?” Then you realise: “A commoner?”
+
+Her eyes blaze with tears. A commoner, then."
+NHEvents.PeasantLove.Update.Help,""
+NHEvents.PeasantLove.Choice.Title,"Turn down {UnmarriedCharacter}’s request for marriage"
+NHEvents.PeasantLove.Choice.Description,"You will save face, but {UnmarriedCharacter} will not take this decision lightly"
+NHEvents.PeasantLove.Prereq.OverrideText,""
+NHEvents.PeasantLove.UnmarriedCharacterSad.Update.Summary,"{D(PlayerCharacter)} rejected {d(UnmarriedCharacter)}'s request to marry a commoner"
+NHEvents.PeasantLove.UnmarriedCharacterSad.Update.Title,"“Don’t be ridiculous!”"
+NHEvents.PeasantLove.UnmarriedCharacterSad.Update.Short,""
+NHEvents.PeasantLove.UnmarriedCharacterSad.Update.Description,"As you explain to {d(UnmarriedCharacter)} how she should focus on finding a nice noble instead, she storms from the room."
+NHEvents.PeasantLove.UnmarriedCharacterSad.Update.Help,""
+NHEvents.PeasantLove.UnmarriedCharacterSad.Emotion.Description,"Was not allowed to marry a commoner"
+NHEvents.PeasantLove.UnmarriedCharacterIll.Update.Summary,"{D(UnmarriedCharacter)} fell ill after not being allowed to marry a commoner"
+NHEvents.PeasantLove.UnmarriedCharacterIll.Update.Title,"A broken heart needs time to heal"
+NHEvents.PeasantLove.UnmarriedCharacterIll.Update.Short,""
+NHEvents.PeasantLove.UnmarriedCharacterIll.Update.Description,"As you explain to {d(UnmarriedCharacter)} how she should find a nice noble instead, tears cascade down her face. You move to embrace her, but her grip softens; she collapses in your arms."
+NHEvents.PeasantLove.UnmarriedCharacterIll.Update.Help,""
+NHEvents.PeasantLove.UnmarriedCharacterIll.Emotion.Description,"Was not allowed to marry a commoner"
+NHEvents.PeasantLove.UnmarriedCharacterSuicide.Update.Summary,"{D(UnmarriedCharacter)} took {his(UnmarriedCharacter)} own life after not being allowed to marry {his(UnmarriedCharacter)} love"
+NHEvents.PeasantLove.UnmarriedCharacterSuicide.Update.Title,"Til death do us part"
+NHEvents.PeasantLove.UnmarriedCharacterSuicide.Update.Short,""
+NHEvents.PeasantLove.UnmarriedCharacterSuicide.Update.Description,"{D(UnmarriedCharacter)} quietly listens as you explain how she should focus on finding a nice noble instead. She leaves without saying a word. <i>This went smoothly</i>, you think to yourself.
+
+Her body is found the next morning, beside a shattered frame that once held a portrait, and an empty vial."
+NHEvents.PeasantLove.UnmarriedCharacterSuicide.Update.Help,""
+NHEvents.PeasantLove.Choice1.Title,"Allow the marriage and welcome the commoner into your House"
+NHEvents.PeasantLove.Choice1.Description,"The other Houses will look down on you for this, but you won’t have stood in the way of love."
+NHEvents.PeasantLove.Prereq1.OverrideText,""
+NHEvents.PeasantLove.AllowMarriage.Update.Summary,"{D(PlayerCharacter)} allowed {d(UnmarriedCharacter)} to marry a commoner"
+NHEvents.PeasantLove.AllowMarriage.Update.Title,"Unbounded affections"
+NHEvents.PeasantLove.AllowMarriage.Update.Short,""
+NHEvents.PeasantLove.AllowMarriage.Update.Description,"You give {d(UnmarriedCharacter)} your blessing. She leaps into your arms, an endless stream of tears running down her cheeks.
+
+The news ruffles a few feathers amongst the other rulers, but a month later the wedding commences. It lasts for three days and is undoubtedly the rowdiest event of your life. If you'd known commoners have this much fun, you might have even married one yourself."
+NHEvents.PeasantLove.AllowMarriage.Update.Help,""
+NHEvents.PeasantLove.AllowMarriage.StatusEvent.Description,"Adopted a commoner into {houseOf(Character)}"
+NHEvents.PeasantLove.AllowMarriage.Emotion.Description,"Was allowed to marry {Commoner}"
+NHEvents.PeasantLove.AllowMarriage.Emotion1.Description,"Brought a commoner into the house"
+NHEvents.PeasantLove.AllowMarriage.Emotion2.Description,"Became part of a noble house"
+NHEvents.Virus.Update.Summary,""
+NHEvents.Virus.Update.Title,"An outbreak of Rattle Lung has begun spreading on {StarSystem}"
+NHEvents.Virus.Update.Short,""
+NHEvents.Virus.Update.Description,"{StarSystem} is experiencing an outbreak of the respiratory disease colloquially known as Rattle Lung. Unfortunately, cramped housing and poor sanitation are ideal conditions for it to spread rapidly. As the ruling Duke, you must act swiftly and weigh the colony’s interest against that of the overall faction."
+NHEvents.Virus.Update.Help,""
+NHEvents.Virus.Flag.NameShown,"Rattle Lung Outbreak"
+NHEvents.Virus.Flag.Tooltip,"A virus known as Rattle Lung is rampaging on {StarSystem}. "
+NHEvents.Virus.BaseWealthGeneratedFlagEffect.Reason,"Rattle Lung Outbreak"
+NHEvents.Virus.Choice1.Title,"Coordinate help for {StarSystem} but risk spreading the virus"
+NHEvents.Virus.Choice1.Description,""
+NHEvents.Virus.HelpColony.Update.Summary,"{D(Ruler)} sent help to {StarSystem} to battle the current outbreak of Rattle Lung, but at the risk of it spreading to other colonies"
+NHEvents.Virus.HelpColony.Update.Title,"Helpers and medical supplies are en route to {StarSystem}"
+NHEvents.Virus.HelpColony.Update.Short,""
+NHEvents.Virus.HelpColony.Update.Description,"Countless ships are moving in and out of {StarSystem}, transporting medical supplies, doctors and the ill. An outbreak of Rattle Lung seems to be contained for now, but the probability of another in {Faction} is high."
+NHEvents.Virus.HelpColony.Update.Help,""
+NHEvents.Virus.HelpColony.Flag.NameShown,""
+NHEvents.Virus.HelpColony.Flag.Tooltip,""
+NHEvents.Virus.Choice.Title,"Put {StarSystem} under quarantine to contain the virus"
+NHEvents.Virus.Choice.Description,""
+NHEvents.Virus.VirusContained.Update.Summary,"{D(Ruler)} prevented a Rattle Lung outbreak on {StarSystem} from spreading to other systems by putting it under quarantine"
+NHEvents.Virus.VirusContained.Update.Title,"{StarSystem} is under quarantine"
+NHEvents.Virus.VirusContained.Update.Short,""
+NHEvents.Virus.VirusContained.Update.Description,"{D(Ruler)} prevented the Rattle Lung from spreading to other systems by putting {StarSystem} under quarantine. Its people are suffering, claiming {d(Ruler)} left them to die."
+NHEvents.Virus.VirusContained.Update.Help,""
+NHEvents.Virus.VirusContained.Flag.NameShown,"Rattle Lung Quarantine"
+NHEvents.Virus.VirusContained.Flag.Tooltip,"{StarSystem} has been put under quarantine to prevent the Rattle Lung virus from spreading to other systems."
+NHEvents.Virus.VirusContained.RebellionRiskFlag.Summary,"Rattle Lung Quarantine"
+NHEvents.Virus.VirusContained.RebellionRiskFlag.Description,"Systems put under quarantine are forced to suffer from the disease without outside help"
+NHEvents.KidnappedRelative.Update.Summary,""
+NHEvents.KidnappedRelative.Update.Title,"{D(Relative)} has been kidnapped by an unknown band of criminals"
+NHEvents.KidnappedRelative.Update.Short,""
+NHEvents.KidnappedRelative.Update.Description,"{D(SecurityHead)} calls you into {his(SecurityHead)} office. You find {d(Parent)} sitting there, wringing {his(Parent)} hands.
+
+""I bear bad news, I'm afraid,"" {he(SecurityHead)} sighs. {He(SecurityHead)} hands you an unfamiliar datapad that looks like it was cobbled together from junkyard components and SiliGel. 
+
+The screen spells out ""{Relative}"" over and over, followed by a date and a significant sum of money. “{Relative} has been kidnapped”, {he(SecurityHead)} says."
+NHEvents.KidnappedRelative.Update.Help,""
+NHEvents.KidnappedRelative.Choice.Title,"Pay the ransom"
+NHEvents.KidnappedRelative.Choice.Description,""
+NHEvents.KidnappedRelative.ChildReleased.Update.Summary,""
+NHEvents.KidnappedRelative.ChildReleased.Update.Title,"{D(PlayerCharacter)} paid the ransom to release {d(Relative)} from captivity"
+NHEvents.KidnappedRelative.ChildReleased.Update.Short,""
+NHEvents.KidnappedRelative.ChildReleased.Update.Description,"{D(Parent)} makes a valiant attempt at composure, but {he(Parent)} cannot hide {his(Parent)} shaking hands and clenched jaw. You nod at {d(SecurityHead)}, authorizing {him(SecurityHead)} to transfer the money. 
+
+{D(Parent)} gasps, then bows in silence.
+
+Hours later, {d(Relative)} is found in a drifting shuttle, disoriented but unharmed. "
+NHEvents.KidnappedRelative.ChildReleased.Update.Help,""
+NHEvents.KidnappedRelative.ChildReleased.Emotion.Description,"Released from captivity"
+NHEvents.KidnappedRelative.ChildReleased.Emotion1.Description,"Child was released from captivity"
+NHEvents.KidnappedRelative.Choice1.Title,"Send {d(SecurityHead)} to hunt down the kidnappers and rescue {d(Relative)}"
+NHEvents.KidnappedRelative.Choice1.Description,""
+NHEvents.KidnappedRelative.ChildRescued.Update.Summary,""
+NHEvents.KidnappedRelative.ChildRescued.Update.Title,"{D(SecurityHead)} successfully rescued {d(Relative)} from captivity"
+NHEvents.KidnappedRelative.ChildRescued.Update.Short,""
+NHEvents.KidnappedRelative.ChildRescued.Update.Description,"""Do what you must,"" you say, ""but bring {Relative} back unharmed."" {D(SecurityHead)} gets up, motions to a handful of guards, and leaves.
+
+Days later, {d(SecurityHead)} requests a meeting with you and {d(Parent)}. {D(Relative)} looks up as you enter, and runs to embrace {d(Parent)}.
+
+""They won't bother us again. I made sure of that,"" {d(SecurityHead)} says with a weary grin."
+NHEvents.KidnappedRelative.ChildRescued.Update.Help,""
+NHEvents.KidnappedRelative.ChildRescued.Emotion.Description,"Was rescued from captivity"
+NHEvents.KidnappedRelative.ChildRescued.Emotion1.Description,"Child was rescued from captivity"
+NHEvents.KidnappedRelative.ChildRescued.Emotion2.Description,"Rescued {Relative} from captivity"
+NHEvents.KidnappedRelative.ChildRescued.StatusEvent.Description,"Personally rescued a member of the house from kidnappers"
+NHEvents.KidnappedRelative.ChildMurdered.Update.Summary,""
+NHEvents.KidnappedRelative.ChildMurdered.Update.Title,"{D(Relative)} was killed in captivity during a failed rescue mission"
+NHEvents.KidnappedRelative.ChildMurdered.Update.Short,""
+NHEvents.KidnappedRelative.ChildMurdered.Update.Description,"""Do what you must,"" you say, ""but bring {Relative} back unharmed."" {D(SecurityHead)} gets up, motions to a handful of guards, and leaves.
+
+Days later, {d(SecurityHead)} requests a meeting with you and {d(Parent)}. {His(SecurityHead)} face is a grim mask. 
+
+“{Relative} was murdered when we attempted to free {him(Relative)},” {he(SecurityHead)} says, flatly. {D(Parent)} drops to {his(Parent)} knees. The silence smothers you like ash. “If it’s any consolation, we made sure each and every one of these bastards paid with their lives."" 
+
+“It’s not,” replies {d(Parent)}, and storms out."
+NHEvents.KidnappedRelative.ChildMurdered.Update.Help,""
+NHEvents.KidnappedRelative.ChildMurdered.Emotion.Description,"Child was murdered in captivity"
+NHEvents.KidnappedRelative.ChildMurdered.Emotion1.Description,"Unsuccessful rescue attempt of {Relative}"
+NHEvents.KidnappedRelative.Choice2.Title,"Hunt down the kidnappers and rescue {d(Relative)} yourself"
+NHEvents.KidnappedRelative.Choice2.Description,""
+NHEvents.KidnappedRelative.ChildRescuedByYou.Update.Summary,""
+NHEvents.KidnappedRelative.ChildRescuedByYou.Update.Title,"{D(PlayerCharacter)} successfully rescued {d(Relative)} from captivity"
+NHEvents.KidnappedRelative.ChildRescuedByYou.Update.Short,""
+NHEvents.KidnappedRelative.ChildRescuedByYou.Update.Description,"You rise from your seat. “I shall handle this personally,” you say, nodding at {d(Parent)} and waving at {d(SecurityHead)} to follow.
+
+The night shrouds your rover as you approach the criminals’ settlement, shanties blaring with light. Heat signatures show {d(Relative)} is alone on the first floor. You walk up to the entrance; it's guarded by an empty bottle of synthohol and an unconscious body. 
+
+You kick down the door and start firing. Once the smoke settles, you creep up the stairs to find {d(Relative)} cowering in the corner. You hold out your hand. “Come now, {Relative}. Your family is waiting for you.”"
+NHEvents.KidnappedRelative.ChildRescuedByYou.Update.Help,""
+NHEvents.KidnappedRelative.ChildRescuedByYou.Emotion.Description,"Was rescued from captivity"
+NHEvents.KidnappedRelative.ChildRescuedByYou.Emotion1.Description,"Child was rescued from captivity"
+NHEvents.KidnappedRelative.ChildRescuedByYou.Emotion2.Description,"Rescued {Relative} from captivity"
+NHEvents.KidnappedRelative.ChildRescuedByYou.StatusEvent.Description,"Personally rescued a member of the house from kidnappers"
+NHEvents.KidnappedRelative.ChildKilled.Update.Summary,""
+NHEvents.KidnappedRelative.ChildKilled.Update.Title,"{D(Relative)} was killed in captivity during a failed rescue mission"
+NHEvents.KidnappedRelative.ChildKilled.Update.Short,""
+NHEvents.KidnappedRelative.ChildKilled.Update.Description,"You rise from your seat. “I shall handle this personally,” you say, nodding at {d(Parent)} and waving at {d(SecurityHead)} to follow.
+
+Days later, {d(Parent)} answers your request for a meeting. “{Relative} was murdered when we attempted to free {him(Relative)},” you say, flatly. {D(Parent)} drops to {his(Parent)} knees. The silence smothers you like ash. “If it’s any consolation, we made sure each and every one of these bastards paid with their lives.""
+
+“It’s not,” replies {d(Parent)}, and storms out."
+NHEvents.KidnappedRelative.ChildKilled.Update.Help,""
+NHEvents.KidnappedRelative.ChildKilled.Emotion.Description,"Child was murdered in captivity"
+NHEvents.SolomonsJudgement.Update.Summary,""
+NHEvents.SolomonsJudgement.Update.Title,"Two houses are fighting over who is the true mother of a newborn child"
+NHEvents.SolomonsJudgement.Update.Short,""
+NHEvents.SolomonsJudgement.Update.Description,"{D(BaronA)} and {d(BaronB)} are asking you for counsel in a rather unusual case. {D(MotherA)} claims that during a diplomatic visit, her newborn baby was taken from its crib by {d(MotherB)}. {D(MotherB)} claims she caught {d(MotherA)} attempting to steal <i>her</i> baby instead. Both houses have medical records of the birth."
+NHEvents.SolomonsJudgement.Update.Help,""
+NHEvents.SolomonsJudgement.Choice.Title,"{D(MotherA)} is without a doubt the true mother of this baby!"
+NHEvents.SolomonsJudgement.Choice.Description,""
+NHEvents.SolomonsJudgement.MotherAChosen.Update.Summary,"{D(PlayerCharacter)} declared {d(MotherA)} to be the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherAChosen.Update.Title,"After exhausting and rigorous questioning, you rise to declare {d(MotherA)} the true mother of the newborn baby"
+NHEvents.SolomonsJudgement.MotherAChosen.Update.Short,""
+NHEvents.SolomonsJudgement.MotherAChosen.Update.Description,"{D(MotherA)} gasps and falls to her knees, thanking you over and over.
+
+{D(MotherB)} faints. {D(BaronB)} and {his(BaronB)} delegates carry her out without so much as looking at you."
+NHEvents.SolomonsJudgement.MotherAChosen.Update.Help,""
+NHEvents.SolomonsJudgement.MotherAChosen.Emotion.Description,"Was declared the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherAChosen.Emotion1.Description,"Lost claims of being the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherAChosen.Emotion2.Description,"Was favoured when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherAChosen.Emotion3.Description,"Was rejected when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.Choice1.Title,"I declare {D(MotherB)} to be the true mother of this baby!"
+NHEvents.SolomonsJudgement.Choice1.Description,"After exhausting and rigorous questioning, you rise to declare {d(MotherB)} the true mother of the newborn baby"
+NHEvents.SolomonsJudgement.MotherBChosen.Update.Summary,"{D(PlayerCharacter)} declared {d(MotherB)} to be the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBChosen.Update.Title,""
+NHEvents.SolomonsJudgement.MotherBChosen.Update.Short,""
+NHEvents.SolomonsJudgement.MotherBChosen.Update.Description,"{D(MotherB)} gasps and falls to her knees, thanking you over and over.
+
+{D(MotherA)} faints. {D(BaronA)} and {his(BaronA)} delegates carry her out without so much as looking at you."
+NHEvents.SolomonsJudgement.MotherBChosen.Update.Help,""
+NHEvents.SolomonsJudgement.MotherBChosen.Emotion.Description,"Was declared the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBChosen.Emotion1.Description,"Lost claims of being the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBChosen.Emotion2.Description,"Was favoured when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBChosen.Emotion3.Description,"Was rejected when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.Choice2.Title,"I shall cut off one of the baby’s fingers for each day you don’t find a solution!"
+NHEvents.SolomonsJudgement.Choice2.Description,""
+NHEvents.SolomonsJudgement.Prereq.OverrideText,""
+NHEvents.SolomonsJudgement.MotherATrue.Update.Summary,"{D(PlayerCharacter)} identified {d(MotherA)} as the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherATrue.Update.Title,"The two women listen, horrified, as you declare the verdict"
+NHEvents.SolomonsJudgement.MotherATrue.Update.Short,""
+NHEvents.SolomonsJudgement.MotherATrue.Update.Description,"{D(MotherB)} immediately tries to plead with you, but {d(MotherA)} only sinks to the ground. “I retract my claim,” she says, “as long as you promise to never harm this little angel.”
+
+A smile crosses your lips. You declare {d(MotherA)} the true mother of the newborn."
+NHEvents.SolomonsJudgement.MotherATrue.Update.Help,""
+NHEvents.SolomonsJudgement.MotherATrue.Emotion.Description,"Was declared the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherATrue.Emotion1.Description,"Lost claims of being the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherATrue.Emotion2.Description,"Was favoured when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherATrue.Emotion3.Description,"Was rejected when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.Update.Summary,"{D(PlayerCharacter)} identified {d(MotherB)} as the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.Update.Title,"The two women listen, horrified, as you declare the verdict"
+NHEvents.SolomonsJudgement.MotherBTrue.Update.Short,""
+NHEvents.SolomonsJudgement.MotherBTrue.Update.Description,"{D(MotherA)} immediately tries to plead with you, but {d(MotherB)} only sinks to the ground. “I retract my claim,” she says, “as long as you promise to never harm this little angel.”
+
+A smile crosses your lips. You declare {d(MotherB)} the true mother of the newborn."
+NHEvents.SolomonsJudgement.MotherBTrue.Update.Help,""
+NHEvents.SolomonsJudgement.MotherBTrue.Emotion.Description,"Was declared the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.Emotion1.Description,"Lost claims of being the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.Emotion2.Description,"Was favoured when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.Emotion3.Description,"Was rejected when you chose the true mother of a newborn baby"
+NHEvents.SolomonsJudgement.MotherBTrue.StatusEvent.Description,"Made a wise judgement when identifying the true mother of a newborn baby"
+NHEvents.ArrestedRelative.Update.Summary,""
+NHEvents.ArrestedRelative.Update.Title,"{D(EnemyRuler)} has captured {d(Relative)}"
+NHEvents.ArrestedRelative.Update.Short,""
+NHEvents.ArrestedRelative.Update.Description,"A few days ago, a series of pirate raids hit {CurrentStarSystem}. The nobles, {d(Relative)} among them, were evacuated to safety. But once the pirates were fought off - suspiciously easily - {he(Relative)} was nowhere to be found.
+
+Now, {d(EnemyRuler)} claims to have arrested {d(Relative)} for ""classified offenses"" - a clear attempt to gain leverage against you."
+NHEvents.ArrestedRelative.Update.Help,""
+NHEvents.VisitShantytown.Update.Summary,""
+NHEvents.VisitShantytown.Update.Title,"A welcome distraction"
+NHEvents.VisitShantytown.Update.Short,""
+NHEvents.VisitShantytown.Update.Description,"During one of those dry house dinners that seem to never end, {d(Friend)} catches you staring out the window. “How about we sneak into Shantytown tonight and let off some steam?”, {he(Friend)} asks with a devilish smile. 
+
+Shantytown’s recreational offerings are legendary, but so are the dangers. You'd have to get a pretty good disguise."
+NHEvents.VisitShantytown.Update.Help,""
+NHEvents.VisitShantytown.Choice.Title,"First drink is on me!"
+NHEvents.VisitShantytown.Choice.Description,""
+NHEvents.VisitShantytown.HavingAGreatTime.Update.Summary,"{D(PlayerCharacter)} and {d(Friend)} had a great time in Shantytown"
+NHEvents.VisitShantytown.HavingAGreatTime.Update.Title,"Your visit to Shantytown was all you could imagine and more"
+NHEvents.VisitShantytown.HavingAGreatTime.Update.Short,""
+NHEvents.VisitShantytown.HavingAGreatTime.Update.Description,"The light of the morning sun burns your eyes as you and {d(Friend)} stumble home, leaning on each other and chanting songs about love and profanities.
+
+Every bone in your body aching, you head for bed. You won’t remember half of what happened by the time you're awake, which is probably for the best."
+NHEvents.VisitShantytown.HavingAGreatTime.Update.Help,""
+NHEvents.VisitShantytown.HavingAGreatTime.Emotion.Description,"Went wild in Shantytown"
+NHEvents.VisitShantytown.HavingAGreatTime.Emotion1.Description,"Went wild in Shantytown"
+NHEvents.VisitShantytown.GettingMugged.Update.Summary,"{D(PlayerCharacter)} got mugged in Shantytown"
+NHEvents.VisitShantytown.GettingMugged.Update.Title,"A night to forget"
+NHEvents.VisitShantytown.GettingMugged.Update.Short,""
+NHEvents.VisitShantytown.GettingMugged.Update.Description,"You’ll never know whether it was your language or the unconvincing fit of your clothes, but people caught onto your disguise. Having left {d(Friend)} to relieve yourself in an alleyway, some rancid lowlife used your momentary state of vulnerability to relieve you of your valuables. It didn’t much hurt your wealth, but it certainly hurt your pride."
+NHEvents.VisitShantytown.GettingMugged.Update.Help,""
+NHEvents.VisitShantytown.GettingMugged.Emotion.Description,"Got mugged in Shantytown"
+NHEvents.VisitShantytown.GettingKilled.Update.Summary,"{D(PlayerCharacter)} got killed in Shantytown"
+NHEvents.VisitShantytown.GettingKilled.Update.Title,"You were murdered in Shantytown"
+NHEvents.VisitShantytown.GettingKilled.Update.Short,""
+NHEvents.VisitShantytown.GettingKilled.Update.Description,"What should have been a carefree night of foolery and revelry, took a very grim turn. {D(Friend)} found your body in a ditch and returned it to your grieving family. Security personnel have been questioning potential witnesses and perpetrators, but no one is admitting to having seen anything."
+NHEvents.VisitShantytown.GettingKilled.Update.Help,""
+NHEvents.VisitShantytown.Choice1.Title,"I'd rather not"
+NHEvents.VisitShantytown.Choice1.Description,""

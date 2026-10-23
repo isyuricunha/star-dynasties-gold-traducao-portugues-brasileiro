@@ -1,0 +1,132 @@
+Key,Text
+Expeditions.MineofSins.MineofSinsCruel.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Update.Title,"During an important meeting on House security, {d(TechHead)} barges in"
+Expeditions.MineofSins.MineofSinsCruel.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Update.Description,"“Please excuse the interruption, {PlayerCharacter}. We’ve found a mining station on one of {MiningSystem}’s moons. The scene unfolding down there is bizarre. I believe you should see it for yourself.”
+
+"
+Expeditions.MineofSins.MineofSinsCruel.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.UpdDescTextLine.Script,"“You are indeed interrupting!” you yell. “You will wait outside until we are finished.”
+
+With {his(TechHead)} face the shade of a red dwarf, {d(TechHead)} scuttles back out. Hours later, you leave to take a look at {his(TechHead)} report. 
+
+Yes… pretty bizarre. You and {TechHead} had better take a shuttle ride."
+Expeditions.MineofSins.MineofSinsCruel.Emotion.Description,"Interrupted in important meeting"
+Expeditions.MineofSins.MineofSinsCruel.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsCruel.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Title,"The flight was dominated by an uncomfortable silence; {d(TechHead)} insists the situation is “indescribable”"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Description,"As you approach the mining station, you are first struck by its sheer size, then by the severity of its destruction.
+
+"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.UpdDescTextLine.Script,"{D(TechHead)} points to a river dividing the area below the shuttle. “It’s boiling hot. We don’t understand why they went near it. Worse than that, it seems they walked through it,” {he(TechHead)} says, hovering over a heap of skeletal remains. They’re all missing their lower legs.
+
+“Now look at this,” {d(TechHead)} says, leading the shuttle over an arena-like structure. More bones, and... water buckets? <i>Did they pour boiling water over each other for sport?</i>"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice.Title,"This is horrible. We should not send our people near this place."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Title,"On the flight home, both you and {d(TechHead)} sit in shocked silence"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Description,"Finally, {d(TechHead)} speaks up: “I appreciate your decision today. You are a good ruler.”
+
+You smile and thank {him(TechHead)}. The usual noise in your head has given way to a clear conscience."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Emotion.Description,"Slept soundly and with a clear conscience"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Emotion1.Description,"Respects your choice"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice1.Title,"Get our people down there and rebuild it properly. I want this mine operational in less than 6 months."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decided to rebuild an old mine on {MiningSystem}"
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Title,"During an important meeting on House security, {d(TechHead)} barges in"
+Expeditions.MineofSins.MineofSinsGreedy.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Description,"“Please excuse the interruption, {PlayerCharacter}. We’ve found a mining station on one of {MiningSystem}’s moons. The scene unfolding down there is bizarre. I believe you should see it for yourself.”
+
+"
+Expeditions.MineofSins.MineofSinsGreedy.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.UpdDescTextLine.Script,"Your eyes light up: “A gigantic mining station you say?” {D(TechHead)} nods.
+
+Without sparing the other house members another glance, you rush out the door and onto the next shuttle."
+Expeditions.MineofSins.MineofSinsGreedy.Emotion.Description,"Presented with a lucrative opportunity"
+Expeditions.MineofSins.MineofSinsGreedy.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsGreedy.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Title,"The flight was dominated by an uncomfortable silence; {d(TechHead)} insists the situation is “indescribable”"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Description,"As you approach the mining station, you are first struck by its sheer size, then by the severity of its destruction.
+
+"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.UpdDescTextLine.Script,"Hundreds of skeletal remains are scattered across the area, each one partially covered by a large bag.
+
+“Their belongings,” says {d(TechHead)}. “They don’t amount to much: mostly minerals and precious metals. Looks like they carried them at all times. Most of them have spinal fractures.”
+
+As you exit the shuttle, you pick up a skull; a rare mineral is stuck in each eye socket.
+
+{D(TechHead)} notices your bewilderment: “I’ve seen that a lot. We can’t rule out that they were still alive when they did that to each other. Or... themselves.”"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice.Title,"This is horrible. The additional income is not worth the miseries of this place."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Title,"On the flight home, both you and {d(TechHead)} sit in shocked silence"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Description,"Finally, {d(TechHead)} speaks up: “I appreciate your decision today. You are a good ruler.”
+
+You smile and thank {him(TechHead)}. The usual noise in your head has given way to a clear conscience."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Emotion.Description,"Slept soundly and with a clear conscience"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Emotion1.Description,"Respects your choice"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice1.Title,"Get our people down there and rebuild it properly. I want this mine operational in less than 6 months."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decided to rebuild an old mine on {MiningSystem}"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Update.Title,"During an important meeting on House security, {d(TechHead)} barges in"
+Expeditions.MineofSins.MineofSinsProud.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Update.Description,"“Please excuse the interruption, {PlayerCharacter}. We’ve found a mining station on one of {MiningSystem}’s moons. The scene unfolding down there is bizarre. I believe you should see it for yourself.”
+
+"
+Expeditions.MineofSins.MineofSinsProud.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.UpdDescTextLine.Script,"“You are indeed interrupting!” you yell. “Furthermore, you will find that it is <i>you</i> who will be accompanying <i>me</i>, not the other way round. Prepare the shuttle. I shall join you when I have finished this meeting.”
+
+With {his(TechHead)} face the shade of a red dwarf, {D(TechHead)} scuttles back out. Hours later, you man the next shuttle."
+Expeditions.MineofSins.MineofSinsProud.Emotion.Description,"Interrupted in important meeting"
+Expeditions.MineofSins.MineofSinsProud.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsProud.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Title,"The flight was dominated by an uncomfortable silence; {d(TechHead)} insists the situation is “indescribable”"
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Description,"As you approach the mining station, you are first struck by its sheer size, then by the severity of its destruction.
+
+"
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Continued.UpdDescTextLine.Script,"{D(TechHead)} leads the shuttle over a large field of rubble. “We found blueprints for an additional mining tower: necessary to reach more valuable deposits, but immense, impossibly high. It finally collapsed under its own weight, burying these people.”
+
+You look at the blueprints. The descriptions reek of hubris. "
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice.Title,"These people should have known better than to mine here. We must learn from their mistakes."
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Title,"On the flight home, both you and {d(TechHead)} sit in shocked silence"
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Description,"Finally, {d(TechHead)} speaks up: “I appreciate your decision today. You are a good ruler.”
+
+You smile and thank {him(TechHead)}. The usual noise in your head has given way to a clear conscience."
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Emotion.Description,"Slept soundly and with a clear conscience"
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Emotion1.Description,"Respects your choice"
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice1.Title,"Get our people down there and rebuild it properly. I want this mine operational in less than 6 months."
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decided to rebuild an old mine on {MiningSystem}"
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.NewConfigBundle.InstallationBlueprint.InstallationName,"Ancient Mine"
+Expeditions.MineofSins.NewConfigBundle.InstallationBlueprint.Description,"Whatever has happened in its past, the mine is telling no tales. Workers may occasionally go missing, and the odd scream can sometimes be heard in the distance, but it would be a shame not to make use of such an excellent source of raw materials for the colony."

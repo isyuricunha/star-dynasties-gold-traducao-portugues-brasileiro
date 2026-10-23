@@ -1,0 +1,107 @@
+﻿MoralAct,Description,ReciprocalDescription
+Morality.Charging.NotAvengedCrime,Didn't punish {d(Criminal)} for {his(Criminal)} crimes against {d(Victim)},the refusal to avenge {d_s(Criminal)} crimes against {d(Victim)}
+ChildrenSys.RefusedNextChildRequestCrime,Refused {d(TargetCharacter)} permission to have another child,the refusal to grant {d(TargetCharacter)} permission to have another child
+ChildrenSys.AllowedPopOverflowShaltNot,Allowed {houseOf(Actor)} to get too big,
+ChildrenSys.UnpermittedChildCrime,Had a child without permission,the unpermitted birth of {d(Child)}
+ChildrenSys.ChildPermissionFavouritismShaltNot,Granted a house member permission to have another child,
+Politics.ThreatenedDeposedRulerCrime,Threatened to depose {d(TargetCharacter)},the threat of deposement
+Politics.DeposedRulerCrime,Deposed {d(TargetCharacter)},the unseating of {d(Ruler)} from the rule of {homeSystemOf(Ruler)}
+Combat.SupportAgainstSupporterCrime,Supported an enemy of {d(TargetCharacter)} during a fleet engagement,fighting on the other side in the engagement at {StarSystem}
+Combat.SupportAgainstFleetLeaderCrime,Fought against {d(TargetCharacter)},the support to the other side in the engagement at {StarSystem}
+Politics.Wars.ThreatenDeclareWarCrime,Threatened to declare war on {factionOf(TargetCharacter)},the threat of war
+Politics.Wars.DeclareWarCrime,Declared war on {factionOf(TargetCharacter)},the war against {factionOf(TargetCharacter)}
+Combat.IgnoreCallToArmsCrime,Ignored {d_s(TargetCharacter)} call to arms,not responding to the call to arms at {StarSystem}
+Politics.MakeHeadFavour,Raised {d(TargetCharacter)} to a position of power,the elevation of {d(LegalHead)} to a position of power
+Marriage.GrantedDivorceCrime,Divorced {d(TargetCharacter)},the anullment of {d(SecondSpouse)}'s marriage
+Marriage.MutualDivorceShaltNot,Divorced {d(TargetCharacter)},the anullment of the marriage with {spouseOf(TargetCharacter)}
+Murder.MurderCrime,Killed {d(TargetCharacter)},the murder of {d(TargetCharacter)}
+Murder.AttemptedMurderCrime,Attempted to murder {d(TargetCharacter)},the attempted murder of {d(TargetCharacter)}
+Murder.MurderConspiracyCrime,Conspired to murder {d(TargetCharacter)},the conspiracy against {d(TargetCharacter)}
+Politics.ChangedAllegianceCrime,Seceded {homeSystemOf(Actor)} from {factionOf(TargetCharacter)},the secession of {StarSystem} from {SourceFaction}
+Politics.ChangedAllegianceAcceptedCrime,Annexed a system belonging to {factionOf(TargetCharacter)},the annexation of {StarSystem} by {DestinationFaction}
+Politics.Raid.AssistRaidFavour,Assisted {d(TargetCharacter)} in a raid,the assistance in the raid at {StarSystem}
+Politics.Raid.AssistRaidDefenseFavour,Agreed to assist {d(TargetCharacter)} in defending against the raid at {homeSystemOf(TargetCharacter)},the assistance in defending against the raid at {StarSystem}
+Politics.Raid.RefuseAssistRaidCrime,Refused to assist {d(TargetCharacter)} in a raid,the refusal to assist in the raid at {StarSystem}
+Politics.Raid.RefuseAssistRaidDefenseCrime,Refused to assist {d(TargetCharacter)} in defending against the raid at {homeSystemOf(TargetCharacter)},the refusal to assist in defending against the raid at {StarSystem}
+Politics.RaidCrime,Raided {homeSystemOf(TargetCharacter)},the raid at {homeSystemOf(Victim)}
+Politics.ThreatenedRulerRebellionCrime,Threatened to rebel against {d(TargetCharacter)},the threat of rebellion
+Politics.RulerRebellionCrime,Rebelled against {d(TargetCharacter)},the rebellion against {d(TargetCharacter)}
+Politics.RefuseToMakeHeadCrime,Refused to give {d(TargetCharacter)} a position of power,the elevation of {d(LegalHead)} to a position of power
+Politics.Wars.AnnexSystemsCrime,Annexed a system,the annexation of {StarSystem}
+Politics.Wars.PledgeDishonoredCrime,Dishonored the pledge to grant systems to {d(TargetCharacter)} at the conclusion of the war,the betrayal of {d_s(TargetCharacter)} claims
+Politics.Wars.PledeHonorFavour,Honored their pledge to hand over conquered systems to {d(TargetCharacter)},the honored pledge to {d(TargetCharacter)}
+Politics.ThreatenedSystemRebellionCrime,Threatened to rebel against {d(TargetCharacter)},the threat of rebellion
+Politics.LedSystemRebellionCrime,Rebelled against {d(TargetCharacter)},the rebellion in {StarSystem}
+Politics.SystemRebellion.RefuseAssistRebelCrime,Refused to help {d(TargetCharacter)} in their rebellion,the refusal to assist in the rebellion at {StarSystem}
+Politics.SystemRebellion.AssistRebelFavour,Helped {d(TargetCharacter)} in their rebellion,the assistance in the rebellion at {StarSystem}
+Politics.SystemRebellion.RefuseAssistRulerCrime,Refused to help {d(TargetCharacter)} in putting down a rebellion,the refusal to assist in putting down the rebellion at {StarSystem}
+Politics.SystemRebellion.AssistRulerFavour,Helped {d(TargetCharacter)} in putting down a rebellion at {homeSystemOf(TargetCharacter)},the assistance in putting down the rebellion at {StarSystem}
+Politics.Depose.RefusedAssistAttackCrime,Refused to assist {d(TargetCharacter)} in deposing one of their rulers,the refusal to assist in the attack at {StarSystem}
+Politics.Depose.AssistAttackFavour,Assisted {d(TargetCharacter)} in deposing one of their rulers,the assistance in the attack at {StarSystem}
+Politics.Depose.RefusedAssistDefenseCrime,Refused to assist {d(TargetCharacter)} in defending their right to rule,the refusal to assist in the defense of {StarSystem}
+Politics.Depose.AssistDefenseFavour,Assisted {d(TargetCharacter)} in defending their right to rule,the assistance in the defense of {StarSystem}
+Politics.War.RefuseAssistAttackCrime,Refused to help {d(TargetCharacter)} in invading a system,the refusal to help attack {StarSystem}
+Politics.War.AssistAttackFavour,Helped {d(TargetCharacter)} invade a system,the help in attacking {StarSystem}
+Politics.War.RefuseAssistDefenseCrime,Refused to help {d(TargetCharacter)} defend an invaded system,the refusal to help defend {StarSystem}
+Politics.War.AssistDefenseFavour,Helped {d(TargetCharacter)} defend an invaded system,the help in defending {StarSystem}
+Punishment.ExileCharacterCrime,Exiled {d(TargetCharacter)},the exile of {d(TargetCharacter)}
+Punishment.HumiliateCrime,Publicly humiliated {d(TargetCharacter)},the public humiliation of {d(TargetCharacter)}
+Punishment.TortureCrime,Nerve whipped {d(TargetCharacter)},the nerve whipping of {d(TargetCharacter)}
+Punishment.LevyFineCrime,Levied a fine on {d(TargetCharacter)},{d(TargetCharacter)} being fined
+Punishment.LevyLargeFineCrime,Levied a large fine on {d(TargetCharacter)},{d(TargetCharacter)} being fined
+Roles.PromotedToCouncilFavour,Promoted {d(TargetCharacter)} to {his(Actor)} council,the promotion of {d(Character)} to the council
+Roles.FiredFromCouncilCrime,Fired {d(TargetCharacter)} from {his(Actor)} council,the removal of {d(Character)} from the council
+Roles.RefusedPromotionToCouncilCrime,Refused to promote {d(TargetCharacter)} to {his(Actor)} council,the refusal to promote {d(Character)} to the council
+Romance.AffairSpouseCrime,Had an affair behind {d_s(TargetCharacter)} back,the affair between {d(FirstPartner)} and {d(SecondPartner)}
+Romance.IllicitRomanceShaltNot,Had a secret intimate relationship,
+Romance.IncestShaltNot,Committed incest,
+Romance.AffairThirdPartyCrime,Has been with {d_s(TargetCharacter)} spouse,the affair between {d(FirstPartner)} and {d(SecondPartner)}
+Politics.Wars.SystemConquered.VassalRefusedArchonDemandCrime,Refused to hand over {StarSystem} to {d(TargetCaracter)},the refusal to hand over {StarSystem}
+Politics.Wars.SystemConquered.DishonoredPledgeCrime,Dishonored {his(Actor)} pledge to {d(TargetCharacter)} and ignored their claim,the betrayal of {d_s(TargetCharacter)} claims
+Politics.GiveSystemFavour,Gave a system to {d(TargetCharacter)},the gift of {StarSystem}
+Politics.MakeLeaderFavour,Made {d(TargetCharacter)} a duke,the support in {d_s(TargetCharacter)} rise to leadership
+Politics.Wars.SystemConquered.UnjustifiedAnnexationShaltNot,Annexed a system,the annexation of {StarSystem}
+Politics.GrantRulerIndependenceFavour,Granted {d(TargetCharacter)} independence,the gift of independence
+Claims.DemandCrime,Demanded that {d(TargetCharacter)} press {claimSentenceEnding(Claim)},the demand to press {claimSentenceEnding(Claim)}
+Politics.ChangedFactionAllegianceCrime,Seceded {factionOf(Actor)} from {leagueOf(TargetCharacter)},the secession of {Faction} from {SourceLeague}
+Politics.ChangedFactionAllegianceAcceptedCrime,Annexed a faction,the annexation of {Faction} by {DestinationLeague}
+Politics.Wars.SystemConquered.ShamWarCrime,Declared war on {factionOf(TargetCharacter)} under false pretenses,the war against {factionOf(TargetCharacter)}
+Politics.ThreatenedDeposedLeaderCrime,Threatened to depose {d(TargetCharacter)},the threat of deposement
+Politics.DeposedLeaderCrime,Deposed {d(TargetCharacter)},the unseating of {d(Leader)} from the rule of {factionOf(Leader)}
+Politics.ThreatenedForcedRulerRebellionCrime,Threatened to move against {d(TargetCharacter)},the threat of aggression
+Politics.ForcedRulerRebellionCrime,Forced {d(TargetCharacter)} to rebel,having driven {d(TargetCharacter)} to rebel
+Politics.GiveVassalFavour,Gave a faction to {d(TargetCharacter)},the gift of {Faction}
+Romance.IncestAttractionShaltNot,Incestous attraction,
+Politics.SurrenderFactionFavour,Gave a faction to {d(TargetCharacter)},the gift of {Faction}
+Combat.RefusedToDefendVassalCrime,Refused to help defend {d(TargetCharacter)} in combat,the refusal to defend at {StarSystem}
+Politics.VassalageFavour,Gave a faction to {d(TargetCharacter)},the gift of {Faction}
+Charging.DeliveredJusticeShalt,Punished {d(TargetCharacter)} for {his(TargetCharacter)} crimes,
+Unrest.CreatedUnrestCrime,Spread dissent on {homeSystemOf(TargetCharacter)} system,the payments to rebels on {homeSystemOf(TargetCharacter)}
+Story.FoodShortage.TryToSaveMoralAct,Tried to save as many people as possible during a foot shortage crisis,
+Story.FoodShortage.AbandonOthersMoralAct,Abandoned the colonists to their fate during a food shortage crisis,
+Story.SpaceportExplosion.SendRespondersMoralAct,Sent early responders to help survivors,
+Military.AbandonFleetCrime,Abandoned {TargetCharacter}'s fleet during a battle,the withdrawal during the battle at {StarSystem}
+Combat.BetraySurpriseCrime,Betrayed {TargetCharacter}'s attack to the enemy,the betrayal of the attack at {StarSystem}
+Combat.UnderhandedTacticsShaltNot,Used underhanded tactics in combat,
+Marriage.IncestMarriageThouShaltNot,Married {TargetCharacter},
+Marriage.IncestMatchmakerThouShaltNot,Arranged marriage between two blood relatives,
+Combat.AcceptFavour,Helped {d(TargetCharacter)} in combat,the assistance in the combat at {StarSystem}
+Morality.DebugFavour,Did a debug favour to {TargetCharacter},the debug favour
+Morality.DebugCrime,Was a meanie to {TargetCharacter},the meanie meanness to {TargetCharacter}
+Arrest.ArrestCrime,Arrested {TargetCharacter},the imprisonment of {TargetCharacter}
+Morality.FramedCrime,Falsely defamed {TargetCharacter},the false defamation of {TargetCharacter}
+Morality.FalseCrime,Conducted inhuman experiments on the inhabitants of a colony,the inhuman experiments
+Morality.RefusedToRepayFavourCrime,Refused to repay a favour to {TargetCharacter},the refusal to pay back a favour
+Punishment.ThreatenExecutionCrime,Threatened to execute {TargetCharacter},the threat of executing {TargetCharacter}
+Punishment.ExecutedCrime,Executed {TargetCharacter},the execution of {TargetCharacter}
+Combat.StandardAttack.RefusedAssistAttackCrime,Refused to assist {d(TargetCharacter)} in attacking a system,the refusal to assist in the attack at {StarSystem}
+Combat.StandardAttack.AssistAttackFavour,Assisted {d(TargetCharacter)} in attacking a system,the assistance in the attack at {StarSystem}
+Combat.StandardAttack.RefusedAssistDefenseCrime,Refused to assist {d(TargetCharacter)} in defending a system,the refusal to assist in the defense of {StarSystem}
+Combat.StandardAttack.AssistDefenseFavour,Assisted {d(TargetCharacter)} in defending a system,the assistance in the defense of {StarSystem}
+Guardianship.EndGuardianshipCrime,Prematurely ended {d_s(TargetCharacter)} guardianship over a ward sent from {houseOf(Actor)},the withdrawal of a ward
+Inheritance.ChangeSuccessionRule.DisinheritCrime,Disinherited {d(TargetCharacter)} by changing succession law,the disinheritance of {TargetCharacter}
+Inheritance.ChangeSuccessionRule.ChangedShaltNot,Changed succession law,
+Inheritance.DisinheritedHeir.DisinheritCrime,Disinherited {d(TargetCharacter)},the disinheritance of {TargetCharacter}
+Inheritance.AppointHeir.AppointCrime,Disinherited {d(TargetCharacter)} by appointing another heir,the disinheritance of {TargetCharacter}
+Inheritance.AppointHeir.AppointShaltNot,Appointed an heir,
+Inheritance.Abdication.AbdicationCrime,Abdicated,

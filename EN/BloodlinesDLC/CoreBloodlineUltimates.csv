@@ -1,0 +1,396 @@
+Key,Text
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Action.Title,"Intimidate Foreign Ruler"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Action.Description,"- If successful, target ruler cannot join a combat against your house for <v>3</v> turns, unless called to arms by their direct overlord. (Cooldown: <v>4</v> turns)"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Action.Category,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Prereq.OverrideText,"Recently intimidated a foreign ruler"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Update.Title,"Title"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Update.Description,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.PredictionText.Text,"Ruler intimidated"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Update.Title,"""My lord, I'd never <i>dream</i>—"""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Update.Description,"You can almost see the beads of sweat on {d_s(TargetCharacter)} holographic brow."
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Flag1.NameShown,"Intimidated Ruler"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.Flag1.Tooltip,"{Character} dreads facing your fleet in direct combat"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent.CannotJoinCombatAgainstOnCharacterFlagEffect1.Reason,"Inimidated Ruler"
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent2.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent2.Update.Title,"""I'll do as I will!"""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent2.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent2.Update.Description,"A less than successful intimidation."
+CoreBloodlineUltimates.BloodlineAction.IntimidateRuler.NewEvent2.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Action.Title,"Declare Martial Law"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Action.Description,""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Action.Category,""
+CoreBloodlineUltimates.BloodlineAction.DeclareMartialLaw.Prereq.OverrideText,"Is not already under Martial Law"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Update.Title,"Martial Law has been declared on {TargetSystem}"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Update.Description,"""Our domain needs strength in this uncertain time,"" you announce, sternly, in your address. ""But I have faith in all your loyalty and discipline."""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Flag.NameShown,"Martial Law"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.Flag.Tooltip,"The ruling House have suspended civilian privileges and implemented military checkpoints and curfews, citing a need for ""strength in this uncertain time."""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.RebellionRiskFlag.Summary,"Martial Law"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.RebellionRiskFlag.Description,"The ruling House have suspended civilian privileges and implemented military checkpoints and curfews, citing a need for ""strength in this uncertain time."""
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.ReplenishRateBonusFlagEffect.Reason,"Martial Law"
+CoreBloodlineUltimates.BloodlineAction.MartialLaw.DefensiveFleetStrengthBonusFlagEffect.Reason,"Martial Law"
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Assignment.Title,"Establish Pretender"
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Assignment.EffectDescription,"The assignee establishes themselves - and your faction - as a legitimate ruler of this system."
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Start.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Start.Update.Title,"Title"
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Start.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Start.Update.Description,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Start.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Stop.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Stop.Update.Title,"Title"
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Stop.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Stop.Update.Description,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Stop.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Complete.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Complete.Update.Title,"{Assignee} has established {himself(Assignee)} as a potential ruler of {TargetSystem}"
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Complete.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Complete.Update.Description,"""Having lived among you - shared your woes, and hopes - I swear this: {Faction} shall end the scourge of {houseOf(TargetSystem)}!"""
+CoreBloodlineUltimates.BloodlineAssignments.InstallPopularRuler.Complete.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Assignment.Title,"Survey Uncolonised System"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Assignment.EffectDescription,"Gain {Respect}{Respect} for presenting scientific findings to the galactic community
+"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Update.Title,"{Assignee} has begun surveying {Location}"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Update.Description,"The work is tedious and painstaking: the price of true knowledge."
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Flag.NameShown,"Investigating System"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Flag.Tooltip,"{Context} is investigating {StarSystem}: gathering sensor data and performing surveys."
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Flag1.NameShown,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Start.Flag1.Tooltip,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Stop.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Stop.Update.Title,"Title"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Stop.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Stop.Update.Description,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Stop.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Update.Title,"You and {d(Assignee)} have published your findings on {Location}"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Update.Short,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Update.Description,"Accurate charts and sensor data are rare, and appreciated. Your scientific thoroughness is a given."
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Update.Help,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.StatusEvent.Description,"Published survey findings"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.StatusEvent1.Description,"Published survey findings"
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Flag.NameShown,""
+CoreBloodlineUltimates.BloodlineAssignments.SpreadersOfKnowledge.Complete.Flag.Tooltip,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Action.Title,"Organise Pirate Attack"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Action.Description,"Use your pirate contacts to damage {TargetHouse}'s economy, fleet, or infrastructure."
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Action.Category,""
+CoreBloodlineUltimates.BloodlineAction.OrganizePirateAttack.Prereq.OverrideText,"Has not already used this action this turn"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Update.Title,"Your pirate contacts await your instructions"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Update.Description,"""Where d'you want 'em to hurt, sire?"""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice.Title,"Target their economy"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice.Description,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update.Title,"The raid is a success"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update.Description,"The outpost is left in disarray. Your pirates evaporate across the star lanes, thrilled with their takings."
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret.Description,"{D(PlayerCharacter)} funded a pirate attack on {TargetRuler}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret.RevealedDescription,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct.Description,"{D(Actor)} funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct.ReciprocalDescription,"funding a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule.Description,"Do not unleash pirates on a noble's domain"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule.OpinionDescription,"funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule.ModifierImpact,"Honorable++"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update.Title,"The pirate raid fails"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update.Description,"""Their defences were damn sturdy, sire - not to mention their security, when we got up close..."""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice1.Title,"Target their fleet"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice1.Description,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update1.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update1.Title,"The raid is a success"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update1.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update1.Description,"The outpost is left in disarray. Your pirates evaporate across the star lanes, thrilled with their takings."
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update1.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret1.Description,"{D(PlayerCharacter)} funded a pirate attack on {TargetRuler}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret1.RevealedDescription,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct1.Description,"{D(Actor)} funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct1.ReciprocalDescription,"funding a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule1.Description,"Do not unleash pirates on a noble's domain"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule1.OpinionDescription,"funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule1.ModifierImpact,"Honorable++"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update1.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update1.Title,"The pirate raid fails"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update1.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update1.Description,"""Their defences were damn sturdy, sire - not to mention their security, when we got up close..."""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update1.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice2.Title,"Target their infrastructure"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.Choice2.Description,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update2.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update2.Title,"The raid is a success"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update2.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update2.Description,"The outpost is left in disarray. Your pirates evaporate across the star lanes, thrilled with their takings."
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Update2.Help,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret2.Description,"{D(PlayerCharacter)} funded a pirate attack on {TargetRuler}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.Secret2.RevealedDescription,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct2.Description,"{D(Actor)} funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralAct2.ReciprocalDescription,"funding a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule2.Description,"Do not unleash pirates on a noble's domain"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule2.OpinionDescription,"funded a pirate attack on {TargetCharacter}"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent.SecretRevealed.MoralRule2.ModifierImpact,"Honorable++"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update2.Summary,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update2.Title,"The pirate raid fails"
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update2.Short,""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update2.Description,"""Their defences were damn sturdy, sire - not to mention their security, when we got up close..."""
+CoreBloodlineUltimates.BloodlineAction.SmashAndGrab.NewEvent2.Update2.Help,""
+CoreBloodlineUltimates.BloodlineAction.OrganizePirateAttack.Choice.Title,"Nevermind"
+CoreBloodlineUltimates.BloodlineAction.OrganizePirateAttack.Choice.Description,""
+CoreBloodlineUltimates.BloodlineAction.OrganizePirateAttack.NewEvent.Update.Summary,""
+CoreBloodlineUltimates.BloodlineAction.OrganizePirateAttack.NewEvent.Update.Title,"Title"
+CoreBloodlineUltimates.BloodlineInstallations.GalacticMarketplace.InstallationBlueprint.InstallationName,"Intergalactic Marketplace"
+CoreBloodlineUltimates.BloodlineInstallations.GalacticMarketplace.InstallationBlueprint.Description,"This system's markets and bazaars are famed for their extensive trade networks and unparalleled merchandise."
+CoreBloodlineUltimates.BloodlineInstallations.SpecializedHangar.InstallationBlueprint.InstallationName,"Specialized Hangar"
+CoreBloodlineUltimates.BloodlineInstallations.SpecializedHangar.InstallationBlueprint.Description,"This system's engineers have redesigned a typical hangar bay to flexibly support the timely repair of countless starships."
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Assignment.Title,"Bestow Personalised Gift"
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Assignment.EffectDescription,"{Target} is <pv>delighted</pv>. "
+CoreBloodlineUltimates.BloodlineAssignments.BestowPersonalisedGift..Prereq.OverrideText,"You can only bestow a personalised gift once per character."
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Start.Update.Summary,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Start.Update.Title,"Title"
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Start.Update.Short,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Start.Update.Description,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Start.Update.Help,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Stop.Update.Summary,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Stop.Update.Title,"Title"
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Stop.Update.Short,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Stop.Update.Description,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Stop.Update.Help,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Update.Summary,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Update.Title,"{D(Assignee)} has found the perfect gift for {TargetCharacter}"
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Update.Short,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Update.Description,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Update.Help,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Emotion.Description,"Received perfect gift"
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.Prereq.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine.Script,"""A ticket to a power bout?"" {TargetCharacter} frowns.
+
+""Not to watch: to compete,"" you smile. ""And it's not just any bout: the finest fighters in the cosmos will be there. I know you long to test your mettle against a real challenge.""
+
+""They'll go soft on me,"" {he(TargetCharacter)} snarls. ""They always do.""
+
+""Hence my second gift."" Your servants haul forward a suit of power armour. ""Nondescript. Anonymous. The visor is totally opaque.""
+
+{TargetCharacter} grins. ""Thank you. I've longed for this."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine.Script,"""A goblet?"" {TargetCharacter} asks, running {his(TargetCharacter)} fingers over the silver filigree.
+
+""A 'loving cup', from medieval Earth. This was passed around each feast; everyone took a drink. It symbolised their comradeship and hospitality.""
+
+""Just think,"" {TargetCharacter} breathes, ""what gatherings this cup has seen... What speeches, what merriment... Thank you."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq1.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine1.Script,"""What is this, a camera?"" {TargetCharacter} frowns.
+
+""A rare pre-Collapse security scanner. It can detect the molecules of all known poisons, toxins and radioactive materials.""
+
+""If I install this in the banquet hall... I need never fear poisoning again!"" {TargetCharacter} beams. ""Thank you!"""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq2.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine2.Script,"""I won't be coy,"" you begin. ""Cruelty is an artform to you. Art requires creative challenges.""
+
+""So?"" {TargetCharacter} snaps.
+
+""Behind this door is an innocent thing. Raised from birth to believe the cosmos is just and fair; that all people are, at heart, good. That love is the most human emotion. I am giving him to you... to do with as you will.""
+
+{TargetCharacter} sneers. ""Breaking him will be my masterpiece."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq3.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine3.Script,"""I know you have a weakness for the minutiae of telecomms transmitters,"" you smile. {TargetCharacter} immediately sits up straighter. ""I've acquired the entire back catalogue of the pre-Collapse 'Signal Strength' magazine, 2045-54. I thought they might appeal.""
+
+""Yes!"" {he(TargetCharacter)} cries, tearing one open. ""The specs for the 2053 Indomnium silicate quadruple-transmission oscillator! Where did you find such a treasure?"""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq4.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine4.Script,"""A vial?"" {TargetCharacter} asks, holding it to the light.
+
+""A drug - designed for interrogation, originally. Subjects become more appeasing and compliant. I hear you've had arguments with your friends lately?""
+
+""Friends!"" {he(TargetCharacter)} scoffs. ""Always needing something. So demanding! Never thinking of <i>my</i> feelings.""
+
+""Next time they bother you, use this. They'll be back to their old, cooperative selves in no time."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq5.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine5.Script,"{TargetCharacter} dons {his(TargetCharacter)} VR headset. ""Well?""
+
+""I know how accommodating you are,"" you smile. ""You smooth things over. Conciliate. In this program, you can practice."" You gesture to a seated figure in the VR void.
+
+""Greetings!"" he smiles. ""Begin conversation.""
+
+{TargetCharacter} frowns. ""The software seems... crude.""
+
+""But it has two advantages. First: you can approximate a conversation with anyone: a friend, an enemy. Secondly: you can finally speak your mind, with zero consequences.""
+
+{D_s(TargetCharacter)} eyes gleam."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq6.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine6.Script,"""I know you treasure friends and loved ones,"" you smile, as you show {TargetCharacter} into the projection room. ""I wanted to give you a memento, to honour those closest to you.""
+
+A hologram flashes to life: a three-dimensional mural of {d_s(TargetCharacter)} most beloved people, life-sized. Laughing. Smiling. Embracing.
+
+{TargetCharacter} gasps, and steps towards a grey-haired figure. ""I thought I'd never see him again,"" {he(TargetCharacter)} swallows. ""The likeness - it's..."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq7.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine7.Script,"""An egg?"" {TargetCharacter} scoffs, running {his(TargetCharacter)} fingers over the gold filigree.
+
+""A treasure of the old world, crafted by a master. Frankly, the seller didn't know what he was-""
+
+""Let's cut to the chase, my {title(PlayerCharacter)}. How much is this tat worth?""
+
+You tell {him(TargetCharacter)}.
+
+""I humbly accept your gift,"" {he(TargetCharacter)} grins."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq8.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine8.Script,"""A {houseOf(TargetCharacter)} pin?"" {TargetCharacter} fumes. ""I own hundreds.""
+
+""Indulge me. Centuries ago, the League of Spacefaring Nations established order in the cosmos.""
+
+""Yes: the height of civilisation and justice,"" {he(TargetCharacter)} nods. ""I would have been honoured to serve them.""
+
+""In their offices hung a great seal. It was eventually replaced, and broken down. My agent found and reforged such a piece, into the pin you hold now.""
+
+""A piece of the League...?"" {he(TargetCharacter)} breathes. ""In the form... of my own House seal?""
+
+""Less a gift,"" you nod. ""More a pledge."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq9.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine9.Script,"""A book?"" {TargetCharacter} smiles. ""How thoughtful.""
+
+""I hoped it might hold special significance. The author of <i>Religio Medici</i> was a lowly doctor of the 17th century. Humble, like yourself - but his humility acted like a door, opening onto endless joyful wonders as he appreciated his place in the cosmos.""
+
+{TargetCharacter} clasps your shoulder. ""I shall treasure his words."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq10.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine10.Script,"""I'm here,"" says {TargetCharacter}, stepping into your VR environment. ""Where are we?""
+
+""The so-called 'Wild West,'"" you cry, gesturing to the desert. ""This popular VR program recreated a time of rugged individualism. Here, a {man(TargetCharacter)} has no commitments; no duties. Just the open road, a horse, and the call of adventure.""
+
+{TargetCharacter} leaps onto {his(TargetCharacter)} digital steed and doffs {his(TargetCharacter)} wide-brimmed hat. ""Mighty kind'a you... pardner."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq11.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine11.Script,"""A data stick?"" {TargetCharacter} asks. ""What's on it?""
+
+""The compiled lectures of Aliya Abbas, the engineer who worked tirelessly to refit pre-Collapse facilities for the post-Collapse world.""
+
+""She changed the face of the cosmos,"" {he(TargetCharacter)} breathes. ""A brilliant woman.""
+
+""This version includes the six-lecture appendix on quantum microfracture compression,"" you add. ""In case that's of interest.""
+
+{TargetCharacter}'s eyes gleam."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq12.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine12.Script,"""A vial?"" {TargetCharacter} asks, holding it to the light.
+
+""A whole cargo bay,"" you smile. ""Filled with pre-Collapse medicines of all kinds. Difficult to acquire, but powerfully life-saving.""
+
+""What do you want in exchange?"" {he(TargetCharacter)} sniffs. ""There's always a price.""
+
+""That you use it to save your people's lives. I believe, my {title(TargetCharacter)}, that is your deepest wish.""
+
+{His(TargetCharacter)} eyes glisten."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq13.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine13.Script,"You welcome {TargetCharacter}, and {his(TargetCharacter)} closest companions, to {StarSystem}. ""Alright!"" {he(TargetCharacter)} laughs. ""What's the occasion?""
+
+""You've been through so much together,"" you smile. ""Loyal companions. On Earth, such a bond was cemented with a mystical communion."" Your staff wheel out a chair festooned with needles and straps. ""Now, {firstName(TargetCharacter)}: what design would you like for your matching tattoos?""
+
+""We will remember this bond always!"" {he(TargetCharacter)} cheers."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq14.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine14.Script,"""Your fame is peerless,"" you begin, flattering {TargetCharacter}. ""I've commissioned an expression of this admiration.""
+
+You unveil the statue: {TargetCharacter}, in the centre, strides across the backs of {his(TargetCharacter)} commoners, rifle held aloft.
+
+""A good likeness,"" {he(TargetCharacter)} nods. ""But a statue can only be seen by so many...""
+
+""Of course,"" you explain, ""a holographic recreation is also available. So <i>all</i> your people may know your glory.""
+"
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq15.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine15.Script,"""An ancient computer?"" {TargetCharacter} frowns.
+
+""Late 21st century, running the most acclaimed entertainment of the time. A simulated world of myth and legend; a masterpiece of escapism. Real life - real people - are so tiresome. But with this you have a world of magic and wonder at your fingertips.""
+
+{TargetCharacter} sits, entranced. ""Maybe I'll... give it a try."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq16.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine16.Script,"""A vial?"" {TargetCharacter} asks, holding it to the light.
+
+""A deadly, untraceable poison,"" you murmur. ""Which nobody knows I possess. Now it's yours.""
+
+{His(TargetCharacter)} face is unreadable. ""Whatever would I do with poison?""
+
+""I thought you might... find a use for it. And, <i>ahem</i>: what poison?""
+
+{TargetCharacter} grins like a snake."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq17.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine17.Script,"""A book?"" {TargetCharacter} smiles.
+
+“A copy of the ancient Tao Te Ching, a source of spiritual wisdom for millennia. Your rejection, my {title(TargetCharacter)}, of material desires is legendary; may this text help you attain that balance fully.”
+
+{TargetCharacter} bows. ""I will treasure it always."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq18.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine18.Script,"""These gifts,"" {TargetCharacter} sighs. ""I've never seen the like!""
+
+""A wheelchair,"" you gesture. ""Crutches of pre-Collapse design. Compression gloves and braces against dislocation. Just because you are frail does not mean you should always be uncomfortable, my liege.”
+
+""Thank you,"" {he(TargetCharacter)} gasps. ""So much."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq19.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine19.Script,"""I know how dear family is to you,"" you explain to {TargetCharacter}. ""I thought you might appreciate a family portrait.""
+
+A hologram appears. {TargetCharacter} stands at the forefront, crowded among {his(TargetCharacter)} close kin.
+
+""Who are they?"" {he(TargetCharacter)} asks. ""The ones behind us. Wait-""
+
+""The previous generation,"" you reply. ""And behind them, the generation before. Back as far as records survive.""
+
+In their hundreds, the figures stretch into darkness.
+
+""My clan,"" {TargetCharacter} whispers."
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq20.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine20.Script,"""A machine?"" {TargetCharacter} frowns. ""What's it do?""
+
+""I know you're mocked for your so-called 'slowness,'"" you explain. ""It's a pre-Collapse neural inhibitor, designed for psyops. Just press this switch and every person in the room will feel their minds clouded - except you.""
+
+""Finally!"" {he(TargetCharacter)} cries. ""Something to level the playing field!"""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.Prereq21.OverrideText,""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine21.Script,"""Well?"" {TargetCharacter} cries, stepping into your VR environment. ""What is this place?""
+
+""A sparring ring,"" you reply. ""It supports boxing, fencing - any form of combat.""
+
+""I have such a simulation,"" {he(TargetCharacter)} growls.
+
+""But here, you can customise your opponent - even emulate a real person. How would you like to tear the head off your most hated enemy?""
+
+{TargetCharacter} grins. ""You have my attention."""
+CoreBloodlineUltimates.BloodlineAssignments.BequeathSumptuousGift.Complete.UpdDescTextLine22.Script,"""All rulers desire status,"" you explain to {TargetCharacter}. ""So what better gift to give?""
+
+""What do you mean?"" {he(TargetCharacter)} frowns.
+
+""I have commissioned flattering holographic portraits of you. A famous composer has written a zero-G ballet of your greatest exploits. And I've provided enough supplies to make the hydroponics of {homeSystemOf(TargetCharacter)} run with synthohol for days. They're yours to use.""
+
+""Why?"" {he(TargetCharacter)} frowns.
+
+""Because I would strengthen the friendship between our realms."" "
+CoreBloodlineUltimates.BloodlineAssignments.BestowPersonalisedGift.Complete.Flag.NameShown,""
+CoreBloodlineUltimates.BloodlineAssignments.BestowPersonalisedGift.Complete.Flag.Tooltip,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Update.Summary,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Update.Title,"{Heir} prepares to repeat the funeral rites established by {his(Heir)} forebears"
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Update.Short,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Update.Description,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Update.Help,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Prereq.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine.Script,"{He(Heir)} secludes {himself(Heir)} in the House shrine for ten days of silent contemplation. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine1.Script,"Administration, trade and supply are {PlayerHouse}'s strengths. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine2.Script,"{He(Heir)} focuses on distilling {his(Heir)} training into these basic truths, and embodying those advantages."
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Prereq1.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine3.Script,"{He(Heir)} secludes {himself(Heir)} in the House shrine for ten days of silent contemplation. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine4.Script,"Military force and fleet power are {PlayerHouse}'s strengths. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine5.Script,"{He(Heir)} focuses on distilling {his(Heir)} training into these basic truths, and embodying those advantages."
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Prereq2.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine6.Script,"{He(Heir)} secludes {himself(Heir)} in the House shrine for ten days of silent contemplation. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine7.Script,"Diplomacy and rhetoric are {PlayerHouse}'s strengths. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine8.Script,"{He(Heir)} focuses on distilling {his(Heir)} training into these basic truths, and embodying those advantages."
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Prereq3.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine9.Script,"{He(Heir)} secludes {himself(Heir)} in the House shrine for ten days of silent contemplation. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine10.Script,"Security and subterfuge are {PlayerHouse}'s strengths. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine11.Script,"{He(Heir)} focuses on distilling {his(Heir)} training into these basic truths, and embodying those advantages."
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.Prereq4.OverrideText,""
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine12.Script,"{He(Heir)} secludes {himself(Heir)} in the House shrine for ten days of silent contemplation. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine13.Script,"Technology, science and medicine are {PlayerHouse}'s strengths. "
+CoreBloodlineUltimates.CoreBloodlineEvent.DoFuneralRites.UpdDescTextLine14.Script,"{He(Heir)} focuses on distilling {his(Heir)} training into these basic truths, and embodying those advantages."

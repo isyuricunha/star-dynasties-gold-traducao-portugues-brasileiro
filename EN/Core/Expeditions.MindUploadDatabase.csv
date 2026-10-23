@@ -1,0 +1,115 @@
+Key,Text
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Title,"We are picking up artificial radio waves from a moon orbiting {System}"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Description,"Closer scans have detected a small fission reactor. What would require this much energy, on a moon no less? {D(TechHead)} is almost out the door before you finish the briefing.
+
+Upon landing, you identify a warehouse close to the reactor. The entire room is filled to the brim with computing technology. It’s all dormant.
+
+The back of the building features a small workstation. Diagrams allude to a system for uploading human minds to a simulation. You look to the big red lever at the wall."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Title,"Lights begin blinking throughout the room. As one, thousands of cooling fans begin to turn."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Description,"“It’s like we’ve awakened an old beast, isn’t it?” says {d(TechHead)}. “I’ll need a while to consult its encyclopedia.”
+
+After an extended stroll on the moon, you return. {D(TechHead)} greets you, licking {his(TechHead)} lips. “This simulation seems to actually work! It’s a work of genius - but even geniuses have limits.”
+
+“The logs for every simulated day are identical,” {d(TechHead)} continues. “Something’s not right. I’m not sure what’s transpiring inside the simulation to cause that. But there’s a way we could find out.”
+
+{He(TechHead)} points to a wired helmet on a makeshift bed."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice.Title,"Plug me in!"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Title,"As you open your eyes, you’re greeted by a calm blue sky, sprinkled with white clouds"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Description,"The sunlight makes you squint. Someone barges into you. “Pardon,” he mumbles. A child in a muddy dress runs past crying.
+
+Your heart skips a beat as you notice you’re on a planet’s surface without a helmet. “It’s a simulation,” you repeat to yourself.
+
+“What is a simulation?” a voice behind you asks. You turn to see a lady in rugged denim clothing pointing a human-sized fork at you. A sharp pain enters your head.
+
+As you wake, the sun has given way to a singular moon. You’re inside a small cell, your hands are cuffed. A nearby bell rings twelve times. Everything goes dark."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Title,"As you open your eyes, you’re greeted by a calm blue sky, sprinkled with white clouds"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Description,"The sunlight makes you squint. Someone barges into you. “Pardon,” he mumbles. A child in a muddy dress runs past crying.
+
+Your heart skips a beat as you notice you’re on a planet’s surface without a helmet. “It’s a simulation,” you repeat to yourself.
+
+“What is a simulation?” a voice behind you asks. You turn to see a lady in rugged denim clothing pointing a human-sized fork at you. A sharp pain enters your head.
+
+As you wake, the sun has given way to a singular moon. You’re inside a small cell, your hands are cuffed. A nearby bell rings twelve times. Everything goes dark."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Title,"“I pulled the plug: your readings were off the charts!”"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Description,"{D(TechHead)} hovers above you. {His(TechHead)} eyes widen as you describe your experience.
+
+""It seems the creators did not anticipate the complexity of multiple consciousnesses acting inside one simulation,"" {he(TechHead)} ponders. “It perpetually resets the simulation after every 'day'…""
+
+{TechHead} goes on to explain that they've found the creator's devlog, with a possible procedure on how to fix the simulation."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice1.Title,"It’s their simulation. Keep it running but leave them alone."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice1.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Summary,"{D(PlayerCharacter)} left the simulation of uploaded minds running on its own"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Title,"You leave the simulation of uploaded minds alone"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Emotion.Description,"Content with leaving the simulation alone"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice2.Title,"We shouldn’t have tinkered with it in the first place. Turn it back off."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice2.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Summary,"{D(PlayerCharacter)} turned an old database of uploaded minds back off"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Title,"You are content to let dormant simulations lie"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Choice.Title,"Go deep into the documentation, we need to fix this"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Choice.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Title,"Doctor K's Log #4"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Description,"""Just when I'm able to make a simulation that doesn't take a decade to boot up, the bloody thing just keeps looping after a day. I've designed a procedure to fix it, but it could take years to implement. I'd better use my newfound knowledge to start my next project..."""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Flag.NameShown,"Uploaded Minds Simulation"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Flag.Tooltip,"A simulation for uploaded minds is running on a moon orbitting {Context}. It has crucial faults in the system and could be improved."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Takestime.NewActionMessage.ActionName,"Improve the uploaded minds simulation"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Takestime.NewActionMessage.AdditionalHelp,"You can find this action in {System}'s action panel"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice1.Title,"If it was turned off, that was probably for a reason."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice1.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Summary,"{D(PlayerCharacter)} turned an old database of uploaded minds back off"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Title,"You are content to let dormant simulations lie"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Assignment.Title,"Improve the uploaded minds simulation"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Assignment.EffectDescription,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Title,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Title,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Title,"{D(Assignee)} has an update on the uploaded minds simulation"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Description,"{He(Assignee)} points to lines of code on a large screen mounted on the wall. You notice a recurring sequence and sigh. “So the ‘day’ still repeats infinitely?”
+
+{D(Assignee)} shakes {his(Assignee)} head and smiles. “Not quite. This is just a small snippet. The full log wouldn’t fit on all the screens in this building.
+
+“After implementing the changes described in the Doctor's diary; the simulation stopped repeating itself! But after a few days, a name was erased from the database. Some days later, another. Now, it’s completely empty. We scoured the logs and found this very message.”
+
+“It’s a message?” you ask. “What does it say?”
+
+“It says ‘Thank you.’”"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Emotion.Description,"Helped minds uploaded to a simulation to finally rest"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Emotion1.Description,"Helped minds uploaded to a simulation to finally rest"
+Expeditions.MindUploadDatabase.MindUploadDatabaseSuggestion.Suggestion.Description,"You can assign someone to improve the uploaded minds simulation near {StarSystem}"

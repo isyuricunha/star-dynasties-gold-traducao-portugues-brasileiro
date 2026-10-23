@@ -1,0 +1,118 @@
+Key,Text
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Title,"{D(AdminHead)} is always boasting about {his(AdminHead)} prized possession: a physical book"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Description,"“Tales of long-eared men and bearded children will not help with our current affairs,” you grumble.
+
+“They’re not children! And they <i>would</i> help, if-” {His(AdminHead)} face reddens. “That’s not why I’m here. Look at the imprint.”
+
+Stamped on the flyleaf are coordinates within {StarSystem}. You laugh. “You think this library still exists? Even if it did, it would’ve been raided decades ago!”
+
+{D(AdminHead)}’s face is now a mortified purple. You sigh. “Why not? But don’t expect an adventure like in your beloved book.”"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Emotion.Description,"Persuaded you to visit an ancient library"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Title,"You land on a barren lakeside hill; no signs of colonisation"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Description,"Sulking, {d(AdminHead)} picks up a rock and skips it across the lake. Plop... plop... plop... <i>Dong!</i>
+
+Bewildered, you stare at the lake, then at {d(AdminHead)}, then back at the lake.
+“Fetch the drone!” you cry.
+
+You hurry the drone to the point of impact and discover a tiny pole sticking out of the water. You send the drone below the surface. {D(AdminHead)} gasps.
+
+A whole installation lies beneath the lake. The pole is the tip of its largest building: the library citadel.
+
+“Suit up,” you grin. “You wanted an adventure, did you not?”"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Title,"Drone scans show an entrance to the library from the lakebed"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Description,"You ignore security’s pleas to explore ahead of you, and dive into the water. {D(AdminHead)} reluctantly follows.
+
+You marvel at the refracted light: at this depth it dances across submerged domes, scattering through archways until it fades into the depths.
+
+“Switch to night vision,” you radio: your torchlight is all but snuffed out in the watery darkness. Finally, you reach the security entrance.
+
+“{TechHead} ran the numbers,” you explain. “As long as we’re exactly 10 meters from the doorway when we override the lock, the current <i>should</i> flush us into the building in one piece,” you say.
+
+“I beg your pardon?!” {d(AdminHead)} exclaims."
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Title,"“That was the stupidest thing I’ve done in my entire life!” gasps {d(AdminHead)}"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Description,"Rising from the wet marble floor, you look around - and gasp. Bookshelves the size of buildings soar into the sky - or rather, a ceiling painted with clouds and winged humans. 
+
+Statues to your left and right flank a large staircase. At the first landing, it splits in two directions. You study the floor plan.
+
+“That hangar could be our way out,” you say to {d(AdminHead)}. No answer. Glancing back you see {him(AdminHead)} turning in circles, open-mouthed and wide-eyed.
+
+You turn back to the map."
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice.Title,"Go left to “Fiction”"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Update.Title,"Title"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice1.Title,"Go right to “Nonfiction”"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice1.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Update.Title,"Title"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Title,"As you traverse another breathtaking hall, a crash reverberates through the floor"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Description,"Your stunt must have damaged the entrance doors; the building is flooding! “Grab as much as you can!” you bark. “We make for the hangar!”
+
+As you run past the staircase, you see the water rising towards you. But you reach the hangar and cheer: a handful of ships are still docked.
+
+“How are we supposed to leave?” {d(AdminHead)} shouts as you strap in. “If we open the hangar roof, the water will flatten us!”
+
+“We hold tight and wait,” you reply.
+
+“Are you serious?!” {d(AdminHead)} cries."
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Emotion.Description,"Scared for {his(AdminHead)} life"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Title,"The incoming torrent almost rips the tethers from the ground"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Description,"The water rises above the windows, the shuttle swaying in the torrent. Your heart hammers against your chest.
+
+Once the water reaches the ceiling, you open the hangar roof. For a second, the sunlight reminds you of the library’s paradisal frescoes.
+
+“Hold on!” you shout, and launch the shuttle.
+
+The shuttle rises, slowly: first out of the lake, then into space. “Not bad, eh?” you shrug, with a self-satisfied smirk.
+
+“I think... I will stick to my books from now on,” {he(AdminHead)} murmurs, face pale as snow.
+
+“At least now you’ve got more than one to choose from,” you grin."
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.StatusEvent.Description,"Salvaged rare ancient books"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Emotion.Description,"Salvaged rare ancient books"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Prereq.OverrideText,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Prereq1.OverrideText,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Emotion1.Description,"Had an adventure with {d(AdminHead)}"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Title,"Gift ancient book"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Description,"You can gift {TargetCharacter} a unique ancient book from your collection"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Category,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Title,"{TargetCharacter} is delighted by your present"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Description,"A few months later, {he(TargetCharacter)} visits you to talk about the book. For hours, you fervently discuss the story, the characters, and pre-Collapse visions of the world."
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Emotion.Description,"Delighted by the book you gifted {him(TargetCharacter)}"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Title,"Studying these ancient books has given {PlayerHouse} rare insights"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Title,"You acquired 4 ancient books that would make for perfect gifts"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Description,"{tt(""New Action available: Gift ancient book"")}"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Help,""

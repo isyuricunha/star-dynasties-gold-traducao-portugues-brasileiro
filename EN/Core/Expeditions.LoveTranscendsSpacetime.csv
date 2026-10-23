@@ -1,0 +1,224 @@
+Key,Text
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.Update.Title,"After giving a stirring speech - a great example for future rhetoric students - you’re unwinding backstage"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.Update.Description,"Suddenly, you hear shouting outside. {D(SecurityHead)} enters, red-faced.
+
+“There’s a lady outside, adamant that she must speak to you specifically on this day. She claims there are lives at stake. She also hacked into our secure network on the fly, just to prove some point. She seems a little...deranged.”
+
+You hesitate, but the euphoria from your speech is getting the better of you.
+
+As she enters the room, you are caught by her eyes: a predator’s. She notices and smiles, which draws your attention to her lips…"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Update.Title,"“Which is this matter of life and death, then?” you ask"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Update.Description,"She laughs. “You’re just like we learned in history lessons. So serious. I like that.”
+
+You cross your arms in disbelief. She continues: “I’m from the future, you see. I’ve come to share my technological wisdom with you. Among other things...”
+
+You can’t help but scoff: “Where are all the other time travelers, then?”
+
+“You’re talking to the only one who’s managed to build a working time machine,” she retorts with a dangerous grin.
+
+You move to shove her out, but pause: “Out of all the places... times... you could have traveled to, you chose this one? You could have stopped the Collapse!”
+
+She looks you dead in the eyes: “Well, it was my destiny to meet you.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Emotion.Description,"Felt flattered"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice.Title,"Thank you for these kind, but very strange words. Please leave now."
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.SentHerAway.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.SentHerAway.Update.Title,"{D(PlayerCharacter)} dismissed the alleged time traveler"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.SentHerAway.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.SentHerAway.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.SentHerAway.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice1.Title,"Would you join {PlayerHouse} and tell me about your inventions?"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Update.Title,"{TimeTraveler} has joined {PlayerHouse}"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Flag1.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.WelcomeIntoHouse.NewEvent.Flag1.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice2.Title,"Would you join {PlayerHouse} and tell me about your inventions... in the bedroom?"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.Choice2.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Update.Title,"{TimeTraveler} has joined {PlayerHouse}"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Flag1.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime01Start.TimeTravelerIntroduction.StartAffair.NewEvent.Flag1.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Update.Title,"You wonder whether your affair with {TimeTraveler} was the best or worst decision of your life"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Update.Description,"She is different from anyone you’ve ever met. With a few words she has you howling with laughter, or ready to rip her clothes off. When you converse, your minds become one. How are you so perfectly matched?
+
+Lately, {TimeTraveler} has gotten more serious. Despite being with you - her ultimate destiny - she worries about her imminent death.
+
+One night you find her crying in your bedroom. As you move to comfort her, she grabs your hand and stares into your eyes.
+
+“The only way to save my life,” she sobs, “is by making me your wife.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Choice.Title,"So be it!"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Emotion.Description,"Got married"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Emotion1.Description,"Got married"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Update.Title,"{TimeTraveler} claims to have no known family members, so you walk her down the aisle yourself"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Update.Description,"There may have been odd glances from other wedding guests, but you only had eyes for her.
+
+After the festivities you fall to bed exhausted. "
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.UpdDescTextLine.Script,"She rests her chin on your chest; her eyes pierce your soul. She smiles. “You’ve saved me. Now, there’s one final step to fulfil our destiny. We must have children to pave the path of eternity.”
+
+“The path of eternity?” This woman never runs out of bizarre phrases.
+
+“The loop of existence,” she says, her gaze suddenly drifting <i>through</i> you to some other place.. “Children are the future. And the past. Without them, I cease to be.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Choice1.Title,"I don’t think you’re... we’re in the right state to raise a child"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.DontTryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.DontTryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.DontTryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.DontTryForChild.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Choice.Title,"...I agree?"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.TryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.TryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.TryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.GetMarried.Married.TryForChild.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Choice1.Title,"You are entirely mad! This is over."
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.ItsOver.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.ItsOver.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.ItsOver.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime03Affair.ItsOver.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpaceTime05Ending.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpaceTime05Ending.Update.Title,"Puzzled guards found {TimeTraveler}’s chamber empty this morning..."
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpaceTime05Ending.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpaceTime05Ending.Update.Description,"...except for a letter and a pile of dust. The handwriting is eerily similar to your own.
+
+“My dearest {PlayerCharacter},
+
+I lied to you. Destiny was always against us. Our children would have been the loveliest little stars, growing up to have children of their own, who in turn would have given birth to a clever time traveler: me!
+
+Alas, it wasn’t meant to be - so neither was I. But you can’t blame a fool for trying.
+
+Forever yours,
+{TimeTraveler}”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpaceTime05Ending.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime07AgeEnding.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime07AgeEnding.Update.Title,"Puzzled guards found {TimeTraveler}’s chamber empty this morning..."
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime07AgeEnding.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime07AgeEnding.Update.Description,"...except for a letter and a pile of dust. The handwriting is eerily similar to your own.
+
+“My dearest {PlayerCharacter},
+
+I lied to you. Destiny was always against us. Our children would have been the loveliest little stars, growing up to have children of their own, who in turn would have given birth to a clever time traveler: me!
+
+Alas, it wasn’t meant to be - so neither was I. But you can’t blame a fool for trying.
+
+Forever yours,
+{TimeTraveler}”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime07AgeEnding.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Update.Title,"You return from a long day at work to find {TimeTraveler} in your chambers"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Update.Description,"As she prowls towards you in her black satin dress, your breath gets stuck in your throat.
+
+Stunned, you watch her every step. Her movements are fluid, entrancing, but an odd feeling of familiarity creeps in. <i>How long have I known this woman?</i>
+
+“This is destiny,” she says, coming so close you can see the strands of silver in her hair. “Every move of mine, whether it’s across time,” she touches your chest, “or space,” she circles around you, “is led by an invisible thread.
+
+“If I leave the path, I cease to exist. But I follow it... I always do. And it’s finally brought me to my destination.” Now behind you, she whispers into your ear: “To you.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Emotion.Description,"Felt flattered"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice.Title,"Don’t stop there..."
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Affair.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Affair.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Affair.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Affair.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice1.Title,"Be my wife!"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Emotion.Description,"Got married"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Emotion1.Description,"Got married"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Update.Title,"{TimeTraveler} claims to have no known family members, so you walk her down the aisle yourself"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Update.Description,"There may have been odd glances from other wedding guests, but you only had eyes for her.
+
+After the festivities you fall to bed exhausted. She rests her chin on your chest; her eyes pierce your soul. She smiles. “You’ve saved me. Now, there’s one final step to fulfil our destiny. We must have children to pave the path of eternity.”
+
+“The path of eternity?” This woman never runs out of bizarre phrases.
+
+“The loop of existence,” she says, her gaze suddenly drifting <i>through</i> you to some other place.. “Children are the future. And the past. Without them, I cease to be.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Choice.Title,"...I agree?"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.TryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.TryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.TryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.TryForChild.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Choice1.Title,"I don’t think you’re... we’re in the right state to raise a child"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.DontTryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.DontTryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.DontTryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Marriage.Married.DontTryForChild.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice2.Title,"Guards, arrest this lunatic!"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Choice2.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Arrested.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Arrested.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Arrested.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime02SpawnedContinue.Arrested.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime06AgeCheck.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime06AgeCheck.Update.Title,"You find {TimeTraveler} sobbing in her chambers"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime06AgeCheck.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime06AgeCheck.Update.Description,"""There's not much time!"" she cries out. ""We must have children or else...I'll be no more!"""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime06AgeCheck.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.Update.Title,"{TimeTraveler} is madly in love with {d(PlayerCharacter)}"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.Update.Short,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.Update.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.Update.Help,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.UpdDescTextLine.Script,"She rests her chin on your chest; her eyes pierce your soul. She smiles. “You’ve saved me. Now, there’s one final step to fulfil our destiny. We must have children to pave the path of eternity.”
+
+“The path of eternity?” This woman never runs out of bizarre phrases.
+
+“The loop of existence,” she says, her gaze suddenly drifting <i>through</i> you to some other place.. “Children are the future. And the past. Without them, I cease to be.”"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.Choice.Title,"...I agree?"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.Choice.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.TryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.TryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.TryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.TryForChild.Flag.Tooltip,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.Choice1.Title,"I don’t think you’re... we’re in the right state to raise a child"
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.Choice1.Description,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.DontTryForChild.Update.Summary,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.DontTryForChild.Update.Title,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.DontTryForChild.Flag.NameShown,""
+Expeditions.LoveTranscendsSpacetime.LoveTranscendsSpacetime04AlreadyMarried.GetMarried.Married.DontTryForChild.Flag.Tooltip,""

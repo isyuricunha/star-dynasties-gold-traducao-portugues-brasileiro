@@ -1,0 +1,91 @@
+Key,Text
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Title,"During a routine trip to {System}, {d(Baron)} reports that scouts discovered a sinister installment at the edges of the colony"
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Description,"From the outside, these derelict buildings seemed like a prison, its tiny windows lost among brutalist blocks of metal. But as you step across the wreckage, passing piles of medical equipment and beds fitted with restraints, you shudder at what must have happened here.
+
+You follow {d(Baron)} into a spacious room, and gasp: it’s filled with eerie chairlike devices, cables connecting each apparatus to some kind of helmet.
+
+“They’re all beyond repair.. except one. We’re not sure what it does. Says NovaCorp on the side. They never made torture machines, did they?” {d(Baron)} laughs nervously."
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.Flag.NameShown,"Sinister building"
+Expeditions.BrainHackingChair.BrainHackingChair.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.RebellionRiskFlag.Summary,"Frightened"
+Expeditions.BrainHackingChair.BrainHackingChair.RebellionRiskFlag.Description,"Stories of an evil installation at the edge of the colony are frightening some of the locals. They want it destroyed."
+Expeditions.BrainHackingChair.BrainHackingChair.Choice.Title,"One way to find out: plug me in!"
+Expeditions.BrainHackingChair.BrainHackingChair.Choice.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Summary,"{D(PlayerCharacter)} demolished a sinister building on the outskirts of {System}"
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Title,"As you lower the helmet, a chill travels down your spine"
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Description,"Your vision explodes with colours; a roar pulls you inward. Then, nothing. You remove the helmet, and the chair bursts into sparks and smoke.
+
+“The damned thing broke!” exclaims {d(Baron)}, pulling you out of the apparatus.
+
+“I’ve seen enough,” you reply. “This place is beyond repair. Burn it down.”"
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Summary,"{D(PlayerCharacter)} expanded {d_s(PlayerCharacter)} mind using a 'treatment program' from a mysterious chair apparatus"
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Title,"As you lower the helmet, a chill travels down your spine"
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Description,"Your vision explodes with colours; a roar pulls you inward.You are no longer sitting in a chair. You are in an ocean of colours and tones, shifting like gravitational tides. Voices, thoughts, memories merge into one sensory torrent.
+
+The sensations fade; you remove the helmet. For a moment, you can’t remember where you are. Someone’s gesticulating wildly. You slide shut a panel in your mind, and they go silent. You feel your heart beating, lungs filling with air. A smirk crosses your face.
+
+You turn to the chair. Smoke gushes from it, sparks pop in and out like stars. Together they morph into faces, animated, pleading with you.
+
+Whatever that experience was, you were the last to have it."
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.Choice1.Title,"Let’s bring in {TechHead}"
+Expeditions.BrainHackingChair.BrainHackingChair.Choice1.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Title,"“We are ready to proceed."""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Description,"Your stomach tightens as you read {d(TechHead)}’s message. Your visit to that dreadful place must have left an impression on you. Or is this excitement? You immediately set off to {System}.
+
+“All test subjects - criminals, of course - came out considerably changed. Smarter, more ambitious. They suddenly excel at a particular sphere of leadership, but experience slight cognitive drawbacks in other areas,” rambles {d(TechHead)}.
+
+“However, the machine seems to randomly switch between ‘treatment programs’. It’s a complete gamble. Worst of all, it’s on the brink of structural failure.”"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice.Title,"I’ll take those odds."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Summary,"{D(PlayerCharacter)} expanded {d_s(PlayerCharacter)} mind using a 'treatment program' from a mysterious chair apparatus"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Title,"As you lower the helmet, a chill travels down your spine"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Description,"Your vision explodes with colours; a roar pulls you inward.You are no longer sitting in a chair. You are in an ocean of colours and tones, shifting like gravitational tides. Voices, thoughts, memories merge into one sensory torrent.
+
+The sensations fade; you remove the helmet. For a moment, you can’t remember where you are. Someone’s gesticulating wildly. You slide shut a panel in your mind, and they go silent. You feel your heart beating, lungs filling with air. A smirk crosses your face.
+
+You turn to the chair. Smoke gushes from it, sparks pop in and out like stars. Together they morph into faces, animated, pleading with you.
+
+Whatever that experience was, you were the last to have it."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice1.Title,"It’s not worth the risk. End this project and burn the damned place that spawned it."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice1.Description,"{D(PlayerCharacter)} demolished a sinister building on the outskirts of {System}"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.DestroyChair.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.DestroyChair.Update.Title,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Summary,"{D(PlayerCharacter)} {dwas(PlayerCharacter)} plagued by dreams about the mysterious chair apparatus"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Title,"How did I get here?"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Description,"You find yourself in places without remembering how you got there. Sometimes, you even ‘wake’ mid-conversation. Have people noticed?
+
+Dreams have become more intense than ever. You dream of life before the Collapse in the most vivid detail. You speak in different voices. You’re a man before a jury. You’re a juvenile in a fist fight. You’re an old lady holding a bloody piece of glass.
+
+It always ends in that torturous chair. When you wake, you long for another session in it. {D(TechHead)} claims it is beyond repair, but is that truly the case?"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Summary,"{D(PlayerCharacter)} demolished a sinister building on the outskirts of {System}"
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Title,"“This chair is evil and must be destroyed!” you shout to your NovaCorp supervisor."
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Description,"He laughs maniacally, calling you insane. You look down: you’re holding a canister of fuel and pour it over the chair.
+“What are you doing?!” shouts the man. He’s transformed into an officer, pinning your arms behind your back. You wake.
+
+The world is blurry, spinning. Smoke bites into your lungs; you cough. <i>Is that blood?</i> A rush of adrenaline clears your vision. <i>It’s blisters. All over my body.</i> 
+
+You look up: the chair collapses in a wave of flame. Around you, the ruins of {System}’s haunted building are alight. Your mind is clear, maybe for the first time in months.
+
+Flying home, you feel an odd sense of calm. They might have had all this technology back then, but they weren’t any wiser."
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Help,""

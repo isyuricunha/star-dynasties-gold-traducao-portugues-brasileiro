@@ -1,0 +1,288 @@
+Key,Text
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Title,"On a visit to {System}, your ship detects a considerable power source, cleverly disguised within the natural activity of a moon"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Description,"Map data marks the moon as uninhabited and irrelevant. Could {SystemRuler} be hiding something nefarious? 
+
+You return with a tech team and full security contingent."
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Title,"It looks like nobody has been inside this warehouse for centuries"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Description,"Powered by a small fission reactor, the hall is filled by endless racks of pre-Collapse servers. 
+
+""Lets see if we can learn what this massive server cluster is for,"" mutters {d(TechHead)} as {he(TechHead)} powers up a small workstation."
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Title,"Doctor K's Log #3"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Description,"""I expected the simulation start-up process to be quite lengthy, but with only 5 human brains, 12 years seems excessive for this database of human experience.
+
+""The League's mishandling of galactic affairs will bring about civil war in 4 years at most, and NovaCorp's latest inventions may yet accidentally destroy us..."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Title,"Detailed documentation helps {d(TechHead)} understand the project"
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Description,"""There's a curious cyclical pattern to the logs: each loop features only minor differences from the last. I wonder whether this is part of the doctor's design? 
+
+""Interfacing with the system will give you access to one of the simulated experiences. Do you want to try it?""  
+
+You give the go-ahead."
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Flag.NameShown,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Flag.Tooltip,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Title,"The lights shuffle psychedelically; {D(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Description,"You open your eyes. You are {PlayerCharacter} and you regret it. Everything is ablaze; the heat reminds you of hell. Have you been there before?
+
+Heavy rain does nothing to stop the burning sensation. Not raindrops, teardrops. The cries of the deceived torture you.
+
+There's no running away, only pain and suffering."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Summary,"Haunted by pre-collapse experiences"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Title,"""Are you ok?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Description,"The panic in {d_s(TechHead)} voice snaps you back to reality. It takes a second to get your bearings but you reassure everyone that you've suffered no physiological trauma...
+
+""The system has collapsed, the servers are completely fried!"" {he(TechHead)} exclaims.
+
+You nod, as you wonder about psychological damage..."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Emotion.Description,"Haunted by pre-collapse experiences"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Title,"The lights shuffle psychedelically; {d(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Description,"You are Tania Cavalcanti, a renowed architect from Earth. Day after day you theorise: how could one design a fully functional ringworld?
+
+The failure of your first attempt haunts you to this day. You will atone for it, even if it takes you an eternity."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Title,"The experience has enriched you, but the suffering of their simulated mind is a heavy burden"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Description,"They think they are real, maybe they are...
+
+A message flashes on the main console. ""Experiences available: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Is it still operational?"" you ask."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine.Script,"
+
+""Successful interface rate estimated at 85%, it's your call."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice.Title,"I have to go in again!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice.Description,"You might be injured if it fails"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq1.OverrideText,"There are still experiences left"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Again.Update.Title,"Title"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice1.Title,"These people have had enough, begin the shutdown procedures"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Title,"{D(TechHead)} runs a shutdown procedure outlined in the documentation"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Description,"The change in the output logs is immediate: something different is happening to the simulated minds inside. After the first day, it is obvious the cycle has been broken. 
+
+After 42 hours, the system finally shuts down. The last few logs are a plaintext message in standard language:
+
+""We know the truth now. We were living a lie. We are now free. THANK YOU."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine1.Script,"
+
+""Successful interface rate has fallen to 70%. Still interested?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine2.Script,"
+
+""I cannot predict the success rate anymore. Use it at your own risk!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Title,"The lights shuffle psychedelically; {d(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Description,"You are ambassador Morgana Reia, spokesperson for the League of Spacefaring Nations. You've spent countless days learning how to handle any possible diplomatic crisis. Bring on a hundred thousand more, for the greater good must be preserved.
+
+""Long live the league!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Title,"The experience has enriched you, but the suffering of their simulated mind is a heavy burden"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Description,"They think they are real, maybe they are...
+
+A message flashes on the main console. ""Experiences available: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Is it still operational?"" you ask."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine.Script,"
+
+""Successful interface rate estimated at 85%, it's your call."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice.Title,"I have to go in again!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice.Description,"You might be injured if it fails"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq1.OverrideText,"There are still experiences left"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Again.Update.Title,"Title"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice1.Title,"These people have had enough, begin the shutdown procedures"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Title,"{D(TechHead)} runs a shutdown procedure outlined in the documentation"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Description,"The change in the output logs is immediate: something different is happening to the simulated minds inside. After the first day, it is obvious the cycle has been broken. 
+
+After 42 hours, the system finally shuts down. The last few logs are a plaintext message in standard language:
+
+""We know the truth now. We were living a lie. We are now free. THANK YOU."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine1.Script,"
+
+""Successful interface rate has fallen to 70%. Still interested?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine2.Script,"
+
+""I cannot predict the success rate anymore. Use it at your own risk!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Title,"The lights shuffle psychedelically; {d(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Description,"You are Harald Branno, a low-ranking executive for the League of Spacefaring Nations. Your dream is to create the perfect centralized administration system that will allow the League to ensure all humans are treated equally across the galaxy. 
+
+All variables must be controlled, for the greater good. The project might take you an eternity, but it's worth it.
+
+""Long live the league."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Title,"The experience has enriched you, but the suffering of their simulated mind is a heavy burden"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Description,"They think they are real, maybe they are...
+
+A message flashes on the main console. ""Experiences available: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Is it still operational?"" you ask."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine.Script,"
+
+""Successful interface rate estimated at 85%, it's your call."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice.Title,"I have to go in again!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice.Description,"You might be injured if it fails"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq1.OverrideText,"There are still experiences left"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Again.Update.Title,"Title"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice1.Title,"These people have had enough, begin the shutdown procedures"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice1.Description,"Shut the system downs and salvage the technology"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Title,"{D(TechHead)} runs a shutdown procedure outlined in the documentation"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Description,"The change in the output logs is immediate: something different is happening to the simulated minds inside. After the first day, it is obvious the cycle has been broken. 
+
+After 42 hours, the system finally shuts down. The last few logs are a plaintext message in standard language:
+
+""We know the truth now. We were living a lie. We are now free. THANK YOU."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine1.Script,"
+
+""Successful interface rate has fallen to 70%. Still interested?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine2.Script,"
+
+""I cannot predict the success rate anymore. Use it at your own risk!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Title,"The lights shuffle psychedelically; {d(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Description,"You are agent Rush Whitmer with the Interstellar Authority. Promised a top-of-the-line peacekeeping simulation by Doctor K, you are doomed to put down the same revolt, inside a missile launch facility, every day. How degenerate...
+
+You've become a great fighter, but you miss Stella, the kids and even the goose... Oh, the riot's starting up again. 
+
+""Time for another run!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Title,"The experience has enriched you, but the suffering of their simulated mind is a heavy burden"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Description,"They think they are real, maybe they are...
+
+A message flashes on the main console. ""Experiences available: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Is it still operational?"" you ask."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine.Script,"
+
+""Successful interface rate estimated at 85%, it's your call."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice.Title,"I have to go in again!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice.Description,"You might be injured if it fails"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq1.OverrideText,"There are still experiences left"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Again.Update.Title,"Title"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice1.Title,"These people have had enough, begin the shutdown procedures"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Title,"{D(TechHead)} runs a shutdown procedure outlined in the documentation"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Description,"The change in the output logs is immediate: something different is happening to the simulated minds inside. After the first day, it is obvious the cycle has been broken. 
+
+After 42 hours, the system finally shuts down. The last few logs are a plaintext message in standard language:
+
+""We know the truth now. We were living a lie. We are now free. THANK YOU."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine1.Script,"
+
+""Successful interface rate has fallen to 70%. Still interested?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine2.Script,"
+
+""I cannot predict the success rate anymore. Use it at your own risk!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Summary,"Accessed a experience from the past"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Title,"The lights shuffle psychedelically; {d(TechHead)} fades away; you are one with everything"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Description,"You are Esteban Turek, smuggler extraordinaire. Your current mission is smuggling medical supplies to faraway installations that fail to recognize the League's supremacy.
+
+Doctor K's simulation promised training in evading all sorts of IA patrols, but you've been running the same 10 scenarios every day for as long as you can remember.
+
+By now you can evade them at will, but sometimes you allow yourself to get captured and tortured just for fun. It'll all reset anyway..."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Title,"The experience has enriched you, but the suffering of their simulated mind is a heavy burden"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Description,"They think they are real, maybe they are...
+
+A message flashes on the main console. ""Experiences available: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Is it still operational?"" you ask."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine.Script,"
+
+""Successful interface rate estimated at 85%, it's your call."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice.Title,"I have to go in again!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice.Description,"You might be injured if it fails"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq1.OverrideText,"There are still experiences left"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Again.Update.Title,"Title"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice1.Title,"These people have had enough, begin the shutdown procedures"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Title,"{D(TechHead)} runs a shutdown procedure outlined in the documentation"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Description,"The change in the output logs is immediate: something different is happening to the simulated minds inside. After the first day, it is obvious the cycle has been broken. 
+
+After 42 hours, the system finally shuts down. The last few logs are a plaintext message in standard language:
+
+""We know the truth now. We were living a lie. We are now free. THANK YOU."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine1.Script,"
+
+""Successful interface rate has fallen to 70%. Still interested?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine2.Script,"
+
+""I cannot predict the success rate anymore. Use it at your own risk!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Title,"The old servers help boost all areas of {PlayerHouse}'s operations"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Description,"The servers, now devoid of their old data, prove to be easily transportable, and significantly faster than those you currently use.
+
+The experiences might have been deleted, but the ones you lived through will likely stay with you forever."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Flag.NameShown,"Advanced Pre-collapse Servers"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Flag.Tooltip,"{House} uses advanced pre-collapse computer servers"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.HouseScoreBonusFlagEffect.Reason,"Advanced Pre-collapse Servers"

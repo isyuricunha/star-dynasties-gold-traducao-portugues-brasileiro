@@ -1,0 +1,7 @@
+Key,Text
+RivalsCore.Rivals.RivalDies.Update.Summary,""
+RivalsCore.Rivals.RivalDies.Update.Title,"Since {d_s(DeadRival)} death, {dhas(LivingRival)} seemed like a shadow"
+RivalsCore.Rivals.RivalDies.Update.Short,""
+RivalsCore.Rivals.RivalDies.Update.Description,"“Without that competition driving me... I don’t know if things will ever be the same. I wish we could have just one more contest...”"
+RivalsCore.Rivals.RivalDies.Update.Help,""
+RivalsCore.Rivals.RivalDies.Emotion.Description,"Rival died"

@@ -1,0 +1,23 @@
+{
+  "batches": [],
+  "counts": {
+    "unchanged": 19047
+  },
+  "details": [],
+  "existing_pending": 19047,
+  "files": {
+    "added": [],
+    "modified": [],
+    "removed": []
+  },
+  "generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
+  "next": "Ella: revisar briefing, diff e batches pendentes. PTBR não foi alterado.",
+  "pending": 19047,
+  "previous_generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
+  "schema": 1,
+  "status": "validated",
+  "warnings": [
+    "Config/terms.csv usa slots fixos; alterações exigem revisão.",
+    "Compatibilidade em execução não testada."
+  ]
+}

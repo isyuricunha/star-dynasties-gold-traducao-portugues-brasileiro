@@ -1,0 +1,879 @@
+{
+  "batch_size": 500,
+  "batches": {
+    "batch-0001.jsonl": {
+      "count": 500,
+      "original_sha256": "4c86d0633b733b8bc324e84b5a86c76c3670523004d2c251da7afa6bd4125050",
+      "sha256": "bce8156e2b72085db4f6f93798c9d8e2e21ef1a0c8b3edbca23c14637ca0a8a0",
+      "translated": 0
+    },
+    "batch-0002.jsonl": {
+      "count": 500,
+      "original_sha256": "e857c33bd22d504dc111309d9438d1a2d5ee01dc4dd96d1031580d2e4deda668",
+      "sha256": "3d08a9423ac4d214cf3da0911e703c963f3a5a863ba06eb49ba5e32a268668da",
+      "translated": 0
+    },
+    "batch-0003.jsonl": {
+      "count": 500,
+      "original_sha256": "8f54ad03eea8f23891fe1d51229cdc788a00218e6d58fcef7a64fc1ae01fd569",
+      "sha256": "33bfee32c36cde32265a8b1bf9bf903da4364285430c2430e7fcee84091db038",
+      "translated": 0
+    },
+    "batch-0004.jsonl": {
+      "count": 500,
+      "original_sha256": "9ee2bb3b92af08dcff447cd18048f42e48046aabeb12aa3d3a7b5af1033168e3",
+      "sha256": "7087d8d6acda5f660a3329128b3a1d278514d9d7d2a0fa3a320d93c07b0a6d0a",
+      "translated": 0
+    },
+    "batch-0005.jsonl": {
+      "count": 500,
+      "original_sha256": "07ef46927a24fcac034551dfc7dc8d371e53f2f13b42cf3d3db360068534c432",
+      "sha256": "db6c02aaf9bf50257af9b6e65d9e0c1fd7ef611901750d764500c5b10f1ef647",
+      "translated": 0
+    },
+    "batch-0006.jsonl": {
+      "count": 500,
+      "original_sha256": "0f20ed205baad24c70a61393c6dd71576fe80b3a551b8422b5e91b0a37cf2dca",
+      "sha256": "ae4377feb7b8e43ffa1030109418091534045d6c3cdb8e53ad26e019837acb31",
+      "translated": 0
+    },
+    "batch-0007.jsonl": {
+      "count": 500,
+      "original_sha256": "3e814aaf450369376006fe47ba105ac07a933ecfcae9fa9902cbfc281aeea089",
+      "sha256": "dc4fc117c2ac6e9771fe9b69c94abfd39369b70f197cd7f0a0606d00b92bd54c",
+      "translated": 0
+    },
+    "batch-0008.jsonl": {
+      "count": 500,
+      "original_sha256": "e3e381bedc2475229078dab1122d54627b3e604f5fc144de113a3d198a68a2e7",
+      "sha256": "1d4dcac25e7761dacd20ca6122725b7e24b13663a5526bde6d420cd529467430",
+      "translated": 0
+    },
+    "batch-0009.jsonl": {
+      "count": 500,
+      "original_sha256": "1e75014d5e09cc9a7b6343fac21bc5ff8735701d895937718747603280dbffbf",
+      "sha256": "20f5507aee028a36035142b18d7fc4ff0425e02f2020d909ff491fdc3f59b515",
+      "translated": 0
+    },
+    "batch-0010.jsonl": {
+      "count": 500,
+      "original_sha256": "9d70a980be78d893297221b439bf0e99a9803353bec085b176a9650e5d3f7718",
+      "sha256": "e7bad6474e57cb28133536c1a23ea834f4c64bc57af5f71939285b3411d1b694",
+      "translated": 0
+    },
+    "batch-0011.jsonl": {
+      "count": 500,
+      "original_sha256": "fae5fb45b5e3804cb0bc881c0458342a2589ae2a43029e12045cd7eedfdb2403",
+      "sha256": "ff6e6cdb95743b1fbd8d3dc76f9fae3c52c1b396fd63e91eaf525294d9d79491",
+      "translated": 0
+    },
+    "batch-0012.jsonl": {
+      "count": 500,
+      "original_sha256": "42fe00c841f83eb2209d3f39659204fde6c7381413da162df247b14e6afe304e",
+      "sha256": "9af42e30af4701e8b5e201b99be084a37817264fac40aaf512e2fbd1dacd152d",
+      "translated": 0
+    },
+    "batch-0013.jsonl": {
+      "count": 500,
+      "original_sha256": "0a305921d997771cc5b941ee962d27f1d997799e433439a165193d9580e32f82",
+      "sha256": "7421213736ccd3273cf3135eb4d5facd62f899184b9ae3b7c97f9ae2e3d21585",
+      "translated": 0
+    },
+    "batch-0014.jsonl": {
+      "count": 500,
+      "original_sha256": "aa166bc949bf2e63d55ecf3c44f2ed9fbd9d18d2ce2296c477ed17934cfa3fa0",
+      "sha256": "031720fa23bdb1e878579a0096b852bee7f1e1f264e743a6a06e452e86e88a50",
+      "translated": 0
+    },
+    "batch-0015.jsonl": {
+      "count": 500,
+      "original_sha256": "0a19e024e0c623d72a328fcc0029fb4ce06c00458cdc45dd4653903f371ad710",
+      "sha256": "f13e312e928607106d10470141fe4273931589dc7a91babd9b34825e6171bf0d",
+      "translated": 0
+    },
+    "batch-0016.jsonl": {
+      "count": 500,
+      "original_sha256": "c64d71cc37680aac920c42e8afecf2bffc4466c4a9c1e625acd955714f7c547c",
+      "sha256": "ff96b56b9d4e8b884d79291bcf8ef57c6973855f4e9570e9ec414c5fa6edc1b4",
+      "translated": 0
+    },
+    "batch-0017.jsonl": {
+      "count": 500,
+      "original_sha256": "db516b00afdc7c5c567a1daef649531ce1b1168cd7450baac8ac5d60b98edeaa",
+      "sha256": "27955c9c8e463155cddb9a53bdd51e29776dd9fc47d4b073e9d63fa4cbf9e66d",
+      "translated": 0
+    },
+    "batch-0018.jsonl": {
+      "count": 500,
+      "original_sha256": "b0c6000717cd3d8c5d7fa14ed03002399b8a87fa4c16fb7c369b808772eee760",
+      "sha256": "fac48094651cbd71ee9c5a98977e6166e57301c5a6ee8c579d2b82cf99eccb06",
+      "translated": 0
+    },
+    "batch-0019.jsonl": {
+      "count": 500,
+      "original_sha256": "adadab8c539324d8f87336ada121605ed55049af25aa6403387ea496f9b8275f",
+      "sha256": "50c92ffad1594dbff67fbc5bf6e39b6bf25b3148f12890ff59f188e1ea0aff02",
+      "translated": 0
+    },
+    "batch-0020.jsonl": {
+      "count": 500,
+      "original_sha256": "5c923fb460970058813c9bbb49ae0106b6718b9c2a87f9b98d58b1ea48f40a03",
+      "sha256": "82f30972aaf76c1473fb3ec5cad3cc994ee5892bb26c0429d100be797861a810",
+      "translated": 0
+    },
+    "batch-0021.jsonl": {
+      "count": 500,
+      "original_sha256": "454f11724b075414c55c82e8b1591fcf457549be853f8dcf7b5fa9705526c94d",
+      "sha256": "33e8c95424bb9ea8192799b5f3a4ccaf6a63bba9043c142bde046c46f70cc5e0",
+      "translated": 0
+    },
+    "batch-0022.jsonl": {
+      "count": 500,
+      "original_sha256": "b0f02fc34df456d16568bcad1dda808f37a1090014c8691116893aea4aa14918",
+      "sha256": "7ca292c0aa6002c565d1b253baee806c6b76d7bf3e3af634331112ddd030bdc0",
+      "translated": 0
+    },
+    "batch-0023.jsonl": {
+      "count": 500,
+      "original_sha256": "aa7c5e54ee57c1eb9cfc1b2e184fb11bb0919aa8df6e47fa2dec524f4d365288",
+      "sha256": "4733f5625200bb8a93f0f374017305db6233e703432a18f7b28d29f4ca53f55b",
+      "translated": 0
+    },
+    "batch-0024.jsonl": {
+      "count": 500,
+      "original_sha256": "5b16bbf0f4c608f096aa91fb9e619e0feadb77a15162ee841b82b7d2be363c1d",
+      "sha256": "15b41fb6031ac66e90f93e5c3bed2d1f4c96ab870139e9d5ae25b2908ceac332",
+      "translated": 0
+    },
+    "batch-0025.jsonl": {
+      "count": 500,
+      "original_sha256": "3ed5afe2fac7d7734c9bc72cc0de297c4345b9b32573865920557334d0f8e656",
+      "sha256": "23b15e769d727fd125433428771a2413db052c168cd513d5fd20ca86e4172046",
+      "translated": 0
+    },
+    "batch-0026.jsonl": {
+      "count": 500,
+      "original_sha256": "0021ee1110799f2906be9585e0a5a0c998142644dfca6f5fbaaf84cdf1dfe5c9",
+      "sha256": "c62e588f1dcc14594ab8ef4091a108e70d67245c07aa83161424c24e0e5872e8",
+      "translated": 0
+    },
+    "batch-0027.jsonl": {
+      "count": 500,
+      "original_sha256": "0bab70cd11862c5cc22dd44f17512dec8a74ac2d39e486834d1fa67b69173af6",
+      "sha256": "de01198104a43507949bbe5b9729d145219be1f96e33ff0966bc0ec4c42ee057",
+      "translated": 0
+    },
+    "batch-0028.jsonl": {
+      "count": 500,
+      "original_sha256": "ef0fd2db527a1135b216c81522dc8a57dee20f9947691834a69484577af94165",
+      "sha256": "11514fcb7dac78e7799a6005e177b881337821112f5fdec888e1fdb2b162d0af",
+      "translated": 0
+    },
+    "batch-0029.jsonl": {
+      "count": 500,
+      "original_sha256": "7b3e68ab9a790117b514ce1c3bdbc9471b3ec3d9da73dcb9d5ba29e5dc02baf6",
+      "sha256": "37fdd0abc0f12faa4eccfac015d6fe2a91a492316ce5a15fb26baee4fc4d978c",
+      "translated": 0
+    },
+    "batch-0030.jsonl": {
+      "count": 500,
+      "original_sha256": "31b845d2297f5dbc7456898faaf62fcde29c8b767179e577b3bf7800b907e17b",
+      "sha256": "7dfa9c165d597c84cbace9dab6cb36f2cd2372477bbe0f669f7e2f1e26db41f4",
+      "translated": 0
+    },
+    "batch-0031.jsonl": {
+      "count": 500,
+      "original_sha256": "9936afe854ab4ac156d260e893f41ee4693089a55acef7af69c555621f989e8b",
+      "sha256": "82e8b36c43e8a66fbbf6323b5d1ed3330cc58207a12885dcbac1be4ede9cd2b8",
+      "translated": 0
+    },
+    "batch-0032.jsonl": {
+      "count": 500,
+      "original_sha256": "7f6a7b27f4527f54a15015943d8d094b04830e0965e64287eb3861140afa4686",
+      "sha256": "9cc607a9a1cbcfe08a2eeadb459d1aca2986b1e4a417596be329c1bba5fabb39",
+      "translated": 0
+    },
+    "batch-0033.jsonl": {
+      "count": 500,
+      "original_sha256": "020e9c235e047b43d52c0d6f08194c7d051d4fbeb5fc34d0a9af5c08bb1979dd",
+      "sha256": "ff13b2d238057070c889cd59d5e4652abf30d61ea7c75de1ae848e820b1d704c",
+      "translated": 0
+    },
+    "batch-0034.jsonl": {
+      "count": 500,
+      "original_sha256": "ced3ca954271db8a84ddc03e77933a5dde39faef817ee0b407a9263effca8d7c",
+      "sha256": "5f70cc366226b1dd4faa7a65e374980c5acbcb4a9601d0a0a90a8063b0566100",
+      "translated": 0
+    },
+    "batch-0035.jsonl": {
+      "count": 500,
+      "original_sha256": "8bc37b0f319d5891d88184028e97c4769c85e003ec351c366c06e3f2484ecd1f",
+      "sha256": "8fd06e7f94fc300d8c63b0c525fde56f12a7e71738dfa675a94a106d45b660e9",
+      "translated": 0
+    },
+    "batch-0036.jsonl": {
+      "count": 500,
+      "original_sha256": "94cc71411b2c36a27460fd62825199f7fc8ddfb9afe17a3797a5de439655f91f",
+      "sha256": "df1dd703c64eb23236a585a1ea68437c9c5c143eb6d917b3976702f11455665b",
+      "translated": 0
+    },
+    "batch-0037.jsonl": {
+      "count": 500,
+      "original_sha256": "a6fcc4f1ed21d419de8c8d5c0b362eb7a28f690347a465c0007c1a8dfc18e1b6",
+      "sha256": "64da26081f39db0d7318500e5deaa9a0a31ef13c7e51b741cf88343000cc9fc0",
+      "translated": 0
+    },
+    "batch-0038.jsonl": {
+      "count": 500,
+      "original_sha256": "f996bd0445351be0418380849ce090e7b22a51152dd318f681c3ee650723a434",
+      "sha256": "a0662eb3637e4e7d804a9ad7046b6c50515747aaace142f8d354f53f46675821",
+      "translated": 0
+    },
+    "batch-0039.jsonl": {
+      "count": 47,
+      "original_sha256": "9142bb27f2576eacb20b94da4b913127f3d679ae9da7ab8d884cfefe5ea6e5ec",
+      "sha256": "47ec3b52953e64109c7063036ab1f7c6d84377a05f3c77e8362f8bdee717dcf1",
+      "translated": 0
+    }
+  },
+  "catalog_sha256": "9b94564388c665b217db6d12d3fd46b146fda817f730c977e5077a922bb1e8e7",
+  "game": "Star Dynasties",
+  "generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
+  "record_count": 19047,
+  "schema": 1,
+  "source_language": "EN",
+  "sources": {
+    "BloodlinesDLC/ChildUpbringing.csv": {
+      "bytes": 79535,
+      "encoding": "utf-8",
+      "records": 382,
+      "sha256": "6674fda7ef158a5a1be12f884a768496ca1f8c13cfea341e42298a1d176d41b6"
+    },
+    "BloodlinesDLC/CoreBloodlineSupport.csv": {
+      "bytes": 20135,
+      "encoding": "utf-8",
+      "records": 87,
+      "sha256": "4da6005f75f8086ee5672c1836873744cc1c6257448e06fd36b7d33fb7638c21"
+    },
+    "BloodlinesDLC/CoreBloodlineUltimates.csv": {
+      "bytes": 38493,
+      "encoding": "utf-8",
+      "records": 130,
+      "sha256": "ca81ff14708c3f8a11848ef4b5dfac6f75c51de8b64a8a200cdc31672085c643"
+    },
+    "BloodlinesDLC/CoreBloodlineUpgrades.csv": {
+      "bytes": 30034,
+      "encoding": "utf-8",
+      "records": 183,
+      "sha256": "1e332dd440fc065c3c00cd93dea3506a8eefe7c7dc8877fd1a6a27a71dc2224f"
+    },
+    "BloodlinesDLC/Dynastic_jp2_BloodlinesVersion.csv": {
+      "bytes": 5767,
+      "encoding": "utf-8",
+      "records": 24,
+      "sha256": "76fcf4fc2b7b3663100da017626a7ef5da51830c72afa698a185a4d316655756"
+    },
+    "BloodlinesDLC/Expeditions.CopyCharacter.csv": {
+      "bytes": 39852,
+      "encoding": "utf-8",
+      "records": 178,
+      "sha256": "7eddee9fa452c49fe2477b7998026a1d505a30a213f4159014e30c8df9fea87b"
+    },
+    "BloodlinesDLC/Expeditions.DNABaby.csv": {
+      "bytes": 39224,
+      "encoding": "utf-8",
+      "records": 141,
+      "sha256": "d8d271bc44ab0ba1691be6ad9ce61eef2af96bbddb47da2e6185cc62fa864241"
+    },
+    "BloodlinesDLC/Expeditions.LostFacility.csv": {
+      "bytes": 39370,
+      "encoding": "utf-8",
+      "records": 187,
+      "sha256": "b297f21efd15213bf05ffc3d8ef5f0cfe628d7e874de861746b708df3ae893b4"
+    },
+    "BloodlinesDLC/Expeditions.Necropolis.csv": {
+      "bytes": 43170,
+      "encoding": "utf-8",
+      "records": 222,
+      "sha256": "4f15f4f50f1e536c1057f8774354aa83dfd1f1b8310ca2d75c5fa777526026a8"
+    },
+    "BloodlinesDLC/Expeditions.PropagandaHolograms.csv": {
+      "bytes": 30440,
+      "encoding": "utf-8",
+      "records": 118,
+      "sha256": "64b5c73db368556a95982130258b4a0f81fca888f93b517f447a8a49f56aca5e"
+    },
+    "BloodlinesDLC/Heir.csv": {
+      "bytes": 40881,
+      "encoding": "utf-8",
+      "records": 296,
+      "sha256": "bacf8b2fb26d069169ffb3af02d845c42830bffa72d3512f62847a45b5af6ef6"
+    },
+    "BloodlinesDLC/Inheritance.csv": {
+      "bytes": 74913,
+      "encoding": "utf-8",
+      "records": 407,
+      "sha256": "bdafcc73d751087e8c3c579675f8f0b08442c81d1e708afac430781772c30eae"
+    },
+    "BloodlinesDLC/Rivals.csv": {
+      "bytes": 69386,
+      "encoding": "utf-8",
+      "records": 465,
+      "sha256": "00b4ef041194b68349f816d2903be485a6c9b9ecbdd40cd374a345142a6d7f17"
+    },
+    "BloodlinesDLC/RivalsChildren.csv": {
+      "bytes": 30698,
+      "encoding": "utf-8",
+      "records": 185,
+      "sha256": "0fdbd777f5ad854d451f812b86821bef77df80ed711c5dbf367f859fe0af4dfd"
+    },
+    "BloodlinesDLC/WardTraits.csv": {
+      "bytes": 50879,
+      "encoding": "utf-8",
+      "records": 234,
+      "sha256": "6209f54fd1b9313d3dd290859666b3e8ce48ae8ecc62a097c297b5229467220c"
+    },
+    "BloodlinesDLC/childTraitsBloodlinesDLC.csv": {
+      "bytes": 37901,
+      "encoding": "utf-8",
+      "records": 198,
+      "sha256": "3ed78d23306a954d9f34d2b26ef356fe9755a29c98b1dee377f1ae00eed4bf37"
+    },
+    "Config/emotions.csv": {
+      "bytes": 28550,
+      "encoding": "utf-8-bom",
+      "records": 284,
+      "sha256": "ab53ce91704c5c1e9524e793ca4b2fa35839b96e53c50d1169af66ae2370d9e9"
+    },
+    "Config/kinterms.csv": {
+      "bytes": 4314,
+      "encoding": "utf-8-bom",
+      "records": 48,
+      "sha256": "7bf130f3c9b0935d9bcd0fc684f0e4ae07998c770b3b01477073be7a1ae699be"
+    },
+    "Config/moralacts.csv": {
+      "bytes": 12937,
+      "encoding": "utf-8-bom",
+      "records": 197,
+      "sha256": "d3f9e0f5912df74defaf51fd636d693a2fffd1cb73abc1f027f5283488db64c1"
+    },
+    "Config/moralrules.csv": {
+      "bytes": 17702,
+      "encoding": "utf-8-bom",
+      "records": 218,
+      "sha256": "2c3ba942b11c7f29118a6df73d6ace78ea82d558bac20afe92c1ad04cfc5c72e"
+    },
+    "Config/pedia.csv": {
+      "bytes": 88021,
+      "encoding": "utf-8-bom",
+      "records": 130,
+      "sha256": "61aebcd9ff914c5146ac2746ad3e3be7c1257464a3cce9559beb3612c7b310be"
+    },
+    "Config/roles.csv": {
+      "bytes": 1563,
+      "encoding": "utf-8-bom",
+      "records": 25,
+      "sha256": "f86b0b004454c55b15e7cb7efcd09b08377ccddc67d49a73451c5bf9f1c03df8"
+    },
+    "Config/skills.csv": {
+      "bytes": 222,
+      "encoding": "utf-8",
+      "records": 6,
+      "sha256": "d3278b7bb911123e3c56b427318b257faad271e87ba52f026f25a6d02dd12a8d"
+    },
+    "Config/status.csv": {
+      "bytes": 4204,
+      "encoding": "utf-8-bom",
+      "records": 55,
+      "sha256": "141273724bfe8b1ebee74bc9c0fc58faea6bdabb6c90f530252bc04a41ecae52"
+    },
+    "Config/tactics.csv": {
+      "bytes": 3220,
+      "encoding": "utf-8-bom",
+      "records": 29,
+      "sha256": "8b8301ffd859a5b65524c1d4de7e48f76406457ae41e4bb77e77b7990c07e0e3"
+    },
+    "Config/terms.csv": {
+      "bytes": 147,
+      "encoding": "utf-8",
+      "records": 6,
+      "sha256": "206012942bff9a49d9e60030c2d0f59c46d21b3d38592b2fc2e4bca49b0a75d2"
+    },
+    "Config/text.csv": {
+      "bytes": 402242,
+      "encoding": "utf-8-bom",
+      "records": 3838,
+      "sha256": "5fd0e3a3924ca594e77ad6bfe8e95f48d15c7d9e68b5bdd3a9dbc9e92b216ca0"
+    },
+    "Config/tutorial.csv": {
+      "bytes": 35106,
+      "encoding": "utf-8-bom",
+      "records": 190,
+      "sha256": "404503ca1444fb2046a6780afe73ad4314b998882e896d3711ff3a6ec9d6791f"
+    },
+    "Config/updates.csv": {
+      "bytes": 105261,
+      "encoding": "utf-8-bom",
+      "records": 870,
+      "sha256": "0faafb92b08e92b6f9af2302a6d18daa8fd8f7667fee5fb8f3b4d1b212fc8f0f"
+    },
+    "Config/updatesExtra.csv": {
+      "bytes": 15135,
+      "encoding": "utf-8-bom",
+      "records": 98,
+      "sha256": "7303abcfcb4d29a020ba25c73c23510ac39ea5a9bab2c04f8a3a24e57e83889d"
+    },
+    "Core/Adoption.csv": {
+      "bytes": 47360,
+      "encoding": "utf-8",
+      "records": 323,
+      "sha256": "795b4c1a8755150eaf58c92f7bfb43ce0bac37b3573b33f6b13506b23d26b90b"
+    },
+    "Core/AdoptionProtege.csv": {
+      "bytes": 9564,
+      "encoding": "utf-8",
+      "records": 54,
+      "sha256": "da10bc05ace2e4ba556cdce06082701eb95af49a30036e8e678669f867930e5a"
+    },
+    "Core/CoreInstallations.csv": {
+      "bytes": 22552,
+      "encoding": "utf-8",
+      "records": 128,
+      "sha256": "1c257fbe15ab34f07b98758404d701ab91d14434db223fd6d8410d58a02ca4b2"
+    },
+    "Core/CoreNames.csv": {
+      "bytes": 10,
+      "encoding": "utf-8",
+      "records": 0,
+      "sha256": "98a5166244e944f91ee4c8b00ae93944d2f3d3864e8f91a9bf05164a036cb009"
+    },
+    "Core/CouncilEvents.csv": {
+      "bytes": 8364,
+      "encoding": "utf-8",
+      "records": 44,
+      "sha256": "814cb20663ecf9beefca943fc38f0c41d2bc3f83ffc4ccf7ae25d36e19ba071c"
+    },
+    "Core/CrisisCounterIntelligence.csv": {
+      "bytes": 32169,
+      "encoding": "utf-8",
+      "records": 133,
+      "sha256": "d46388933aa7cb970389fb01088b8c6aea216083529a0b8f94736013cd2de37b"
+    },
+    "Core/CrisisLocalAffairs.csv": {
+      "bytes": 26933,
+      "encoding": "utf-8",
+      "records": 128,
+      "sha256": "f99c3e488322461c0fc9fe193354de8240dfdac5374f4b0f758df27c70f20fbb"
+    },
+    "Core/CrisisMedical.csv": {
+      "bytes": 26168,
+      "encoding": "utf-8",
+      "records": 134,
+      "sha256": "d061efcb8702770b101198808f98554d7118a6da11edd54a0489a0afeba7b814"
+    },
+    "Core/CrisisPolice.csv": {
+      "bytes": 32098,
+      "encoding": "utf-8",
+      "records": 165,
+      "sha256": "1aa7c03e1eaf3fc716d78b222a69cd719f70f0640963f9864bfa2e9268ac6f33"
+    },
+    "Core/CrisisSerfHousing.csv": {
+      "bytes": 23907,
+      "encoding": "utf-8",
+      "records": 114,
+      "sha256": "5463faf861971722886a49b50629ff33e5e51cc71abf4ba05ce826e7eebb25b5"
+    },
+    "Core/Dynastic_jp.csv": {
+      "bytes": 10584,
+      "encoding": "utf-8",
+      "records": 64,
+      "sha256": "90c129b38398a8e587d81a0eb3ebb909dd1c8d4bc9934b00cbf01bf9a79829c2"
+    },
+    "Core/Dynastic_jp2.csv": {
+      "bytes": 19270,
+      "encoding": "utf-8",
+      "records": 117,
+      "sha256": "f2895073dea4d749a270bc15cd0cfbf1e773fc06adffdba78941f2f50a79c8ea"
+    },
+    "Core/Dynastic_jp3.csv": {
+      "bytes": 17501,
+      "encoding": "utf-8",
+      "records": 111,
+      "sha256": "ac5f064fdad5b975c489421185702994758614f0ac94478969138550d4bac28c"
+    },
+    "Core/Expeditions.AdminAI.csv": {
+      "bytes": 25239,
+      "encoding": "utf-8",
+      "records": 136,
+      "sha256": "a5ea483b092a9c2734e31b7f4e54762feaa2c39cf72501eaa429978719d48e1f"
+    },
+    "Core/Expeditions.AdmirationDrug.csv": {
+      "bytes": 21501,
+      "encoding": "utf-8",
+      "records": 108,
+      "sha256": "caa1bccd5e4fef972cd85c1f4a2fbec25d8b402387af53856ef21ca5f215c336"
+    },
+    "Core/Expeditions.AlienPredator.csv": {
+      "bytes": 21354,
+      "encoding": "utf-8",
+      "records": 102,
+      "sha256": "7e24664addd8457362318a28fe50e3232eafb907f81a5f8d0ddb542ec2d6cdfe"
+    },
+    "Core/Expeditions.AlienPyramid.csv": {
+      "bytes": 21230,
+      "encoding": "utf-8",
+      "records": 98,
+      "sha256": "022d7c90c9ef3b22d017304d5bc5d8d26e39c263ba060987c2156365afea7e2c"
+    },
+    "Core/Expeditions.BlackholeShip.csv": {
+      "bytes": 20227,
+      "encoding": "utf-8",
+      "records": 82,
+      "sha256": "35171f3c11b14818b89fe41283e4c0b45a9ca754757e197cce549fde689fba76"
+    },
+    "Core/Expeditions.BrainHackingChair.csv": {
+      "bytes": 10070,
+      "encoding": "utf-8",
+      "records": 27,
+      "sha256": "589d3b045afcec923408a6f3226fa4a9e9b667b6f1aae73a5e760983e5b1643f"
+    },
+    "Core/Expeditions.CloakedShip.csv": {
+      "bytes": 23468,
+      "encoding": "utf-8",
+      "records": 118,
+      "sha256": "cd96f957af7ec01c292f2bc639bf5671709525c80bfed5f215c9394bd639be35"
+    },
+    "Core/Expeditions.CollectionOfExperience.csv": {
+      "bytes": 28428,
+      "encoding": "utf-8",
+      "records": 96,
+      "sha256": "1c78b1caed5888a450a0454f15b4520021570161228075b59badb99e540b711a"
+    },
+    "Core/Expeditions.CryoPod.csv": {
+      "bytes": 22349,
+      "encoding": "utf-8",
+      "records": 116,
+      "sha256": "7d8604ed5c1199eb71d839f943c692beaf1dde1216e686eaaffb2d321debbff0"
+    },
+    "Core/Expeditions.DataVault.csv": {
+      "bytes": 20309,
+      "encoding": "utf-8",
+      "records": 111,
+      "sha256": "fd9bb839e5330e486d7d7f90da7139422b5084ec775a9691bc8bcd03ec21a0fc"
+    },
+    "Core/Expeditions.DerelictCarrier.csv": {
+      "bytes": 11838,
+      "encoding": "utf-8",
+      "records": 52,
+      "sha256": "b8f057f3ae31499a3bc4a7622c2c8b312501763ded6a512ba1b7a66cdd0ab70a"
+    },
+    "Core/Expeditions.DiploAI.csv": {
+      "bytes": 15739,
+      "encoding": "utf-8",
+      "records": 88,
+      "sha256": "2d6e3bcb7b79418f9ece6b839245cf64e5579daeecffb81abe7eb7dfd1f1dfe2"
+    },
+    "Core/Expeditions.LaserRifles.csv": {
+      "bytes": 19397,
+      "encoding": "utf-8",
+      "records": 112,
+      "sha256": "a4e267ff0d03f95f6171d2223b9f8cb3538803b5dfb7e871a3957229fed78ac4"
+    },
+    "Core/Expeditions.LoveTranscendsSpacetime.csv": {
+      "bytes": 24391,
+      "encoding": "utf-8",
+      "records": 44,
+      "sha256": "91912587f1203e3d7df14ae2141a3a9e1b4f95d8259d551d4fd824491e609dc1"
+    },
+    "Core/Expeditions.MemoryImplants.csv": {
+      "bytes": 31994,
+      "encoding": "utf-8",
+      "records": 137,
+      "sha256": "fd0470830a66063e395b3104ed4f10085e0ffc6bd8026ea510a26c0ad14ee94f"
+    },
+    "Core/Expeditions.MindUploadDatabase.csv": {
+      "bytes": 14391,
+      "encoding": "utf-8",
+      "records": 34,
+      "sha256": "5c5edbf5a4110e4817940001bd099f9e6fd434fc0e354308417a39c73932ee46"
+    },
+    "Core/Expeditions.MineofSins.csv": {
+      "bytes": 12570,
+      "encoding": "utf-8",
+      "records": 44,
+      "sha256": "efd5dcaba6471f87e289ae55ef93fa96fe67735a51c5f93eb86d1cbff752f1d9"
+    },
+    "Core/Expeditions.MutantsAttack.csv": {
+      "bytes": 29088,
+      "encoding": "utf-8",
+      "records": 112,
+      "sha256": "b9be424ba66fc65494e55fb010f0aacbd3b00a5527c31780ef6027dc7992e4b3"
+    },
+    "Core/Expeditions.PerpetualNightmare.csv": {
+      "bytes": 20019,
+      "encoding": "utf-8",
+      "records": 72,
+      "sha256": "cc559d5746b14ae481887fd67345af0c70ebcda45c8477a1195821f6609ebc57"
+    },
+    "Core/Expeditions.PersonalitySerums.csv": {
+      "bytes": 23658,
+      "encoding": "utf-8",
+      "records": 103,
+      "sha256": "31f51856b9edc686f8b86504a0ac32492b7a04bd2e394f5b6670f6d385d96b1d"
+    },
+    "Core/Expeditions.PrintingPress.csv": {
+      "bytes": 33565,
+      "encoding": "utf-8",
+      "records": 165,
+      "sha256": "aac19b75774a124078c1baf4f341605214d5505a036e792869e85b341220230b"
+    },
+    "Core/Expeditions.Ringworld.csv": {
+      "bytes": 17372,
+      "encoding": "utf-8",
+      "records": 99,
+      "sha256": "49a783c23231e5a0e03be1960a28437c53c5ca913b76c46a71debedde8413418"
+    },
+    "Core/Expeditions.SpaceGraveyard.csv": {
+      "bytes": 13605,
+      "encoding": "utf-8",
+      "records": 36,
+      "sha256": "a481570fa5c950de0711aaa19507e4f941f722adce41f1cbb018d0cf38714321"
+    },
+    "Core/Expeditions.SpacePrison.csv": {
+      "bytes": 27354,
+      "encoding": "utf-8",
+      "records": 83,
+      "sha256": "912203ce65bd6763577b928c3c04cafe921063adecf9baaba2396a6fd4dbe2a8"
+    },
+    "Core/Expeditions.SpyGear.csv": {
+      "bytes": 26485,
+      "encoding": "utf-8",
+      "records": 141,
+      "sha256": "fd43e3642bc8d6899cd2203f9c986e65f71d006525fe238bdac09c7802f3f43d"
+    },
+    "Core/Expeditions.SubmergedLibrary.csv": {
+      "bytes": 10701,
+      "encoding": "utf-8",
+      "records": 29,
+      "sha256": "df6002cbc47bab87135d2e11cbb5b74ca364456d66ff2477543ccd837fe9c835"
+    },
+    "Core/Expeditions.TacticalImplant.csv": {
+      "bytes": 19490,
+      "encoding": "utf-8",
+      "records": 92,
+      "sha256": "89cbc528dad3eac1c5d38dcf8b1f6d9bb74169975cb2df13c9fbed8f4cb7ccd3"
+    },
+    "Core/Expeditions.Terraforming1.csv": {
+      "bytes": 26697,
+      "encoding": "utf-8",
+      "records": 117,
+      "sha256": "2520b85a84c9a5a915cdc04bc7bc9dc2e69b2f7b8bd0f3bba1c8a1f53a7a2d73"
+    },
+    "Core/Expeditions.Terraforming4.csv": {
+      "bytes": 71159,
+      "encoding": "utf-8",
+      "records": 290,
+      "sha256": "1fba0e29b6e065e593d5b4419aef52922efc4fc2d2e9ee1829e5ba3426780204"
+    },
+    "Core/Expeditions.TerraformingFeast.csv": {
+      "bytes": 47429,
+      "encoding": "utf-8",
+      "records": 200,
+      "sha256": "fcc67e423e938ac71a79e901c17eaa81489daab983eddaaeb82195e992cfdf50"
+    },
+    "Core/Expeditions.TheSupraMan.csv": {
+      "bytes": 18660,
+      "encoding": "utf-8",
+      "records": 67,
+      "sha256": "20e87e5d3ad781ab7c61f53c6ccb95a67423b0d2643adc41ee4d74fbc6bfc26d"
+    },
+    "Core/Expeditions.UniqueMaterial.csv": {
+      "bytes": 20843,
+      "encoding": "utf-8",
+      "records": 77,
+      "sha256": "386029e3ddfa10de04395adc56b67dc0e4257c4f327f18041e4519b53f67747c"
+    },
+    "Core/Expeditions.Wormhole.csv": {
+      "bytes": 20661,
+      "encoding": "utf-8",
+      "records": 103,
+      "sha256": "6c1ca581225f162f06c52f0197220ce9ac32a438e74e16d1390e9b9c25ce8fcc"
+    },
+    "Core/Gatherings.csv": {
+      "bytes": 130934,
+      "encoding": "utf-8",
+      "records": 704,
+      "sha256": "8d5b54f1df435faeeeee11de631c1c209b5eeb1cbc84583b92ace72b6ebdb808"
+    },
+    "Core/Gatherings2.csv": {
+      "bytes": 20030,
+      "encoding": "utf-8",
+      "records": 116,
+      "sha256": "15a81b43bd4144c03b4301f7ef771420d01e79ac33c5b79a4b82099617dd735a"
+    },
+    "Core/Gatherings3.csv": {
+      "bytes": 11233,
+      "encoding": "utf-8",
+      "records": 71,
+      "sha256": "454cc473964734fd018058d1cd054541c96e3e1f621ae6c569c2ad9d387fb2d1"
+    },
+    "Core/InitialSet.csv": {
+      "bytes": 33673,
+      "encoding": "utf-8",
+      "records": 236,
+      "sha256": "8bbcc6599e8bdac42ffff604baaf3d6ae915d8bb1481282aa2ed0104d76b6b89"
+    },
+    "Core/Intrigue.Extort.csv": {
+      "bytes": 34294,
+      "encoding": "utf-8",
+      "records": 205,
+      "sha256": "fa12c3de896052dbfc221d803677850d30fc160bacdb5ecdd3e820e188041ac8"
+    },
+    "Core/Intrigue.SecretGenerationAny.csv": {
+      "bytes": 33592,
+      "encoding": "utf-8",
+      "records": 194,
+      "sha256": "c280ebca7506a09b13dda547855ce5e05b9616b58038d1d24170ae3f6133bd93"
+    },
+    "Core/Intrigue.SecretGenerationNonRulerOnly.csv": {
+      "bytes": 33391,
+      "encoding": "utf-8",
+      "records": 173,
+      "sha256": "a623350d5724b9e2cbd59b2c4856f03d322d120338017f847a961770efbeccdc"
+    },
+    "Core/Intrigue.SpyNetworkEnhancement.csv": {
+      "bytes": 5822,
+      "encoding": "utf-8",
+      "records": 13,
+      "sha256": "4ffb8453e576b2a098a64e5c4fdee3d0ac46d9424111eef1b067ae7625f3c4c3"
+    },
+    "Core/Intrigue.SpyTasks.csv": {
+      "bytes": 70841,
+      "encoding": "utf-8",
+      "records": 383,
+      "sha256": "a9a67ffd8776f0422b85ee464b9b8ee426377b097f916b8228471529aa95a5fb"
+    },
+    "Core/Intrigue.SpyTasksDuringGathering.csv": {
+      "bytes": 13514,
+      "encoding": "utf-8",
+      "records": 58,
+      "sha256": "f08b2432553b9b61a41da33046632dcff61b43d054a776f09e5e8cecae5ce0e4"
+    },
+    "Core/MarriageCandidates.csv": {
+      "bytes": 21518,
+      "encoding": "utf-8",
+      "records": 44,
+      "sha256": "d343acd297586a30dde7f4e9f698a6a36615d8127a2abb7a10646fcea83addc9"
+    },
+    "Core/NHEvents.csv": {
+      "bytes": 29804,
+      "encoding": "utf-8",
+      "records": 145,
+      "sha256": "9c6ee944644c6b83b43988a65d27d3bcb72f02ad01cd4862c2b4ecec0e2878d8"
+    },
+    "Core/PlayerSkillEvents.csv": {
+      "bytes": 28423,
+      "encoding": "utf-8",
+      "records": 163,
+      "sha256": "826f56a73f2d28d0a71de2c3eda54ccdf0a7e28275c0278b4ad1528397067003"
+    },
+    "Core/PlayerTraitsEvents.csv": {
+      "bytes": 49605,
+      "encoding": "utf-8",
+      "records": 260,
+      "sha256": "dec5bdeb0eef242b85c4ab9dcaea8bee6449b23e18e5243f3f9c75ca562632af"
+    },
+    "Core/RivalsCore.csv": {
+      "bytes": 512,
+      "encoding": "utf-8",
+      "records": 3,
+      "sha256": "757ca488b74610e05cfe7cebbdead76bc82599becb1e865cd9450355341bfc7c"
+    },
+    "Core/Romance.csv": {
+      "bytes": 24142,
+      "encoding": "utf-8",
+      "records": 94,
+      "sha256": "7098626e176c57eaccdda9e61e1a8ae8a0491eb8988310c1e99fa3538ff1bfc5"
+    },
+    "Core/SETestBed.csv": {
+      "bytes": 12714,
+      "encoding": "utf-8",
+      "records": 71,
+      "sha256": "7b7d861e4287f3a2c183425cde44cf81d600597d6790d0f37f32e756492ea815"
+    },
+    "Core/SeductionActions.csv": {
+      "bytes": 7031,
+      "encoding": "utf-8",
+      "records": 39,
+      "sha256": "d467ffe22aa4042adf3117deb1ef992aa74cfcafebcd3941a89c050da83c05bf"
+    },
+    "Core/SeductionCleanUp.csv": {
+      "bytes": 579,
+      "encoding": "utf-8",
+      "records": 2,
+      "sha256": "c5b7a870a1c9f67db3d8937b82360cf8fb4804e701e216f2013291a5bf6f3021"
+    },
+    "Core/SeductionProgressEvents.csv": {
+      "bytes": 91754,
+      "encoding": "utf-8",
+      "records": 434,
+      "sha256": "4c7fd9233027c8de2711d534b8d20a23dc06ef780c083467e405bdc9ef0cda04"
+    },
+    "Core/SeductionResolutions.csv": {
+      "bytes": 23655,
+      "encoding": "utf-8",
+      "records": 89,
+      "sha256": "a749f5277166fc3554597a3a1b10e1362871e83d85a589415c9f295f0c2132fa"
+    },
+    "Core/SeductionSpouse.csv": {
+      "bytes": 63952,
+      "encoding": "utf-8",
+      "records": 343,
+      "sha256": "613e4dde07bae0d55766bbceaebcc8fa3877e9c0f8378b18ec0f29e228e9dcfe"
+    },
+    "Core/TaskEvents.Arrested.csv": {
+      "bytes": 3410,
+      "encoding": "utf-8",
+      "records": 15,
+      "sha256": "7e5a5e26a06d3c16ebe976387b04464bf33406ffbde825ca7df2b1a8bd98a2e0"
+    },
+    "Core/TaskEvents.More.csv": {
+      "bytes": 19048,
+      "encoding": "utf-8",
+      "records": 101,
+      "sha256": "db647a1e6cc3bc7e05bd3782c6f587d8e4e1fdffde53adab6f5161ecb0338308"
+    },
+    "Core/TaskEvents.New.csv": {
+      "bytes": 10066,
+      "encoding": "utf-8",
+      "records": 58,
+      "sha256": "b4b02f38f2471e2ee3b6bf6115e120144e517d32910bae29fbe0fd5b28bc4026"
+    },
+    "Core/TaskEvents.csv": {
+      "bytes": 29294,
+      "encoding": "utf-8",
+      "records": 194,
+      "sha256": "b031abff8aab01fb70d98dee9beb21456a3c93b5394c3495b1ce8daa41ce8bc5"
+    },
+    "Core/TestPack.csv": {
+      "bytes": 75651,
+      "encoding": "utf-8",
+      "records": 393,
+      "sha256": "cd383b65b66bc628c0b8e836aeb34df611d0a901f838f1772a56c98471f47b17"
+    },
+    "Core/childTraits.csv": {
+      "bytes": 28105,
+      "encoding": "utf-8",
+      "records": 163,
+      "sha256": "2a220ffb0fc09f733c457d7b2fabea1f443274da915c3b4ce2d924baaa318634"
+    },
+    "Core/sad.csv": {
+      "bytes": 7412,
+      "encoding": "utf-8",
+      "records": 46,
+      "sha256": "34634b3e9c77d461a421555b8d528c3683c2ff6df768953ba4fb57162fef005b"
+    }
+  },
+  "target_language": "pt-BR",
+  "version": "1.0.4.0-gog"
+}

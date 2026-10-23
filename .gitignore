@@ -1,0 +1,10 @@
+# Local recovery, machine paths, temporary research and deterministic packages
+translation-work/.state/
+translation-work/dist/
+translation-work/__pycache__/
+translation-work/tests/__pycache__/
+translation-work/profile-dry-run.json
+translation-work/import-result.json
+translation-work/test-run.log
+*.pyc
+

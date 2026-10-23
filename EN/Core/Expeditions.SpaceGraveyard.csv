@@ -1,0 +1,154 @@
+Key,Text
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Update.Title,"{D(Character)} is always begging to go on an expedition with you"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Update.Description,"{He(Character)}’s still young, but you can’t put it off forever. During a briefing with {d(Techhead)}, {d(Character)} storms in.
+
+“Please take me with you! I’ll be useful!” {he(Character)} exclaims.
+You laugh: “You don’t even know the nature of this expedition!”
+“You’re visiting an old colony!” {he(Character)} crows. “{Techhead} told me!”
+
+You glance at {d(Techhead)}, who is too slow to hide {his(Techhead)} smile. You sigh. It should be safe. Maybe it’s time the little one came along."
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.Emotion.Description,"Is allowed to go on an expedition"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.Update.Title,"En route to the old colony, you pass one of its small moons"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.Update.Description,"You’re about to quiz {d(Character)} on natural satellites and Hill spheres when {he(Character)} interrupts you.
+
+“Look!” {he(Character)} shouts. “Something on the moon!”
+“That’s ridic–” You stop yourself and look out the window. Nothing. “Don’t try to change the subject!” you scold {him(Character)}.
+
+“It’s true! Look again!” {d(Character)} insists. You resort to your onboard cameras. {He(Character)}’s right: there are unnatural structures down there.
+
+“Can we go?” {he(Character)} pleads.
+You hesitate, then turn to the ship’s AI: “Initiate landing protocol.”
+
+{Character} beams from ear to ear."
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Update.Title,"You don your suits and exit the spacecraft"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Update.Description,"The structures are carved from the moon's rock, but they’re too small for living quarters; <i>strange</i>. You signal your security to stay close, and take one of the paths into the maze.
+
+{D(Character)} races around in excitement as you pass arches and temples. The ancient inscriptions are unintelligible, but you make out names. Dates.
+
+You sigh. “It’s a graveyard.”
+
+{D(Character)} frowns. After a long silence, {he(Character)} asks: “Why do we have to die?”"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice.Title,"Without an ending, there can be no beginning. Death gives life meaning."
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsHumble.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetHumble.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice1.Title,"Don’t be afraid of things you can’t change. Focus on what you can."
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice1.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsBrave.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetBrave.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice2.Title,"Death is inevitable. One day, I too will die. But our legacy lives on - through you."
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.Choice2.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.GetsTribal.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Flag.NameShown,""
+Expeditions.SpaceGraveyard.SpaceGraveyard01Intro.NewEvent.NewEvent.DoesntGetTribal.Flag.Tooltip,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.Update.Title,"You and {d(Character)} walk in silence"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.Update.Description,"This is not what you expected from your first expedition together. 
+
+“Hey!” {d(Character)} exclaims suddenly. “Another ship’s landing!”
+
+It’s ragtag. No House emblem. You hide behind a large headstone and draw your sidearm. {D(Character)} cowers next to you.
+
+Two shapes appear carrying shovels. They stop at a nearby tomb. You nod to your escort and quietly surround the gravediggers.
+“This is the end of your gravedigging career, filth! Hands up!”
+
+Shovels drop.
+“Put them in the cargo bay,” you command. “We'll inspect their ship.”"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Update.Title,"The bandits didn’t bother to lock up"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Update.Description,"Inside you find plenty of ancient artifacts. 
+
+“Fascinating,” {d(Character)} whispers. “They were kept with the dead?”
+You nod. “Some cultures believed the dead could take them with them.”
+“Where?” {d(Character)} asks. 
+
+You smile. “That’s a story for another time.”
+“So, what do we do with these things?” {he(Character)} asks."
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice.Title,"Our House will keep them for further study"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice1.Title,"They belong in a museum"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice1.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent2.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent2.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent2.StatusEvent.Description,"Found and shared Pre-Collapse artifacts with the public"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice2.Title,"We’ll return them to their former graves"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Choice2.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.Prereq.OverrideText,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent3.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent3.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent3.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent3.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent3.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent4.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent4.Update.Title,"Title"
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent4.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent4.Update.Description,""
+Expeditions.SpaceGraveyard.SpaceGraveyard02Continued.NewEvent.NewEvent4.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Update.Summary,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Update.Title,"Before leaving, you and {d(Character)} take another stroll across the moon"
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Update.Short,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Update.Description,"You stop at a family crypt. Some of their lives spanned a century... others less than a year. You try to hurry on, but {d(Character)}’s already seen it.
+
+{He(Character)} looks up. “I think I understand. I could turn a hundred, I could die tomorrow. That shouldn’t change what I do. "
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Update.Help,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Prereq.OverrideText,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.UpdDescTextLine.Script,"We have to make the most of the time we have.”"
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Prereq1.OverrideText,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.UpdDescTextLine1.Script,"If we’d been scared today, we wouldn’t have had this adventure!”"
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Prereq2.OverrideText,""
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.UpdDescTextLine2.Script,"There will always be someone who continues what we started.”"
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.UpdDescTextLine3.Script,"
+
+You embrace {him(Character)}. “Let’s take you home” you say."
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Emotion.Description,"Had an exciting adventure with you"
+Expeditions.SpaceGraveyard.SpaceGraveyard03Ending.Emotion1.Description,"Had an exciting adventure with {d(Character)}"

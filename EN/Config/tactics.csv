@@ -1,0 +1,53 @@
+﻿Name,Title,TacticEffects,Level
+Combat.Tactic.Attack,Attack,,0
+Combat.Tactic.Retreat,Retreat,DealNoDamage(Tactical);Retreat(Tactical),0
+Combat.Tactic.Blitz,Blitz,"DamageDealtByType(Offense,20,Bomber);DamageTakenByType(10,Bomber)",1
+Combat.Tactic.Flexibility,Flexibility,"DamageDealtByType(Offense,20,Interceptor);DamageTakenByType(10,Interceptor)",1
+Combat.Tactic.Advance,Push,"DamageDealtByType(Offense,20,Frigate);DamageTakenByType(10,Frigate)",1
+Combat.Tactic.RearguardBombers,Point Defense,"DamageTakenByType(Defense,-40,Bomber);DamageDealtByType(-10,Bomber);Counter(Offense)",1
+Combat.Tactic.RearguardInterceptors,Rearguard Interceptors,"DamageTakenByType(Defense,-40,Interceptor);DamageDealtByType(-10,Interceptor);Counter(Defense)",1
+Combat.Tactic.RearguardFrigates,Fighter Screen,"DamageTakenByType(Defense,-40,Frigate);DamageDealtByType(-10,Frigate);Counter(Tactical)",1
+Combat.Tactic.PressForward,Advance,"DamageDealtModifier(Tactical,10);DamageTakenModifier(5);Counter(Defense)",1
+Combat.Tactic.SelfDestructPolicy,Tactical Abandon Policy,"DamageDealtModifier(Tactical,5);RecoveryRate(Tactical,20);Counter(Offense)",1
+Combat.Tactic.FeignedRetreat,Feigned Retreat,Counter(Tactical),1
+Combat.Tactic.AdvancedBlitz,Overwhelming Blitz,"DamageDealtByType(Offense,40,Bomber);DamageTakenByType(20,Bomber);Counter(Offense)",2
+Combat.Tactic.AdvancedFlexibility,Advanced Flexibility,"DamageDealtByType(Offense,40,Interceptor);DamageTakenByType(20,Interceptor);Counter(Tactical)",2
+Combat.Tactic.AdvancedAdvance,Relentless Push,"DamageDealtByType(Offense,40,Frigate);DamageTakenByType(20,Frigate);Counter(Defense)",2
+Combat.Tactic.CoverBombers,Cover Bombers,"DamageTakenByType(Defense,-50,Bomber)",2
+Combat.Tactic.CoverInterceptors,Cover Interceptors,"DamageTakenByType(Defense,-50,Interceptor)",2
+Combat.Tactic.CoverFrigates,Cover Frigates,"DamageTakenByType(Defense,-50,Frigate)",2
+Combat.Tactic.OffensiveRetreat,Offensive Retreat,"DamageDealtModifier(Tactical,-50);Retreat(Tactical)",2
+Combat.Tactic.Discipline,Discipline,"RollRange(Tactical,-40);Counter(Defense)",2
+Combat.Tactic.Chaos,Chaos,"RollRange(Tactical,40);Counter(Tactical)",2
+Combat.Tactic.CombatSuperiority,Combat Superiority,"DamageDealtModifier(Offense,15);Counter(Defense)",3
+Combat.Tactic.NuclearWarhead,Mines,"DirectDamage(Offense,-20);Counter(Offense)",3
+Combat.Tactic.ThreatenColony,Threaten Colony,"OnlyIfAttacker;DamageTakenModifier(Offense,-35);EconomyDamage(Offense,1);Honor(-1)",3
+Combat.Tactic.StayAtRange,Stay At Range,"DamageTakenModifier(Defense,-25);DamageDealtModifier(-10)",3
+Combat.Tactic.DefuseAttack,Defuse Attack,"DamageTakenModifier(Defense,-10);Counter(Offense)",3
+Combat.Tactic.SlowTempo,Slow Tempo,"DamageTakenModifier(Defense,-10);Counter(Tactical)",3
+Combat.Tactic.Decapitate,Decapitate,"EnemyCommanderDeath(Tactical,25);Counter(Tactical)",3
+Combat.Tactic.FightFromFront,Fight At The Front,"CommanderDeath(15);DamageDealtModifier(Tactical,20);DamageTakenModifier(10);Counter(Defense)",3
+Combat.Tactic.Forethought,Forethought,"DamageDealtModifier(-10);RecoveryRate(Tactical,50)",3
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

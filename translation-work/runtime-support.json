@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "game": "Star Dynasties",
+  "version": "1.0.4.0-gog",
+  "deployable": false,
+  "blockers": [
+    "ParsingHelper.he/He/his/His/hehas e outras funções contêm pronomes/verbos ingleses na DLL, fora dos CSVs. O adaptador atual preserva essas expressões e não resolve a gramática PT-BR.",
+    "Menus/textos fora dos 105 CSVs e a apresentação de acentos/concordância ainda não foram validados em execução."
+  ],
+  "evidence": "docs/analise-do-motor.md",
+  "resolution": "Implementar e testar uma adaptação de gramática e auditar os textos restantes antes de habilitar build/publicação. Alterar deployable sozinho não implementa a adaptação."
+}

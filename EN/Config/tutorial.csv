@@ -1,0 +1,375 @@
+﻿Name,Title,Body,
+WelcomeTutorial.Welcome,Welcome,"In this scenario you will learn how to play Star Dynasties. The game will unlock incrementally as we progress.
+
+You will be able to continue playing the scenario as a normal game after all features are unlocked.
+
+Let's start with how to interact with the game.",
+WelcomeTutorial.Welcome.Demo,Welcome to the Demo,"In this scenario you will learn how to play Star Dynasties. The game will unlock incrementally as we progress.
+
+In this demo, you will be able to continue playing the scenario as a normal game for 10 turns after all features are unlocked.
+
+Let's start with how to interact with the game.",
+WelcomeTutorial.BackToMenu,Back to Menu,"You can switch between the game and the main menu at any time, using the <v>Escape key</v>.
+
+If this text is too small, you can change the UI scale from Options.",
+WelcomeTutorial.Map,Map,"The main view of the game is the star map.
+
+You can move around the map by <v>holding right-click and dragging</v>. Use the <v>mouse wheel</v> to zoom in and out. Try it!
+
+Later, you'll be able to interact with the map by mousing over elements and clicking on them, but we've disabled that for now.",
+WelcomeTutorial.YourCharacter,Your Character,"This is you!
+
+Star Dynasties is a game about characters, their relationships, and their struggles for power and happiness.
+
+<v>Click on the portrait to bring up your details.</v>",
+CharIntroTutorial.CharacterPanel,Character Panel,"This is the inspector panel, currently focused on your character.
+
+To the right of the portrait, it shows key information about your character, such as their age and reputation.",
+CharIntroTutorial.Traits,Traits and States,"This section shows your character's personality, and other attributes they currently have.
+
+<v>Mouse over an icon</v> to understand its meaning. For example, {PC} is brave and friendly.
+
+Some icons, such as the one showing that your character is married, can be clicked to focus on a related object.",
+CharIntroTutorial.Skills,Skills,"This section shows your character's level in a set of five skills.
+
+Your skills, and those of your house's members, impact your effectiveness in personal and political activities.",
+CharIntroTutorial.TabPanels,Further Information,"The bottom part of the inspector panel contains a series of information tabs about your character.
+
+We've left the Actions tab locked for now, and we'll get back to it later.",
+KeyRelationshipsTutorial.Colonies,Colonies,"This is the star system containing your colony!
+
+The starmap shows the systems that humanity has explored. You can <v>mouse over a system</v> to see details about its colony, or <v>click to focus</v> on it.",
+KeyRelationshipsTutorial.Factions,Factions,"This striped region on the map is your faction, {PCFaction}!
+
+Factions are a region of colonies that are loyal to a single ruler, its <v>duke</v>. Dukes also personally rule the capital system of their faction.
+
+You can <v>mouse over a faction</v> to see details about it. <v>Clicking on a faction</v> will show details about the faction and its duke's household.",
+KeyRelationshipsTutorial.Independence,Independence,"Some factions are independent. These are shown on the map in a single color. Some factions are the subjects of a larger political union called a <v>league</v>, and are shown on the map in the stripes of that league.",
+KeyRelationshipsTutorial.Leagues,Leagues,"Your faction is shown as a striped region because it belongs to this league, {PCLeague}. In this scenario, you start out as a member of another ruler's empire.
+
+Leagues are ruled by an <v>archon</v>. You can see a league's details by <v>mousing over or clicking on the solidly colored part of the league</v>. This is the master faction of the league, which {PCLeagueArchon} rules personally.",
+KeyRelationshipsTutorial.Vassalage,Vassalage,"The political system is a pyramid;
+- At the bottom are <v>barons</v> that rule individual <v>colonies</v>
+- Barons swear allegiance to a <v>duke</v>, who rules their <v>faction</v>
+- Dukes can be independent, or they can swear allegiance to an <v>archon</v>. Archons rule <v>leagues</v> of factions.
+
+Click <link=""vassalage"">here</link> to see this represented visually.
+
+Even the most powerful archon directly rules only one colony, and is dependent on the loyalty of their vassal dukes and barons to control their empire.
+
+If you become unpopular, your vassals will rebel, and your empire could fall apart overnight.",
+KeyRelationshipsTutorial.Uncolonized,Uncolonized Systems,"Some star systems do not have a tooltip, and their name is only shown if you zoom in close enough. These systems were never colonized by humanity, and we no longer have the technology to try.
+
+You cannot interact with these systems.",
+HousesTutorial.House,Households,"As a duke, you are the <v>head</v> of a noble <v>household</v> (or 'house'). Physically, your household is the part of the colony that you own. In it reside the family members that are dependent on you and that help you manage your affairs.",
+HousesTutorial.Members,House Members,"You can see the members of your house when you focus on your faction, by either;
+- Clicking on your faction on the map, or
+- Clicking on your house's flag next to your portrait
+
+<v>Focus on your faction to continue.</v>",
+HousesTutorial.Inheritance,Inheritance,"One of the most important characters in your house is {PCHeir}. They will inherit your household and the territory that it rules when your character, {PC}, dies.
+
+When that happens, you will continue playing the game as {PCHeir}.",
+HousesTutorial.VictoryLoss,Victory,"Your goal is to make your house the most powerful house in the galaxy, by expanding your empire through political intrigue and conquest. You can see your progress in the Victory window.
+
+You will lose the game if your house falls from power and no longer controls a faction.",
+TurnAndEventsTutorial.EndTurn,End Turn,"Star Dynasties is turn based. After you take your turn, every other character in the game acts, and you are shown the most important events that happen.
+
+<v>Click End Turn to continue</v>",
+TurnAndEventsTutorial.Event,Events,"This is an event. It describes something that has happened (or is happening), where it happened, and who is involved.
+
+<v>Click OK on the event to continue.</v>",
+FeelingsTutorial.Reactions,Reactions,Characters have emotional reactions to events. The icons under your character's portrait show that you are pleased. You can mouse over them to see the individual emotion(s).,
+FeelingsTutorial.Happiness,Happiness,"Happiness is important for your character. It allows you to take more actions, makes you more fun to be around, and increases your effectiveness at various tasks.",
+FeelingsTutorial.Opinions,Opinions,"As a result of the happiness caused, you feel warmer towards {Target}. If you mouse over their portrait, a bar appears under your portrait showing your opinion of them.
+
+If you are not mousing over any character, bars under portraits show that character's opinion of you.
+
+Let's see the detail behind your opinion of {Target}. <v>With your character focused, Ctrl-Click her portrait or drag it to the highlighted slot.</v> 
+
+To focus on your character, simply click on them to bring them up on the left.",
+FeelingsTutorial.OpinionOfTarget,Opinions,"When you place a character in the contrast slot;
+- the character panel shows you a breakdown of your opinion towards them
+- the bars under the portraits of other characters show their opinion towards the character in the contrast slot
+
+<v>Click OK on the event when you are ready to continue</v>",
+DecisionsTutorial.Decisions,Decisions,"Sometimes you must pick between one or more <v>choices</v>. In this event, a baron in a nearby faction wants to betray their master and join your faction. This would enlarge your territory, but it comes with a penalty.
+
+Before you take this decision, you need to understand <v>reputation</v>.",
+DecisionsTutorial.Reputation,Reputation,"When you hurt or help someone, usually only that character changes their opinion of you. But some actions will change the opinion of ALL characters towards you. These widely held opinions are your <v>reputation</v>. ",
+DecisionsTutorial.Honor,Honor,"The most important part of your reputation is <h>honor</h>.
+
+Your society has rules. When you do something you shouldn't, you lose honor. When you go beyond what is expected, you gain honor.
+
+The red icons in the first choice show that it is dishonorable, and by how much. Mouse over them to see what rule you would break. 
+
+<nv><b>Important:</b></nv> Dishonorable acts are usually quite attractive, but if you drive your reputation too low, <i>you will quickly lose the game</i>. Save it for the moments when the public outcry is worth the prize.
+
+<h>Accept the offer to continue</h>",
+DecisionsTutorial.CrimePath,Grievances,"When you act dishonorably towards someone, they get a <v>grievance</v> against you. You can see the list of grievances in the Justice tab on your character panel.
+
+An eye for an eye! Grievances let you seek revenge on someone, and any proportionate dishonorable act against them does not reduce your honor.
+
+By accepting {Vassal}'s betrayal, you have given {Leader} a partial justification for declaring war! Fortunately we are stronger than them.",
+DecisionsTutorial.NoCrimePath,Grievances,"When you act dishonorably towards someone, they get a <v>grievance</v> against you. You can see the list of grievances in the Justice tab on your character panel.
+
+An eye for an eye! Grievances let you seek revenge on someone, and any proportionate dishonorable act against them does not reduce your honor.
+
+Had you accepted {Vassal}'s betrayal, you would have given their duke a partial justification for declaring war.",
+ActionsTutorial.RecentEvents,Recent Events,"At the start of your turn, you are shown a list of events that were not important enough to highlight on the starmap as they happened, but that you might still find interesting.",
+ActionsTutorial.Actions,Actions,"During your turn you can take actions. Actions cost <#03c2de><sprite name=""icon_ap"" tint=1></color>, i.e. Action Points or AP, and you are limited in how much you can do by your available <#03c2de><sprite name=""icon_ap"" tint=1></color>.
+
+While your empire is small, you will find that you have plenty of <#03c2de><sprite name=""icon_ap"" tint=1></color> to spare, as there is only so much that can consume your attention!  You will find yourself significantly more stretched later.",
+ActionsTutorial.RightClick,Right-Click Menu,"Right-clicking on a portrait, colony, flag, or region on the map brings up the actions you can take that are related to that object.
+
+<v>Right-click on your character or another object to see related actions.</v>
+
+All actions are currently locked, but we'll start unlocking them shortly!",
+ActionsTutorial.ActionsTab,Actions Tab,"If you prefer, you can bring up the actions related to an object from the highlighted tab on the inspector panel. You can also see the full list of actions by clicking ""Actions"" in the bottom right.",
+ActionsTutorial.Money,Money,"Some actions also cost <#dcab00><sprite name=""icon_money"" tint=1></color>, i.e. money. As a ruler, you gain <#dcab00><sprite name=""icon_money"" tint=1></color> each turn through taxing your vassals.
+
+Unused <#03c2de><sprite name=""icon_ap"" tint=1></color> at the end of your turn is converted into bonus <#dcab00><sprite name=""icon_money"" tint=1></color>.",
+CouncilTutorial.HouseAreas,House Areas,"The activities of your house are broken down into five areas, and your house has a score in each area. You can mouse over each area icon to see how the score is calculated and what it affects.",
+CouncilTutorial.Council,Council,"For each area, you should assign a member of your house to oversee it and increase the score.
+
+To assign a council member, click on the + button for one of the areas, then select a member of your house. Usually, you will want the character that has the highest skill in that area to be in charge of it.
+
+<h>Assign a council member</h>
+
+The icon next to a candidate's name indicates the action is a favour. Should the opportunity arise, it is dishonorable not to repay a favour.",
+CouncilTutorial.CouncilActions,Council Actions,"You now have the ability to manage your council. Feel free to assign other members, or change your previous selection.",
+MarriageTutorial.Family,Family,"The family tab shows the characters that are related to you. Note that family members have a special icon on their portrait.
+
+Your happiness is affected by what happens to your immediate family, and your heirs will inherit your empire when you die.
+
+Nobles that are related to you are much likelier to act in your interest, or at least not oppose you. It is dishonorable to attack a relative, or fail to help them in times of need.",
+MarriageTutorial.Marriage,Marriage,"As a result, you want to find marriages for your family members that strengthen important political relationships. Your heir has just come of age. Let's find them a partner.
+
+<v>Use the Arrange Marriage action to find a marriage for {Heir}</v>
+
+Your heir is your eldest child. You can find them in the family tab for your character. Heirs have the following state symbol: <#dcab00><sprite name=""moralityshaltnotmitigated"" tint=1></color>",
+MarriageTutorial.FindPartner,Finding a Partner,"For now, a good candidate might be the relative of a nearby duke or baron. As you play you will get better at finding good matches.
+
+Note that some potential partners will join your house, while some marriages may result in {Heir} leaving your house. Usually, you want to keep a close hold on your family members, but there is a maximum size to which your house can grow, highlighted on the faction panel.
+
+<v>Choose a partner for your heir</v>",
+MarriageTutorial.HouseSizeLimit,House Size Limit,"We lack the knowledge to build new colonies or significantly expand existing ones, so there is a limit to how many people we can support.  Having a child is the right of every man and woman. Having a second is a luxury that few can afford. Noble families that grow too large generate widespread resentment.
+
+Increasing your house size beyond the limit is dishonorable. As {PCHouse} improves its income, the limit will grow.
+
+To avoid bringing shame on your house, its members must be given permission to have additional children. You can see who already has permission by mousing over the limit indicator on your faction panel.",
+MarriageTutorial.MarriageActions,Marriage Actions,"You now have the ability to arrange a marriage for members of your house, divorce their existing marriages, and grant or take away permission from a couple to have a child. You can also decide whether you want to have more children for yourself.",
+PunishmentTutorial.Justice,Justice,"You are obliged to help your vassals punish those who have wronged them. {Vassal} has grievances against their former master, and wants to settle the score.
+
+You have 2 turns in which to do something about this <v>charge</v>, or you will be seen as unjust and lose honor.
+
+Because {Criminal} is a duke, you could ask your master to avenge these grievances. But you are strong enough to take this matter into your own hands.",
+PunishmentTutorial.Executing,Executing a Charge,"To avenge a grievance, you must punish the criminal in some way. There are a set of punishments that you can use on criminals in {PCSystem}, or your vassals, but these are not appropriate for a duke.
+
+<v>Any dishonorable act</v> that you could commit against the duke will be seen as a punishment for the grievance. Normally, declaring war would be dishonorable, but with the grievance we can declare war with the excuse of avenging their crime.",
+CombatTutorial.AnalysePosition,Analyzing Military Position,"Let's take a look at our chances if we attacked {TargetDuke}.
+
+In Star Dynasties, you do not move your faction's fleets on the starmap. Instead, when you attack or defend a system, you will call nearby vassals and other rulers to arms, and the size of your fleet will be determined by who shows up.
+
+<v>Click on {TargetSystem} and navigate to the Power Projection tab</v>",
+CombatTutorial.PowerProjection,Power Projection,"In the Power Projection tab, you can see the expected size of your fleet if all vassals in range answered your call in this system. You can also see the expected fleet size for each ruler that can attack or defend it.
+
+<h>The most important part of this information is also shown in the tooltip of the system, so you do not need to navigate to this tab each time.</h>
+
+Fleets are represented by three seperate values {bomber}, {interceptor}, and {frigate}, corresponding to three different ship types. Each ship type is strong against one ship type, and weak against the other.",
+CombatTutorial.War,War,"For {TargetSystem}, if all your vassals are loyal and no other rulers get involved, you can project a stronger fleet than {TargetDuke}.
+
+The obligation to avenge your vassal is a wonderful opportunity to use this military advantage and take {TargetSystem}!
+
+<v>Right-click on {TargetFaction} and Declare War</v>
+
+Note that the Declare War action is still dishonorable, but if you mouse over the dishonor icons, you will see that the amount of dishonor is lower because of the charge.",
+CombatTutorial.AttackSystem,Attack System,"Now that you are at war, let's go right ahead and attack {TargetSystem}.
+
+<v>Right-click on {TargetSystem} and Attack it</v>",
+CombatTutorial.ChooseCommander,Choose Commander,"You need to choose a commander to lead your fleet at {TargetSystem}. For now, choose yourself.
+
+<v>Pick yourself as the fleet commander at {TargetSystem}",
+CombatTutorial.CombatBuildup,Combat Buildup,"The first phase of combat is the buildup phase, where you will canvas support for the attack. You can call each direct vassal within range to arms, and you can ask each other ruler within range to help you.
+
+Note that each relevant star system has a control that shows you the fleet strength contributed if it's ruler joins the combat, and other information.
+
+Each request you make costs {ap(RequestCost)}. We've made sure you have enough AP this time for the requests you need to make.
+
+<v>Click the button labelled </v>""<#03c2de><sprite name=""icon_ap"" tint=1></color>: <#30b09c><sprite name=""stateambassador"" tint=1></color>""<v> in the control on {VassalSystem} to call {Vassal} to arms</v>",
+CombatTutorial.BuildupVassalJoined,Vassal Joined,"The control on the right shows you a log of buildup activity. {Vassal} has joined your attack, and your fleet size has grown accordingly. Mouse over the value for a more detailed breakdown.
+
+Normally, you and your opponent take turns to ask a ruler for support, but right now you have the element of surprise. When you ask a ruler to join your fleet there is a chance of losing surprise, shown underneath the request button.
+
+<v>Join the attack yourself, and ask the remainder of your vassals to do so</v>",
+CombatTutorial.Launch,Launch Attack,"You've amassed a respectable fleet. Normally you can also ask rulers within range for support, but we've left that locked for now.
+
+As the attacker you choose when to launch the attack, but the defender always gets 4 free buildup moves after you commit your forces (if possible). Maintaining surprise for as long as possible reduces the impact of this defender's advantage.
+
+<v>Launch the attack</v>",
+CombatTutorial.CombatResolution,Resolution Phase,"The resolution phase consists of up to three rounds. In each round you and your opponent will pick a <v>tactic</v>, consuming it for that combat. Its effects will persist for the remainder of combat.
+
+After you pick a tactic, both sides make a damage roll. This determines the damage dealt for the round, before bonuses.
+
+<v>Pick 'Flexibility' for this round</v>",
+CombatTutorial.CounterTactic,Counter Tactics,"Some combat tactics are Counters. These nullify any effects your opponent has played that have a particular type (e.g. {tacticTactical}).
+
+<v>Pick 'Decapitate' to counter your opponent's effects</v>",
+CombatTutorial.DefaultTactics,Default Tactics,"Playing a tactic removes it from your available list for that combat. However two default tactics are always available; Attack and Retreat.
+
+<v>Pick the Attack tactic for this round</v>",
+CombatTutorial.PickRuler,Choose Ruler,"Having conquered {System}, you must now choose who will rule it as your vassal. You can leave {Ruler} in place, but they are unlikely to be loyal.
+
+You can see that for many candidates choosing them would be a favour {favourIcon}, but unfortunately it would also be dishonorable {crimeIcon}. This is because {Ruler} has a rightful claim to be the ruler of {System} and those candidates do not. However, you do have a candidate that also has a claim to rule {System}.",
+CombatTutorial.Claims,Claims,"A claim is the widespread acceptance that a character or faction is rightfully the ruler or master of a territory. Claims reduce the dishonor of war or rebellion when they are led by the claimant, or championed on their behalf.
+
+Claims are acquired gradually over time by holding territory, or through inheritance.
+
+{Candidate} has a claim to rule {StarSystem}. This allows you to replace the previous ruler without losing honor.
+
+<v>Pick {Candidate} as the new ruler of {StarSystem}</v>",
+CombatTutorial.Annexation,Annexation,"Irrespective of whether the new ruler of {StarSystem} has a claim to rule it, annexing a system into your faction is dishonorable if your faction doesn't have a claim to <h>own</h> it.
+
+We'll see later how you may go about acquiring owning claims for future conquests.",
+CombatTutorial.WarActions,War Actions,"You can now declare war on other factions and attack systems.
+
+Note that while we are going through the guided portion of this scenario, other dukes will not attack you.",
+AssignmentsTutorial.Assignments,Assignments,"Members of your house can be assigned to tasks that provide a variety of benefits. Let's trigger one to see how it works.
+
+{StarSystem} is a potential target for future conquest, but right now our chances of conquering it in a straight fight are not very high.
+
+<v>Right-click on {StarSystem} and use 'Plan Attack'</v>",
+AssignmentsTutorial.ChooseCharacter,Choose Character,"<h>Plan Attack</h> is crucial when trying to conquer systems, as it gradually increases your projected fleet strength in a location.
+
+The time it will take for this to happen in {StarSystem} depends on the <v>Effectiveness</v> level of the assignment, which factors in;
+- the skill of the assigned character
+- their happiness
+- how much they like you
+
+<v>Pick a character to assign to this task</v>",
+AssignmentsTutorial.ChooseTravelNormal,To Travel or Not,"Most assignments are outside your colony. A character can work on the task remotely through agents, or they can travel to execute it personally. Assignments carried out personally are more effective, if you are willing to risk foul play against your house member.
+
+Council members cannot travel, and they always work on tasks remotely.
+
+<v>Choose whether this character will travel to {StarSystem} while planning an attack on it</v>",
+AssignmentsTutorial.ChooseTravelCouncillor,To Travel or Not,"Most assignments are outside your colony. A character can work on the task remotely through agents, or they can travel to execute it personally. Assignments carried out personally are more effective, if you are willing to risk foul play against your house member.
+
+You assigned a council member to the task. Council members cannot travel, and they always work on tasks remotely.",
+AssignmentsTutorial.ActiveAssignments,Active Assignments,"Now that the assignment is under way, it is listed in the Members tab of your house. From here you can stop the assignment, recall your house member, or ask them to travel.",
+InstallationsTutorial.Intro,Installations,"A colony is made up of a set of <h>installations</h>, i.e. bases and space stations that have survived from before the Collapse.
+
+You can see the installations present in a system when you mouse over or click on it.
+
+<v>Click on {PCHomeSystem} to continue</v>",
+InstallationsTutorial.Repairing,Repairing Installations,"Installations provide a benefit, shown under their name in this list. However, many installations are damaged and will only generate their effects if you <h>repair</h> them. 
+
+<h>Start repairing the <b>Waste Processing Plant</b> on {PCHomeSystem} to continue</h>",
+InstallationsTutorial.Ranged,Ranged Installations,"Most installations provide their benefit only to the direct ruler of that colony, i.e. not all the installations in your vassals' colonies will be useful to you.
+
+<h>Ranged</h> installations, marked with an orange symbol in the lower left corner, benefit all allied rulers in an area. Hovering over the installation shows the range on the map.
+
+For example, the Defense Platform Fabricator on {TargetSystem} provides a bonus to any <h>Improve Defenses</h> assignment within <v>3</v> starlanes from {TargetSystem}. You should focus on repairing the installations that complement your goals in a region.
+
+<v>End the turn when you are ready to continue</v>",
+AssignmentsTutorial.Arrests,Arrests,"A character has travelled to {PCSystem}. They're here because they're working on an assignment for {House}. This is not necessarily to our disadvantage, but you should keep a close eye on visitors.
+
+If you do not like the look of {Visitor}, you can arrest them. This is dishonorable unless you have a grievance or you are at war.
+
+Your house's members could also get arrested, so be careful where you send them.",
+AssignmentsTutorial.UnlockingActions,Unlocking Actions,The game's assignments and actions are now going to gradually unlock as we introduce them. Feel free to experiment with unlocked actions before clicking Next in these messages.,
+EconomicTutorial.AccountsTab,Income and Expenses,"Your income comes primarily from your colony and your vassals. You have three main tools to increase it;
+- <h>Repairing installations</h> that provide <h>Wealth</h> will increase the economic output of a colony, and the maximum size of its fleet
+- The <h>Assist Tax Collection</h> assignment will increase the efficiency of tax collection from a vassal
+- You can <h>raise the tax level</h> of your empire, but this will reduce your vassal's opinions of you",
+EconomicTutorial.RebuildColony,Rebuild Colony,"As a result of collateral damage or neglect, a colony's nobility may lose the ability to sustain basic life support, and the colony has to be abandoned.
+
+If you amass enough wealth, it is possible to patch up an abandoned colony and bring it back to life using the <h>Rebuild Colony</h> assignment.",
+PoliticsTutorial.Politics,Formal Political Acts,"You can manipulate the political hierarchy in the following ways;
+- You can <h>Depose</h> an existing vassal and replace them with another character. This is normally dishonorable.
+- You can <h>Grant Independence</h> to a vassal
+- You can <h>Lead a Rebellion</h> against your master. This is normally dishonorable.
+- If you are independent, you can <h>Offer Vassalage</h> to an independent duke or archon to become their subject",
+MilitaryTutorial.OtherTools,Military Assignments,"The following assignments help you manage your military position;
+- <h>Improve Defenses</h> increases fleet strength in one of your colonies
+- <h>Rebuild Fleet</h> increases the rate at which a colony's fleet is replenished after it takes losses in combat
+- <h>Shift Fleet Composition</h> lets you modify the primary ship type of the fleet in a colony
+- <h>Hide Fleet Movements</h> reduces the chance of losing surprise when adding a colony's fleet in the combat buildup phase",
+DiplomacyTutorial.Diplomacy,Diplomacy,"Apart from doing things that make them happy, you have two tools to manage your relationship with others;
+- The <h>Improve Relations</h> assignment increases someone's opinion of you
+- <h>Hosting a feast</h> in someone's honor will increase their opinion of you, and perhaps your reputation as well",
+DiplomacyTutorial.AcquiringClaims,Acquiring Claims,"To reduce the dishonor of declaring war, you need a justification. Claims work nicely, but it can be hard to find the right claimant.
+
+You can argue and bribe your way into a claim on a colony with the <h>Acquire Claim</h> assignment.",
+SystemRebellionTutorial.SystemRebellion,System Rebellion,"The commoners that live and work in the colonies are not always content with their lot in life, and may rebel. The Population Unrest panel for {PCSystem} shows the level of unrest on it, and the reasons why.
+
+The <h>Quell Unrest</h> assignment will reduce unrest and the risk of rebellion.
+
+Conversely, the <h>Spread Dissent</h> assignment will attempt to destabilize a colony. It also creates a <h>secret</h>...",
+SecretsTutorial.Secrets,Secrets,"Certain actions create secrets. Each turn there is a small chance that other characters will discover one of your secrets. If you know a secret, you can reveal it publically, and this will usually impact the reputation of who created it.
+
+The <h>Cover Up Secret</h> assignment makes a secret incrementally harder to discover
+
+The <h>Spy Network</h> assignment increases your chance of discovering secrets in a colony",
+SecretsTutorial.Security,Intrigue,"You can hurt your enemies in ways that do not involve military fleets;
+- The <h>Defame</h> assignment spreads lies about a character and makes them appear dishonorable
+- The <h>Assassinate</h> assignment can rid you of a troublesome character
+
+To defend yourself against these strategies, improve the Security score of your house. The <h>Protect</h> assignment makes it harder for a character to get assassinated.",
+ExpeditionsTutorial.Expeditions,Expedition Events,"Humanity lives in the ruins of a previous age of expansion and discovery. Technology is precious, even if only poorly understood. Your house strives to salvage what it can from the past, and investigate other mysteries of the galaxy.
+
+Each turn you gain <h>Expedition Points</h>, based on your house's technology score, and an <h>Expedition Event</h> triggers when you reach the threshold.",
+HealthTutorial.Health,Health,"Characters can fall ill, making them significantly less effective at their tasks. Your house's technology score improves the health of your house's members, and you can use the <h>Medical Care</h> assignment to provide targetted care.",
+VassalLimit.Limit,Vassal Limit,"If you have more direct vassals than your house can support, you will get a penalty to AP and income. You can increase the limit by;
+- Improving {PCHouse}'s score in Administration and Technology
+- Improving {PCSystem}'s infrastructure
+- Improving your income
+- Using the <h>Monitor Vassals</h> assignment
+
+An independent duke or archon can also <h>form vassal factions</h> and <h>transfer colonies</h> to vassal dukes, reducing the number of direct vassals.",
+HaveFunTutorial.Suggestions,Suggestions,The game will highlight issues or suggestions that you may want to tackle here. Mouse over an icon to read the hint.,
+HaveFunTutorial.HaveFun,Over to You,"The game will now fully unlock. If you keep playing this scenario, we will show you some additional messages from time to time.
+
+If you prefer, you can start a new game (by pressing <h>Escape</h> and going back to the main menu) and customize your starting character and position.
+
+Some final tips;
+- <nv>Don't wreck your reputation</nv>
+- Assign everyone in your house to a task
+- Pay attention to the suggestions that crop up
+
+<h>Star Dynasties is not a strategy game where you continually build improvements and armies, then use them to conquer the map. It's a patient game of politics; watching for your opponents to make a misstep, setting yourself up to take advantage when they do, and adeptly handling the good and bad luck that comes your way.</h>
+
+Have fun dominating the galaxy!",
+HaveFunTutorial.HaveFun.Demo,Over to You,"The game will now fully unlock. You can keep playing this demo for 10 turns.
+
+Some final tips;
+- <nv>Don't wreck your reputation</nv>
+- Assign everyone in your house to a task
+- Pay attention to the suggestions that crop up
+
+<h>Star Dynasties is not a strategy game where you continually build improvements and armies, then use them to conquer the map. It's a patient game of politics; watching for your opponents to make a misstep, setting yourself up to take advantage when they do, and adeptly handling the good and bad luck that comes your way.</h>
+
+Have fun surviving this galaxy!",
+DynamicTutorial.MiddleClicking,Go to Location,"You can move the starmap to where an object is located by <h>clicking the middle mouse button</h> on that object.
+
+You can even do this on references in text! For example, try middle-clicking on the following character name to centre the map on their location: {Character}",
+DynamicTutorial.MapModes,Map Modes,"Some information can be shown as an overlay on the starmap.
+
+Mouse over a map mode to understand what it does. Try switching to a different one!",
+DynamicTutorial.Quickbar,Quickbar,"You can drag objects into this row of slots to use them as bookmarks.
+
+You can even drag objects from text! Try it: {StarSystem}",
+DynamicTutorial.EventModes,Event Modes,"When an event happens, the event box can be shown anywhere on the screen.
+
+You can set it to always appear in the same location, using the toggle button in the top right corner of the event box. You can then drag it around to set where it should always appear.
+
+Try it, and see which you mode prefer.",
+DynamicTutorial.Importance.Global,Importance,"You may feel that the game shows you too many event updates, or perhaps that it doesn't show you enough!
+
+You can change how many events are brought to your attention directly by using the Event Popups Setting.",
+DynamicTutorial.Importance.Character,Character Importance,"You can also tell the game that you are more or less interested about a particular character by clicking on this icon, and you will be shown more or less updates about that character.",
+DynamicTutorial.History,History,"You can see a history of all the events that have happened related to a particular object.
+
+This is a great way of reminding yourself who a particular character was, if they haven't been very active for a few turns.",
+DynamicTutorial.Codex,Codex,"If you'd like to know more about how the game works, take a look at the Codex",
+DynamicTutorial.AllActions,Action Triggering,"You seem to be triggering most actions from the All Actions Panel. Have you tried triggering actions by <h>right-clicking</h> on objects instead, or by using the Action tab on the inspector panel? Most players find it easier to trigger actions that way.",
+DynamicTutorial.EndGame,Thank You,"Thank you for playing through the Star Dynasties demo. I hope you enjoyed your time with it, and are eager to try a longer campaign. You can purchase the game now on Steam!",

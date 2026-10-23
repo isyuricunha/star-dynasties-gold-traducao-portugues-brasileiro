@@ -1,0 +1,173 @@
+﻿Name,Value
+Favored.MajorDefeat,"Your forces have suffered a humiliating defeat at the hands of {WinningSide}.
+
+"
+Favored.MajorVictory,"Your forces have crushed the smaller armada of {LosingSide}.
+
+"
+Favored.MinorDefeat,"Your forces have suffered a defeat at the hands of {WinningSide}.
+
+"
+Favored.MinorVictory,"As is to be expected, your forces have defeated the smaller armada of {LosingSide}.
+
+"
+NotFavored.MajorDefeat,"Your forces were outnumbered and have suffered a crushing defeat at the hands of {WinningSide}.
+
+"
+NotFavored.MajorVictory,"Your forces have managed a glorious victory over the larger navy of {LosingSide}.
+
+"
+NotFavored.MinorDefeat,"Your forces have lost the unfavourable engagement at {StarSystem}.
+
+"
+MinorVictory,"Despite the odds, your forces have defeated the force of {LosingSide}.
+
+"
+FleetSkirmish.Report,{CombatReport}
+Combat.FleetSkirmishUpdate.Description.EconomyChange,"
+
+The economy of {StarSystem} has suffered collateral damage and been reduced from <v>{BeforeEconomySize}</v> to <v>{AfterEconomySize}</v>"
+MarriageUpdate.Description.BothHeads,"To retain power they individually held before marriage, the married couple continue to manage their houses separately"
+PetitionMarriageUpdate.External.Description.TargetIsHead,"If you agree to this marriage, you will propose it in turn to {currentHeadOf(ConsiderHouse)}
+
+If married, {d(OfferSpouse)} will move to {houseOf(ConsiderSpouse)}, because {dis(ConsiderSpouse)} the head of {his(ConsiderSpouse)} house"
+Politics.Wars.CurrentLeaderChampionedDecisionUpdate.Description.ChooseRule,"
+  - You will make yourself the ruler of one of these systems; {listAsSentence(RuleSystemList)}"
+Politics.Wars.CurrentLeaderChampionedDecisionUpdate.Description.Owner,"
+  - You will make yourself the owner of {listAsSentence(OwnSystemList)}"
+Politics.Wars.EndWarUpdate.Description.AttackerGains,"{Up(AttackingFaction)} gained;
+{listAsList(AttGainedList)}
+"
+Politics.Wars.EndWarUpdate.Description.AttackerNoGains,"{Up(AttackingFaction)} gained no systems
+"
+Politics.Wars.EndWarUpdate.Description.DefenderGains,"{Up(DefendingFaction)} gained;
+{listAsList(DefGainedList)}"
+Politics.Wars.EndWarUpdate.Description.DefenderNoGains,{Up(DefendingFaction)} gained no systems
+Politics.Wars.EndWarUpdate.PC.Description.AttackerGains,"{Up(AttackingFaction)} gained;
+{listAsList(AttGainedList)}
+"
+Politics.Wars.EndWarUpdate.PC.Description.AttackerNoGains,"{Up(AttackingFaction)} gained no systems
+"
+Politics.Wars.EndWarUpdate.PC.Description.DefenderGains,"{Up(DefendingFaction)} gained;
+{listAsList(DefGainedList)}"
+Politics.Wars.EndWarUpdate.PC.Description.DefenderNoGains,{Up(DefendingFaction)} gained no systems
+Politics.Wars.PledgeHonorDecisionUpdate.Description.MakeRuler,"
+  - You must make {d(ChampionedCharacter)} the ruler of one of these systems; {listAsSentence(RuleSystemList)}"
+Politics.Wars.PledgeHonorDecisionUpdate.Description.GrantIndependence,"
+  - You must grant {d(ChampionedCharacter)} independence"
+Politics.Wars.PledgeHonorDecisionUpdate.Description.GrantSystems,"
+  - You must grant {listAsSentence(OwnSystemList)} to {d(ChampionedCharacter)}"
+Punishment.ExileCharacterUpdate.Description.FoundRefuge,{Dhas(TargetCharacter)} found refuge in {houseOf(TargetCharacter)}
+Politics.ArchonResurrectsDeadFactionUpdate.Description.Post,"{NewLeader} has been granted ownership of {listAsSentence(SystemList)}
+{Up(Faction)} is now part of {leagueOf(Actor)}"
+MoralitySys.Charging.RemovedChargeUpdate.Description.Chain,"{Dhas(Executor)} run out of time to punish {d(Criminal)} personally.  However, {he(Executor)} fulfilled {his(Executor)} obligation to {Victim} by delegating the request."
+MoralitySys.Charging.RemovedChargeUpdate.Description.DiffExec,"At least one of the feudal or kinship relationships between {d(Criminal)}, {d(Executor)}, or {d(Victim)} have changed, so {dis(Executor)} no longer held responsible by society to see justice done between {d(Criminal)} and {d(Victim)}"
+Combat.AskForSupportDecisionUpdate.Description.AttackerWarning,"The combat will not start until you have finished amassing your fleet
+
+"
+Combat.AskForSupportDecisionUpdate.Description.DefenderWarning,"<nv>The combat will start as soon as {d(EnemyCharacter)} is finished amassing their fleet!</nv>
+
+"
+Combat.AskForSupportDecisionUpdate.Description.LastSupportRequest,"<nv>You may only make one request for support before combat starts</nv>
+
+"
+Demands.ConsequenceDescription.NonRulerActorRebels,"If this demand is not met, {d(ConsequenceActor)} will rebel"
+Demands.ConsequenceDescription.ActorRebels,"If this demand is not met, {d(ConsequenceActor)} will rebel"
+Demands.ConsequenceDescription.TargetRebels,"If this demand is not met, {d(ConsequenceTarget)} will be forced to rebel"
+Demands.ConsequenceDescription.StartWar,"If this demand is not met, {d(ConsequenceActor)} will declare war"
+Demands.ConsequenceDescription.EndWar,"If this demand is met, {d(ConsequenceActor)} and {d(ConsequenceTarget)} will end the war"
+SecuritySys.SecretDiscoveredBySecurityUpdate.Description.NonPC,{D(CurrentHead)} is now aware of {d_s(PC)} secret
+Combat.SupportOnlyObligedToCallMasterFaction,"Because {d(Character)} is not a duke, you are not expected to call your entire league to arms when providing support, only your personal faction.
+
+"
+Combat.JoinDecision.Participant,Your house's military will join the fleet (contributing <v>{FleetStrength}</v>). 
+Combat.JoinDecision.VassalsInRange,At least one of your vassals can reach {StarSystem} - {d(Character)} will have the right to call them to arms (contributing <v>{VassalStrength}</v> to the fleet). 
+Combat.JoinDecision.LateParticipant,"You have no access to {StarSystem}, but it is possible that {d(Character)} will negotiate a right of passage that provides access, in which case your house's military will join the fleet (contributing <v>{FleetStrength}</v>). "
+Combat.JoinDecision.LateParticipantVassals,"At least one of your vassals has no access to {StarSystem}, but it is possible that {d(Character)} will negotiate a right of passage that provides access, in which case {he(Character)} will have the right to call them to arms (contributing <v>{LateVassalStrength}</v> to the fleet)."
+Combat.JoinOnlyAsParticipant,"If you accept, your house's military (<v>{FleetStrength}</v>) will join the fleet."
+Combat.JoinAsParticipant,"If you accept, your house's military (<v>{FleetStrength}</v>) will join the fleet, and {d(Character)} will have the right to call to arms any of your vassals that can reach {StarSystem} (<v>{VassalStrength}</v>)."
+Combat.JoinAsMember,"If you accept, {d(Character)} will have the right to call to arms any of your vassals that can reach {StarSystem} (<v>{VassalStrength}</v>)."
+Combat.JoinAsMemberPossibleParticipant,"If you accept, {d(Character)} will have the right to call to arms any of your vassals that can reach {StarSystem} (<v>{VassalStrength}</v>), including yourself should it become possible."
+Gatherings.InviteDecisionUpdate.Description.InvitedList,"List of all rulers that have accepted an invite: 
+{listAsList(InvitedList)}"
+Gatherings.InviteDecisionUpdate.Description.Accepted,"{listAsSentence(AcceptedList)} accepted your invite.
+
+"
+Gatherings.ChooseGuestsDecisionUpdate.GuestList,You are already being accompanied by {listAsSentence(GuestList)}. 
+Gatherings.InviteResponseDecisionUpdate.Description.ShowGuests,  You will be accompanied by {listAsSentence(GuestList)}.
+Gatherings.TournamentMatchUpdate.Description.Important,"This is one of the final contests of the tournament.
+"
+Gatherings.TournamentMatchUpdate.Description.Final,"One of these two contestants will be crowned the winner of the tournament!
+"
+Gatherings.TournamentMatchUpdate.Description.AIsFavourite,{D(ChampionA)} should win this match.
+Gatherings.TournamentMatchUpdate.Description.AIsSlightFavourite,{Dis(ChampionA)} a slight favourite to win this match.
+Gatherings.TournamentMatchUpdate.Description.Evens,{D(ChampionB)} and {d(ChampionA)} are equally matched.
+Gatherings.TournamentMatchUpdate.Description.BIsFavourite,{D(ChampionB)} should win this match.
+Gatherings.TournamentMatchUpdate.Description.BIsSlightFavourite,{Dis(ChampionB)} a slight favourite to win this match.
+Negotiation.RefuseRequestTradeUpdate.Description.ShowFactors,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseOfferTradeUpdate.Description.ShowFactors,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.AcceptRequestTradeUpdate.Description.ShowFactors,"{OtherParty} thinks this is to {his(OtherParty)} benefit (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.AcceptOfferTradeUpdate.Description.ShowFactors,"{OtherParty} thinks this is to {his(OtherParty)} benefit (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseRequestTradeUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this would be worse than the alternative (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseOfferTradeUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this would be worse than the alternative (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.AcceptRequestTradeUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this is better than the alternative (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.AcceptOfferTradeUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this is better than the alternative (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseOfferUpdate.Description.ShowFactors,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseOfferUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseRequestUpdate.Description.ShowFactors,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+Negotiation.RefuseRequestUpdate.Description.ShowFactorsRelative,"{OtherParty} thinks this would not be in {his(OtherParty)} interests (<av>{Utility}</av>){if(isNull(Factors),"""",Factors)}"
+General.NewLine,"
+"
+RomanceSys.SuggestIllicitRomanceDecisionUpdate.Description.Love,"You love {Character}, and this would make you happy. "
+RomanceSys.SuggestIllicitRomanceDecisionUpdate.Description.Like,"You like {Character}, and this would make you somewhat happy. "
+RomanceSys.SuggestIllicitRomanceDecisionUpdate.Description.Neutral,"You don't particularly like {Character}, but maybe this would be useful? "
+RomanceSys.SuggestIllicitRomanceDecisionUpdate.Description.Hate,"You dislike {Character}, but maybe this would be useful? "
+RomanceSys.SuggestIllicitRomanceDecisionUpdate.Description.Incest,"This is an incestous proposal, which will be dishonorable if discovered. "
+Combat.RecoveryUpdate.Description.TacticModifier,"<av>{TacticModifier}%</av> from combat tactics used.
+"
+Combat.RecoveryUpdate.Description.FlagsModifier,"<av>{FlagsModifier}%</av> from flags.
+"
+Combat.Assign.CommanderDecisionUpdate.Description.FleetLeader,"The commander has a significant impact on the strength of the fleet, and determines the tactics available to you. They will also oversee timely field repairs after the battle, minimizing our losses. They are at risk of injury or death if the engagement goes badly."
+Combat.Assign.CommanderDecisionUpdate.Description.HouseFleetLeader,"The commander has a significant impact on the strength of our contribution to the fleet. They will also oversee timely field repairs after the battle, minimizing our losses. They are at risk of injury or death if the engagement goes badly."
+Combat.Assign.CommanderDecisionUpdate.Description.MilitaryHead,"
+
+Our Admiral, {MilitaryHead}, also gives you access to the following tactics: {listAsSentence(HeadTactics)}. If you select our Admiral as the commander in this combat, each of their tactics will be available twice."
+Security.CoverUpUpdate.Description.Finished,"
+
+{D_s(Assignee)} assignment is complete."
+General.VisitorReportUpdate.Description.Arrived,"The following character(s) have arrived:
+{listAsList(ArrivedList)}
+
+"
+General.VisitorReportUpdate.Description.Departed,"The following character(s) have left:
+{listAsList(DepartedList)}"
+Marriage.ChooseMarriagePartnerDecisionUpdate.Description.ActingHouseMember,Note that an acting head can only be married to characters where the marriage would not oblige them to leave the house
+MoralitySys.Charging.ChargedUpdate.Description.GuideCanCharge,"
+You can charge {d(RechargeTarget)} in turn to avenge this crime. "
+MoralitySys.Charging.ChargedUpdate.Description.GuideDirectVassal,"
+You can directly avenge this crime by fining or deposing {d(Criminal)}. "
+MoralitySys.Charging.ChargedUpdate.Description.GuideMaster,"
+You can directly avenge this crime by rebelling against {d(Criminal)}. "
+MoralitySys.Charging.ChargedUpdate.Description.GuideWar,"
+You can directly avenge this crime by declaring war on {d(Criminal)}. "
+MoralitySys.Charging.ChargedUpdate.Description.GuidePunish,"
+You may be able to avenge this crime by executing, arresting, exiling, or nerve whipping {d(Criminal)}. "
+MoralitySys.Charging.ChargedUpdate.Description.GuideConclusion,"
+
+Furthermore, any proportionate dishonorable act you commit against {d(Criminal)} while charged will also be perceived as justice. "
+MoralitySys.Charging.ChargedUpdate.Description.ChargedReasons,{SilentNull(ReasonText)}
+MoralitySys.Charging.ChargedUpdate.Description.ChargedReasons.TopLevel,{SilentNull(TopLevelReasonText)}
+MoralitySys.Charging.ChargedUpdate.Description.GuideObligated,"
+You are honor-bound to punish {d(Criminal)}. If you do not deal with this charge within 2 turns, at least partially, you will commit {crimeIcons(IgnoreStrength)}"
+MoralitySys.Charging.ChargedUpdate.Description.GuideNotObligated,"
+While {d(Victim)} will expect you to punish {d(Criminal)}, this charge is not severe enough to put you under obligation."
+Guardianship.StartGuardianshipUpdate.Description.ForeignRuler,"{D(Ward)} will live in {houseOf(Guardian)} while they are {d_s(Guardian)} ward, so {CurrentHeadOf(Ward)} is likely to be more cautious in {his(CurrentHeadOf(Ward))} dealings with {d(Guardian)}."
+Guardianship.AppointGuardianDecisionUpdate.Description.LegalRuler,"
+
+The members of your house that are eligible to be a guardian are yourself or one of your council members."
+Guardianship.AppointGuardianDecisionUpdate.Description.ActingRuler,"
+
+The members of your house that are eligible to be a guardian are your council members. <h>You are not eligible because you are an acting ruler</h>."
+Guardianship.AppointGuardianDecisionUpdate.Description.DirectChild,"
+
+As {Ward} is your {kinRel(CurrentHeadOf(Ward), Ward)}, another ruler may also accept to become their guardian."

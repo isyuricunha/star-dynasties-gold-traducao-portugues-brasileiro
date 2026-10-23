@@ -1,0 +1,726 @@
+﻿Topic,Title,Dependencies,Text,SeeAlso,ImageLoc
+Link.collapse,The Collapse,,"In the 22nd century, Earth was destroyed. It's not clear what happened, although the prevailing belief is that a scientific experiment spun wildly out of control. Whatever the cause, the planet was ripped apart, and electro-magnetic storms destroyed most of the other assets humanity had in the solar system.
+
+Despite its colonization efforts, human civilization was still utterly dependent on Earth and Sol as its logistical, political, and resource centre.  The colonies were plunged into darkness and anarchy. The strong survived by taking from the weak, and a great many died. It was several generations before the situation stabilized, and by then there was little trace of the sophisticated technocratic culture that had taken humanity to the stars.",,
+Link.colony,Colony,,"Before the <link=""collapse"">Collapse</link>, humanity was on the verge of rapid colonization of the galaxy. Mining, research, and industrial installations had been built across scores of star systems, as states and corporations raced to exploit the possibilities of this new frontier. After the Collapse, these installations have become the only remaining living spaces for humanity, as the practical knowledge and economics that would be needed to build more have been lost.
+
+A colony consists of several <link=""installation"">installations</link> in a system that are under the banner of a single ruling <link=""house>house</link>. The practicalities of defense against outside aggressors creates pressure to unite under a single banner, and the lower travel time within a system lets the strongest house easily exert its power over the others.
+
+When the power structure of a colony has been stable for a long time, it becomes widely accepted that its <link=""head"">ruler</link>'s bloodline is the <link=""claims"">legitimate authority</link> of the colony. Challengers will be judged more harshly, and should the house fall from power it will be expected to aggressively reclaim its position.
+
+The typical population of a colony is between 100,000  to 250,000 people.
+
+Colonies are part of <link=""faction"">factions</link>.",damagedcolony;installation,
+Link.house,House,,"The basic unit of social organization is the House. Houses descend from the gangs that initially formed after the <link=""collapse"">Collapse</link> to control space and resources on the <link=""colony"">colonies</link>.  Some colonies have scores of houses that have carved up the colony between them.
+
+A house will control the lives of hundreds or thousands of commoners, but the most important people in it are its <b>members</b>; the <link=""head"">head</link> of the house, their family, and their <link=""councilmember"">trusted advisors</link>.
+
+Members of a house always live in the same colony, though they may sometimes travel. When a couple <link=""marriage"">marries</link>, one of the partners will leave their house and join the house of their spouse. Note that your family members are not necessarily also members of your house.
+ 
+A House can be one of the following;
+- A <i>noble</i> house is the lowest form of house, and controls a section of a <link=""colony"">colony</link>.
+- A <i>ruling</i> house is the noble house that rules the colony. It is headed by a <link=""vassalage"">baron</link>.
+- A <i>leading</i> house is the ruling house on the capital of a <link=""faction"">faction</link>. It is headed by a <link=""vassalage"">duke</link>.
+- A <i>great</i> house is the leading house of the master faction of a <link=""league"">league</link>. It is headed by an <link=""vassalage"">archon</link>.
+
+See <link=""vassalage"">Vassalage</link> for a visual representation of these relationships.
+
+Information about your house is shown when you click on your house flag, or within the borders of the faction it rules on the <link=""map"">map</link>.",vassalage;houseareas,
+Link.head,Head of a House,,"The head of a house is the individual who owns that <link=""house"">house</link>, and who controls it with an iron fist. They have the power of life and death over the house's members and indentured commoners, although <link=""morality"">customs and tradition</link> restrains their hand.
+
+The head of a house that; 
+- controls part of a <link=""colony"">colony</link> is a <i>Noble</i>
+- rules a colony is a <i>Baron</i>
+- rules a <link=""faction"">faction</link> is a <i>Duke</i>
+- rules a <link=""league"">league</link> is an <i>Archon</i>
+
+Barons, dukes, and archons are collectively referred to as <i>rulers</i>. See <link=""vassalage"">Vassalage</link> for a visual representation of the political hierarchy.
+
+When the head of a house dies, the ownership of the house is <link=""inheritance"">inherited</link>. If the <i>legal head</i> is underage, or in some other way unavailable to manage the house, an <i>acting head</i> is temporarily placed in charge. They are typically the <link=""marriage"">spouse</link> or a close relative of the legal head.",vassalage,
+Link.faction,Faction,,"<link=""colony>Colonies</link> band together, either for protection, or because the ruling <link=""house>house</link> of a colony is powerful enough to coerce nearby colonies to be <link=""vassalage"">vassals</link>.
+
+A faction is ruled by a <link=""head"">duke</link>. A duke is obliged to protect their vassal <link=""head"">barons</link> and to address their <link=""morality"">grievances</link>. In return barons pay a <link=""tax"">tax</link> and must provide their colony's <link=""fleet"">fleet</link> when called to arms. Beyond those obligations, barons expect significant autonomy, and will engage in their own military adventures.
+
+When the power structure of a faction has been stable for a long time, it becomes widely accepted that its duke's bloodline is the <link=""claims"">legitimate authority</link> of the faction, and that the faction should own its vassal colonies.
+
+A single colony that is independent is also called a faction. Factions can be part of a <link=""league"">league</link>.",league,
+Link.league,League,,"A league is a group of <link=""faction"">factions</link> that is ruled by an <link=""head"">archon</link>. The league is the largest kind of political grouping.
+
+See <link=""vassalage"">Vassalage</link> for a visual representation of the political hierarchy.
+
+The factions in a league are ruled by the vassal dukes of the archon. One of the factions in the league is the <i>master faction</i>. This faction is ruled personally by the archon. The archon also personally rules the <link=""colony"">capital system</link> of this faction.
+
+An independent duke can become an archon by <link=""formvassal"">forming a vassal faction</link>, however this is only a beneficial move if the duke is reaching their <link=""vassallimit"">vassal limit</link>. An independent duke can also become an archon if another duke agrees to become their vassal.
+
+A baron or vassal duke cannot have their own vassal dukes, and so cannot become an archon directly. However they could rebel against their political hierarchy, making them an independent duke.
+
+When a faction has been the vassal of a league for a long time, the master faction gains a <link=""claims"">claim</link> to be the master of the vassal.",,
+Link.inheritance,Inheritance,,"The warlords that initially seized power after <link=""collapse"">the Collapse</link> chose family members as their successors. Over time, bloodline inheritance has become the social and political norm, forming the basis for legitimate authority to rule.
+
+When an individual dies, their firstborn child (depending on the applicable <link=""succession"">succession</link> rule) inherits their possessions and their <link=""claims"">authority</link>. They also inherit their <link=""morality"">grievances</link> and accountabililty for their <link=""morality"">crimes</link>. If a child inherits a position of power that they are still too young to hold, an acting <link=""head"">head</link> is temporarily appointed until they become of age. You can see the line of succession for any <link=""house"">house</link> or <link=""colony"">colony</link> by focusing on it.
+
+If a deceased <link=""head"">baron</link> has no natural heir, it falls upon the <link=""head"">duke</link> of their <link=""faction"">faction</link> to appoint a new one. If a deceased duke or archon has no natural heir, their most senior vassal takes over their <link=""domain"">domain</link>.
+
+If a duke or archon inherits a faction, the two factions are merged under the banner of the higher ranking one. If a baron inherits a faction, their <link=""colony"">colony</link> becomes the capital system of that faction. If a baron inherits a faction, or a <link=""vassalage"">vassal</link> duke inherits a master faction, they cease to be vassals of their former master without conflict or dishonor.
+
+A <link=""league"">league</link> is inherited if its master faction is inherited.
+
+If a duke or archon inherits a colony, that colony becomes part of their faction. If a baron inherits a colony, they must choose a character who will become its new baron, since they cannot personally rule both colonies.
+
+When a noble inherits a colony or faction, their house takes over that territory and is merged with the previous house that ruled it. When a ruler inherits a noble house, that house is merged into their own.",,
+Link.housesizelimit,House Size Limit,,"Humanity lacks the knowledge to build new <link=""colony"">colonies</link> or significantly expand existing ones, so there is a limit on how many people can be supported. This has created enormous social pressure to limit population growth and the excessive consumption of colony resources.
+
+As the <link=""head"">head</link> of a <link=""house"">house</link>, you must limit its members. The maximum size that is considered fair depends on your gross <link=""houseincome"">income</link>. The limit is visible when you focus on your house (shown as ""Members: X/Y""). Hovering over it will show the relationship to your income.
+
+You limit the size of your house by managing the number of <link=""marriage"">marriages</link> and children that the house members have. Each couple can have a single child, but need your permission to have more.",,
+Link.domain,Domain,,"The domain of a <link=""house"">house</link> is the region it controls, i.e. the domain of;
+- a ruling house is the <link=""colony"">colony</link>
+- a leading house is the <link=""faction"">faction</link>
+- a great house is the <link=""league"">league</link>
+
+See <link=""vassalage"">Vassalage</link> for a visual representation of the political hierarchy.
+
+For easier navigation, when you click on a leading or great house's flag, you are shown information about that house's domain (i.e. it's faction or league) as well as information about the house.",,
+Link.vassalage,Vassalage,,"The relationship between rulers in the <link=""map"">galaxy</link> is that of vassalage; a system of mutual obligation between the master and subject. The master provides protection and <link=""morality"">justice</link>, while the subject provides <link=""fleet"">military</link> and <link=""tax"">economic</link> support.
+
+In a <link=""faction"">faction</link>, a duke has barons as vassals. Each baron pays a <link=""tax"">tax</link> to the duke, and must bring their military fleet when called upon.
+
+The baron in turn has their own vassals; the nobles that control the <link=""colony"">colony</link>. Thus when a duke goes to war, their fleet is composed of the ships of all the houses on all the colonies of their faction.
+
+A duke may by independent, but they may also be a vassal of an archon. Archons rule <link=""league"">leagues</link> of factions, and sit at the top of the political hierarchy.
+
+Vassals enjoy considerable autonomy, largely because of the distances between colonies.  As a result, even powerful houses have limited tools to directly control their subjects, and holding together a large faction or league can be more challenging than conquering it.
+
+When a ruler willingly submits to becoming the vassal of another, any <link=""morality"">grievances</link> between them are forgotten.
+
+Note that not all the rulers within another ruler's territory are their <i>direct</i> vassals. The vassal barons of a duke who is the vassal of an archon are <i>indirect</i> vassals of the archon. Unless specified, ""vassal"" means ""direct vassal"".",formvassal,rulerhierarchy
+Link.tax,Taxation,,"Tax is the primary source of <link=""houseincome"">income</link> for <link=""head"">dukes</link> and <link=""head"">archons</link>. Each direct <link=""vassalage"">vassal</link> of a house pays tribute to their master house.
+
+There are three levels of tax that you can set on your ruler vassals; Low (<v>10%</v>), Medium (<v>20%</v>), or High (<v>30%</v>). At Low and High levels of tax your vassals will experience an <link=""opinion"">opinion</link> bonus or penalty respectively.
+
+You can increase the amount of tax you get from a specific vassal, without negatively impacting their opinion of you, by using the <link=""administration"">Assist Tax Collection</link> <link=""assignments"">assignment</link>.",,
+Link.fleet,Military Fleets,,"Each <link=""house"">house</link> derives its power from the military force it can bring to bear to protect its <link=""domain"">territory</link> or threaten its rivals.
+
+Each house maintains some form of private fleet. A <link=""vassalage"">vassal</link> house is obliged to participate in the military adventures of its master. Thus, while a <link=""head"">baron</link> might have a small personal fleet, they can command a fleet of the combined military vessels of their <link=""colony"">colony</link> when they need to defend it or answer a call to arms of their master. Similarly, a <link=""head"">duke</link> can command the combined fleets of their <link=""faction"">faction</link>, and an <link=""head"">archon</link> can command the combined fleets of their <link=""league"">league</link>.
+
+In practice, when you attack or defend a particular location, you will only be calling upon the vassals that are close to that location, as only they will be able to supply a significant portion of their fleet. If you click or hover over a star system on the map you will be shown the size of the combined fleet you can bring to bear at that location if all vassals in range answered your call.
+
+To your benefit, houses in a colony are motivated to build and maintain the largest private fleet they can to defend themselves. A colony's fleet is built with diminishing returns, i.e. as the fleet grows larger, it grows more slowly. There is a maximum fleet size a colony can support that is directly tied to the amount of <h>Wealth</h> generated by its <link=""installation"">installations</link>. A colony has a natural fleet <link=""fleetcomposition"">composition</link> based on the surviving production facilities available to it.
+
+As a ruler you manage the combined fleet of your <link=""domain"">domain</link> indirectly;
+- You can accelerate fleet building in a specific colony using the <link=""administration"">Rebuild Fleet</link> <link=""assignments"">assignment</link>.
+- You can increase the maximum size of a colony's fleet by repairing installations that generate <h>Wealth</h>.
+- You can gradually shift the composition of the fleet that the houses on a specific colony build and maintain using the <link=""technology"">Shift Fleet Composition</link> assignment.",,
+Link.vassallimit,Vassal Limit,,"There is a limit to how many <link=""vassalage"">vassals</link> you can have without penalty. This is shown for your <link=""house"">house</link> in the bottom toolbar, to the right of your character's portrait. The limit is calculated as the sum of the following factors:
+- Base Value of <v>3</v>
+- Your house's score in <link=""administration"">Administration</link> (<pv>+1</pv> for each <v>50</v> points)
+- Your house's score in <link=""technology"">Technology</link> (<pv>+1</pv> for each <v>75</v> points)
+- Your house's <link=""houseincome"">gross income</link> (<pv>+1</pv> for each <v>20</v><#dcab00><sprite name=""icon_money"" tint=1></color>)
+- Using the <link=""technology"">Monitor Vassals</link> <link=""assignments"">assignment</link> (<pv>+1</pv> to <pv>+3</pv> based on effectiveness)
+- Bonuses provided by some <link=""installation"">installations</link>, if they are within range of your home system
+
+When your house has too many vassals you suffer two penalties;
+- Your gross income is reduced by a fraction equal to the number of excess vassals divided by the vassal limit, e.g. if you have <v>7</v> vassals against a limit of <v>5</v>, your gross income is reduced by (<v>7</v>-<v>5</v>)/<v>5</v> = <v>2</v>/<v>5</v>.
+- Your <link=""ap"">AP</link> is reduced by the number of excess vassals
+
+If you are an <link=""head"">archon</link>, you can reduce your direct vassals by transferring control of barons to your vassal dukes. If you are an independent duke, you can <link=""formvassal"">form a vassal faction</link> within your territory, and transfer control of barons to your new vassal duke. If you are a vassal duke you cannot reduce your direct vassals without reducing the size of your territory. In extremis, you can grant a vassal independence from you.",,
+Link.ap,Action Points (AP),,"Each character gets <v>12</v> Action Points (AP) per turn, which represents the amount of time they have to focus on different activities. Actions usually cost some AP to trigger, and you can no longer effectively act when you run out of AP.
+
+There are standard modifiers to AP per turn:
+- <nv>-4</nv> to <pv>+4</pv> based on your <link=""happiness"">happiness</link> at the end of the last turn.
+- If you have too many <link=""vassallimit"">vassals</link>, you get <nv>-1</nv> AP for each vassal over the limit.
+
+At the end of the turn, any AP you have not used is converted into income for your house. Each unused AP point is converted to 0.5<#dcab00><sprite name=""icon_money"" tint=1></color>.
+
+<b>Important Note</b>: Do not feel that you must spend all your AP. AP acts as a limit to how much you can do in a single turn, but there will be some turns (especially when your empire is small), where there isn't much you can meaningfully do to improve your position. Lie in wait, and pounce when an opportunity arises.",,
+Link.happiness,Happiness,,"The game tracks the overall mood of each character, which changes based on the following factors;
+- The events that happen to that character directly
+- The ongoing circumstances that are part of that character's life
+- The ongoing circumstances or events that happen to other characters they care about
+
+Different characters will react more or less strongly to the same event based on their <link=""traits"">traits</link>. For example, a cowardly <link=""head"">ruler</link> will react more negatively to being attacked.
+
+You can examine the reasons why a particular character is happy by focusing on that character. Note that the overall value (on a scale of <nv>-100</nv> to <pv>100</pv>) is not a simple sum of the contribution of each reason. As a character becomes significantly happy or unhappy, each source of happiness has progressively less effect (i.e. it has diminishing returns).
+
+When you are happy;
+- You are better liked by others
+- You improve your <link=""skill"">skills</link> more quickly
+- You get a bonus to your <link=""ap"">AP</link>
+- You get a bonus to your <link=""house"">house</link>'s <link=""houseareas"">capability scores</link>
+
+Conversely, when you are unhappy you will receive a penalty in these areas.",opinion,
+Link.houseareas,House Areas,,"The activities that a <link=""house"">house</link> carries out are broken down into five areas;
+- <link=""administration"">Administration</link>
+- <link=""military"">Military</link>
+- <link=""diplomacy"">Diplomacy</link>
+- <link=""security"">Security</link>
+- <link=""technology"">Technology</link>
+
+For each area, a member is appointed as the <link=""councilmember"">council member</link> responsible for that area.
+
+For your house, the House Members UI tab shows you the assigned council member and your house's score in each area. An area score determines the strength of a set of passive effects. It is based on;
+- Your <link=""skill"">skills</link>
+- The skills of the relevant <link=""councilmember"">council member</link>
+- Your <link=""happiness"">happiness</link>
+- The council member's happiness
+- The council member's <link=""opinion"">opinion</link> of you
+
+Mouse over the value to see more details.",,
+Link.morality,Justice,,"The formal legal system in the <link=""colony"">colonies</link> died in the <link=""collapse"">Collapse</link>, but social and political behaviour is still constrained by a set of widely accepted norms that have evolved to limit aggression and abuse of power.
+
+When you contravene these norms you commit a <i>crime</i> and lose <link=""opinion"">honor</link>. On the other hand, if you go above and beyond what is expected of you to help your fellow man, you gain honor.  
+
+The victim of a crime gets a <i>grievance</i> against their wrongdoer. If they then act in a way that would normally be considered dishonorable towards the wrongdoer, they are instead seen as <link=""punishment"">seeking justified revenge</link>, and will not lose honor so long as their revenge is proportional. For example, executing someone is normally dishonorable behaviour, but you will be justified in executing a noble that rebelled against you. 
+
+Grievances are forgotten over time; how long depends on the seriousness of the crime. While they persist, they are <link=""inheritance"">inherited</link>.
+
+The <link=""head"">acting head</link> of a <link=""house"">house</link> can seek revenge for crimes committed against the legal head of the house. Parents can seek revenge for crimes committed against their underage children, if those children are members of the same house.
+
+Committing a crime against someone who owes you a <link=""favour"">favour</link> will let them off the hook for that favour.
+
+You can try to frame someone for dishonorable behaviour using the <link=""diplomacy"">Defame</link> <link=""assignments"">assignment</link>.
+
+<b>Charging</b>
+
+If an individual wrongs someone who cannot directly seek revenge themselves, and the crimes are sufficiently serious, the victim may be able to demand justice from a <link=""head"">ruler</link>. The ruler to whom the charge is made depends on the social and political relationships between the victim and the criminal, and the nature of the crime. They may be;
+- The <link=""vassalage"">master</link> of the victim
+- The master of the criminal
+- A kin member of the victim who is a ruler
+
+If a character would come to you to demand justice for a particular grievance, you can pre-emptively approach them and offer to avenge it. This is useful if you want to move against a character under the pretense of righteousness.
+
+If you are charged, you are then able to punish the criminal or to charge another ruler in turn who may be better placed to punish. Depending on the severity of the crimes and the relationship to the victim; you may be honor-bound to seek revenge within <v>2</v> turns, unless a <link=""war"">war</link> prevents them from doing so. This information is shown in the Justice Panel when focusing on yourself.
+
+Avenging a particularly serious crime will improve your reputation.
+
+If the relevant social and political relationships change, and the ruler to whom the charge should be made changes, the original charge is invalidated, and that ruler may no longer avenge the crimes. If a ruler is charged but fails to avenge the crime, they may not be charged again until several years pass.",punishment,
+Link.administration,Administration,,"The administrative function of a <link=""house"">ruling house</link> manages logistics within its <link=""domain"">domain</link>, oversees its <link=""colony"">colony</link>, and <link=""tax"">collects tax</link>.
+
+<b>Passive Effects</b>
+- Increases your <link=""houseincome"">income</link>
+- Increases the number of <link=""vassalage"">vassals</link> you can have
+
+The strength of these effects is proportional to the <link=""houseareas"">score</link> of the house in Administration.
+
+<b><link=""assignments"">Assignments</link></b>
+- <i>Assist Tax Collection</i>: Increases the amount of tax collected from a vassal ruler.
+- <i>Repair Installation</i>: Repairs an <link=""installation"">installation</link> in a colony so as to generate it's benefits.
+- <i>Rebuild Colony</i>: Repairs a <link=""damagedcolony"">derelict colony</link>, repopulates it, and makes it part of your <link=""faction"">faction</link>.
+- <i>Rebuild Fleet</i>: Increases the rate at which a colony's <link=""fleet"">fleet</link> will reach its maximum size.",skill,
+Link.military,Military,,"The root of a <link=""house"">house</link>'s power is its capability to exert military force when necessary. The military team of a house is responsible for preparing the house's fleet, training the rank and file, and for coordinating and leading <link=""vassalage"">vassal</link> fleets when called to war.
+
+<b>Passive Effects</b>
+- Provides a strength bonus to your combined <link=""fleet"">fleet</link> in <link=""combat"">combats</link> that your house leads
+- Provides a strength bonus to your home system's fleet in combat, whether you are the fleet leader or a participant
+
+The strength of these effects is proportional to the <link=""houseareas"">score</link> of the house in Military.
+
+<b><link=""assignments"">Assignments</link></b>
+- <i>Improve Defense</i>: Gives your fleet a defense bonus in a particular location.
+- <i>Improve Attack</i>: Gives your fleet an attack bonus in a particular location. Takes time to ramp up.
+- <i>Hide Fleet Movements</i>: Improve your chances of maintaining <link=""combat"">surprise</link> when a particular vassal joins your fleet.
+- <i>Quell Unrest</i>: Reduce the likelihood of a <link=""systemrebellion"">system rebellion</link> on your colony.",skill,
+Link.diplomacy,Diplomacy,,"The backbone of your power is your military <link=""fleet"">might</link>. But above that foundation, power lies in the game of politics between <link=""house"">houses</link>. Your diplomacy team is responsible for presenting your house's activities in the best possible light, disseminating propaganda about you and your actions that increase your <link=""opinion"">popularity</link>.
+
+<b>Passive Effects</b>
+- Gives a bonus opinion modifier to every character's opinion of you, particularly your <link=""vassalage"">vassal</link> rulers.
+- Gives a bonus opinion modifier to every character's opinion of members of your house.
+
+The strength of these effects is proportional to the <link=""houseareas"">score</link> of the house in Diplomacy.
+
+<b><link=""assignments"">Assignments</link></b>
+- <i>Improve Relations</i>: Gradually increase a character's opinion of you.
+- <i>Defame</i>: Frame a character for <link=""morality"">dishonorable</link> behaviour they did not commit.
+- <i>Spread Dissent</i>: Fan the flames of <link=""systemrebellion"">rebellion</link> on a <link=""colony"">colony</link>.
+- <i>Acquire Claim</i>: Convince the public that your <link=""faction"">faction</link> has an owning <link=""claims"">claim</link> on a particular colony.",skill,
+Link.security,Security,,"The security team of a <link=""house"">house</link> is responsible for keeping its members safe, and for discovering information that the house can use to its advantage.
+
+<b>Passive Effects</b>
+- Provides a chance of discovering <link=""secret"">secrets</link> involving your <link=""colony"">capital system</link> and the characters in it, including visitors.
+- Reduces the effectiveness of foreign Assassinate, <link=""diplomacy"">Defame</link>, Spread Dissent, and Spy Network assignments against your house.
+
+The strength of these effects is proportional to the <link=""houseareas"">score</link> of the house in Security.
+
+<b><link=""assignments"">Assignments</link></b>
+- <i>Assassinate</i>: Secretly kill a character.
+- <i>Protect</i>: Make a character harder to Assassinate.
+- <i>Cover Up Secret</i>: Gradually make a secret harder to discover.
+- <i>Spy Network</i>: Discover secrets, reduce enemy attack <link=""combat"">surprise</link>, and counter enemy spy networks.",skill,
+Link.technology,Technology,,"The technology team of a house are responsible for maintaining our knowledge of how to use the machines and devices that remain from before <link=""collapse"">The Collapse</link>, and to investigate and acquire any more that we may come across in ruined colonies and other forgotten installations.
+
+<b>Passive Effects</b>
+- Determines the rate at which <link=""expeditionevents"">Expedition Events</link> will trigger
+- Reduces the chance of <link=""health"">illness</link>, and increases the chance of recovery from illness
+- Reduces the chance of bad outcomes during childbirth
+- Increases the rate of skill buildup by members of the house
+- Increases the maximum number of vassals the house can have
+
+The strength of these effects is proportional to the <link=""houseareas"">score</link> of the house in Technology.
+
+<b><link=""assignments"">Assignments</link></b>
+- <i>Provide Medical Attention</i>: Improve health outcomes for a character. Increase probability of having a child.
+- <i>Train</i>: Increases a character's skill.
+- <i>Shift Fleet Composition</i>: Gradually change the composition of the fleet that is maintained by a particular colony.
+- <i>Monitor Vassals</i>: Increase the number of direct vassals you can manage.",skill,
+Link.health,Health,,"Medical care in the colonies is poor. Knowledge of biology and anatomy within the population is non-existent. Pathogens have evolved for which we have no synthesizeable drugs. Overcrowding, poor hygiene, poor diet, and the abnormal living conditions contribute to high rates of disease and ill health, at least within the general population.
+
+<i>Ill</i> characters can continue to perform most tasks, but they get a <nv>-50%</nv> modifier to their skills. An ill character who gets better may remain <i>sickly</i>. Sickly characters get ill and have negative health outcomes more frequently.
+
+The probability that a member of your <link=""house"">house</link> falls ill, or gets better when they are ill, generally depends on your house's <link=""technology"">technology</link> score. You can also use the Medical Care <link=""assignments"">assignment</link> to safeguard the health of specific members of your house.",,
+Link.opinion,Opinion and Reputation,,"The game tracks the opinion every character has of each other character that they are <link=""visibility"">aware of</link>. This opinion is based primarily on whether;
+- the character likes the personality of the other character
+- the other character has behaved <link=""morality"">honorably</link>
+- the other character has earned <i>respect</i>, i.e. whether that have demonstrated strength or weakness
+- the other character has done things that have helped or hurt them
+- the other character has done things that have helped or hurt their friends or enemies
+
+Characters will form stronger or weaker opinions of the same event based on their <link=""traits"">traits</link>. For example, honorable characters will disapprove more strongly of dishonorable behaviour. Opinions that are based on events will fade over time.
+
+Underneath character portraits there is a bar that shows the opinion that character has of the character which you are hovering over. If you are not hovering over another character, the opinion shown will be of the character in the first <link=""quickbar"">quickbar</link> slot. This is the <i>contrasted</i> character. If there is no contrasted character, and you are not hovering over another character, the character's opinion of you will be shown.
+
+To see the detailed reason behind the opinion, focus on the character whose opinions you want to see, and the first tab (Feelings) will contain a full list of the opinions that character has of the other character.
+
+A character's opinion of another character is partly personal, i.e. formed by actions that effected them or their peers. But it also includes a set of common opinions that are widely held about that character. These opinions are that character's <i>reputation</i>, and correspond to the first three items in the list above. You can see a character's reputation by clicking on them.
+
+You can improve a character's opinion of you by acting more favourably towards them and their loved ones, or by increasing your reputation. If they are not a member of your house you can also use the <link=""diplomacy"">Improve Relations</link> <link=""assignments"">assignment</link>.",happiness,
+Link.councilmember,Council Member,,"The <link=""head"">head</link> of a <link=""house"">house</link> has a council, on which sit the house members that are responsible for the five <link=""houseareas"">house areas</link>. A house's score in each area is primarily based on the council member assigned to that area, so you will usually want your ablest member for each area on the council.
+
+Placing someone to the council is a permanent privilege, and it is <link=""morality"">dishonorable</link> to replace them. In addition, you are honor-bound to assign one of the council positions to your <link=""marriage"">spouse</link>.",,
+Link.skill,Skills,,"Every character has a skill level in five different skills, each of which corresponds to a house <link=""houseareas"">area</link>:
+- <link=""administration"">Administration</link>
+- <link=""military"">Military</link>
+- <link=""diplomacy"">Diplomacy</link>
+- <link=""security"">Security</link>
+- <link=""technology"">Technology</link>
+
+The skill of a character determines their effectiveness in carrying out <link=""assignments"">assignments</link>, and the amount they will contribute to the house score in an area if they are appointed to the <link=""councilmember"">council</link>.
+
+Children gradually improve in the skills they are interested in until they come of age. Children who have been assigned a <link=""guardianship"">guardian</link> will improve more quickly in the primary skills of that guardian. After they become an adult, a character's skills can be improved in the following ways:
+- Carrying out an <link=""assignments"">assignment</link>
+- Using the <link=""technology"">Train</link> assignment
+- The <link=""head"">head</link> of a house slowly improves their skills in all areas",,
+Link.marriage,Marriage,,"Marriage is one of the most important institutions in post-<link=""collapse"">Collapse</link> culture, for two reasons;
+- Acting in bad faith towards one's kin is <link=""opinion"">dishonorable</link>. Marrying into a family is a good way to discourage them from seeing you as a military target. In general, a <link=""morality"">crime</link> against a family member is considered a more heinous crime. Kin members are also obliged to defend each other from <link=""combat"">aggression</link>.
+- As legitimate power can only be transferred through <link=""inheritance"">inheritance</link>, marriage is one of the key ways an ambitious <link=""house"">house</link> or individual can gain power.
+
+Your marriage is an ongoing source of <link=""happiness"">happiness</link> or unhappiness for your character, depending on how much you like your spouse and whether they are away from your <link=""colony"">home system</link>.
+
+Because of how valuable marriage is to form alliances amongst the nobility (and keep the peace), dissolving a marriage through divorce is normally dishonorable.
+
+When two members from different houses are married, the lesser partner becomes a member of the more important partner's house. The more important partner is determined by the first relevant rule;
+- the character who is higher in a <link=""inheritance"">line of succession</link> to become a <link=""head"">ruler</link>
+- the character who stands to inherit a higher ranking house
+- the older character
+
+If two rulers get married, they will remain the heads of their respective house and live seperately.
+
+The spouse of a ruler has rights by virtue of their position. If an acting <link=""head"">head</link> must take the reins temporarily, they are usually chosen. The ruler is also honor-bound to place them on their <link=""councilmember"">council</link>.
+
+Characters are not free to arrange their own marriages. Instead, for each character there is a <link=""marriageauthority"">marriage authority</link> who can marry them off or divorce their marriage.",marriageauthority,
+Link.codex,Codex,,"Welcome to the Star Dynasties Codex!
+
+This is a library of information about the setting and game rules of Star Dynasties.  Use the list on the left to navigate to the topic of your choice, or click on highlighted topics in the text. 
+
+These topics will help you understanding the setting:
+- <link=""collapse"">The Collapse</link>
+- <link=""colony"">Colonies</link>
+- <link=""house"">Houses</link>
+- <link=""faction"">Factions</link>
+
+These topics will help you understand the core mechanics of the game:
+- <link=""vassalage"">Vassalage</link>
+- <link=""opinion"">Opinion and Reputation</link>
+- <link=""morality"">Justice</link>
+- <link=""assignments"">Assignments</link>
+- <link=""combat"">Combat</link>",,
+Link.claims,Claims,,"When the power structure in a region has been stable for a long time, it comes to be seen as the legitimate structure for that region. Aggression aimed at usurping or conquering it away from its masters is seen as more <link=""morality"">dishonorable</link>, since they have a rightful claim to that region.
+
+A claim can be credible (weak) or legitimate (strong).
+
+There are the following kinds of claims;
+- A character can have a claim to rule a <link=""colony"">colony</link>
+- A character can have a claim to rule a <link=""faction"">faction</link>
+- A faction can have a claim to own a colony
+- A faction can have a claim to have another faction as its <link=""vassalage"">vassal</link>
+
+Character claims are <link=""inheritance"">inherited</link>.
+
+An unexercised claim will fade over time. Characters that have a claim, but are not themselves in power, will pass on a weaker version of their claim to their children (or no claim at all). Factions that no longer possess the colonies or vassal factions they claim will lose those claims over time.
+
+Faction claims to own colonies can be acquired using the <link=""diplomacy"">Acquire Claim</link> <link=""assignments"">assignment</link>.",championing,
+Link.championing,Claim Pressing,,"You <i>press</i> a <link=""claims"">claim</link> by helping a claimant (potentially yourself) gain their rightful authority. Pressing a claim justifies aggression that is normally a <link=""morality"">crime</link>. If you help someone else press a claim, you are <i>championing</i> that claim. 
+
+You are always justified in trying to press your own claims, even if you fail multiple times.  However you cannot champion another's claim repeatedly until some time has passed.
+
+Claims can be pressed directly in the following ways;
+- A <link=""head"">duke</link> or <link=""head"">archon</link> can press a character's claim to be the <link=""head"">ruler</link> of one of the <link=""vassalage"">vassal</link> <link=""colony"">colonies</link> in their <link=""faction"">faction</link> by <link=""depose"">deposing</link> that colony's current ruler and replacing them
+- An archon can press a character's claim to be the ruler of one of their vassal factions by deposing that faction's current ruler and replacing them
+- A duke or archon can press a character's claim to rule a dead faction by <link=""formvassal"">resurrecting that faction</link> within their territory, if some of it is claimed by the dead faction
+- A duke or archon can press a character's claim to rule a foreign faction or its capital by declaring <link=""war"">war</link> on it
+- A duke or archon can press a faction's claim to own one of their vassal colonies by <link=""give"">transferring ownership</link> of the colony to that faction
+- A duke or archon can press a faction's claim to own their capital system by <link=""surrender"">surrendering</link> ownership of their faction
+- A duke can press an independent faction's claim to be their faction's master by becoming that faction's vassal
+- A vassal duke can press an independent faction's claim to be their faction's master by <link=""rebellionbetrayal"">betraying</link> their current master and switching allegiance
+- An archon can press an independent faction's claim to be the master of one of their vassal factions by transferring ownership of the vassal faction to that faction
+- A ruler can press various claims within their master's territory by <link=""rebellionbetrayal"">rebelling</link> against them
+
+You can only champion a claim of a direct subject.
+
+If a ruler cannot press a claim directly they may still be able to champion it. If the claim relates to something outside their territory, they champion it by making a demand from the ruler whose territory it resides in. If the claim relates to something within their territory, they champion it by making a demand from the vassal that can press it or champion it in turn.
+
+When a ruler makes a demand to another ruler to press or champion a claim, the consequence of refusal is always war or rebellion.",,
+Link.combat,Combat,,"When violence erupts between two <link=""house"">houses</link>, it is usually settled through a battle between the combined <link=""fleet"">fleets</link> that those houses can muster.
+
+<b><link=""fleetassignment"">Assigning a Commander</link></b>
+
+Your first decision when engaged in a combat is to choose the commander that will lead the combat. Commanders have a <link=""skill"">skill</link> level and different <link=""combattactic"">tactics</link> that they bring to an engagement. You can not use a commander in multiple locations in the same turn unless those locations are <link=""map"">nearby</link>. If no one is available to command the fleet, you cannot fight.
+
+<b>Buildup</b>
+
+You and your opponent will then progressively build up your fleets for the engagement. In turn you will choose the <link=""head"">ruler</link> of a <link=""colony"">colony</link> that is in range of the combat location and ask for their support. Different rulers will have different <link=""morality"">obligations</link> to help you;
+- <link=""vassalage"">Vassals</link> are honor-bound to answer a call to arms by their master
+- A master is honor-bound to defend a vassal when they are attacked by someone who is not also their vassal
+- A vassal is obliged not to support the side their master is fighting against, and vice versa
+- If a <link=""head"">duke</link> or <link=""head"">archon</link> provides their support, their vassals become obliged to provide their support if asked
+- The kin of the defender usually have an obligation to help them
+
+Both sides may try to strike deals to bring in a neutral party on their side, and pay mercenaries to pad their fleets.
+
+The closer a ruler's colony is to the combat location, the more of their military they can provide. You can still ask for support from rulers that are outside the combat range if they have vassals that are within the range, as that ruler's support will oblige their vassals to aid you. To provide their military, a ruler must also have a path by which they can reach the combat location through your territory, or the territory of rulers that have agreed to support you. Each ruler that joins the combat appoints a commander that is responsible for their colony's sub-fleet.
+
+The attacker must pay <link=""ap"">AP</link> for each action they take during buildup. Buildup ends when they choose to launch their attack, however the defender gets <v>4</v> additional actions at this point.
+
+The attacker can choose to retreat from the attack. The defender may attempt to negotiate this retreat.
+
+<b>Surprise</b>
+
+When an attacker starts a combat buildup, they usually start with the element of surprise. While they have surprise, they ask rulers to join their fleet without the defender acting in turn, thus reducing the number of buildup actions the defender will take.
+ 
+Surprise can be lost in two ways;
+- A ruler you ask for support betrays the attack to the defender. You can minimize the risk of this by not asking rulers that have some loyalty to the defender, until you lose surprise.
+- Fleet movements are detected by agents of the defender. The chance of this happening becomes progressively larger for each additional ruler that joins your fleet. You can minimize the risk of this by using the <link=""military"">Hide Fleet Movemements</link> <link=""assignments"">assignment</link>. Conversely, you can increase the chances you detect enemy fleet movements by using the <link=""security"">Spy Network</link> assignment.
+
+<b>Resolution</b>
+
+The combat itself happens over three rounds. In each round;
+- Both sides pick a <link=""combattactic"">combat tactic</link> to use (in secret), from the tactics that have not yet been used in that combat (the Attack and Retreat tactics can always be used).
+- Both sides make a damage roll. This determines the base damage dealt that round as a % of fleet strength.
+- Both sides deal damage to the opponent's fleet, based on; the size of their fleet, their damage roll, the respective composition of the fleets, and the tactics in play.
+
+The commanders that have been assigned to the fleet can be <link=""health"">injured</link> or killed during combat. If this happens before the end of combat, the portion of the fleet that commander is responsible for is reduced in strength for the remainder of combat.
+
+The winning side is the one with the largest fleet at the end of the three rounds, or the remaining side if the other retreats.
+
+You can improve your chances of victory in a particular location using the <link=""military"">Improve Defense</link> and <link=""military"">Improve Attack</link> assignments.
+
+<b>Post-Combat Recovery</b>
+
+A small portion of the damage inflicted to the colony fleet of each ruler is repaired. The amount repaired depends on the Military skill of the commander that colony's ruler chose.",,
+Link.spacetravel,Space Travel,,"Even before the <link=""collapse"">Collapse</link>, no satisfactory explanation had been found for the existence of ""star lanes"", lattices of perturbations in space through which ships equipped with specialized drives can travel at great speeds. Humanity's initial exploration of the galaxy followed those strands that had fortunately linked two star systems.
+
+Despite the existence of star lanes, travel between <link=""colony"">colonies</link> is slow. A ruler's best courier might manage a hop in a day or two. For the disintegrating trading vessels that trickle goods, visitors, and less important communications between colonies, a hop will take weeks.
+
+As a result, colonies in the same territory enjoy considerable autonomy.",,
+Link.fleetassignment,Fleet Assignment,,"When a <link=""house"">house</link> mounts an attack or defense, a <link=""fleet"">fleet</link> commander must be chosen from the house members assigned to <link=""military"">Military</link>. A fleet operation can take several weeks or months, given the time taken to <link=""spacetravel"">travel</link> between systems, so a commander sent to manage a fleet at a <link=""colony"">colony</link> can only be assigned to fleet operations that take place in systems nearby to that colony for a turn.",,
+Link.systemrebellion,System Rebellion,,"Unrest can grow on a <link=""colony"">colony</link>. When it reaches a critical threshold, a noble <link=""house"">house</link> leads a rebellion against its <link=""head"">ruler</link>.  The Population Unrest panel tracks the causes of dissatisfaction on the colony and the progress of unrest on it.
+
+Some standard reasons for discontent are;
+- Small number of liveable <link=""installation"">installations</link> in the colony
+- The <link=""head"">baron</link> has a poor <link=""opinion"">reputation</link>
+- The <link=""head"">duke</link> of the colony's <link=""faction"">faction</link> has a poor reputation
+- The <link=""head"">archon</link> of the colony's league has a poor reputation
+- The ruler is not the <link=""claims"">legitimate</link> ruler of the colony
+- The system is not legitimately a member of its owning faction
+
+External houses can actively try to provoke rebellion in a colony using the <link=""diplomacy"">Spread Dissent</link> <link=""assignments"">assignment</link>. Conversely, the ruling house can use the <link=""military"">Quell Unrest</link> assignment to suppress dissent.
+
+When a system rebellion starts, the colony's <link=""fleet"">fleet</link> is split between rebels and loyalists and a <link=""combat"">combat</link> starts. Both sides will typically ask for help from nearby colonies. Most rebellions are doomed to fail, since even unpopular ruling houses usually have stronger relationships with houses from other colonies than the rebelling noble house.
+
+If the rebel house wins the combat, it takes over as the new ruling house of the colony. By default, the colony remains a legitimate member and <link=""vassalage"">vassal</link> of its faction. However, a successful rebellion on a faction's capital system will dissolve the faction.
+
+If the ruling house wins the combat, the rebellion is unsuccessful. Any surviving military on both sides is consolidated back into the colony fleet.",,
+Link.economy,Economy and Wealth,,"Most of the inhabitants of the <link=""colony"">colonies</link> work and live directly within the territory their patron <link=""house"">house</link> controls. For labouring in the <link=""installation"">hydroponic farms, mines, and shipyards</link> they are fed and housed in cramped quarters. Skilled workers may be rewarded with better conditions, but few ever see any money.
+
+Even noble houses conduct much of their trade in goods or services directly, bartering food for ore, or exploiting whatever technology that house was lucky enough to end up controlling within its territory. However the universal need for <i>viridium</i>, a rare metal that is vital for ship construction and maintenance, has led to its adoption as a common currency, facilitating longer distance trade.
+
+Houses with <link=""vassalage"">vassals</link> take a close interest in their economic activities, trying to find ways to improve the productivity of their territory as a whole. Ruling houses also sometimes use their wealth to improve common areas of the colony, reasoning that the increase in tribute over time will make up for their short term generosity.",houseincome,
+Link.houseincome,House Income,,"As a <link=""head"">ruler</link>, you have two main sources of income;
+- the wealth you extract from your <link=""colony"">colony</link>
+- the <link=""tax"">taxes</link> you levy on your vassal rulers
+
+You can see a breakdown of your income and expenses by focusing on your <link=""house"">house</link>.
+
+You can improve your income by;
+- repairing <link=""installation"">installations</link> in your colony that provide <h>Wealth</h>
+- increasing your house's <link=""houseareas"">score</link> in <link=""administration"">Administration</link>
+- raising the <link=""tax"">tax rate</link> on your <link=""vassalage"">vassal rulers</link>
+- using the Assist Tax Collection <link=""assignments"">assignment</link>",economy,
+Link.damagedcolony,Derelict Colonies,,"<link=""house"">Houses</link> expend considerable energy simply maintaining the <link=""colony"">colony</link> installations in which they reside. Bases have been patched and re-patched for hundreds of years, and rapidly decay without constant attention.
+
+If all of a colony's <link=""installation"">installations</link> fall into disrepair, the colony is abandoned and its houses flee into destitution to nearby colonies.
+
+A ruler can use the <link=""administration"">Rebuild Colony</link> <link=""assignments"">assignment</link> to repair the main installation of a derelict colony and repopulate it.",,
+Link.feast,Feasts,,"When a <link=""house"">house</link> is blessed with good fortune, it is customary for that house to throw a feast, inviting its <link=""vassalage"">vassals</link> and peers from nearby <link=""colony"">colonies</link> . When a house does not celebrate its successes, its <link=""head"">head</link> loses <link=""opinion"">respect</link>. Conversely, a successful feast can increase one's prestige.
+
+Apart from special occasions, <link=""head"">dukes</link> and <link=""head"">archons</link> can also host a feast in someone's honor. Hosting a feast brings <link=""opinion"">prestige</link> to the guest of honor as well, for which they are usually grateful.
+
+The cost of a feast scales with the number of rulers invited. Depending on the occasion, some rulers will expect an invite and will be annoyed at being snubbed.
+
+A ruler or leader invited to a feast takes along a small entourage. With so much nobility mixing together, there is always some intrigue as a result. The highlight of the feast is its <link=""tournament"">tournament</link>.",,
+Link.tournament,Tournaments,,"A common element of a <link=""feast"">feast</link> is the tournament. 
+
+Each <link=""head"">ruler</link> that is attending the feast will submit a champion from their party. The winner of the tournament and their master <link=""opinion"">gain prestige</link>. A ruler can participate directly in the tournament, but participants risk <link=""health"">injury</link>.
+
+In each bout of the tournament, you can instruct your champion to fight normally, fight aggressively, or throw the fight. Fighting aggressively increases the chance of victory, but also the chance of injury. Throwing a fight minimizes injury, and may be a good choice if you do not wish to anger your opponent. Note that if both participants are trying to throw the fight, you may still end up as the winner.",,
+Link.quickbar,Quickbar,,"In the bottom left of the UI you have a set of bookmarks for characters, star systems (i.e. <link=""colony"">colonies</link>), and <link=""domain"">domains</link> (i.e. <link=""house"">houses</link>, <link=""faction"">factions</link>, and <link=""league"">leagues</link>).
+
+You place something in the quickbar by dragging it to a slot, or by Ctrl+Right-clicking on it to place it in the first available slot. Similarly you can clear a slot by Ctrl+Right-clicking it, or by dragging its content out and releasing it.
+
+The first slot of the quickbar is special and only takes characters. When a character is in this slot, it is the contrast character, and other character portraits will show that character's <link=""opinion"">opinion</link> of the contrast character. You can place a character in the first quickbar slot by Ctrl-clicking it.",,
+Link.secret,Secrets,,"Some actions and events are only visible to the characters that are involved in them. A subset of these hidden events create <h>secrets</h>, i.e. some kind of evidence that can be used to show what happened, but that the characters would prefer to keep hidden.
+
+Each turn there is a small chance that other characters that know you will discover one of your secrets. Secrets have a <h>discovery difficulty</h> which is on a scale from ""Easy"" to ""Very Hard"".
+
+You have access to a Cover Up Secret <link=""assignments"">assignment</link> by which the evidence for a secret will eventually be destroyed, and the discovery difficulty of a secret will become ""Never"". Some secrets will automatically get harder to discover as time passes and eventually expire - this is shown when you hover over the secret's discovery difficulty.
+
+You can actively try to discover the secrets of other characters (if they have any) by using the Spy Network <link=""assignments"">assignment</link>.
+
+If you become aware of another character's secret you can usually <h>reveal</h> it publically, potentially damaging their political standing. If the secret was about a <link=""morality"">crime</link> they committed, the victim will get a grievance against them when the secret is revealed. You could also use the secret as blackmail, by making a <link=""negotiation"">request</link> and threatening to reveal it. Once used as blackmail, a secret can no longer be revealed by you. A secret with discovery difficulty of ""Never"" cannot be discovered, but it is usually still possible to reveal it or blackmail a character with it.",,
+Link.war,War,,"When relationships between two leading <link=""house"">houses</link> break down, one side can declare war on the other if their territories are <link=""map"">nearby</link>, or threaten war if some demand is not met. Declaring war is normally <link=""morality"">dishonorable</link>. A war becomes justified if it is declared to avenge a crime, or to champion a <link=""claims"">claim</link> within the defender's <link=""domain"">domain</link>.
+
+If a war is justified on the basis of a claim, the attacking <link=""head"">ruler</link> will still lose standing if they do not honor the claim at the first opportunity. For example, if the war was started to champion a character's claim to rule a <link=""colony"">colony</link>, then the ruler is honor-bound to install that character as the colony's ruler when it is conquered. If a war is on the basis of a claim, the defender can end the war at any time by accepting to <link=""championing"">press the claim</link>.
+
+When an <link=""head"">archon</link> is at war, all the <link=""faction"">factions</link> in their <link=""league"">league</link> are considered at war with the enemy. Some political actions are not possible between houses whose respective <link=""domain"">domains</link> are at war. Similarly, a faction at war is constrained from trading away territory that is <link=""map"">nearby</link> to the enemy.
+
+When war is declared, the attacking house will automatically recall its members before the war is declared. However any other character from either side that is carrying out an <link=""assignments"">assignment</link> in the territory of the enemy will be justifiably <link=""arrest"">arrested</link>.
+
+While at war, any duke or archon on either side can attack and <link=""attack"">conquer</link> systems in the opponent's territory. When a system is attacked in war, the defense is always the responsibility of the ruler of its faction, even if it is part of a league. If a system is conquered, the victor may choose to replace its baron with a more trusted <link=""vassalage"">vassal</link>. Annexing systems that one has no claim to is dishonorable.
+
+The war ends when the capital system of one side is conquered, or when both sides agree to peace. A war is also considered to have died out if neither side carries out any aggressive action or makes a demand for ten turns. However a war does not automatically end if the claim the attacker was championing is no longer relevant.
+
+A finished war that was profitable is cause for <link=""feast"">celebration</link>.",,
+Link.punishment,Punishment,,"When you have a grievance against someone, it is not <link=""morality"">dishonorable</link> to punish them in proportion to their crime. As a <link=""head"">ruler</link>, others will come to you asking for justice for crimes against them, and you will be honor-bound to punish their offenders.
+
+Any action that would normally be considered a crime can serve as a punishment. Go to <link=""war"">war</link> against a ruler who has wronged you and your aggression will be seen as a righteous punishment in the court of public <link=""opinion"">opinion</link>. There are also some actions you can take specifically to punish your subjects. As the ruler of a <link=""colony"">colony</link> you can punish inhabitants of your star system through, in order of severity: execution, exile, and nerve-whipping. You can also punish your rulers by levying a fine on them.
+
+You may be tempted to use execution to be rid of a troublesome character, even without justification.",,
+Link.formvassal,Forming a Vassal Faction,,"<link=""faction"">Factions</link> come into being either through <link=""rebellionbetrayal"">rebellion</link>, or when the <link=""head"">ruler</link> of a large faction carves up their territory to make it more <link=""vassallimit"">manageable</link>.
+
+An independent <link=""head"">duke</link> or <link=""head"">archon</link> forms a <link=""vassalage"">vassal</link> faction by choosing one of their <link=""head"">barons</link> and granting them ownership over some of the other <link=""colony"">colonies</link> in their faction (Note: the actions to form a vassal faction and <link=""give"">transfer a system</link> to it are separate in the UI).
+
+This makes that baron a duke, although they remain a vassal. The master faction of the new vassal faction is immediately considered to have a legitimate <link=""claims"">claim</link> to being the master of that faction.
+
+Note that vassal dukes cannot form vassal factions, as they cannot themselves have vassals that are dukes. An independent duke forming a vassal faction becomes the archon of a <link=""league"">league</link>.
+
+Instead of forming a new vassal faction, a duke can resurrect a dead one if they do so while championing a character's claim to lead it. The resurrected faction is immediately granted any colonies to which it has a stronger owning claim than the duke's faction. It is possible for a vassal duke to resurrect a dead faction, but it will become the vassal of their archon.",,
+Link.rebellionbetrayal,Rebellion and Betrayal,,"Because a <link=""vassalage"">vassal</link> wields the <link=""fleet"">military power</link> of their <link=""map"">territory</link>, a ruler's power is in great part based on their ability to retain the <link=""opinion"">loyalty</link> of their subjects. Vassals enjoy a great degree of freedom; as long as they do not oppose their master, they may act politically and militarily to their own advantage.
+
+A popular <link=""head"">baron</link> or vassal <link=""head"">duke</link> may rebel against their master, hoping to gain enough support to become independent and withstand military retaliation. A less powerful ruler on the edge of their master's territory may choose to betray their allegiance to a neighbour. Both actions are normally <link=""morality"">dishonorable</link>.
+
+When a baron rebels, a new <link=""faction"">faction</link> is formed that is immediately at <link=""war"">war</link> with the parent faction. If the latter was part of a <link=""league"">league</link>, the rebel faction remains part of it as well. Any other barons that join the rebellion who are <link=""claims"">legitimate</link> rulers of their colonies grant the rebel faction a claim on their colony. Any faction that has a master claim on the parent faction gains a master claim on the rebel faction.
+
+When a duke rebels, they become independent. If other vassal dukes join the rebellion they form a rebel <link=""league"">league</link> and become its archon. If the other dukes that join the rebellion are legitimate rulers of their faction, the rebel league is granted a claim on that faction. In either case, the rebel is at war with their former master.
+
+If a league loses its last vassal faction, it is disbanded and its archon becomes a duke.",,
+Link.surrender,Surrender,,"When a <link=""faction"">faction</link> or <link=""league"">league</link> is weak, its <link=""head"">ruler</link> may not be able to hold on to their independence. They may seek to become a <link=""vassalage"">vassal</link> of a more powerful ruler, or they may be forced to surrender their <link=""domain"">domain</link>.
+
+When a ruler surrenders, they become a <link=""head"">baron</link> within their master's faction, ruling over their <link=""colony"">home system</link>. All their previous vassals become vassals of their new master. If a <link=""head"">duke</link> or <link=""head"">archon</link> surrenders to a vassal duke, that duke becomes an archon and forms a new league independent of their previous league. This is not <link=""morality"">dishonorable</link>.
+
+You will lose the game if you are no longer a duke.",,
+Link.deposevassal,Deposing a Vassal,,"When the relationship between a <link=""head"">duke</link> or <link=""head"">archon</link> and one of their <link=""vassalage"">vassals</link> breaks down, the master may try to replace the vassal with another character through the use of <link=""fleet"">force</link>. This is normally <link=""morality"">dishonorable</link>.
+
+A vassal will react to your attempt to depose them in one of three ways;
+- They may accept their fate and abdicate the rule of their <link=""colony"">colony</link> or <link=""faction"">faction</link> to your chosen replacement.
+- They may start a <link=""rebellionbetrayal"">rebellion</link>, potentially drawing other disaffected vassals to their cause. This is normally dishonorable.
+- They may simply refuse to accept the order. If their <link=""colony"">home system</link> is directly <link=""map"">nearby</link> to the remainder of your territory you will immediately attack them, replacing them if you win the ensuing <link=""combat"">combat</link>. Otherwise, they simply become independent and in a state of <link=""war"">war</link> with you.",,
+Link.visibility,Visibility,,"What is visible to you depends on the knowledge of the character that you are currently playing.
+
+Other characters have partial visibility as well. You can see if a character knows another by focusing the first character and <link=""quickbar"">contrasting</link> the second.
+
+<b>Characters</b>
+
+You will always be aware of;
+- The <link=""head"">rulers</link> inside your <link=""domain"">territory</link>
+- The dukes and archons whose territory borders yours
+- The barons whose colonies are on the border your faction
+- The <link=""inheritance"">heirs</link> of any rulers you know
+- Close members of your family
+- Members of your <link=""house"">house</link>
+- Nobles that live on your <link=""colony"">capital</link> or are visiting it
+
+You will become aware of other characters organically. There will frequently be events involving someone you do not know. When you switch to a new player character, you will lose visibility of any characters the new player character is not aware of.
+
+<b>Houses</b>
+
+You are aware of a house if you are aware of its <link=""head"">head</link>.
+
+<b>Systems</b>
+
+You are always aware of any systems in your territory and the territory of nearby <link=""faction"">factions</link>. Once you learn of a system, you will retain visibility of that system for the rest of the game.
+
+<b>Factions and <link=""league"">Leagues</link></b>
+
+You are always aware of any <link=""map"">nearby</link> factions, and the factions that are nearby to those factions. You learn of a faction if you learn of its ruler. Once you learn of a faction, you will retain visibility of that faction for the rest of the game.
+
+You are aware of a league if you are aware of its archon and their faction.",,
+Link.traits,Traits,,"Every character in the game has a small set of personality traits that modify their <link=""happiness"">emotional reaction</link> to events, their base <link=""opinion"">opinion</link> of other characters, their reputation, their <link=""skill"">skills</link>, and their behaviour. Focus on a character and hover over their trait icons to see the effect of each trait.
+
+Personality traits come in pairs that are mutually exclusive. A character who has a personality trait will usually like characters with the same trait, and dislike characters with the opposing trait.
+
+The personality traits are;
+- Kind or Cruel
+- Brave or Cowardly
+- Loyal or Fickle
+- Greedy or Satisfied
+- Friendly or Reserved
+- Honorable or Rule-Breaker
+- Proud or Humble
+- Vengeful or Forgiving
+- Charming or Dull
+- Tribal or Individualistic
+- Intelligent or Stupid
+
+In addition a character can have the Gay trait or the Bisexual trait. These effect whether they can initiate a same sex marriage and the happiness they get from being <link=""marriage"">married</link>. Note that a marriage between a man and woman will produce children even if one or both characters are Gay.
+
+Children acquire traits gradually as they get older, and they frequently adopt the personality traits of their parents or their <link=""guardianship"">guardian</link>. They may acquire the Gay trait or the Bisexual trait when they come of age.",,
+Link.assignments,Assignments,,"Members of your <link=""house"">house</link> can be assigned to tasks. These tasks, or <i>assignments</i>, provide a variety of benefits.
+
+An assignment either completes after a number of turns, or has an ongoing effect each turn it is active. You can stop an assignment at any time. If you stop a completeable assignment before it is finished, half of its <#dcab00><sprite name=""icon_money"" tint=1></color> cost is refunded.
+
+Many assignments happen outside your <link=""colony"">home system</link>. The character that is assigned to the task can either carry it out personally (by travelling to the assignment's location) or remotely (by working through agents). Assignments carried out personally are more effective, if you are willing to risk foul play against your house member. <link=""councilmember"">Council members</link> cannot travel, and will always carry out their assignments remotely.
+
+Each assignment is carried out at an <i>Effectiveness</i> level (<v>1</v>-<v>100</v>). At higher levels, ongoing assignments will have stronger effects, and completeable assignments will finish quicker. Effectiveness is based on:
+- The level of the assigned character in a specific <link=""skill"">skill</link>. Each type of assignment relies on one skill.
+- Whether the character is carrying out the assignment personally or remotely
+- The <link=""happiness"">happiness</link> of the assigned character
+- The assigned character's <link=""opinion"">opinion</link> of you
+
+You can assign tasks to any adult member of your house except yourself, but the context actions menu on a character will only show the assignments related to their best skill. You can still assign them to other tasks if you trigger the assignment from the context menu of its target. You cannot assign multiple characters to the same assignment.",,
+Link.love,Love and Affairs,,"Characters will sometimes fall in love with other characters. A character in love will be distracted and have a penalty to their skills unless they are married or in an affair with their love interest. Attraction to someone who is not your <link=""marriage"">spouse</link> is a <link=""secret"">secret</link>.
+
+You can propose to have an affair with your love interest. Affairs, even between unmarried characters, are <link=""morality"">dishonorable</link> and are <link=""secret"">secret</link>. Affairs generate an ongoing positive <link=""happiness"">happiness</link> emotion on the couple. It is possible for a child to be born from an affair, but it is unlikely.",,
+Link.map,Map,,"The map of the galaxy consists of a set of star systems linked together using <link=""spacetravel"">star lanes</link>. Some star systems contain a <link=""colony"">colony</link>, while others are empty. Colonies are ruled by a <link=""vassalage"">baron</link>.
+
+There are <v>115</v> colonies, although some may be <link=""damagedcolony"">derelict</link>.
+
+Colonies are grouped into <link=""faction"">factions</link>. Factions are ruled by a <link=""vassalage"">duke</link>. Factions may be grouped into <link=""league"">leagues</link>. Leagues are ruled by an <link=""vassalage"">archon</link>.
+
+Two colonies are considered <i>nearby</i> to each other if there is a star lane path between them with no other colony blocking it and that is no more than three ""hops"" in length. Similarly factions or leagues are considered <i>nearby</i> to each other if there is at least one colony in the first that is nearby to a colony in the other.",,
+Link.attack,Military Conquest,,"When you are at <link=""war"">war</link> with a <link=""faction"">faction</link> or <link=""league"">league</link>, you can attack a <link=""colony"">colony</link> in its territory. This triggers a combat between you and the <link=""head"">duke</link> that rules that colony's faction.
+
+If you win the combat, you determine the fate of the colony and its <link=""head"">baron</link>. However, if you are the <link=""vassalage"">vassal</link> of an <link=""head"">archon</link> who is at war championing a <link=""claims"">claim</link> that relates to that colony, they may step in at this point and take these decisions away from you.
+
+Your first decision will be whether to leave its existing baron in place or install a new one. Then, if the war was declared to champion a claim and conquering the colony allows you to <link=""championing"">press</link> the claim, you will be <link=""morality"">honor-bound</link> to do so at this point. Lastly, if you are an archon, you choose whether to keep the colony in your faction or to grant it to a nearby vassal faction. Annexing a colony in a faction that has no claim to it is dishonorable, even if the system is conquered in a justified war.
+
+If you conquered the capital system of your enemy, the war will end. Conquering a faction's capital will splinter it into independent colonies. Conquering a league's capital will splinter it into independent factions.",,
+Link.raid,Raids,,"Each turn, a <link=""colony"">colony</link> accrues <i>loot</i>, up to a maximum defined by how well repaired the colony is. Loot is the valuable material that can be carried off easily from the colony.
+
+A <link=""head"">baron</link> may attack a colony in an attempt to plunder its loot. A raid triggers a normal <link=""combat"">combat</link> to determine whether they succeed.
+
+Dukes and archons cannot raid. A duke or archon attacking a system is always attempting to <link=""conquer"">conquer</link> it.",,
+Link.favour,Favours,,"When a character grants a significant boon to another character without having been obliged, a <i>favour</i> is created. This includes;
+- Helping a <link=""head"">ruler</link> in <link=""combat"">combat</link> when there is no <link=""vassalage"">feudal</link> or kinship obligation
+- Giving a ruler a <link=""colony"">colony</link>
+- Giving a ruler a <link=""faction"">faction</link>
+- Granting a vassal independence
+- Promoting a house member to your <link=""councilmember"">council</link>
+
+If a character asks for a similar boon from someone who owes them a favour, the latter is <link=""morality"">honor-bound</link> to reciprocate.",,
+Link.give,Give Vassal,,"A <link=""head"">duke</link> or <link=""head"">archon</link> can transfer ownership of a vassal <link=""colony"">colony</link> in their <link=""faction"">faction</link> to another duke or archon. An archon can also transfer ownership of a vassal faction in their <link=""league"">league</link> to another archon or independent duke. The vassal ruler does not have a choice in the matter. 
+
+A vassal duke cannot be granted ownership of a vassal faction. An archon that gives away their last vassal faction becomes a duke.
+
+If done voluntarily and not as part of a trade, this is a <link=""favour"">favour</link>. Furthermore, the granting ruler weakens their claim to that piece of territory.
+
+Unless a <link=""claims"">claim</link> is involved, a colony can only be transferred to a faction that it is <link=""map"">nearby</link> to. Similarly, a faction can only be transferred to a league that it is nearby to. A ruler cannot give away part of their territory if it is nearby to the territory of a ruler they are at <link=""war"">war</link> with, or if they are at war contesting a claim to it.",,
+Link.negotiation,Negotiation,,"When you make an offer or request to a <link=""head"">ruler</link>; that ruler may accept, refuse, or reply with a request of their own. In the latter case, you can accept or refuse the suggested trade. Accepting some offers is accepting a <link=""favour"">favour</link>.
+
+When a ruler makes an offer or request to you, you will be able to counter with any request that you could currently make of them.
+
+When you make the initial request, you can accompany it with a threat. A ruler can only accept or refuse such a request. If they refuse, the threat is automatically carried out. Threats are normally <link=""morality"">dishonorable</link>.
+
+By hovering over a request or trade, you can find out if a ruler will either definitely accept or definitely refuse. The game will not predict the outcome when the character could reasonably go either way. However the game will show you the precise factors that the character weighed up in arriving to their decision after you make the request.
+
+Demands made when championing a <link=""claims"">claim</link> are not predicted.",,
+Link.fleetcomposition,Fleet Composition,,"Vessels in a <link=""fleet"">fleet</link> are classified into one of three types;
+- <#043F48FF><sprite name=""vessel_bomber"" tint=1></color> Bombers
+- <#990E0EFF><sprite name=""vessel_interceptor"" tint=1></color> Interceptors
+- <#936100FF><sprite name=""vessel_frigate"" tint=1></color> Frigates
+
+Each vessel type is strong against one type of vessel, and weak against another.
+- <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombers deal <pv>200%</pv> damage to <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Frigates and <nv>50%</nv> damage to <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptors
+- <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptors deal <pv>200%</pv> damage to <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombers and <nv>50%</nv> damage to <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Frigates
+- <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Frigates deal <pv>200%</pv> damage to <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptors and <nv>50%</nv> damage to <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombers
+
+You can gradually modify the composition of the fleet that is maintained by a specific <link=""colony"">colony</link> using the <link=""technology"">Shift Fleet Composition</link> <link=""assignments"">assignment</link>.
+
+Vessel types also get different bonuses in <link=""combat"">combat</link> from <link=""combattactic"">combat tactics</link>.",,
+Link.marriageauthority,Marriage Authority,,"The <link=""marriage"">marriage</link> authority of a character is the house <link=""head"">head</link> who has the right to arrange their marriage or divorce it.
+
+Normally the head of a house is the marriage authority for the members of their house (including themselves), but the following rules override that. In order of priority:
+- The ruler of a <link=""domain"">domain</link> is the marriage authority for all their descendants that live in that domain. If a character descends from two rulers whose domain overlaps, the <link=""vassalage"">higher ranking</link> ruler is their marriage authority.
+- The ruler of a domain is the marriage authority for all their close* genetic relatives that live in that domain. If a character is closely genetically related to two rulers whose domain overlaps, the higher ranking ruler is their marriage authority.
+
+If a character's marriage authority is not the head of their house, they will have a state icon on their character summary indicating this.
+
+Note that while there is only ever one marriage authority that can agree to a marriage for a particular character, there may be two marriage authorities that have the power to divorce the marriage (one for each partner).
+
+
+*Close genetic relatives are defined as: parents, siblings, children, grandparents, grandchildren, full siblings of your parents, children of full siblings.",,
+Link.installation,Installations,,"A <link=""colony"">colony</link> is made up of <h>installations</h>, i.e. the bases and space stations that are located in a single system. These assets were built before the Collapse by the various states and organizations that were exploring and exploiting the galaxy. Today, they are the only living space left to humanity, and we do not have the capability to build more.
+
+You can see the installations in a colony by hovering over it's star system on the map, or by clicking on it.
+
+Installations are either <h>Functional</h> or <h>in Disrepair</h>. You can repair installations to make use of them using the <h>Repair Installation</h> <link=""assignments"">assignment</link>. This will provide a benefit that is unique to that installation type.
+
+Installations can suffer collateral damage when there is <link=""combat"">fighting</link> in the system, and fall back into disrepair. If all the installations in a colony are damaged, the colony is <link=""damagedcolony"">abandoned</link>.
+
+Normally, installations provide a benefit primarily or solely to the direct ruler of the colony in which they reside. This means that while the installations on your system are always useful to you, the installations in your vassals' colonies might not be.
+
+Some installations are <h>Ranged</h>, indicated by an orange symbol in the bottom left corner of their image. Ranged installations provide one or more benefits to all allied rulers within an area of the map. This makes them valuable to you even when they are outside of your home system.",,
+Link.combattactic,Combat Tactics,,"In each round of the resolution phase of <link=""combat"">combat</link>, both fleet commanders simultaneously choose a combat tactic.
+
+A tactic is a collection of <i>tactic effects</i> that stay in play for the remainder of that combat. A tactic effect typically provides a bonus or penalty to combat calculations. A tactic can only be played once per combat, except for the default tactics of <i>Attack</i> and <i>Retreat</i>.
+
+Most tactic effects have a type, which is <#D91C25FF><sprite name=""icon_tacticoffense"" tint=1></color>, <#03C2DEFF><sprite name=""icon_tacticdefense"" tint=1></color>, or <#7335ADFF><sprite name=""icon_tactictactical"" tint=1></color>. Some tactics can remove from play any opponent tactic effects of a specific type. This applies to effects that were played in the current or previous turns. Tactic effects that do not have a type will remain in place once played.
+
+Characters learn tactics automatically as their Military <link=""skill"">skill</link> increases, up to a maximum of <v>3</v>. In a specific battle you have access to;
+- Two default tactics: <i>Attack</i> and <i>Retreat</i>
+- The tactics that are known by the commander leading the fleet
+- The tactics that are known by the <link=""councilmember"">Head of Military</link> of your house
+
+Note that if you pick your Head of Military to lead the fleet, each of their tactics will be available twice in that combat.",,
+Link.arrest,Arrest,,"A character can be arrested by the <link=""head"">ruler</link> of the <link=""colony"">colony</link> in which they are currently located. This is normally <link=""morality"">dishonorable</link>. Arrested characters are held on the colony until the ruler releases them, and their actions are restricted. You can ask a ruler to release a member of your <link=""house"">house</link> which they have arrested.
+
+Arresting a character halts any troublesome <link=""assignments"">assignment</link> they could be working on.
+
+You will automatically arrest any members of another house if a <link=""war"">war</link> starts that makes you an enemy of that house. This is not dishonorable. When you declare war on another ruler, you will automatically recall your house members home from enemy territory before they can be arrested. Any members of your enemy's house that are anywhere in your territory are arrested and transferred to your home system.",,
+Link.expeditionevents,Expedition Events,,"The remnants of humanity live within the ruins of a civilization that was at the cusp of a golden era of space colonization. We live inside structures which we cannot build, and travel inside machines whose workings are unfathomable. We may not understand it, but technology gives us life and protects us from the harsh universe. And it is a source of power. Within the husks of abandoned colonies, lost spaceships, and other mysterious sightings; lie trinkets that could bring your house glory.
+
+Your <link=""house"">house</link> strives to discover these relics from <link=""collapse"">pre-Collapse history</link>, and investigate other mysteries of the galaxy. All in an effort to gain an edge on our rivals.
+
+<h>Expedition Events</h> are story events about these efforts and adventures. They usually, but not always, come with good rewards.
+
+Every turn you gain <h>Expedition Points</h>. You gain more if your house has a higher <link=""technology"">Technology</link> <link=""houseareas"">score</link>. Your progress is shown in a bar on the bottom right toolbar. Hover over this to see how many points you have, and how much you are gaining each turn. When you reach a threshold, an Expedition Event triggers.",,
+Link.guardianship,Guardianship,,"<i><b>Note:</b> This feature requires the Bloodlines DLC</i>
+
+When a child in your <link=""house"">house</link> who is related to you is between the ages of 6 and 16, you can assign them a guardian. The responsibility of the guardian is to safeguard the child and mentor them in a particular <link=""skill"">skill</link>. The characters that are eligible to be guardians are yourself and the members of your <link=""councilmember"">council</link>, and a character may only have one ward at a time.
+
+While a child is the ward of a guardian, they will acquire skill points in the best and second best skills of that guardian. Furthermore, the child may also pick up the personality <link=""traits"">traits</link> of that guardian.
+
+You may ask another <link=""head"">ruler</link> to be the guardian of a child in your house, or you may be asked to become the guardian of another ruler's child. A ruler whose child you are the guardian of is likely to be significantly more loyal, because they will fear you <link=""arrest"">harming</link> the child while they are in your care. Similarly you should tread carefully around a ruler to whom you have sent one of your relatives as a ward. However rulers will also be pleased when you trust them in this way, so sending children as wards can help you build <link=""opinion"">relationships</link> with other rulers.",,
+Link.succession,Succession,,"<i><b>Note:</b> This feature requires the Bloodlines DLC</i>
+
+A succession rule identifies the heir who will <link=""inheritance"">inherit</link> the <link=""head"">rule</link> of a <link=""faction"">faction</link> or <link=""colony"">system</link> when its ruler is deceased, and the wider line of succession following that heir.
+
+There are four base succession rules:
+- Oldest Child
+- Youngest Child
+- Closest Relative
+- Oldest Sibling
+
+Each base succession rule also has two variants that prefer heirs of one sex over the other.
+
+The ruler of a star system or faction can change the succession rule that is law for that domain. This is usually <link=""morality"">dishonorable</link>, as it is unfair to the current heir, tears up existing tradition, and potentially reduces the value of your political <link=""marriage"">marriages</link> to other <link=""house"">houses</link>. A less dishonorable route is to disinherit your current heir without outright changing the succession law - the character who was second in line then becomes the heir.
+
+You can also choose to overrule the succession law for your domain and appoint a house member or subject kin member as your heir, however this is the most dishonorable option of all as you are making a mockery of the tradition of bloodline inheritance.",,

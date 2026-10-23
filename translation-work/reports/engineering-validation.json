@@ -1,0 +1,134 @@
+{
+  "batch_sizes": {
+    "full": 500,
+    "full_count": 38,
+    "last": 47
+  },
+  "batches": 39,
+  "briefing_topics": [
+    "Collapse and uncertainty about its cause",
+    "houses, factions, leagues and political duties",
+    "procedural characters and narrator perspective",
+    "gameplay systems and relevant source files",
+    "Bloodlines family, upbringing, inheritance and dynasty upgrades",
+    "PT-BR challenges, protected tokens and confirmed engine grammar blocker"
+  ],
+  "checks": {
+    "all_PTBR_fields_empty": true,
+    "incomplete_build_rejected": true,
+    "local_markdown_links_validated": 33,
+    "no_live_release": true,
+    "no_native_PTBR_tree": true,
+    "original_resources_match_baseline": true,
+    "readme_safe_html_checked": true
+  },
+  "commands": [
+    "update-sources",
+    "sync",
+    "extract",
+    "diff",
+    "apply",
+    "check",
+    "status",
+    "resume",
+    "checkpoint",
+    "build",
+    "verify-output",
+    "package",
+    "recover",
+    "rollback",
+    "gc",
+    "inspect-source"
+  ],
+  "date": "2026-10-23",
+  "delivery": "Engineering workspace prepared; overall toolkit completion blocked by engine grammar support",
+  "format": "UTF-8 native CSV; byte-identical no-op reconstruction",
+  "game": "Star Dynasties + Bloodlines resources",
+  "git": {
+    "commit_created": false,
+    "push_performed": false
+  },
+  "license": {
+    "bytes": 20850,
+    "committed": false,
+    "reason": "Automatic commits explicitly prohibited; maintainer must include LICENSE before translation starts",
+    "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+    "source": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt"
+  },
+  "original_integrity_files_verified": 111,
+  "other_limits": [
+    "Config/terms.csv updates require parser review because native keys are missing",
+    "Unknown/modified installations fail closed until a reviewed source profile exists",
+    "Originality is a local supplied baseline, not independent publisher authentication",
+    "A crash before initial journal receipt persistence is preserved for manual review rather than deleting an unverified directory"
+  ],
+  "records": 19047,
+  "release": {
+    "asset": "PTBR.zip with native paths at archive root",
+    "changelog": "native file hashes + versioned JSONL stable IDs",
+    "first": "v1.0.0",
+    "next": "increment highest published stable SemVer patch",
+    "publishing": "blocked by incomplete translations and runtime support",
+    "real_github_execution": "not performed",
+    "trigger": "main + PTBR/** push; workflow_dispatch initializer",
+    "workflow": ".github/workflows/release.yml"
+  },
+  "remaining_blockers": [
+    "ParsingHelper.he/He/his/His/hehas e outras funções contêm pronomes/verbos ingleses na DLL, fora dos CSVs. O adaptador atual preserva essas expressões e não resolve a gramática PT-BR.",
+    "Menus/textos fora dos 105 CSVs e a apresentação de acentos/concordância ainda não foram validados em execução."
+  ],
+  "research_sources": [
+    "https://store.steampowered.com/app/1194590/Star_Dynasties/",
+    "https://gpawley.itch.io/star-dynasties",
+    "https://store.steampowered.com/app/1852400/Star_Dynasties_Bloodlines/",
+    "EN/Config/pedia.csv",
+    "EN/Config/tutorial.csv",
+    "EN/Core/",
+    "EN/BloodlinesDLC/"
+  ],
+  "schema": 1,
+  "source_files": 105,
+  "source_generation": "5c92e522cc29bb40fa4078e4d7638dfcd525c34c36d5d9d849256320489050dd",
+  "source_snapshot_base64_verified": true,
+  "source_version": "1.0.4.0-gog",
+  "tests": {
+    "additional_checks": [
+      "9 release tests repeated after final pre-tag stale check",
+      "2 real-resource/documentation tests repeated after progress-compatible assertions",
+      "1 additional CLI/game-directory write-protection regression"
+    ],
+    "current_test_definitions": 37,
+    "full_run": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 317.657,
+      "skipped": 0,
+      "tests": 36
+    },
+    "full_suite_command": "python -m unittest discover -s translation-work/tests -v",
+    "github_api": "simulated only",
+    "native_real_resources_round_trip": 105,
+    "real_game_runtime": "not tested",
+    "scale": {
+      "batches": 101,
+      "records_at_least": 50000,
+      "retained_bytes": 920310,
+      "retained_count": 5,
+      "retention_bytes_limit": 4194304,
+      "retention_count_limit": 5,
+      "tiny_applies": 500,
+      "unchanged_batches_bytes_and_mtimes_preserved": true
+    },
+    "synthetic_native_build_and_zip": true
+  },
+  "timezone": "America/Sao_Paulo",
+  "translated": 0,
+  "web_links_verified": [
+    "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1194590/header.jpg?t=1772458991",
+    "https://traducao.yuricunha.com/",
+    "https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro",
+    "https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/issues",
+    "https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases",
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  ]
+}

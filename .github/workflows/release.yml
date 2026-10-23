@@ -1,0 +1,37 @@
+name: Publicar PTBR completo
+
+on:
+  push:
+    branches: [main]
+    paths: ['PTBR/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: star-dynasties-ptbr-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.repository == 'isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.14'
+      - name: Conferir build completo sem reconstruir recursos
+        run: python translation-work/toolkit.py verify-output
+      - name: Empacotar, comparar e publicar Release com changelog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python translation-work/release.py publish --sha "$GITHUB_SHA"
