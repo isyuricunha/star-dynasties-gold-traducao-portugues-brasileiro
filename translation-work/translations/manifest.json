@@ -88,8 +88,8 @@
     "batch-0015.jsonl": {
       "count": 500,
       "original_sha256": "0a19e024e0c623d72a328fcc0029fb4ce06c00458cdc45dd4653903f371ad710",
-      "sha256": "f13e312e928607106d10470141fe4273931589dc7a91babd9b34825e6171bf0d",
-      "translated": 0
+      "sha256": "27df8737922a40caa2c0988c5fad92f0f31a1c29a0ed641e5a1b0a6f66df4a4c",
+      "translated": 500
     },
     "batch-0016.jsonl": {
       "count": 500,
