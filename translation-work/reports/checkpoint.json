@@ -2,7 +2,7 @@
   "batches": 39,
   "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
   "output": "absent",
-  "pending": 18647,
+  "pending": 18147,
   "records": 19147,
   "runtime_support": {
     "adapter_files": {
@@ -60,16 +60,16 @@
     "version": "1.0.4.0-gog"
   },
   "storage": {
-    "bytes": 2240642,
-    "completed": 7,
+    "bytes": 3635097,
+    "completed": 10,
     "limits": {
       "max_bytes": 536870912,
       "max_completed": 10,
       "min_free_bytes": 16777216
     },
     "reclaimable_bytes": 0,
-    "transactions": 7
+    "transactions": 10
   },
-  "translated": 500,
+  "translated": 1000,
   "valid": true
 }
