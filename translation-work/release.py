@@ -168,7 +168,8 @@ class GitHub:
             raise Error(f"GitHub API: {method} {parsed.path}: HTTP {exc.code}; revise a execução antes de tentar novamente") from exc
 
     def endpoint(self, suffix):
-        return f"/repos/{self.repository}/{suffix}"
+        base = f"/repos/{self.repository}"
+        return base if not suffix else f"{base}/{suffix.lstrip('/')}"
 
     def releases(self):
         result, page = [], 1
