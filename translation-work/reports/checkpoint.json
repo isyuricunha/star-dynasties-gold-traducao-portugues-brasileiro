@@ -60,7 +60,7 @@
     "version": "1.0.4.0-gog"
   },
   "storage": {
-    "bytes": 6042549,
+    "bytes": 5877498,
     "completed": 10,
     "limits": {
       "max_bytes": 536870912,
