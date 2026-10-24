@@ -36,7 +36,7 @@ Murder.DoNotMurderMoralRule,Não matarás,Matou ou tentou matar {d(TargetCharact
 Murder.DoNotUnderageMurderMoralRule,Não matarás crianças indefesas,Matou ou tentou matar uma criança,SameHouse++;SameSystem+
 Murder.DoNotConspireMurderMoralRule,Não matarás,Conspirou para assassinar {d(TargetCharacter)},
 Murder.DoNotConspireUnderageMurderMoralRule,Não matarás crianças indefesas,Conspirou para assassinar uma criança,
-Politics.DoNotChangeAllegianceMoralRule,Não traia o seu duque e facção,Separou {StarSystem} de {SourceFaction},SameFaction-;SameSystem--;SameHouse--;IsLeader+;IsArchon+
+Politics.DoNotChangeAllegianceMoralRule,Não traia o seu duque e facção,Fez {StarSystem} deixar {SourceFaction},SameFaction-;SameSystem--;SameHouse--;IsLeader+;IsArchon+
 Politics.DoNotChangeAllegianceToEnemyMoralRule,Não traia o seu duque para os inimigos dele,Separou {StarSystem} para o oponente de guerra,SameFaction++;SameSystem--;SameHouse--;IsLeader++;IsArchon+
 Politics.DoNotChangeAllegianceAtWartimeMoralRule,Não traia o seu duque enquanto necessário na guerra,Separou {StarSystem} enquanto necessário na guerra,SameFaction++;SameSystem--;SameHouse--;IsLeader++;IsArchon+
 Politics.DoNotAcceptChangeAllegianceMoralRule,Respeite a soberania de um duque sobre o seu território,Anexou {StarSystem},SameFaction-;SameSystem--;SameHouse--;IsRuler-
@@ -82,7 +82,7 @@ Politics.Wars.SystemConquered.UnjustifiedAnnexationShaltNotMoralRule,Não anexe 
 Politics.GrantRulerIndependenceFavourMoralRule,Concedeu independência a {d(TargetCharacter)},,
 Politics.Wars.DoNotDeclareWarOnRecentVassalMoralRule,Não declare guerra a um governante a quem concedeu independência,Declarou guerra a {d(TargetCharacter)} pouco depois de conceder independência,SameLeague+;SameSystem-;SameHouse--
 Claims.ChampioningClaimMoralRule,Defendendo uma reivindicação válida,,
-Politics.DoNotChangeFactionAllegianceMoralRule,Não traia o seu arconte e liga,Separou {Faction} de {SourceLeague},SameLeague-;SameFaction-;SameSystem--;SameHouse--;IsLeader-
+Politics.DoNotChangeFactionAllegianceMoralRule,Não traia o seu arconte e liga,Fez {Faction} deixar {SourceLeague},SameLeague-;SameFaction-;SameSystem--;SameHouse--;IsLeader-
 Politics.DoNotChangeFactionAllegianceToEnemyMoralRule,Não traia o seu arconte para os inimigos dele,Separou {Faction} para o oponente de guerra,SameLeague++;SameFaction--;SameSystem--;SameHouse--;IsLeader-;IsArchon++
 Politics.DoNotChangeFactionAllegianceAtWartimeMoralRule,Não traia o seu arconte enquanto necessário na guerra,Separou {Faction} enquanto necessário na guerra,SameLeague++;SameFaction--;SameSystem--;SameHouse--;IsLeader-;IsArchon++
 Politics.DoNotAcceptChangeFactionAllegianceMoralRule,Respeite a soberania de um arconte sobre o seu território,Anexou {Faction},SameLeague-;SameFaction--;SameSystem--;SameHouse--;IsLeader-

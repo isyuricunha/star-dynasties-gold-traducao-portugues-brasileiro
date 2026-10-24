@@ -17,8 +17,8 @@ Marriage.MutualDivorceShaltNot,Divorciou-se de {d(TargetCharacter)},a anulação
 Murder.MurderCrime,Matou {d(TargetCharacter)},o assassinato de {d(TargetCharacter)}
 Murder.AttemptedMurderCrime,Tentou assassinar {d(TargetCharacter)},a tentativa de assassinato de {d(TargetCharacter)}
 Murder.MurderConspiracyCrime,Conspirou para assassinar {d(TargetCharacter)},a conspiração contra {d(TargetCharacter)}
-Politics.ChangedAllegianceCrime,Separou {homeSystemOf(Actor)} de {factionOf(TargetCharacter)},a secessão de {StarSystem} de {SourceFaction}
-Politics.ChangedAllegianceAcceptedCrime,Anexou um sistema pertencente a {factionOf(TargetCharacter)},a anexação de {StarSystem} por {DestinationFaction}
+Politics.ChangedAllegianceCrime,Separou {homeSystemOf(Actor)} de {factionOf(TargetCharacter)},{StarSystem} deixando {SourceFaction}
+Politics.ChangedAllegianceAcceptedCrime,Anexou um sistema pertencente a {factionOf(TargetCharacter)},{DestinationFaction} anexando {StarSystem}
 Politics.Raid.AssistRaidFavour,Ajudou {d(TargetCharacter)} num saque,a ajuda no saque em {StarSystem}
 Politics.Raid.AssistRaidDefenseFavour,Concordou em ajudar {d(TargetCharacter)} a defender-se do saque em {homeSystemOf(TargetCharacter)},a ajuda na defesa contra o saque em {StarSystem}
 Politics.Raid.RefuseAssistRaidCrime,Recusou ajudar {d(TargetCharacter)} num saque,a recusa de ajudar no saque em {StarSystem}
@@ -63,18 +63,18 @@ Politics.MakeLeaderFavour,Fez {d(TargetCharacter)} duque,o apoio na ascensão de
 Politics.Wars.SystemConquered.UnjustifiedAnnexationShaltNot,Anexou um sistema,a anexação de {StarSystem}
 Politics.GrantRulerIndependenceFavour,Concedeu independência a {d(TargetCharacter)},o presente da independência
 Claims.DemandCrime,Exigiu que {d(TargetCharacter)} defendesse {claimSentenceEnding(Claim)},a exigência de defender {claimSentenceEnding(Claim)}
-Politics.ChangedFactionAllegianceCrime,Separou {factionOf(Actor)} de {leagueOf(TargetCharacter)},a secessão de {Faction} de {SourceLeague}
-Politics.ChangedFactionAllegianceAcceptedCrime,Anexou uma facção,a anexação de {Faction} por {DestinationLeague}
+Politics.ChangedFactionAllegianceCrime,Separou {factionOf(Actor)} de {leagueOf(TargetCharacter)},{Faction} deixando {SourceLeague}
+Politics.ChangedFactionAllegianceAcceptedCrime,Anexou uma facção,{DestinationLeague} anexando {Faction}
 Politics.Wars.SystemConquered.ShamWarCrime,Declarou guerra a {factionOf(TargetCharacter)} sob falsos pretextos,a guerra contra {factionOf(TargetCharacter)}
 Politics.ThreatenedDeposedLeaderCrime,Ameaçou depor {d(TargetCharacter)},a ameaça de deposição
 Politics.DeposedLeaderCrime,Depôs {d(TargetCharacter)},a queda de {d(Leader)} do governo de {factionOf(Leader)}
 Politics.ThreatenedForcedRulerRebellionCrime,Ameaçou agir contra {d(TargetCharacter)},a ameaça de agressão
 Politics.ForcedRulerRebellionCrime,Forçou {d(TargetCharacter)} a rebelar-se,ter levado {d(TargetCharacter)} a rebelar-se
-Politics.GiveVassalFavour,Deu uma facção a {d(TargetCharacter)},o presente de {Faction}
+Politics.GiveVassalFavour,Deu uma facção a {d(TargetCharacter)},dar {Faction} de presente
 Romance.IncestAttractionShaltNot,Atração incestuosa,
-Politics.SurrenderFactionFavour,Deu uma facção a {d(TargetCharacter)},o presente de {Faction}
+Politics.SurrenderFactionFavour,Deu uma facção a {d(TargetCharacter)},dar {Faction} de presente
 Combat.RefusedToDefendVassalCrime,Recusou ajudar a defender {d(TargetCharacter)} em combate,a recusa de defender em {StarSystem}
-Politics.VassalageFavour,Deu uma facção a {d(TargetCharacter)},o presente de {Faction}
+Politics.VassalageFavour,Deu uma facção a {d(TargetCharacter)},dar {Faction} de presente
 Charging.DeliveredJusticeShalt,Puniu {d(TargetCharacter)} pelos crimes {his(TargetCharacter)},
 Unrest.CreatedUnrestCrime,Espalhou dissidência no sistema {homeSystemOf(TargetCharacter)},os pagamentos aos rebeldes em {homeSystemOf(TargetCharacter)}
 Story.FoodShortage.TryToSaveMoralAct,Tentou salvar o máximo de pessoas possível durante uma crise de falta de comida,

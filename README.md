@@ -6,21 +6,21 @@
   <p><strong>🇧🇷 Tradução para Português Brasileiro</strong><br>Jogo base + recursos de Bloodlines</p>
   <p><em>A Terra se perdeu. O futuro ainda carrega o nome da sua família.</em></p>
   <p>
+    <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases/download/v1.0.0/PTBR.zip">📦 Baixar PTBR.zip (v1.0.0)</a> ·
     <a href="https://traducao.yuricunha.com/">🌐 Portal de Traduções</a> ·
-    <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases">📦 Releases — futuras versões</a> ·
     <a href="https://store.steampowered.com/app/1194590/Star_Dynasties/">🎮 Steam</a>
   </p>
 </div>
 
 ---
 
-## 🚧 Situação do projeto
+## ✅ Situação do projeto
 
-**Em preparação. Ainda não há tradução disponível para instalar.**
+**Tradução completa, validada e publicada como estável (v1.0.0).**
 
-Os recursos de texto foram catalogados, mas a tradução completa e revisada continua pendente: **0 de 19.147 entradas concluídas**. O suporte técnico para traduzir a gramática gerada pelo código foi implementado, incluindo 100 entradas de pronomes, verbos e construções relacionadas.
+As **19.147 entradas** do catálogo estão traduzidas e revisadas: interface, tutorial, enciclopédia, eventos do jogo base e dos recursos de Bloodlines, mais as 100 entradas de gramática dinâmica da biblioteca do motor. O pacote passou nas verificações automatizadas (`check --complete`, `build`, `verify-output`, `package`) e foi **testado em partida**: tutorial guiado, mapa estelar, painéis de casa e colônia, eventos e tela de carregamento exibem acentuação, pontuação e layout corretos.
 
-A geração do pacote e a publicação dependem da conclusão e validação dos textos. A existência deste repositório e de um fluxo de Releases não significa que uma tradução já esteja pronta. Uma amostra do menu foi testada no jogo: os glifos **Á, É, Ã, Õ e Ç** apareceram corretamente, sem cortes aparentes nos oito botões exibidos. O resultado está documentado no [teste mínimo do menu](translation-work/docs/teste-menu-ptbr.md). A campanha e a gramática dinâmica ainda aguardam validação em partida.
+A página do jogo na Nexus Mods está **aguardando aprovação** do jogo na plataforma: [nexusmods.com/mods/1?game_id=10779](https://www.nexusmods.com/mods/1?game_id=10779&published=1).
 
 ## ✨ Sobre a tradução
 
@@ -34,13 +34,13 @@ Os números descrevem os textos identificados, não uma porcentagem de toda a in
 
 | Conteúdo identificado | Recursos | Situação |
 |---|---|---|
-| Ações, mensagens e parte da interface | `Config/text.csv` | Catalogado; tradução pendente |
-| Tutorial interativo | `Config/tutorial.csv` | Catalogado; tradução pendente |
-| Enciclopédia, história e regras | `Config/pedia.csv` | Catalogado; tradução pendente |
-| Cargos, habilidades, táticas, emoções e relações | Demais CSVs selecionados de `Config/` | Catalogados; tradução pendente |
-| Intrigas, romances, crises e expedições | 75 CSVs em `Core/` | Catalogados; tradução pendente |
-| Herança, criação dos filhos e evolução da dinastia | 16 CSVs em `BloodlinesDLC/` | Catalogados; tradução pendente |
-| Pronomes e construções gerados pelo código | Biblioteca do motor | Suporte implementado; tradução pendente |
+| Ações, mensagens e parte da interface | `Config/text.csv` | **Traduzido e testado em partida** |
+| Tutorial interativo | `Config/tutorial.csv` | **Traduzido e testado em partida** |
+| Enciclopédia, história e regras | `Config/pedia.csv` | **Traduzido** |
+| Cargos, habilidades, táticas, emoções e relações | Demais CSVs selecionados de `Config/` | **Traduzidos** |
+| Intrigas, romances, crises e expedições | 75 CSVs em `Core/` | **Traduzidos** |
+| Herança, criação dos filhos e evolução da dinastia | 16 CSVs em `BloodlinesDLC/` | **Traduzidos** |
+| Pronomes e construções gerados pelo código | Biblioteca do motor | **Traduzido; concordâncias testadas em partida** |
 
 A biblioteca `Pawley.StarDynasties.Engine.dll` integra o pacote para adaptar a gramática. Ficam fora: executáveis, outras bibliotecas, imagens, áudio, listas de nomes próprios, textos de mods e o editor Creator. Os arquivos XML de eventos contêm regras e referências; não serão substituídos pelo adaptador CSV.
 
@@ -66,15 +66,15 @@ As informações sobre o universo vêm da enciclopédia do jogo e das apresenta�
 
 ## 📦 Download e versões
 
-O download será publicado na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases), após a conclusão e validação dos textos e os testes no jogo.
+O download está disponível na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases).
 
-O arquivo instalável terá o nome **`PTBR.zip`**. A primeira publicação estável será **`v1.0.0`**. Pacotes posteriores com conteúdo alterado seguirão `v1.0.1`, `v1.0.2` e assim por diante, acompanhados de um changelog com as alterações verificadas.
+**`v1.0.0` (estável)** — pacote completo: 19.147 entradas em 106 arquivos nativos, incluindo o `Pawley.StarDynasties.Engine.dll` adaptado. SHA-256 do `PTBR.zip`: `6368a5adf339443e197d0367f5f40754a4a3e9ab649b2cb1cd813fc9e72c2753`. Pacotes posteriores com conteúdo alterado seguirão `v1.0.1`, `v1.0.2` e assim por diante, acompanhados de um changelog com as alterações verificadas.
 
-**Ainda não existe um `PTBR.zip` publicado.** Baixar o código deste repositório não equivale a baixar uma tradução. A pasta `EN/` contém recursos originais de referência e não deve ser instalada como tradução.
+Baixar o código deste repositório não equivale a baixar a tradução: use o `PTBR.zip` da Release. A pasta `EN/` contém recursos originais de referência e não deve ser instalada como tradução.
 
-## 🛠️ Instalação — quando houver uma Release
+## 🛠️ Instalação
 
-As orientações abaixo descrevem o layout nativo já identificado. A aprovação final de funcionamento depende dos testes que ainda estão pendentes. Confira sempre as instruções e a versão compatível na Release baixada.
+As orientações abaixo descrevem o layout nativo já identificado. Confira sempre as instruções e a versão compatível na Release baixada.
 
 1. Feche o jogo.
 2. Localize a pasta que contém **`StarDynasties.exe`**. Na instalação GOG examinada, ela é `D:\GOG Games\Star Dynasties`; no seu computador, o caminho pode ser diferente.
@@ -99,7 +99,7 @@ Pasta que contém StarDynasties.exe/
     └── Pawley.StarDynasties.Engine.dll
 ```
 
-Após a instalação, o teste recomendado será conferir o tutorial, abrir a enciclopédia e observar mensagens com personagens diferentes. Isso ajuda a verificar acentos, cortes de texto e concordância. O teste mínimo do menu já confirmou os glifos exibidos e o encaixe dos botões. Tutorial, enciclopédia, mensagens de campanha e concordância **ainda não foram testados**.
+Após a instalação, o teste recomendado é conferir o tutorial, abrir a enciclopédia e observar mensagens com personagens diferentes, para verificar acentos, cortes de texto e concordância. A tradução foi testada em partida nestas frentes: **tutorial guiado, mapa estelar e tooltips, painéis de casa e colônia, eventos com retrato e tela de carregamento**. Campanhas longas exploram conteúdo extenso; se encontrar um trecho estranho, relate pela Issue com uma captura de tela.
 
 ### Restaurar ou desinstalar
 
@@ -109,16 +109,16 @@ Com o jogo fechado, restaure os arquivos das três pastas e a DLL do motor a par
 
 | Ambiente | Evidência disponível |
 |---|---|
-| GOG para Windows, `1.0.4.0-gog` | Menu testado com glifos Á, É, Ã, Õ e Ç; testes isolados do motor concluídos; campanha e gramática dinâmica em partida pendentes |
-| Bloodlines | Recursos identificados; ativação do conteúdo não verificada |
+| GOG para Windows, `1.0.4.0-gog` | **Testado em partida**: tutorial, mapa, painéis e eventos; verificações automatizadas completas; glifos Á, É, Ã, Õ e Ç confirmados |
+| Bloodlines | Recursos traduzidos; ativação do conteúdo não verificada |
 | Steam | Identidade e expansão confirmadas; arquivos dessa distribuição não comparados |
 | Mods e outras versões | Compatibilidade não validada |
 | Linux, Proton e macOS | Instalação e funcionamento não testados |
 
 <details>
-<summary><strong>Por que ainda não há download?</strong></summary>
+<summary><strong>O que foi validado neste pacote?</strong></summary>
 
-Os textos e os campos de gramática estão preparados para tradução, mas continuam pendentes. O projeto exige conclusão, revisão e validação antes de publicar um pacote.
+Tradução completa das 19.147 entradas do catálogo (105 CSVs + 100 entradas de gramática da DLL), validada pelo fluxo automatizado do toolkit (tokens, placeholders e completude) e testada em partida no tutorial, mapa, painéis de casa e colônia, eventos e carregamento. Os textos originais em inglês permanecem intactos em `EN/`.
 
 </details>
 
@@ -145,9 +145,9 @@ Use as <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-port
 
 ## 🔄 Atualizações e histórico
 
-Cada Release trará a relação de recursos alterados e as diferenças de texto identificadas desde a versão anterior. Uma mudança técnica no arquivo não será anunciada como uma revisão de tradução se os textos permanecerem iguais.
+Cada Release traz a relação de recursos alterados e as diferenças de texto identificadas desde a versão anterior. Uma mudança técnica no arquivo não será anunciada como uma revisão de tradução se os textos permanecerem iguais.
 
-Mudanças apenas na documentação ou no trabalho de tradução em andamento não publicam pacotes. O download público só será criado a partir de uma saída completa e validada, com os bloqueios técnicos resolvidos.
+A documentação de trabalho (diretrizes, glossário, cobertura e relatórios) acompanha o repositório em `translation-work/docs/` e reflete o estado real do pacote publicado.
 
 ## 🌐 Comunidade e apoio
 
@@ -177,7 +177,7 @@ Para incorporar conteúdo autoral, o projeto exige consentimento afirmativo e re
 
 ## ✦ Créditos
 
-**Projeto de tradução e manutenção:** Yuri Cunha. A tradução linguística está em preparação; não há conteúdo traduzido concluído para creditar nesta versão.
+**Projeto de tradução e manutenção:** Yuri Cunha. **Tradução linguística:** Ella Mizuki, revisada em conjunto com a documentação do projeto.
 
 As contribuições autorais futuras serão creditadas conforme a autoria, o escopo e a atribuição registrados nos respectivos PRs. A inclusão de um crédito, por si só, não comprova autorização para integração oficial comercial; essa permissão exige o consentimento descrito em [CONTRIBUTING.md](./CONTRIBUTING.md).
 

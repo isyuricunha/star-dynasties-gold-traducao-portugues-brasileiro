@@ -145,7 +145,7 @@ Inheritance.Inheritance.SecondInLineDemandsHeirdom03.StatusEvent.Description,"{U
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Summary,""
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Title,"{D(Usurper)} está atraindo seguidores"
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Short,""
-Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Description,"Apoiadores acorrem a {him(Usurper)} por toda {Faction}. {He(Usurper)} pode tentar reivindicar o trono {his(Usurper)} à força."
+Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Description,"Apoiadores acorrem a {him(Usurper)} em todo {Faction}. {He(Usurper)} pode tentar reivindicar o trono {his(Usurper)} à força."
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Update.Help,""
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.StatusEvent.Description,"{Usurper} alega ser o chefe legítimo de {PlayerHouse}"
 Inheritance.Inheritance.SecondInLineDemandsHeirdom04.Emotion.Description,"Encorajou a reivindicação de {Usurper} sobre {PlayerHouse}"
@@ -490,7 +490,7 @@ Inheritance.Inheritance.TraditionalistSect01.NewEvent2.RebellionRiskFlag.Descrip
 Inheritance.Inheritance.TraditionalistSect02.Update.Summary,""
 Inheritance.Inheritance.TraditionalistSect02.Update.Title,"A seita tradicionalista segue espalhando as suas crenças"
 Inheritance.Inheritance.TraditionalistSect02.Update.Short,""
-Inheritance.Inheritance.TraditionalistSect02.Update.Description,"Por toda {Faction}, o povo se aglomera em torno deles, dizendo que o herdeiro de {PlayerHouse} deveria ser o filho mais novo do governante.
+Inheritance.Inheritance.TraditionalistSect02.Update.Description,"Em todo {Faction}, o povo se aglomera em torno deles, dizendo que o herdeiro de {PlayerHouse} deveria ser o filho mais novo do governante.
 
 Os números deles incharam, e começaram a bloquear os seus espaçosportos para garantir que a exigência seja atendida."
 Inheritance.Inheritance.TraditionalistSect02.Update.Help,""

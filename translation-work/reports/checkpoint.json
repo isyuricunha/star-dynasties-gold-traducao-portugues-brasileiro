@@ -1,7 +1,7 @@
 {
   "batches": 39,
   "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
-  "output": "valid",
+  "output": "stale",
   "pending": 0,
   "records": 19147,
   "runtime_support": {
@@ -60,7 +60,7 @@
     "version": "1.0.4.0-gog"
   },
   "storage": {
-    "bytes": 25664245,
+    "bytes": 33639489,
     "completed": 10,
     "limits": {
       "max_bytes": 536870912,

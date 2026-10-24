@@ -140,9 +140,9 @@ Politics.ChampionRequestDeposeAction.Title,Pedir a {TargetCharacter} que defenda
 Politics.ChampionRequestWar.AcceptChoice.Title,Declarar guerra a {factionOf(TargetLeader)}{claim}
 Politics.ChampionRequestWar.RefuseChoice.Title,"{fetch(""General.RefuseRequest"")}"
 Politics.ChampionRequestWarAction.Title,Pedir a {TargetCharacter} que defenda a minha reivindicação ({Claim})
-Politics.ChangeAllegianceOffer.AcceptChoice.Title,Aceitar a oferta de {OfferingCharacter} de se separar de {SourceFaction} e se juntar à sua facção
+Politics.ChangeAllegianceOffer.AcceptChoice.Title,Aceitar a oferta de {OfferingCharacter} para deixar {SourceFaction} e se juntar à sua facção
 Politics.ChangeAllegianceOfferAction.Title,Oferecer-se para se separar de {factionOf(Actor)} e se juntar a {TargetFaction}
-Politics.ChangeAllegianceRequest.AcceptChoice.Title,Aceitar o pedido de {OfferingCharacter} de se separar de {SourceFaction} e se juntar a {DestinationFaction}
+Politics.ChangeAllegianceRequest.AcceptChoice.Title,Aceitar o pedido de {OfferingCharacter} para deixar {SourceFaction} e ir para {DestinationFaction}
 Politics.ChangeAllegianceRequestAction.Title,Pedir a {currentHeadOf(TargetSystem)} que se junte a {factionOf(Actor)}{claim}
 Politics.ChangeAllegianceRequestAction.Description,"Aproxime-se encobertamente de {currentHeadOf(TargetSystem)}, tentando convencê-lo a trair {factionOf(TargetSystem)} e trocar de lealdade para a sua facção.  Se ele aceitar, {TargetSystem} virará parte da sua facção."
 Politics.Depose.ChooseReplacementChoice.Title,Substituí-lo por {d(Candidate)}{claim}
@@ -741,7 +741,7 @@ Politics.GiveSystem.ChangedMindChoice.Title,Mudei de ideia e quero manter a poss
 Politics.GiveSystem.ChooseFactionChoice.Title,Dar {StarSystem} a {Faction}
 Politics.GiveSystemAction.Title,Oferecer {TargetSystem} a {TargetFaction}
 Politics.GiveSystemAction.Description,"Se {currentHeadOf(TargetFaction)} aceitar, a posse de {TargetSystem} será transferida para {TargetFaction}.  Se você for um dono legítimo de {TargetSystem}, {TargetFaction} também ganhará uma reivindicação sobre {TargetSystem}."
-Politics.GiveVassal.ChangedMindChoice.Title,Mudei de ideia e quero manter a posse de {Faction}
+Politics.GiveVassal.ChangedMindChoice.Title,Mudei de ideia e quero ficar com {Faction}
 Politics.GiveVassal.ChooseFactionChoice.Title,Dar {Faction} a {TargetFaction}
 Politics.FormVassalAction.Title,Formar uma facção vassala com a capital em {TargetSystem}
 Politics.FormVassalAction.Title.Character,Fazer Duque
@@ -750,7 +750,7 @@ Politics.FormVassalAction.Title.StarSystem,Fazer Facção Vassala
 Politics.FormVassalAction.Description,"Se você ainda não for um arconte, formará uma liga com a nova facção como vassala. {factionOf(Actor)} terá uma reivindicação de mestria sobre a nova facção vassala. A força desta reivindicação depende da reivindicação de posse de {factionOf(Actor)} sobre {TargetSystem}.
 
 A nova facção conterá inicialmente um único sistema, {TargetSystem}. Para transferir mais sistemas a ela, foque num sistema próximo e ofereça-o ao novo duque."
-Politics.GiveVassalAction.Title,Dar o controle de {TargetFaction} a uma facção próxima
+Politics.GiveVassalAction.Title,Dar o controle sobre {TargetFaction} a uma facção próxima
 Claims.DemandAcceptRaiseDemandChoice.Title,Defender a reivindicação exigindo que {d(TargetCharacter)} pressione a reivindicação
 Claims.DemandAcceptRaiseDemandChoice.Description,Isto levará a um conflito armado com {TargetCharacter} se ele recusar
 Claims.DemandRefuseChoice.Title,Recusar a exigência
@@ -788,7 +788,7 @@ Politics.ResurrectFaction.ChampionAction.Title,Oferecer-se para defender {claimS
 Politics.ResurrectFaction.ChampionAction.Description,"Recriar {ClaimedEntity}, pressionando {claimSentenceEnding(Claim)}"
 Politics.ResurrectDeadFactionAction.Title,Ressuscitar {TargetFaction} em {TargetSystem}
 Politics.ResurrectFaction.DemandedChoice.Title,"Aceitar a exigência e ressuscitar {TargetFaction}"
-Politics.ResurrectFaction.DemandedChoice.Description,"Ressuscita {TargetFaction} com {Claimant} como duque dela. Qualquer sistema na sua facção para o qual você tenha uma reivindicação de posse mais fraca que a de {TargetFaction} será transferido para {TargetFaction}. A facção ressuscitada será sua vassala, e {Claimant} lhe deverá um favor."
+Politics.ResurrectFaction.DemandedChoice.Description,"Ressuscita {TargetFaction} com {Claimant} como duque dela. Qualquer sistema na sua facção para o qual você tenha uma reivindicação de posse mais fraca que a reivindicação que {TargetFaction} apresenta será transferido para {TargetFaction}. A facção ressuscitada será sua vassala, e {Claimant} lhe deverá um favor."
 Politics.ResurrectDeadFaction.SelectSystemChoice.Title,Ressuscitar {TargetFaction} em {TargetSystem}
 Politics.DeposeRuler.AcceptDeposeChoice.Title,Aceitar a decisão e renunciar
 Politics.DeposeRuler.ResistDeposeChoice.Title,Resistir militarmente
@@ -802,9 +802,9 @@ Se falharmos em depor {currentHeadOf(TargetSystem)} imediatamente, ele prenderá
 Politics.DeposeRuler.DemandAction.Title,Exigir que {d(TargetCharacter)} pressione {claimSentenceEnding(Claim)} e substitua o governante atual
 Politics.DeposeRuler.ChampionAction.Title,Oferecer-se para defender {claimSentenceEnding(Claim)} e substituir o governante atual
 Politics.DeposeRuler.ChampionAction.Description,"Depor {ClaimExerciser} e substituí-lo por {ClaimantController}, pressionando {claimSentenceEnding(Claim)}"
-Politics.ChangeFactionAllegianceOffer.AcceptChoice.Title,Aceitar a oferta de {OfferingCharacter} de se separar de {SourceLeague} e virar seu vassalo
-Politics.ChangeFactionAllegianceOfferAction.Title,Oferecer-se para se separar de {leagueOf(Actor)} e virar vassalo de {TargetFaction}
-Politics.ChangeFactionAllegianceRequest.AcceptChoice.Title,Aceitar o pedido de {OfferingCharacter} de se separar de {SourceLeague} e virar vassalo {his(OfferingCharacter)}
+Politics.ChangeFactionAllegianceOffer.AcceptChoice.Title,Aceitar a oferta de {OfferingCharacter} para deixar {SourceLeague} e virar seu vassalo
+Politics.ChangeFactionAllegianceOfferAction.Title,Oferecer-se para deixar {leagueOf(Actor)} e virar vassalo sob {TargetFaction}
+Politics.ChangeFactionAllegianceRequest.AcceptChoice.Title,Aceitar o pedido de {OfferingCharacter} para deixar {SourceLeague} e virar vassalo {his(OfferingCharacter)}
 Politics.ChangeFactionAllegianceRequestAction.Title,Pedir a {currentHeadOf(TargetFaction)} que deixe {leagueOf(TargetFaction)} e vire seu vassalo{claim}
 Politics.ChangeFactionAllegiance.DemandAction.Title,Exigir que {d(TargetCharacter)} defenda {claimSentenceEnding(Claim)} e troque de lealdade
 Politics.ChangeFactionAllegiance.ChampionAction.Title,Oferecer-se para defender {claimSentenceEnding(Claim)} e trocar de lealdade
@@ -836,9 +836,9 @@ Politics.LeaderRebellion.ChampionAction.Title,Oferecer-se para defender {claimSe
 Politics.LeaderRebellion.ChampionAction.Description,"Liderar uma rebelião contra {ClaimExerciser}, pressionando {claimSentenceEnding(Claim)}"
 Politics.DeposeRuler.BecomeIndependentChoice.Title,Recusar a decisão e declarar independência
 Politics.DeposeLeader.DemandedChoice.Title,"Aceitar a exigência e depor {legalHeadOf(TargetFaction)}, pressionando {claimSentenceEnding(Claim)}"
-Politics.DeposeLeader.DemandedChoice.Description,"Ordenar a {currentHeadOf(TargetFaction)} que abdique do governo de {TargetFaction} para {Claimant}.
+Politics.DeposeLeader.DemandedChoice.Description,"Ordenar a {currentHeadOf(TargetFaction)} que abdique e entregue {TargetFaction} para {Claimant}.
 
-Se {currentHeadOf(TargetFaction)} não obedecer e for possível atacar o sistema capital dele, você o fará imediatamente.  Caso contrário, ele se tornará independente e será considerado em guerra com você.  {currentHeadOf(TargetFaction)} também pode tentar iniciar uma rebelião em larga escala. Você ficará vinculado pela honra a instalar {Claimant} como governante de {homeSystemOf(TargetFaction)} e de {TargetFaction} caso o conquiste.
+Se {currentHeadOf(TargetFaction)} não obedecer e for possível atacar o sistema capital dele, você o fará imediatamente.  Caso contrário, ele se tornará independente e será considerado em guerra com você.  {currentHeadOf(TargetFaction)} também pode tentar iniciar uma rebelião em larga escala. Você ficará vinculado pela honra a instalar {Claimant} como governante de {homeSystemOf(TargetFaction)} e a submeter {TargetFaction}, caso os conquiste.
 
 Se falharmos em depor {currentHeadOf(TargetFaction)} imediatamente, ele prenderá quaisquer membros da nossa casa que estejam no sistema natal dele, ou em qualquer outro sistema que se una a ele numa rebelião."
 Politics.DeposeLeader.DemandAction.Title,Exigir que {d(TargetCharacter)} pressione {claimSentenceEnding(Claim)} e substitua o duque atual
@@ -848,12 +848,12 @@ Politics.DeposeLeaderAction.Title,Depor {currentHeadOf(TargetFaction)}
 Politics.DeposeLeaderAction.Title.Character,Depor
 Politics.DeposeLeaderAction.Title.House,Depor
 Politics.DeposeLeaderAction.Title.StarSystem,Depor
-Politics.DeposeLeaderAction.Description,"Escolha um membro da casa, um súdito nobre ou um parente nobre; e ordene a {currentHeadOf(TargetFaction)} que abdique do governo de {TargetFaction} para ele.
+Politics.DeposeLeaderAction.Description,"Escolha um membro da casa, um súdito nobre ou um parente nobre; e ordene a {currentHeadOf(TargetFaction)} que abdique e entregue {TargetFaction} para ele.
 
 Se {currentHeadOf(TargetFaction)} não obedecer e for possível atacar o sistema capital dele, você o fará imediatamente.  Caso contrário, ele se tornará independente e será considerado em guerra com você.  {currentHeadOf(TargetFaction)} também pode tentar iniciar uma rebelião em larga escala.
 
 Se falharmos em depor {currentHeadOf(TargetFaction)} imediatamente, ele prenderá quaisquer membros da nossa casa que estejam no sistema natal dele, ou em qualquer outro sistema que se una a ele numa rebelião."
-Politics.OfferVassalageAction.Title,Oferecer-se para virar vassalo de {TargetFaction}
+Politics.OfferVassalageAction.Title,Oferecer-se para virar vassalo sob {TargetFaction}
 Politics.OfferVassalage.DemandAction.Title,Exigir que {d(TargetCharacter)} honre {claimSentenceEnding(Claim)} e vire vassalo {his(TargetCharacter)}
 Politics.OfferVassalage.ChampionAction.Title,Oferecer-se para respeitar {claimSentenceEnding(Claim)} e virar vassalo
 Politics.OfferVassalage.ChampionAction.Description,"Oferecer vassalagem a {ClaimingEntity}, respeitando {claimSentenceEnding(Claim)}"
@@ -864,7 +864,7 @@ Politics.GiveVassal.ChampionAction.Title,"Oferecer-se para respeitar {claimSente
 
 Note que transferir a posse de uma facção a um vassalo também concederá independência a ele."
 Politics.GiveVassal.ChampionAction.Description,"Respeitar a reivindicação de {ClaimingEntity} de ter {ClaimedEntity} como vassala, e dar a posse dela a {d(ClaimantController)}"
-Politics.OfferVassalage.DemandedChoice.Title,"Aceitar a exigência e se submeter a virar vassalo de {ClaimingFaction}"
+Politics.OfferVassalage.DemandedChoice.Title,"Aceitar a exigência e se submeter a virar vassalo sob {ClaimingFaction}"
 Politics.SurrenderFaction.DemandedChoice.Title,"Aceitar a exigência e render a sua facção a {ClaimingFaction}"
 Politics.SurrenderFaction.DemandedChoice.Description,"Render a sua facção rebaixará a sua casa a casa governante, e você perderá o jogo"
 Politics.SurrenderFaction.DemandAction.Title,Exigir que {d(TargetCharacter)} honre {claimSentenceEnding(Claim)} e entregue a posse da facção {his(TargetCharacter)}
@@ -883,9 +883,9 @@ Esta exigência será feita sob ameaça de força.  Se {currentLeaderOf(TargetSy
 Politics.DemandSystemAction.EndWar.Description,"Exigir que {currentLeaderOf(TargetSystem)} transfira a posse de {TargetSystem} de {factionOf(TargetSystem)} para {factionOf(Actor)}.
 
 Esta exigência será feita com a promessa de paz.  Se {currentLeaderOf(TargetSystem)} concordar, a guerra entre nós terminará."
-Politics.DemandSurrenderAction.Title,Exigir a rendição de {TargetFaction}
-Politics.DemandVassalAction.Title,Exigir o controle de {TargetFaction}
-Politics.DemandVassalageAction.Title,Exigir vassalagem de {TargetFaction}
+Politics.DemandSurrenderAction.Title,Exigir que {TargetFaction} se renda
+Politics.DemandVassalAction.Title,Exigir o controle sobre {TargetFaction}
+Politics.DemandVassalageAction.Title,Exigir que {TargetFaction} aceite vassalagem
 Politics.GiveSystem.OfferChoice.Title,"Dar {TargetSystem} a {TargetFaction}, honrando {claimSentenceEnding(Claim)}"
 Politics.DeclareWar.DemandAction.Title,Exigir que {d(TargetCharacter)} pressione {claimSentenceEnding(Claim)} pela força das armas
 Politics.DeclareWar.ChampionAction.Title,Oferecer-se para ir à guerra defendendo {claimSentenceEnding(Claim)}
@@ -1027,7 +1027,7 @@ Politics.Vassalage.RequestRefuse.TooMuchChangeReason,Motivo: não tenho pressa d
 Politics.Vassalage.RequestRefuse.ApprovalReason,Motivo: simplesmente não gosto o bastante de você
 Politics.RequestVassalageAction.Title,Pedir vassalagem a {TargetFaction}
 Politics.Vassalage.RequestRefuse.StrongerReason,Motivo: não sou significativamente mais fraco que você
-Politics.RequestSurrenderAction.Title,Sugerir que {currentHeadOf(TargetFaction)} entregue o controle dos sistemas de {TargetFaction} a você
+Politics.RequestSurrenderAction.Title,Sugerir que {currentHeadOf(TargetFaction)} entregue a você o controle dos sistemas que {TargetFaction} possui
 Politics.Vassalage.OfferRefuse.TrustReason,Motivo: não confio que você permaneça leal
 Unrest.CreateUnrestAction.Title,Espalhar dissidência em {TargetSystem}
 Unrest.CreateUnrestAction.Description,"Usando {if(isNull(Ambassador), ""um embaixador"", Ambassador)} e uma quantia considerável de dinheiro, espalhe em segredo a dissidência entre os nobres de {TargetSystem}, esperançosamente levando a uma rebelião de sistema contra {currentHeadOf(TargetSystem)}
@@ -1183,7 +1183,7 @@ Security.Investigation.ClaimedFactionsOfFactionRecord,{Up(0)} tem uma reivindica
 Security.Investigation.ClaimantsToBeMasterOfFactionRecord,{Up(0)} tem uma reivindicação de posse sobre {1}
 Security.InvestigateFactionAction.Title,Investigar {TargetFaction}
 Security.InvestigateFactionAction.Description,Você descobrirá mais informações sobre ela
-Security.EndFactionInvestigationAction.Title,Encerrar a investigação de {TargetFaction}
+Security.EndFactionInvestigationAction.Title,Encerrar a investigação contra {TargetFaction}
 Security.Investigation.CapitalOfLeagueRecord,O sistema capital de {Up(0)} é {1}
 Security.Investigation.ArchonHouseOfLeagueRecord,A casa líder de {Up(0)} é {1}
 Security.Investigation.ArchonOfLeagueRecord,O arconte de {Up(0)} é {1}
@@ -1191,7 +1191,7 @@ Security.Investigation.NearbyFactionOfLeagueRecord,{Up(1)} é próximo de {0}
 Security.Investigation.VassalFactionOfLeagueRecord,{Up(0)} é uma facção vassala de {1}
 Security.InvestigateLeagueAction.Title,Investigar {TargetLeague}
 Security.InvestigateLeagueAction.Description,Você descobrirá mais informações sobre ela
-Security.EndLeagueInvestigationAction.Title,Encerrar a investigação de {TargetLeague}
+Security.EndLeagueInvestigationAction.Title,Encerrar a investigação contra {TargetLeague}
 Security.State.Investigator.CharacterHouse.Tooltip,"Investigador
 
 Este personagem está investigando {Subject}, usando batedores e informantes para compilar o máximo de informação possível sobre ele, e potencialmente descobrir os segredos dele."
@@ -1480,7 +1480,7 @@ NegotiationDom.ThreatChoice.WontAccept.Title,Ameaçar {Threat} <nv>(não será a
 NegotiationDom.ThreatChoice.WontAccept.Description,{ThreatConsequence}
 Politics.RulerOrLeaderRebellionNegotiable,rebelar-se
 Politics.DeposeRulerOrLeaderNegotiable,depor {TargetCharacter}
-Politics.GiveVassalNegotiable,o controle de {Faction}
+Politics.GiveVassalNegotiable,o controle sobre {Faction}
 Politics.GiveVassalNegotiable.ChoiceDescription,{Up(Faction)} virará uma facção vassala de {factionOf(TargetCharacter)}
 Politics.RevealSecretNegotiable,revelar que {Secret}
 Politics.RevealSecretNegotiable.RefuseConsequence,{Actor} destruirá qualquer evidência que mostre {Secret}.
@@ -2099,11 +2099,11 @@ Economy.ImproveTaxAssignment.Invalid.NotVassal,{TargetHouse} não é um vassalo 
 Economy.ImproveTaxAssignment.Effect.AtEffectiveness,<av>{Amount}%</av> de Bônus no Imposto Coletado de {Target}
 Economy.ImproveTaxAssignment.Effect,<av>{Min}%</av> a <av>{Max}%</av> de Bônus no Imposto Coletado de {Target}
 Economy.RebuildColonyAssignmentFactory.AssigneeAction.Title,Reconstruir Colônia
-Economy.RebuildColonyAssignmentFactory.Effect,A colônia abandonada escolhida será reconstruída e repovoada como parte de {Faction}. Você nomeará um novo governante.
+Economy.RebuildColonyAssignmentFactory.Effect,"A colônia abandonada escolhida será reconstruída e repovoada, passando a integrar {Faction}. Você nomeará um novo governante."
 Economy.RebuildColonyAssignment.Title,Reconstruir a colônia em {TargetSystem}
 Economy.RebuildColonyAssignment.Title.StarSystem,Reconstruir
 Economy.RebuildColonyAssignment.Invalid.NotNearby,{Target} não está diretamente conectado ao seu território
-Economy.RebuildColonyAssignment.Effect,A colônia em {Target} será reconstruída e repovoada como parte de {Faction}. Você nomeará um novo governante.
+Economy.RebuildColonyAssignment.Effect,"A colônia em {Target} será reconstruída e repovoada, passando a integrar {Faction}. Você nomeará um novo governante."
 Morality.FramedSecret.Description,{D(Assignee)} difamou falsamente {d(TargetCharacter)} a mando de {d_s(AssigneeHead)}
 Morality.FrameForCrimeAssignmentFactory.AssigneeAction.Title,Difamar Alguém
 Morality.FrameForCrimeAssignmentFactory.Effect,"Escolha outro personagem. Tentaremos fazer com que ele seja falsamente acusado de uma injustiça {thouShaltNotIcons} se ele for governante, ou de um crime {crimeIcons} caso contrário. Se conseguirmos, o nosso envolvimento virará um segredo de dificuldade ({Hardness}).
@@ -3150,7 +3150,7 @@ Prediction.Effect.RemoveClaimLeading,{Character} enfraquece a reivindicação de
 Prediction.Effect.RemoveClaimMaster,{MasterFaction} enfraquece a reivindicação dela sobre {VassalFaction}
 Prediction.Effect.RemoveClaimOwning,{Faction} enfraquece a reivindicação dela sobre {StarSystem}
 Prediction.Effect.RemoveClaimRuling,{Character} enfraquece a reivindicação dele sobre {StarSystem}
-Prediction.Effect.DoAcceptWarDemand,{CurrentLeader} aceita a exigência de guerra de {AttackingFaction}
+Prediction.Effect.DoAcceptWarDemand,{CurrentLeader} aceita a exigência de guerra que {AttackingFaction} fez
 Prediction.Effect.DoCreateOwningClaimAssignment,{Assignee} é designado a: Adquirir reivindicação de posse sobre {Target}
 Prediction.Filter.CanAcceptWarDemandFilterOnCharacter,capaz de encerrar a guerra com {Other} aceitando a exigência dele
 Prediction.Filter.CanAcceptWarDemandFilterOnFaction,atacando {Other} numa guerra que pode ser encerrada se o último aceitar a exigência
@@ -3172,11 +3172,11 @@ Prediction.Derivation.FleetLocationOf,o local de
 Prediction.Derivation.FleetMasterOf,o mestre de 
 Prediction.Derivation.FleetParticipantHousesOf,as casas participantes em 
 Prediction.Derivation.HouseMilitaryCommanderOf,o comandante militar atual de 
-Prediction.Derivation.LeastDefendableSystem.FromAttacker,o sistema menos defensável contra um ataque de {AttackingFaction}
+Prediction.Derivation.LeastDefendableSystem.FromAttacker,o sistema menos defensável contra um ataque que {AttackingFaction} lançar
 Prediction.Derivation.LeastDefendableSystem,o sistema menos defensável
-Prediction.Derivation.LeastDefendableSystemOfLeague.Attacker.SubFaction,o sistema menos defensável de {SubFaction} contra um ataque de {AttackingFaction}
-Prediction.Derivation.LeastDefendableSystemOfLeague.Attacker,o sistema menos defensável contra um ataque de {AttackingFaction}
-Prediction.Derivation.LeastDefendableSystemOfLeague.SubFaction,o sistema menos defensável de {SubFaction}
+Prediction.Derivation.LeastDefendableSystemOfLeague.Attacker.SubFaction,o sistema menos defensável que {SubFaction} tem contra um ataque que {AttackingFaction} lançar
+Prediction.Derivation.LeastDefendableSystemOfLeague.Attacker,o sistema menos defensável contra um ataque que {AttackingFaction} lançar
+Prediction.Derivation.LeastDefendableSystemOfLeague.SubFaction,o sistema menos defensável que {SubFaction} tem
 Prediction.Derivation.LeastDefendableSystemOfLeague,o sistema menos defensável
 Prediction.Effect.DoCombat,{AttackingHouse} ataca {DefendingHouse} em {CombatLocation}
 Prediction.Effect.DoFleetRetreat,{Fleet} recua
@@ -3222,7 +3222,7 @@ Prediction.Derivation.VassalRulersOf,os vassalos de
 Prediction.Effect.DoMoveNonRulingHouse,{House} se muda para {StarSystem}
 Prediction.Effect.DoImproveRelationsAssignment,{Assignee} é designado a: Melhorar Relações com {Target}
 Prediction.Effect.DoColonyAbandon,{StarSystem} é abandonado
-Prediction.Effect.DoColonyRebuild,A colônia em {StarSystem} é reconstruída por {Faction}
+Prediction.Effect.DoColonyRebuild,{Faction} reconstrói a colônia em {StarSystem}
 Prediction.Filter.CanAffordAPCost,capaz de arcar com <v>{AP}</v> PA
 Prediction.Filter.IsAlive,vivo
 Prediction.Filter.IsArchon,um arconte
@@ -3517,10 +3517,10 @@ Prediction.Property.WinChanceOfLeastFavourableDefense,probabilidade de vitória 
 Prediction.Property.WinChanceOfLeastFavourableDefense.System,probabilidade de vitória na defesa menos favorável em {System}
 Prediction.Property.WinChanceOfLeastFavourableDefense.System.Faction,probabilidade de vitória na defesa menos favorável em {System} em {Faction}
 Prediction.Property.WinChanceOfLeastFavourableDefense.Faction,probabilidade de vitória na defesa menos favorável em {Faction}
-Prediction.Property.WinChanceOfLeastFavourableDefense.Attacker,probabilidade de vitória na defesa menos favorável ao ser atacado por {AttackingFaction}
-Prediction.Property.WinChanceOfLeastFavourableDefense.System.Attacker,probabilidade de vitória na defesa menos favorável em {System} ao ser atacado por {AttackingFaction}
-Prediction.Property.WinChanceOfLeastFavourableDefense.System.Faction.Attacker,probabilidade de vitória na defesa menos favorável em {System} em {Faction} ao ser atacado por {AttackingFaction}
-Prediction.Property.WinChanceOfLeastFavourableDefense.Faction.Attacker,probabilidade de vitória na defesa menos favorável em {Faction} ao ser atacado por {AttackingFaction}
+Prediction.Property.WinChanceOfLeastFavourableDefense.Attacker,probabilidade de vitória na defesa menos favorável quando {AttackingFaction} atacar
+Prediction.Property.WinChanceOfLeastFavourableDefense.System.Attacker,probabilidade de vitória na defesa menos favorável em {System} quando {AttackingFaction} atacar
+Prediction.Property.WinChanceOfLeastFavourableDefense.System.Faction.Attacker,probabilidade de vitória na defesa menos favorável em {System} sob {Faction} quando {AttackingFaction} atacar
+Prediction.Property.WinChanceOfLeastFavourableDefense.Faction.Attacker,probabilidade de vitória na defesa menos favorável sob {Faction} quando {AttackingFaction} atacar
 Prediction.Property.OwnedSystems,sistemas
 Prediction.Property.NumMembers,membros
 Prediction.Property.CharacterWealth,créditos
@@ -3671,11 +3671,11 @@ Claim.CanDemand.Invalid.RecentlyChampioned,{Character} defendeu esta reivindica�
 Claim.CanDemand.Invalid.UnderArrest,{Character} está preso
 Claim.CanDemand.Invalid.NoWay,{Character} não tem mecanismo para pressionar esta reivindicação
 Claim.Leading.SentenceSuffix,A reivindicação de {Claimant} de governar {ClaimedFaction}
-Claim.Master.SentenceSuffix,A reivindicação de {ClaimingFaction} de ser a mestra de {ClaimedFaction}
-Claim.Owning.SentenceSuffix,A reivindicação de {ClaimingFaction} de ser a mestra de {ClaimedSystem}
+Claim.Master.SentenceSuffix,{ClaimingFaction} reivindica a mestria sobre {ClaimedFaction}
+Claim.Owning.SentenceSuffix,{ClaimingFaction} reivindica a mestria sobre {ClaimedSystem}
 Claim.Ruling.SentenceSuffix,A reivindicação de {Claimant} de governar {ClaimedSystem}
-Claim.Leading,Governo de {ClaimedFaction} (Reivindicação {Strength})
-Claim.Master,Vassalagem de {ClaimedFaction} (Reivindicação {Strength})
+Claim.Leading,Governo sobre {ClaimedFaction} (Reivindicação {Strength})
+Claim.Master,Vassalagem: {ClaimedFaction} (Reivindicação {Strength})
 Claim.Owning,Posse de {ClaimedSystem} (Reivindicação {Strength})
 Claim.Ruling,Governo de {ClaimedSystem} (Reivindicação {Strength})
 ClaimStrength.Strong,Forte
@@ -3690,13 +3690,13 @@ Claim.Tooltip.WillWeaken,A reivindicação enfraquecerá em <v>{Years}</v> anos
 Claim.ChangeOwningClaimUtilityFactor.Acquire,Adquirir reivindicação {Strength} sobre {System}
 Claim.ChangeOwningClaimUtilityFactor.Weaker,Reivindicação sobre {System} mais fraca
 Claim.ChangeOwningClaimUtilityFactor.Lose,Perda de reivindicação sobre {System}
-Claim.ChangeOwningClaimUtilityFactor.General,Credibilidade das reivindicações de {Faction}
+Claim.ChangeOwningClaimUtilityFactor.General,Credibilidade das reivindicações que {Faction} apresenta
 Claim.LeadingClaimsUtilityFactor.Weakened,Reivindicação(ões) de liderança enfraquecida(s): {listAsSentence(ClaimList)}
 Claim.LeadingClaimsUtilityFactor.Strengthened,Reivindicação(ões) de liderança fortalecida(s): {listAsSentence(ClaimList)}
 Claim.LeadingClaimsUtilityFactor.General,Mudanças nas minhas reivindicações de liderança
 Claim.MasterClaimsUtilityFactor.Weakened,Reivindicação(ões) de mestria enfraquecida(s): {listAsSentence(ClaimList)}
 Claim.MasterClaimsUtilityFactor.Strengthened,Reivindicação(ões) de mestria fortalecida(s): {listAsSentence(ClaimList)}
-Claim.MasterClaimsUtilityFactor.General,Mudanças nas reivindicações de mestria de {Faction}
+Claim.MasterClaimsUtilityFactor.General,Mudanças nas reivindicações de mestria que {Faction} detém
 Claim.CharacterClaimsPanel.FactionsHeader,FACÇÕES
 Claim.CharacterClaimsPanel.FactionsHeader.Tooltip,Estas são as reivindicações que este personagem tem de governar facções
 Claim.CharacterClaimsPanel.ColoniesHeader,COLÔNIAS
@@ -3804,7 +3804,7 @@ Combat.CombatMapMode.System.Tooltip,"Chance de Vitória: <v>{Chance}</v>
 
 Se um combate acontecer em {System} entre {SideA} e {SideB}"
 Combat.CombatMapMode.System.Tooltip.Side.YourLeague,a sua liga
-Combat.CombatMapMode.System.Tooltip.Side.OtherLeague,a liga de {Faction}
+Combat.CombatMapMode.System.Tooltip.Side.OtherLeague,a liga à qual {Faction} pertence
 Combat.CombatMapMode.System.Tooltip.Side.Yourself,você mesmo
 Combat.CombatMapMode.LikelyOutcome.DefiniteLoss,Péssima
 Combat.CombatMapMode.LikelyOutcome.LikelyLoss,Ruim
@@ -4172,7 +4172,7 @@ Military.MilitaryPanel.NoWars,Esta casa não está atualmente envolvida em nenhu
 Military.MilitaryPanel.AvailableTactics.AvailableEveryCombat,Disponível em Todo Combate:
 Military.MilitaryPanel.AvailableTactics.AvailableIfCommander,Disponível Se Comandante:
 Military.MilitaryPanel.War.Attacking,Atacando {Faction}
-Military.MilitaryPanel.War.Defending,Defendendo-se de {Faction}
+Military.MilitaryPanel.War.Defending,Defendendo-se contra {Faction}
 Military.MilitaryPanel.War.Championed,Defendida: 
 Military.MilitaryPanel.War.Gained,Ganhos: 
 Military.MilitaryPanel.War.Lost,Perdidos: 
@@ -4282,7 +4282,7 @@ Opinion.RulerGeneralOpinionFlagEffect.InstallationDescriptionPrefix,Tem na Colô
 Opinion.HeadGeneralOpinionFlagEffect.Description,<av>{Amount}</av> na reputação de {currentHeadOf(Entity)}
 Opinion.HeadGeneralOpinionFlagEffect.Description.Short,<av>{Amount}</av> na Reputação do Chefe
 Opinion.OpinionFlagApprovalManager.OtherGroup,Outro
-Opinion.RulerLeaderOpinionFlagEffect.Description,<av>{Amount}</av> na opinião do governante de {StarSystem} sobre o líder de {Faction}
+Opinion.RulerLeaderOpinionFlagEffect.Description,<av>{Amount}</av> na opinião do governante de {StarSystem} sobre o líder que comanda {Faction}
 Opinion.MembersToHeadOpinionFlagEffect.Description,<av>{Amount}</av> na opinião dos membros de {House} sobre o chefe dela
 Opinion.VassalsBasedOnUnrestOpinionFlagEffect.Description,<av>{Amount}</av> de opinião dos vassalos com <v>{Min}</v> a <v>{Max}</v> de agitação
 Opinion.LocalNoblesToRulerOpinionFlagEffect.Description,<av>{Amount}</av> de opinião dos chefes de casas menores no sistema natal
@@ -4333,12 +4333,12 @@ Politics.DefaultMapMode.SystemTooltip.YourVassal,"{Up(Faction)} está em guerra 
 Politics.DefaultMapMode.SystemTooltip.FocusVassal,"{Up(Faction)} está em guerra com o vassalo de {Focus}, {Vassal}"
 Politics.DefaultMapMode.SystemTooltip.YourVassal.List,"{Up(Faction)} está em guerra com os seus vassalos, {listAsSentence(VassalList)}"
 Politics.DefaultMapMode.SystemTooltip.FocusVassal.List,"{Up(Faction)} está em guerra com os vassalos de {Focus}, {listAsSentence(VassalList)}"
-Politics.DefaultMapMode.Capital.Tooltip,Este é o sistema capital de {Faction}
+Politics.DefaultMapMode.Capital.Tooltip,Este é o sistema que serve de capital para {Faction}
 Politics.AllAlliesValueUtilityFactor,Alianças
 Politics.AllyValueUtilityFactor,Aliança com {Ally}
-Politics.DomainTerritoryUtility.Safety.Faction,Segurança e Riqueza de {Faction}
+Politics.DomainTerritoryUtility.Safety.Faction,Segurança e Riqueza que {Faction} possui
 Politics.DomainTerritoryUtility.Safety,Segurança e Riqueza do Território Possuído
-Politics.DomainTerritoryUtility.Wealth.Faction,Riqueza de {Faction}
+Politics.DomainTerritoryUtility.Wealth.Faction,Riqueza que {Faction} possui
 Politics.DomainTerritoryUtility.Wealth,Riqueza do Território Possuído
 Politics.ExpansionOpportunityUtility,Oportunidades de Expansão
 Politics.KeepSystemIntentUtilityFactor,Território recém-adquirido
@@ -4599,7 +4599,7 @@ Assignment.Info.Invalid,Inválida:
 Assignment.AssignmentMapMode.Tooltip,"Designações
 
 Minimiza a poluição de ícones do mapa para que você veja no que os seus personagens designados estão trabalhando"
-Assignment.AssignmentMapMode.CapitalIconTooltip,Este é o sistema capital de {Faction}
+Assignment.AssignmentMapMode.CapitalIconTooltip,Este é o sistema que serve de capital para {Faction}
 AssignmentOnCharacter.Invalid.TargetDead,{Character} está morto
 AssignmentOnCharacter.Invalid.NotHouseMember,{Character} não é um membro de {House}
 AssignmentOnCharacter.Invalid.HouseMember,{Character} é um membro de {House}
@@ -4877,8 +4877,8 @@ Main.NewGame.PortraitSelector.Category.SkinColor,Cor da Pele
 Main.NewGame.PortraitSelector.Category.Sex,Sexo
 Main.NewGame.PortraitSelector.StartingCharacterLabel,PERSONAGEM INICIAL
 StarSystemPanel.DerelictColonyLabel,Colônia Abandonada
-StarSystemPanel.NameLabel.CapitalOf,Capital de {Faction}
-StarSystemPanel.NameLabel.MemberOf,Membro de {Faction}
+StarSystemPanel.NameLabel.CapitalOf,Capital: {Faction}
+StarSystemPanel.NameLabel.MemberOf,Membro: {Faction}
 StarSystemPanel.ActiveInstallations,Instalações Ativas: <v>{Amount}</v>
 StarSystemPanel.Unrest.Positive,Agitação: <pv>{Amount}</pv>
 StarSystemPanel.Unrest.Neutral,Agitação: <v>{Amount}</v>

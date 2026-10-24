@@ -182,7 +182,7 @@ Politics.LostVassalEmotion,Small-,1,Perdeu vassalo da liga,Greedy++;Proud++
 Politics.Wars.AchievedClaimEmotion,Small+,1,Reivindicação defendida com sucesso,Honorable+;Proud+
 Claims.DemandEmotion,Small-,1,Exigência para defender reivindicação,Cowardly++;Honorable--
 Claims.DemandSystemEmotion,Medium-,1,Exigência de entrega de {StarSystem},Cowardly++;Greedy+;Proud+
-Claims.DemandVassalEmotion,Medium-,1,Exigência de entrega de {Faction},Cowardly++;Greedy+;Proud+
+Claims.DemandVassalEmotion,Medium-,1,Exigência: entregar {Faction},Cowardly++;Greedy+;Proud+
 Claims.DemandVassalageEmotion,Medium-,1,Exigência de virar vassalo,Cowardly++;Greedy+;Proud+
 Claims.DemandSurrenderEmotion,Medium-,1,Exigência de rendição da facção,Cowardly++;Greedy+;Proud+
 Roles.SwitchedBackEmotion,Medium-,1,Pedido de mudança de funções revertido,

@@ -1,6 +1,10 @@
 # Cobertura da tradução PT-BR — Star Dynasties Gold
 
-Estado real em 24/10/2026, após o fechamento dos 39 lotes.
+Estado real em 24/10/2026: tradução completa, revisada, testada em partida e publicada como estável (v1.0.0).
+
+## Publicação estável (v1.0.0)
+
+Após a revisão independente e as correções, Yuri testou o pacote em partida (tutorial guiado, mapa estelar com tooltips, painéis de casa e colônia, eventos com retrato e tela de carregamento). As capturas confirmaram acentuação, pontuação e layout corretos. O teste revelou uma classe final de defeito: os tokens de facção/liga (`{Faction}`, `{TargetFaction}`, `{SourceLeague}` e afins) renderizam o nome já com artigo ("o Goodman Reino"), e as composições com preposição produziam "Capital de o Goodman Reino". Foram reescritas 98 linhas para posicionar o token como objeto direto, sujeito ou rótulo ("Capital: {Faction}", "romper com {Faction}", "quando {AttackingFaction} atacar"); varredura final: 0 composições quebradas.
 
 ## Revisão independente (24/10/2026)
 
@@ -19,9 +23,9 @@ Minores aceitos (registrados, sem correção): 'Tá bom'/'na corda bamba' em fal
 - Traduzidas: **19.147** (100%). Pendentes: **0**.
 - Geração do manifesto: `6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4`.
 - `toolkit.py check --complete` → `valid: true`, `records: 19147`, `pending: 0`.
-- Build pós-revisão: **106 arquivos**, fingerprint `8baba66f44814804769146949c371ebacc8e614ef79fbfa749747a05395b6906`.
+- Build pós-revisão e pós-teste em partida: **106 arquivos**, fingerprint `c97a8fc5c3e87e9d6492e564fbadc66a3d9c1fda7d12225d0cf8bfb7344072c0`.
 - `verify-output`: OK, com SHA-256 por arquivo (DLL `ca4671267ad7ac8517eaf101fec79cebe67f5203f30c48ba4f7cede51b4312b2`).
-- Pacote: `dist/PTBR.zip` — **sha256 `5714d8d8b17adf0d742a1acb010b57ab74df5f799bbc095724510c132c08e35b`**.
+- Pacote: `dist/PTBR.zip` — **sha256 `6368a5adf339443e197d0367f5f40754a4a3e9ab649b2cb1cd813fc9e72c2753`** (publicado como asset da Release v1.0.0).
 
 ## Lotes fechados (39/39)
 
