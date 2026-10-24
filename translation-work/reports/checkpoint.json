@@ -1,0 +1,75 @@
+{
+  "batches": 39,
+  "generation": "6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4",
+  "output": "absent",
+  "pending": 19047,
+  "records": 19147,
+  "runtime_support": {
+    "adapter_files": {
+      "translation-work/managed/GrammarTool.cs": "00ae64b633a87c93192525071023d225355a02157ec9f2a63bd6faa996e24ea8",
+      "translation-work/managed/GrammarTool.exe": "358a2f1712a0ca09d30e585af9d0d0a943ad5cc73bd04a0e45ff2c6b31f745b2",
+      "translation-work/managed/Launcher.cs": "d4874dc0656db37766549825e62f5dc1e439cc1ff719e9554b258c0eb82bac2f",
+      "translation-work/managed/build-helper.ps1": "8473c7cd678e75a5c8d18aee1060fda3c0519f86ed9b39d20f160863cf92a9e3",
+      "translation-work/managed/build-helper.py": "e4f7f3b870ee1c3551c3ef4d4bba010596fcfaa6f43426c17d303168148c0451",
+      "translation-work/managed/engine-shapes.json": "3b8d5ba7f8387c9b96f02108895e396b9afaabfdfafb57784ffdfdc91632c917",
+      "translation-work/managed/toolchain.json": "a1f8d07aed728de554e22592457496e17bfeda75a47d50df13ae2f276d36d527",
+      "translation-work/managed_codec.py": "8c40f1e877863c6d276c4ee73a34289685486acf379e66fddc5bd86d068b173f",
+      "translation-work/native.py": "adcd94c405b33ac70da95879616282aa1b489cba4f0698d437c2baee56c877aa",
+      "translation-work/toolkit.py": "2b27846acc17fb14abd52e872d76f5c5c5bcc7593b51de5ab12027d99f076329",
+      "translation-work/vendor/mono-cecil-0.11.6/LICENSE.txt": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e",
+      "translation-work/vendor/mono-cecil-0.11.6/Mono.Cecil.dll": "c41bdb9ffd3c5f6e17d2382c1012d73703e035e3f1100245fdd4e08c8dc6eb5b"
+    },
+    "blockers": [],
+    "deployable": true,
+    "evidence": "docs/analise-do-motor.md",
+    "game": "Star Dynasties",
+    "limitations": [
+      "All translations, including the 100 grammar units, remain pending. Complete build validation is mandatory.",
+      "Headless grammar tests use fixture-only environment substitutions; they do not establish complete Unity UI, savegame or campaign compatibility.",
+      "Other embedded UI text, Steam and other platforms remain outside verified coverage."
+    ],
+    "required_sources": [
+      "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    ],
+    "schema": 1,
+    "scope": {
+      "language_mode": "English",
+      "logical_grammar_units": 100,
+      "mapped_methods": 28,
+      "source": "StarDynasties_Data/Managed/Pawley.StarDynasties.Engine.dll"
+    },
+    "validation": {
+      "deterministic_binary_reconstruction": true,
+      "full_Unity_game_test": false,
+      "headless_real_engine_checks": 111,
+      "linux_arm64": {
+        "MONO_PATH_required": false,
+        "headless_real_engine_checks": 111,
+        "managed_tests": 14,
+        "mono": "6.8.0.105",
+        "offline_mcs_rebuild_verified": true,
+        "python": "3.12.3",
+        "remaining_tests": 37,
+        "verified": true
+      },
+      "metadata_and_unrelated_IL_preserved": true,
+      "native_reference_context_preserved": true,
+      "new_CLR_dependencies_in_game": false
+    },
+    "validation_report": "reports/portability-validation.json",
+    "version": "1.0.4.0-gog"
+  },
+  "storage": {
+    "bytes": 357424,
+    "completed": 1,
+    "limits": {
+      "max_bytes": 536870912,
+      "max_completed": 10,
+      "min_free_bytes": 16777216
+    },
+    "reclaimable_bytes": 0,
+    "transactions": 1
+  },
+  "translated": 100,
+  "valid": true
+}
