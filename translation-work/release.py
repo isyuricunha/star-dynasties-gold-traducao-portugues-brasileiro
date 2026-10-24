@@ -15,7 +15,7 @@ from pathlib import Path
 from native import Error, digest, encoded
 from toolkit import BUILD, RUNTIME, TRANSLATIONS, Toolkit, parse_jsonl
 
-CANONICAL_REPO = "isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro"
+CANONICAL_REPO = "isyuricunha/star-dynasties-traducao-portugues-brasileiro"
 SEMVER = re.compile(r"v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)\Z")
 
 

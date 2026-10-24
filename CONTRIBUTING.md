@@ -1,6 +1,6 @@
 # Como contribuir
 
-Obrigado pelo interesse em ajudar na tradução de **Star Dynasties para português brasileiro**. Relatos, sugestões e revisões podem ser enviados pelas [Issues](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/issues) ou por Pull Request neste repositório.
+Obrigado pelo interesse em ajudar na tradução de **Star Dynasties para português brasileiro**. Relatos, sugestões e revisões podem ser enviados pelas [Issues](https://github.com/isyuricunha/star-dynasties-traducao-portugues-brasileiro/issues) ou por Pull Request neste repositório.
 
 ## Relatos, sugestões e revisões simples
 

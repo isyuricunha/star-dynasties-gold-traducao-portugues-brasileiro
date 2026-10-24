@@ -6,7 +6,7 @@
   <p><strong>🇧🇷 Tradução para Português Brasileiro</strong><br>Jogo base + recursos de Bloodlines</p>
   <p><em>A Terra se perdeu. O futuro ainda carrega o nome da sua família.</em></p>
   <p>
-    <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases/download/v1.0.0/PTBR.zip">📦 Baixar PTBR.zip (v1.0.0)</a> ·
+    <a href="https://github.com/isyuricunha/star-dynasties-traducao-portugues-brasileiro/releases/download/v1.0.0/PTBR.zip">📦 Baixar PTBR.zip (v1.0.0)</a> ·
     <a href="https://traducao.yuricunha.com/traducoes/star-dynasties">🌐 Vai Brasil! — página da tradução</a> ·
     <a href="https://store.steampowered.com/app/1194590/Star_Dynasties/">🎮 Steam</a>
   </p>
@@ -66,7 +66,7 @@ As informações sobre o universo vêm da enciclopédia do jogo e das apresenta�
 
 ## 📦 Download e versões
 
-O download está disponível na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases).
+O download está disponível na página de [GitHub Releases deste projeto](https://github.com/isyuricunha/star-dynasties-traducao-portugues-brasileiro/releases).
 
 **`v1.0.0` (estável)** — pacote completo: 19.147 entradas em 106 arquivos nativos, incluindo o `Pawley.StarDynasties.Engine.dll` adaptado. SHA-256 do `PTBR.zip`: `6368a5adf339443e197d0367f5f40754a4a3e9ab649b2cb1cd813fc9e72c2753`. Pacotes posteriores com conteúdo alterado seguirão `v1.0.1`, `v1.0.2` e assim por diante, acompanhados de um changelog com as alterações verificadas.
 
@@ -139,7 +139,7 @@ Ainda não foi realizado teste de compatibilidade com partidas salvas. Não há 
 <details>
 <summary><strong>Como relatar um problema?</strong></summary>
 
-Use as <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/issues">Issues do repositório</a>. Informe a loja, a versão do jogo e do pacote, os mods utilizados, a tela ou evento afetado e o texto encontrado. Uma captura de tela com contexto ajuda a localizar a entrada correta. Não envie saves ou arquivos pessoais publicamente sem conferir seu conteúdo.
+Use as <a href="https://github.com/isyuricunha/star-dynasties-traducao-portugues-brasileiro/issues">Issues do repositório</a>. Informe a loja, a versão do jogo e do pacote, os mods utilizados, a tela ou evento afetado e o texto encontrado. Uma captura de tela com contexto ajuda a localizar a entrada correta. Não envie saves ou arquivos pessoais publicamente sem conferir seu conteúdo.
 
 </details>
 
@@ -151,7 +151,7 @@ A documentação de trabalho (diretrizes, glossário, cobertura e relatórios) a
 
 ## 🌐 Comunidade e apoio
 
-Conheça outros projetos e os canais de ajuda no [Portal de Traduções](https://traducao.yuricunha.com/). Sugestões e relatos específicos deste jogo podem ser acompanhados nas [Issues](https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/issues).
+Conheça outros projetos e os canais de ajuda no [Portal de Traduções](https://traducao.yuricunha.com/). Sugestões e relatos específicos deste jogo podem ser acompanhados nas [Issues](https://github.com/isyuricunha/star-dynasties-traducao-portugues-brasileiro/issues).
 
 Se quiser apoiar voluntariamente o trabalho, a chave **Pix é `pix@yuricunha.com`**. O apoio não é obrigatório para usar o material disponibilizado gratuitamente neste repositório.
 

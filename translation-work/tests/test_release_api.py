@@ -21,17 +21,17 @@ class GitHubApiPaths(unittest.TestCase):
     def test_repository_root_has_no_trailing_slash(self):
         self.assertEqual(
             self.api.endpoint(""),
-            "/repos/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro",
+            "/repos/isyuricunha/star-dynasties-traducao-portugues-brasileiro",
         )
 
     def test_nested_release_paths_are_unaffected(self):
         self.assertEqual(
             self.api.endpoint("releases?per_page=100&page=1"),
-            "/repos/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases?per_page=100&page=1",
+            "/repos/isyuricunha/star-dynasties-traducao-portugues-brasileiro/releases?per_page=100&page=1",
         )
         self.assertEqual(
             self.api.endpoint("/commits/main"),
-            "/repos/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/commits/main",
+            "/repos/isyuricunha/star-dynasties-traducao-portugues-brasileiro/commits/main",
         )
 
     def test_current_commit_check_requests_canonical_repository_path(self):
@@ -51,8 +51,8 @@ class GitHubApiPaths(unittest.TestCase):
         self.assertEqual(
             urls,
             [
-                "https://api.github.com/repos/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro",
-                "https://api.github.com/repos/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/commits/main",
+                "https://api.github.com/repos/isyuricunha/star-dynasties-traducao-portugues-brasileiro",
+                "https://api.github.com/repos/isyuricunha/star-dynasties-traducao-portugues-brasileiro/commits/main",
             ],
         )
 
