@@ -214,8 +214,8 @@
     "batch-0036.jsonl": {
       "count": 500,
       "original_sha256": "94cc71411b2c36a27460fd62825199f7fc8ddfb9afe17a3797a5de439655f91f",
-      "sha256": "d7becea2be977f028a456a67cd1157a4078a21de3c0467a0584db5e833d2e7fb",
-      "translated": 450
+      "sha256": "664fb14d8ede58644130d433046239ea7bf803bedd57c37065628080876cbd32",
+      "translated": 500
     },
     "batch-0037.jsonl": {
       "count": 500,
@@ -232,8 +232,8 @@
     "batch-0039.jsonl": {
       "count": 147,
       "original_sha256": "e5eaa12fd4e9dc28d20e9bb9aa6652cd4c954362803c5333e9890f9d94e41af1",
-      "sha256": "6fbc1e614f83ceeb30b4b85e0697ded2a4f291a8f97f65adfa26d9e63c229e89",
-      "translated": 0
+      "sha256": "edb94f2137b59cfeda02f3844b0383a440920ce42bdfbff53f6d1ae5bbe8000b",
+      "translated": 147
     }
   },
   "catalog_sha256": "aa3ca94497c5187b34f6f776f0ec93ddb1103ca5e32a8a1c5d09eaf079d5e5ad",
