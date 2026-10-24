@@ -2,15 +2,26 @@
 
 Estado real em 24/10/2026, após o fechamento dos 39 lotes.
 
+## Revisão independente (24/10/2026)
+
+Revisor externo independente varreu as 19.147 linhas (tokens EN↔PT idênticos em 100%, hashes, vedações e amostras manuais). Achados substanciais corrigidos no mesmo dia:
+
+- **S1**: ~130 linhas recompostas para a concordância com os templates do verbalizador (gerúndio → "quem + verbo finito", dupla cópula → predicado nominal/particípio, presente perfeito com "tem + particípio"). Varredura final: 0 linhas quebradas.
+- **S2**: ramos unknown das frases de pronome alinhados ao genérico masculino singular ("Ele tem/é/estava"); `dwas` virou passivo "foi"; `hewas` virou "estava".
+- **S4**: 192 linhas com a preposição "de" inserida antes dos possessivos de nome nu (`{d_s}`/`{D_s}`); varredura final: 0.
+- **S3**: fontes malformadas recontadas (5 espelhos integrais + 2 fragmentos + 1 marcador `tt()`) e documentadas no glossário.
+
+Minores aceitos (registrados, sem correção): 'Tá bom'/'na corda bamba' em fala de personagem; 'FEEDBACK'/'STEAM WORKSHOP' como nomes de plataforma; TestPack "Execute/Exile/Torture {him(Character)}" (botões de conteúdo de teste). Minores corrigidos: 'abalarme'→'abalada', 'vermelhe'→'em brasa', 'deserditado'→'deserdado', 'Divorciou'→'Divorciou-se de', 'naveta'→'lançadeira' unificado, 'As Leis Pelas Quais Vivemos', 'Filho Mais Novo', 'Romance'→'romance' uniforme.
+
 ## Números finais
 
 - Unidades do catálogo: **19.147** (105 CSVs + 1 DLL de gramática do motor).
 - Traduzidas: **19.147** (100%). Pendentes: **0**.
 - Geração do manifesto: `6884f7b73b062f154fded9b5125961d90763a5839ae831e396535178c7f71bb4`.
 - `toolkit.py check --complete` → `valid: true`, `records: 19147`, `pending: 0`.
-- Build: **106 arquivos** gerados, fingerprint `c1e6144cafd71d8a2798cbb7f15f10f2ef861add65a04e957941ddad55225e6b`.
-- `verify-output`: OK, com SHA-256 por arquivo (DLL `11369bdaec8c27f436f5f33bb96a18ab6cc4a29bc0f5a4ef97cfa0570772fe68`).
-- Pacote: `dist/PTBR.zip` — **sha256 `e538784c7b74c27d87af28305567fcdd3ee2d98c326bc533e8408c01e8ff39a3`**.
+- Build pós-revisão: **106 arquivos**, fingerprint `8baba66f44814804769146949c371ebacc8e614ef79fbfa749747a05395b6906`.
+- `verify-output`: OK, com SHA-256 por arquivo (DLL `ca4671267ad7ac8517eaf101fec79cebe67f5203f30c48ba4f7cede51b4312b2`).
+- Pacote: `dist/PTBR.zip` — **sha256 `5714d8d8b17adf0d742a1acb010b57ab74df5f799bbc095724510c132c08e35b`**.
 
 ## Lotes fechados (39/39)
 

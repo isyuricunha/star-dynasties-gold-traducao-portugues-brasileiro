@@ -61,9 +61,12 @@ Revisão base: 23/10/2026.
 
 ## Fontes malformadas (espelhadas verbatim por obrigação do validador)
 
-O EN com chaves/parênteses desbalanceados faz o validador tratar todo o restante da string como literal. Para não quebrar o guard, estas 4 entradas foram aprovadas com o fragmento EN verbatim (o bug é da fonte, não da tradução):
+O EN com chaves/parênteses desbalanceados faz o validador tratar todo o restante da string como literal. Para não quebrar o guard, estas 5 entradas foram aprovadas com o fragmento EN verbatim (o bug é da fonte, não da tradução):
 
 1. `batch-0021.jsonl` — `{PlayerSystem]'s domestic affairs` (chave `]` em vez de `}`).
 2. `batch-0022.jsonl` — `{d(LovingChild})`.
-3. `batch-0030.jsonl` — `{ifPC(Guest,"you feel your heart harden",concat(Guest,"'s heart hardens")}` (ifPC sem fechar).
-4. `batch-0038.jsonl` — `{him(Archon) before {he(Archon)} has the chance...` (him aberto no EN).
+3. `batch-0022.jsonl` — `{TaskMaster) did a great job revamping...` (parêntese sem chave de abertura; string inteira espelhada).
+4. `batch-0030.jsonl` — `{ifPC(Guest,"you feel your heart harden",concat(Guest,"'s heart hardens")}` (ifPC sem fechar).
+5. `batch-0038.jsonl` — `{him(Archon) before {he(Archon)} has the chance...` (him aberto no EN).
+
+Duas entradas mantêm fragmento literal de token malformado dentro de texto já traduzido (o token solto aparece no jogo): `batch-0030.jsonl` `(d(Shy)}` e `batch-0038.jsonl` `(his(Child)}`. O marcador `tt()` de `batch-0027.jsonl` ("New Action available: Gift ancient book") também permanece em inglês por contrato do validador.
