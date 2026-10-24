@@ -40,7 +40,7 @@
 - `him()` → objeto: "você/ele/ela" (forma tônia; evito posicionar onde só clítico serve). `himself()` → "você mesmo/ele mesmo/ela mesma"; componho frases que aceitem o ramo.
 - `his()`/`His()` → player "seu", male "dele", female "dela", unknown "dele". Composição por ocorrência: para referente subordinado (fora do jogador), ordem pós-nominal ("os esforços {his(adminHead)}" = "os esforços dele"); quando a frase pedir "seu" pré-posto, construo sem artigo ("grandes esforços {his(adminHead)}") para o ramo player não quebrar.
 - `d()`/`D()` (DInternal): sujeito pronome, igual a `he()`. `dis/dhas/dwas` (e maiúsculas) emitem "NOME é/tem/era" com `{0}` = nome: nada de adjetivo generificado depois; uso predicados invariantes (substantivos, "sofreu ferimentos", "está a salvo").
-- `d_s()`/`dp_s()`: "{0}'s" → "de {0}"; posição pós-nominal obrigatória em PT.
+- `d_s()`/`dp_s()`: `{0}'s` → `{0}` (emite só o nome/referente; a preposição `de` é escrita na frase PT que antecede o token, ex. "os espiões de {d_s(Assignee)}"). Sítios com o token pós-nominal sem preposição foram corrigidos no lote final.
 - `s()`/`es()`: sufixos de 3ª pessoa do inglês; em PT os dois ramos viram `[[EMPTY]]` (você/ele/ela grita: sem desinência). É o uso autorizado dos quatro slots `empty_allowed`.
 - `listAsSentence()`: conjunção → "e".
 - Kinship (`MapTerm`, `Verbalise*`): determinantes self/player viram "{0}" puro (o contexto de família indica a posse; evita erro de concordância com gênero imprevisível); male/unknown = "{0} dele"; female = "{0} dela". "distant relative" → "parente distante" e variantes com "meu/seu" resolvidas por serem strings fixas.

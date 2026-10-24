@@ -42,7 +42,28 @@ Revisão base: 23/10/2026.
 - Pawley Games, Iceberg Interactive, GOG: sem tradução.
 - Bloodlines (DLC), Unity: sem tradução.
 
-## Pendências de decisão
+- Question/astonishment bateria: "my {Up(title(PlayerCharacter))}" e "sire" viram o título interpolado (`Meu {Up(title(PlayerCharacter))}!`, `Meu Duque!`); "my lord" → "meu senhor"; "your grace" → "vossa graça".
+- Kinship (`MapTerm`): self → "meu {0}", player → "seu {0}", male → "{0} dele", female → "{0} dela", unknown → "{0} dele" (aplicado em 0039 e alinhado à diretriz).
 
-- Traduções definitivas de nomes de instalações e expedições (Terraforming, Necropolis etc.): decidir ao traduzir os lotes correspondentes.
-- Tratamento entre nobres ("my lord", "your grace"): decidir no primeiro lote de eventos com fala; registrar aqui.
+## Termos resolvidos nos lotes 0017-0039
+
+- **seduction → sedução** (f.). **woo → cortejar**. **love interest → interesse amoroso**. **spouse → cônjuge** (m.). **wingman → asa** (f., ajuda romântica); "fazer de asa".
+- **terraforming → terraformação** (f.). **Eden ship / "nave do Éden"** → Nave do Éden (nome próprio). **New Earth → Nova Terra**. **ringworld → mundo-anel** (m.). **black hole → buraco negro** (m.). **wormhole → buraco de minhoca**.
+- **starship maneuvers**: **slingshot → Estilingue** (jogo de cartas do mundo, CA no nome do jogo; "jogo de cartas" preservado). **power bout → luta de robôs de poder**. **zero-gravity ballet → balé de gravidade zero**.
+- **viridium → viridium** (m., recurso próprio do mundo; sem tradução). **sincomeia → sincomeia** (f., comida sintética). **sintohol / synthol → sintohol** (m., álcool sintético). **hoverbike → hoverbike** (f.). **nerve whip → chicote de nervos**.
+- **Pulmão de Chacoalho (Shivering Lung)** → Pulmão de Chacoalho (doença; nome popular preserva a origem).
+- **Cidade dos Casebres (Shantytown)** → Cidade dos Casebres.
+- **Rede de Espionagem (Spy Network)** → Rede de Espionagem / rede de espionagem. **Espião no Sistema** (NameShown). **Relatório de Casa** → Relatório de Casa.
+- **distant relative → parente distante**. **romance (Emotion) → romance** (minúsculo). **Seduction Attempt → Tentativa de Sedução** (Flag NameShown, CA mantida).
+- **sabotage → sabotagem** (f.). **quarantine → quarentena** (f.). **unrest → agitação** (f.). **insurrection → insurreição / movimento insurrecionista**. **populist movement → movimento populista**.
+- **heirloom → herança de família** (com o contexto de posse).
+- **Title (rótulo vazio de evento)** → **Título** (caixa de frase).
+
+## Fontes malformadas (espelhadas verbatim por obrigação do validador)
+
+O EN com chaves/parênteses desbalanceados faz o validador tratar todo o restante da string como literal. Para não quebrar o guard, estas 4 entradas foram aprovadas com o fragmento EN verbatim (o bug é da fonte, não da tradução):
+
+1. `batch-0021.jsonl` — `{PlayerSystem]'s domestic affairs` (chave `]` em vez de `}`).
+2. `batch-0022.jsonl` — `{d(LovingChild})`.
+3. `batch-0030.jsonl` — `{ifPC(Guest,"you feel your heart harden",concat(Guest,"'s heart hardens")}` (ifPC sem fechar).
+4. `batch-0038.jsonl` — `{him(Archon) before {he(Archon)} has the chance...` (him aberto no EN).
