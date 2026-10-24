@@ -1,0 +1,175 @@
+Key,Text
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Update.Summary,"{DeadSpouse} pede reforços"
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Update.Title,"{DeadSpouse} está solicitando uma equipe técnica completa em {Location}"
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Update.Description,"Um mensageiro foi enviado de volta com relatos de um centro de pesquisa da Autoridade Interestelar pré-Colapso oculto num sistema não colonizado próximo. 
+
+Ansioso para ver a instalação, você se junta à equipe técnica na excursão."
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Update.Title,"Você não consegue localizar a lançadeira da expedição original da sua Casa"
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Update.Description,"Ao entrar no centro de pesquisa em busca de pistas, você encontra uma cena macabra.
+
+Os sistemas de suporte de vida estão danificados além do reparo, o equipamento está em sua maioria destruído e, para levar este horror a um clímax horripilante, os cadáveres da sua expedição cobrem os corredores. Seja o que for que {DeadSpouse} descobriu, {he(DeadSpouse)} pagou por isso com a vida {his(DeadSpouse)}. Você deve isso a {him(DeadSpouse)} e ao {his(DeadSpouse)} {link(if(isMale(SurvivingSpouse), ""viúvo"", ""viúva""), SurvivingSpouse)} investigar mais a fundo."
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Update.Title,"""Esta era a instalação de engenharia genética da Divisão de Elite da Autoridade Interestelar"""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Update.Description,"O seu cientista embarca numa palestra sobre os esforços da Autoridade para criar hiper-respondedores a compostos anabólicos: ""Produção endógena... Interações de satélite... Tolerância à exposição..."" 
+
+""Em linguagem padrão?"" você suspira.
+
+""Isso cria super-soldados, meu senhor. Aumenta massa muscular, força, velocidade e agressividade. Pode haver material suficiente para replicar o efeito num único indivíduo, uma vez que recuperarmos estas máquinas e passarmos alguns meses analisando-as."" Ele dá de ombros. ""O que restar delas, claro."""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag.Tooltip,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag1.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag1.Tooltip,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag2.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.01Opener.Death.Explanation.Flag2.Tooltip,""
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Update.Title,"A investigação de {D_s(SurvivingSpouse)} sobre os movimentos de DC leva {him(SurvivingSpouse)} a uma instalação de fabricação em {NextLocation}"
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Update.Description,"Os trabalhadores falam de um homem gigante e maluco que afirmava que o universo era uma simulação, e que a Terra não tinha sido de fato destruída ""lá fora"". Irracional e frenético, ele não parava de repetir a frase ""o doutor deve pagar.""
+
+{Dhas(SurvivingSpouse)} teve o suficiente, e destacou{s(SurvivingSpouse)} alguns agentes pelos sistemas próximos. Se um lunático parrudo está falando de uma simulação, eles o convencerão de que sabem como escapar dela."
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Flag.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.03Simulation.Flag.Tooltip,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Update.Title,"A investigação de {D_s(SurvivingSpouse)} sobre os movimentos de DC leva {him(SurvivingSpouse)} a uma instalação de fabricação em {NextLocation}"
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Update.Description,"{He(SurvivingSpouse)} insiste{s(SurvivingSpouse)} em enfrentar DC. ""Isto é algo que preciso fazer sozinho."""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Prereq.OverrideText,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.Update.Summary,"{D(SurvivingSpouse)} levou DC consigo com uma bomba suicida"
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.Update.Title,"Um preço alto pela vingança"
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.Update.Description,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.UpdDescTextLine.ShowPC,"DC sorri enquanto se vira para encarar {d(SurvivingSpouse)}. ""Estou aqui para escapar desta simulação. O que eu faço?""
+
+""Você morre.""
+
+Você pensa em {DeadSpouse} uma última vez antes de soltar o interruptor de homem morto e a instalação inteira explodir."
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.AllDie.UpdDescTextLine.ShowNonPC,"Um relato de testemunha ocular afirma que {d(SurvivingSpouse)} se encontrou com DC dentro de uma instalação de pesquisa abandonada. 
+
+Uma explosão poderosa destruiu o prédio com os dois ainda dentro. Considerando do que um espécime suprafisiológico é capaz, você não se surpreende que medidas tão drásticas tenham sido necessárias. {D(SurvivingSpouse)} fará falta."
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Prereq1.OverrideText,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.Update.Summary,"{SurvivingSpouse} matou DC com as próprias mãos {his(SurvivingSpouse)}"
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.Update.Title,"""Estou aqui para libertar você"""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.Update.Description,"DC sorri enquanto se vira para encarar {d(SurvivingSpouse)}. ""Estou aqui para escapar desta simulação. O que eu faço?""
+
+""Você morre."" {D(SurvivingSpouse)} salta{s(SurvivingSpouse)} para a frente a uma velocidade impressionante. São dois titãs corpulentos trocando golpes, mas a sede de vingança dá a {d(SurvivingSpouse)} uma vantagem. Finalmente, {heis(SurvivingSpouse)} consegue agarrar DC pela perna e arremessá-lo através de uma parede de concreto, atordoando-o.
+
+""Você tirou tudo de mim,"" {he(SurvivingSpouse)} rosna{s(SurvivingSpouse)}, esmagando a traqueia de DC."
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.UpdDescTextLine.ShowPC,"
+
+Com a vingança satisfeita, você realmente espera que {d(SurvivingSpouse)} consiga reconstruir a vida {his(SurvivingSpouse)}."
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.UpdDescTextLine.ShowNonPC,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.Update.Summary,"Você viu a filmagem em vídeo da luta de {SurvivingSpouse} com DC"
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.Update.Title,"""Desligue isso. Já vi o bastante"""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.Update.Description,"O guarda desliga a filmagem de segurança, tirada da estação abandonada onde a luta aconteceu."
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.04TheFight.Climax.ClimaxFollowup.UpdDescTextLine.Script,"
+
+Com a vingança satisfeita, você realmente espera que {d(SurvivingSpouse)} consiga reconstruir a vida {his(SurvivingSpouse)}."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Update.Title,"A lançadeira da malfadada expedição de {d_s(DeadSpouse)} reapareceu em {NextLocation}!"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Update.Description,"{Dhas(SurvivingSpouse)} uma pista sobre o assassino. Os arquivos do laboratório abandonado detalham um cobaia com o codinome ""DC"" que foi posto em animação suspensa depois que o zelo religioso dele o tornou um passivo. 
+
+""Plebeus de {NextLocation} carregam rumores de um indivíduo extremamente musculoso pregando sobre a fé dele, alegando que ela é a única verdade!
+
+""Entendo que os seus tecnólogos estudaram o procedimento que criou este 'DC'. Deixe-me passar por ele, para que eu possa caçar esta abominação. Preciso ter a minha vingança."""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Choice.Title,"{D(SurvivingSpouse)} passará pelo procedimento"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Choice.Description,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Update.Title,"{Target} virou suprafisiológico!"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Update.Description,"Os procedimentos de modificação genética são um sucesso completo: as leituras estão fora dos gráficos. Mais de 9000 ng/dL de testosterona, tudo produzido pela biologia atualizada de {d_s(Target)}."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Flag.NameShown,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.Flag.Tooltip,"{Character} é o {Up(man(Character))} Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.SkillBonusFlagEffect.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.SkillBonusFlagEffect1.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.MiningMoon.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.MiningMoon.Update.Title,"A investigação de {D_s(SurvivingSpouse)} levou {him(SurvivingSpouse)} a uma lua de mineração em {NextLocation}!"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.MiningMoon.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.MiningMoon.Update.Description,"{He(SurvivingSpouse)} aprende{s(SurvivingSpouse)} com os locais que, na semana passada, um homem com mais músculo que juízo destruiu uma taverna quando uma discussão sobre o Colapso ficou violenta.
+
+Investigações adicionais revelam que uma nave de {houseOf(NextLocation)} foi roubada naquele dia. DC provavelmente já está fora do sistema."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation.MiningMoon.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Choice1.Title,"Passe pelo procedimento você mesmo"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Choice1.Description,"Se {SurvivingSpouse} estiver vivo, ele perseguirá o assassino mesmo assim, mas provavelmente não se sairá bem."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Prereq.OverrideText,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Update.Title,"{Target} virou suprafisiológico!"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Update.Description,"Os procedimentos de modificação genética são um sucesso completo: as leituras estão fora dos gráficos. Mais de 9000 ng/dL de testosterona, tudo produzido pela biologia atualizada de {d_s(Target)}."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Emotion.Description,"Aprimoramento genético negado"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Flag.NameShown,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Flag.Tooltip,"{Character} é o {Up(man(Character))} Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.SkillBonusFlagEffect.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.SkillBonusFlagEffect1.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.Prereq.OverrideText,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.MiningMoonTwo.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.MiningMoonTwo.Update.Title,"A investigação de {D_s(SurvivingSpouse)} levou {him(SurvivingSpouse)} a uma lua de mineração em {NextLocation}!"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.MiningMoonTwo.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.MiningMoonTwo.Update.Description,"{He(SurvivingSpouse)} aprende com os locais que, na semana passada, um homem com mais músculo que juízo destruiu uma taverna quando uma discussão sobre o Colapso ficou violenta.
+
+Investigações adicionais revelam que uma nave de {houseOf(NextLocation)} foi roubada naquele dia. DC provavelmente já está fora do sistema."
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Transformation2.MiningMoonTwo.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Flag.NameShown,"Distraído pela Vingança"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Flag.Tooltip,"Precisa vingar {Context}"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.EffectivenessMultiplierOnCharacterFlagEffect.Reason,"Distraído pela Vingança"
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Flag1.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.02Sighting.Flag1.Tooltip,""
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Update.Title,"O seu departamento de tecnologia não conseguiu replicar o 'Projeto Anabólico' da IA"
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Update.Description,"Apesar da documentação e dos materiais encontrados no laboratório onde {DeadSpouse} encontrou o fim {his(DeadSpouse)}, o procedimento se provou impossível de replicar - embora os seus cientistas tenham aprendido um pouco sobre biologia humana.
+
+Se {SurvivingSpouse} ainda estivesse vivo, você suspeita que {he(SurvivingSpouse)} ficaria furioso."
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Flag.NameShown,"Pesquisa de Fisiologia Humana"
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.Flag.Tooltip,"{House} tem um entendimento mais profundo da fisiologia humana "
+Expeditions.TheSupraMan.TheSupraMan.02NoSurvivor.HouseScoreBonusFlagEffect.Reason,"Pesquisa de Fisiologia Humana"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Update.Title,"A lançadeira da expedição reapareceu em {NextLocation}!"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Update.Description,"Os arquivos do laboratório abandonado detalham um cobaia com o codinome ""DC"" que foi posto em animação suspensa depois que o zelo religioso dele o tornou um passivo. Evidências da cena do assassinato de {d_s(DeadSpouse)} provam que este maníaco religioso era o assassino.
+
+Além disso, plebeus de {NextLocation} dizem que um indivíduo musculoso estava recentemente pregando sobre a fé dele, alegando que ela era a única verdade.
+
+Os seus cientistas replicaram o procedimento que criou este monstro. Você terá a sua vingança em breve."
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Choice.Title,"""Comece o procedimento imediatamente!"""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Choice.Description,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Update.Title,"{Target} virou suprafisiológico!"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Update.Description,"Os procedimentos de modificação genética são um sucesso completo: as leituras estão fora dos gráficos. Mais de 9000 ng/dL de testosterona, tudo produzido pela biologia atualizada de {d_s(Target)}."
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Flag.NameShown,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.Flag.Tooltip,"{Character} é o {Up(man(Character))} Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.SkillBonusFlagEffect.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.SkillBonusFlagEffect1.Reason,"Anabolismo Suprafisiológico"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.MiningMoonTwo.Update.Summary,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.MiningMoonTwo.Update.Title,"A investigação de {D_s(SurvivingSpouse)} levou {him(SurvivingSpouse)} a uma lua de mineração em {NextLocation}!"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.MiningMoonTwo.Update.Short,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.MiningMoonTwo.Update.Description,"{He(SurvivingSpouse)} aprende{s(SurvivingSpouse)} com os locais que, na semana passada, um homem com mais músculo que juízo destruiu uma taverna quando uma discussão sobre o Colapso ficou violenta.
+
+Investigações adicionais revelam que uma nave de {houseOf(NextLocation)} foi roubada naquele dia. DC provavelmente já está fora do sistema."
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Transformation2.MiningMoonTwo.Update.Help,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Flag.NameShown,"Distraído pela Vingança"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Flag.Tooltip,"Precisa vingar {Context}"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.EffectivenessMultiplierOnCharacterFlagEffect.Reason,"Distraído pela Vingança"
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Flag1.NameShown,""
+Expeditions.TheSupraMan.TheSupraMan.02SightingPC.Flag1.Tooltip,""

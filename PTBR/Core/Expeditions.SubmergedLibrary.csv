@@ -1,0 +1,118 @@
+Key,Text
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Title,"{D(AdminHead)} vive se vangloriando da posse {his(AdminHead)} mais preciosa: um livro físico"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Description,"""Contos de homens de orelhas longas e crianças barbadas não ajudarão nos nossos assuntos atuais,"" você resmunga.
+
+""Não são crianças! E <i>ajudariam</i>, se-"" O rosto {His(AdminHead)} fica vermelho. ""Não é por isso que estou aqui. Olhe a marca.""
+
+Carimbadas na guarda estão coordenadas dentro de {StarSystem}. Você ri. ""Você acha que esta biblioteca ainda existe? Mesmo que existisse, teria sido saqueada décadas atrás!""
+
+O rosto de {D(AdminHead)} agora é um roxo mortificado. Você suspira. ""Por que não? Mas não espere uma aventura como no seu amado livro."""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.Emotion.Description,"Persuadiu você a visitar uma biblioteca antiga"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Title,"Você pousa numa colina árida à beira de um lago; sem sinais de colonização"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Description,"Emburrado, {d(AdminHead)} pega uma pedra e a faz quicar no lago. Ploc... ploc... ploc... <i>Dong!</i>
+
+Atônito, você encara o lago, depois {d(AdminHead)}, depois o lago de novo.
+""Traga o drone!"" você grita.
+
+Você apressa o drone até o ponto de impacto e descobre um poste minúsculo saindo da água. Você envia o drone abaixo da superfície. {D(AdminHead)} arfa.
+
+Uma instalação inteira jaz sob o lago. O poste é a ponta do maior prédio dela: a cidadela da biblioteca.
+
+""Vistam os trajes,"" você sorri. ""Você queria uma aventura, não queria?"""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Title,"As varreduras de drone mostram uma entrada para a biblioteca pelo leito do lago"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Description,"Você ignora os apelos da segurança para explorarem na frente, e mergulha na água. {D(AdminHead)} segue a contragosto.
+
+Você se maravilha com a luz refratada: nesta profundidade ela dança através de cúpulas submersas, espalhando-se por arcadas até se desvanecer nas profundezas.
+
+""Mudem para visão noturna,"" você comunica: a sua luz de lanterna está quase apagada na escuridão aquosa. Finalmente, vocês alcançam a entrada de segurança.
+
+""{TechHead} fez as contas,"" você explica. ""Contanto que estejamos a exatamente 10 metros da porta quando sobrepormos a fechadura, a corrente <i>deveria</i> nos lançar para dentro do prédio inteiros,"" você diz.
+
+""Como é que é?!"" {d(AdminHead)} exclama."
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Title,"""Foi a coisa mais estúpida que fiz na vida inteira!"" arfa {d(AdminHead)}"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Description,"Erguendo-se do chão de mármore molhado, você olha ao redor - e arfa. Estantes do tamanho de prédios sobem em direção ao céu - ou melhor, a um teto pintado com nuvens e humanos alados. 
+
+Estátuas à sua esquerda e direita ladeiam uma escadaria grande. No primeiro patamar, ela se divide em duas direções. Você estuda a planta do piso.
+
+""Aquele hangar pode ser a nossa saída,"" você diz a {d(AdminHead)}. Sem resposta. Olhando para trás você vê {him(AdminHead)} girando em círculos, boquiaberto e de olhos arregalados.
+
+Você volta ao mapa."
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice.Title,"Vá à esquerda para ""Ficção"""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Update.Title,"Título"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent2.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice1.Title,"Vá à direita para ""Não Ficção"""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.Choice1.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Update.Title,"Título"
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibrary01Intro.NewEvent.NewEvent.NewEvent.NewEvent.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Title,"Ao atravessar outro salão de tirar o fôlego, um estrondo reverbera pelo piso"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Description,"A sua manobra deve ter danificado as portas da entrada; o prédio está inundando! ""Peguem o máximo que puderem!"" você ladra. ""Vamos para o hangar!""
+
+Ao passar correndo pela escadaria, você vê a água subindo em direção a vocês. Mas vocês alcançam o hangar e celebram: um punhado de naves ainda está atracado.
+
+""Como vamos sair?"" {d(AdminHead)} grita enquanto você se prende ao assento. ""Se abrirmos o teto do hangar, a água nos achata!""
+
+""Segurem firme e esperem,"" você responde.
+
+""Você está falando sério?!"" {d(AdminHead)} grita."
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.Emotion.Description,"Assustado pela própria vida {his(AdminHead)}"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Title,"A torrente que se aproxima quase arranca as amarras do chão"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Description,"A água sobe acima das janelas, a lançadeira balançando na torrente. O seu coração martela contra o peito.
+
+Quando a água alcança o teto, você abre o telhado do hangar. Por um segundo, a luz do sol lembra você dos afrescos paradisíacos da biblioteca.
+
+""Segurem-se!"" você grita, e lança a lançadeira.
+
+A lançadeira sobe, devagar: primeiro para fora do lago, depois para o espaço. ""Nada mal, hein?"" você dá de ombros, com um sorriso satisfeito.
+
+""Eu acho... que vou ficar nos meus livros daqui em diante,"" {he(AdminHead)} murmura, com o rosto pálido como neve.
+
+""Ao menos agora você tem mais de um para escolher,"" você sorri."
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.StatusEvent.Description,"Salvou livros antigos raros"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Emotion.Description,"Salvou livros antigos raros"
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Prereq.OverrideText,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Prereq1.OverrideText,""
+Expeditions.SubmergedLibrary.SubmergedLibrary02Continued.NewEvent.Emotion1.Description,"Teve uma aventura com {d(AdminHead)}"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Title,"Presentear livro antigo"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Description,"Você pode presentear {TargetCharacter} com um livro antigo único da sua coleção"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Action.Category,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Title,"{TargetCharacter} fica encantado com o seu presente"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Description,"Alguns meses depois, {he(TargetCharacter)} visita você para falar sobre o livro. Por horas, vocês discutem fervorosamente a história, os personagens, e as visões pré-Colapso do mundo."
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Emotion.Description,"Encantado pelo livro que você presenteou {him(TargetCharacter)}"
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Flag.NameShown,""
+Expeditions.SubmergedLibrary.SubmergedLibraryGiftBookAction.Flag.Tooltip,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Title,"Estudar estes livros antigos deu insights raros a {PlayerHouse}"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Description,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingNonfiction.Update.Help,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Summary,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Title,"Você adquiriu 4 livros antigos que dariam presentes perfeitos"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Short,""
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Description,"{tt(""New Action available: Gift ancient book"")}"
+Expeditions.SubmergedLibrary.SubmergedLibraryEndingFiction.Update.Help,""

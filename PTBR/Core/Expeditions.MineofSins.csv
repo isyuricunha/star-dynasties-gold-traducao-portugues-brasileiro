@@ -1,0 +1,132 @@
+Key,Text
+Expeditions.MineofSins.MineofSinsCruel.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Update.Title,"Durante uma reunião importante sobre a segurança da Casa, {d(TechHead)} irrompe na sala"
+Expeditions.MineofSins.MineofSinsCruel.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Update.Description,"""Perdoe a interrupção, {PlayerCharacter}. Encontramos uma estação de mineração numa das luas de {MiningSystem}. A cena se desenrolando lá embaixo é bizarra. Acredito que você deva ver por si mesmo.""
+
+"
+Expeditions.MineofSins.MineofSinsCruel.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.UpdDescTextLine.Script,"""Você está sim interrompendo!"" você grita. ""Vai esperar do lado de fora até terminarmos.""
+
+Com o rosto {his(TechHead)} da cor de uma anã vermelha, {d(TechHead)} se apressa para fora. Horas depois, você sai para dar uma olhada no relatório {his(TechHead)}. 
+
+Sim... bem bizarro. É melhor você e {TechHead} pegarem uma lançadeira."
+Expeditions.MineofSins.MineofSinsCruel.Emotion.Description,"Interrompido numa reunião importante"
+Expeditions.MineofSins.MineofSinsCruel.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsCruel.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Title,"O voo foi dominado por um silêncio desconfortável; {d(TechHead)} insiste que a situação é ""indescritível"""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Description,"Ao se aproximar da estação de mineração, você é primeiro atingido pelo tamanho imenso dela, depois pela severidade da destruição.
+
+"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.UpdDescTextLine.Script,"{D(TechHead)} aponta para um rio dividindo a área abaixo da lançadeira. ""Está fervendo. Não entendemos por que eles chegaram perto dele. Pior que isso, parece que eles atravessaram a pé,"" {he(TechHead)} diz, pairando sobre uma pilha de restos esqueléticos. Todos estão sem as canelas.
+
+""Agora veja isto,"" {d(TechHead)} diz, conduzindo a lançadeira sobre uma estrutura parecida com uma arena. Mais ossos, e... baldes de água? <i>Será que despejavam água fervente uns nos outros por esporte?</i>"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice.Title,"Isto é horrível. Não devemos enviar o nosso povo perto deste lugar."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Title,"No voo de volta, tanto você quanto {d(TechHead)} sentam em silêncio chocado"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Description,"Finalmente, {d(TechHead)} fala: ""Eu aprecio a sua decisão hoje. Você é um bom governante.""
+
+Você sorri e agradece {him(TechHead)}, e retorna o olhar para a janela. As estrelas parecem vazias, mas quentes."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Update.Help,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Emotion.Description,"Dormiu profundamente e com a consciência tranquila"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Cruel.Emotion1.Description,"Respeita a sua escolha"
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice1.Title,"Coloque o nosso povo lá embaixo e reconstrua direito. Quero esta mina operacional em menos de 6 meses."
+Expeditions.MineofSins.MineofSinsCruel.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decidiu reconstruir uma mina antiga em {MiningSystem}"
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsCruel.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Title,"Durante uma reunião importante sobre a segurança da Casa, {d(TechHead)} irrompe na sala"
+Expeditions.MineofSins.MineofSinsGreedy.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Update.Description,"""Perdoe a interrupção, {PlayerCharacter}. Encontramos uma estação de mineração numa das luas de {MiningSystem}. A cena se desenrolando lá embaixo é bizarra. Acredito que você deva ver por si mesmo.""
+
+"
+Expeditions.MineofSins.MineofSinsGreedy.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.UpdDescTextLine.Script,"Os seus olhos se acendem: ""Uma estação de mineração gigante, é?"" {D(TechHead)} assente.
+
+Sem poupar os outros membros da casa nem mais um olhar, você o puxa para fora"
+Expeditions.MineofSins.MineofSinsGreedy.Emotion.Description,"Apresentado a uma oportunidade lucrativa"
+Expeditions.MineofSins.MineofSinsGreedy.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsGreedy.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Title,"O voo foi dominado por um silêncio desconfortável; {d(TechHead)} insiste que a situação é ""indescritível"""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Description,"Ao se aproximar da estação de mineração, você é primeiro atingido pelo tamanho imenso dela, depois pela severidade da destruição.
+
+"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.UpdDescTextLine.Script,"Centenas de restos esqueléticos estão espalhados pela área, cada um parcialmente coberto por um saco grande.
+
+""Os pertences deles,"" diz {d(TechHead)}. ""Não somam muito: na maioria minerais e metais preciosos. Parece que eles os carregavam o tempo todo. A maioria tem fraturas na coluna.""
+
+Ao sair da lançadeira, você pega um crânio; um mineral raro está cravado em cada órbita ocular.
+
+{D(TechHead)} nota o seu espanto: ""Tenho visto muito disso. Não podemos descartar que ainda estavam vivos quando fizeram isso uns com os outros. Ou... consigo mesmos."""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice.Title,"Isto é horrível. A renda adicional não vale as misérias deste lugar."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Title,"No voo de volta, tanto você quanto {d(TechHead)} sentam em silêncio chocado"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Description,"Finalmente, {d(TechHead)} fala: ""Eu aprecio a sua decisão hoje. Você é um bom governante.""
+
+Você sorri e agradece {him(TechHead)}, e retorna o olhar para a janela. As estrelas parecem vazias, mas quentes."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Update.Help,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Emotion.Description,"Dormiu profundamente e com a consciência tranquila"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.LoseGreedy.Emotion1.Description,"Respeita a sua escolha"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice1.Title,"Coloque o nosso povo lá embaixo e reconstrua direito. Quero esta mina operacional em menos de 6 meses."
+Expeditions.MineofSins.MineofSinsGreedy.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decidiu reconstruir uma mina antiga em {MiningSystem}"
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsGreedy.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Update.Title,"Durante uma reunião importante sobre a segurança da Casa, {d(TechHead)} irrompe na sala"
+Expeditions.MineofSins.MineofSinsProud.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Update.Description,"""Perdoe a interrupção, {PlayerCharacter}. Encontramos uma estação de mineração numa das luas de {MiningSystem}. A cena se desenrolando lá embaixo é bizarra. Acredito que você deva ver por si mesmo.""
+
+"
+Expeditions.MineofSins.MineofSinsProud.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.UpdDescTextLine.Script,"""Você está sim interrompendo!"" você grita. ""Além disso, vai descobrir que é <i>você</i> quem vai me acompanhar a <i>mim</i>, não o contrário. Prepare a lançadeira. Eu me junto a você quando terminar esta reunião.""
+
+Com o rosto {his(TechHead)} da cor de uma anã vermelha, {D(TechHead)} se apressa para fora. Horas depois, você comanda a próxima lançadeira."
+Expeditions.MineofSins.MineofSinsProud.Emotion.Description,"Interrompido numa reunião importante"
+Expeditions.MineofSins.MineofSinsProud.Flag.NameShown,""
+Expeditions.MineofSins.MineofSinsProud.Flag.Tooltip,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Title,"O voo foi dominado por um silêncio desconfortável; {d(TechHead)} insiste que a situação é ""indescritível"""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Description,"Ao se aproximar da estação de mineração, você é primeiro atingido pelo tamanho imenso dela, depois pela severidade da destruição.
+
+"
+Expeditions.MineofSins.MineofSinsProud.Continued.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Continued.UpdDescTextLine.Script,"{D(TechHead)} conduz a lançadeira sobre um campo grande de entulho. ""Encontramos plantas de uma torre adicional de mineração: necessária para alcançar depósitos mais valiosos, mas imensa, impossivelmente alta. Ela finalmente desabou sob o próprio peso, enterrando estas pessoas.""
+
+Você olha as plantas. As descrições fedem a arrogância. "
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice.Title,"Estas pessoas deveriam ter sabido que não deviam minerar aqui. Devemos aprender com os erros delas."
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Title,"No voo de volta, tanto você quanto {d(TechHead)} sentam em silêncio chocado"
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Description,"Finalmente, {d(TechHead)} fala: ""Eu aprecio a sua decisão hoje. Você é um bom governante.""
+
+Você sorri e agradece {him(TechHead)}, e retorna o olhar para a janela. As estrelas parecem vazias, mas quentes."
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Update.Help,""
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Emotion.Description,"Dormiu profundamente e com a consciência tranquila"
+Expeditions.MineofSins.MineofSinsProud.Continued.LoseProud.Emotion1.Description,"Respeita a sua escolha"
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice1.Title,"Coloque o nosso povo lá embaixo e reconstrua direito. Quero esta mina operacional em menos de 6 meses."
+Expeditions.MineofSins.MineofSinsProud.Continued.Choice1.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Summary,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Title,"{D(PlayerCharacter)} decidiu reconstruir uma mina antiga em {MiningSystem}"
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Short,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Description,""
+Expeditions.MineofSins.MineofSinsProud.Continued.NewEvent2.Update.Help,""
+Expeditions.MineofSins.NewConfigBundle.InstallationBlueprint.InstallationName,"Mina Antiga"
+Expeditions.MineofSins.NewConfigBundle.InstallationBlueprint.Description,"Seja o que for que aconteceu no seu passado, a mina não conta histórias. Trabalhadores podem sumir de vez em quando, e um grito estranho pode às vezes ser ouvido"

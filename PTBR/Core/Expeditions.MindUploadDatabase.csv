@@ -1,0 +1,115 @@
+Key,Text
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Title,"Estamos captando ondas de rádio artificiais de uma lua orbitando {System}"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Description,"Varreduras mais próximas detectaram um pequeno reator de fissão. O que exigiria tanta energia, numa lua ainda por cima? {D(TechHead)} já está quase na porta antes de você terminar o briefing.
+
+Ao pousar, você identifica um armazém perto do reator. A sala inteira está abarrotada de tecnologia de computação. Está tudo dormente.
+
+No fundo do prédio há uma pequena estação de trabalho. Diagramas aludem a um sistema para enviar mentes humanas a uma simulação. Você olha para a grande alavanca vermelha na parede."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Title,"Luzes começam a piscar pela sala. Como uma, milhares de ventoinhas de refrigeração começam a girar."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Description,"""É como se tivéssemos despertado uma fera antiga, não é?"" diz {d(TechHead)}. ""Vou precisar de um tempo para consultar a enciclopédia dela.""
+
+Depois de um passeio longo pela lua, você retorna. {D(TechHead)} recebe você, lambendo os lábios {his(TechHead)}. ""Esta simulação parece realmente funcionar! É uma obra de gênio - mas até gênios têm limites.""
+
+""Os logs de cada dia simulado são idênticos,"" {d(TechHead)} continua. ""Algo está errado. Não sei o que está acontecendo dentro da simulação para causar isso. Mas há um jeito de descobrirmos.""
+
+{He(TechHead)} aponta para um capacete com fios numa cama improvisada."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice.Title,"Me ligue!"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Title,"Ao abrir os olhos, você é recebido por um céu azul calmo, salpicado de nuvens brancas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Description,"A luz do sol faz você apertar os olhos. Alguém esbarra em você. ""Licença,"" ele murmura. Uma criança num vestido enlameado passa correndo chorando.
+
+O seu coração pula uma batida ao notar que você está na superfície de um planeta sem capacete. ""É uma simulação,"" você repete para si mesmo.
+
+""O que é uma simulação?"" uma voz atrás de você pergunta. Você se vira e vê uma senhora com roupas de brim surrado apontando um garfo do tamanho de um humano para você. Uma dor aguda entra na sua cabeça.
+
+Conforme você desperta, o sol deu lugar a uma lua singular. Você está dentro de uma cela pequena, com as mãos algemadas. Um sino próximo toca doze vezes. Tudo escurece."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Title,"Ao abrir os olhos, você é recebido por um céu azul calmo, salpicado de nuvens brancas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Description,"A luz do sol faz você apertar os olhos. Alguém esbarra em você. ""Licença,"" ele murmura. Uma criança num vestido enlameado passa correndo chorando.
+
+O seu coração pula uma batida ao notar que você está na superfície de um planeta sem capacete. ""É uma simulação,"" você repete para si mesmo.
+
+""O que é uma simulação?"" uma voz atrás de você pergunta. Você se vira e vê uma senhora com roupas de brim surrado apontando um garfo do tamanho de um humano para você. Uma dor aguda entra na sua cabeça.
+
+Conforme você desperta, o sol deu lugar a uma lua singular. Você está dentro de uma cela pequena, com as mãos algemadas. Um sino próximo toca doze vezes. Tudo escurece."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Title,"""Eu puxei o plugue: as suas leituras estavam fora dos gráficos!"""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Description,"{D(TechHead)} paira acima de você. Os olhos {His(TechHead)} se arregalam enquanto você descreve a sua experiência.
+
+""Parece que os criadores não anteciparam a complexidade de múltiplas consciências agindo dentro de uma simulação,"" {he(TechHead)} pondera. ""Ela reinicia perpetuamente a simulação depois de cada 'dia'...""
+
+{TechHead} continua explicando que eles encontraram o diário de desenvolvimento dos criadores, com um procedimento possível sobre como corrigir a simulação."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice1.Title,"É a simulação deles. Mantenha-a rodando, mas deixe-os em paz."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice1.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Summary,"{D(PlayerCharacter)} deixou a simulação de mentes enviadas rodando por conta própria"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Title,"Você deixa a simulação de mentes enviadas em paz"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.SimulationLeftAlone.Emotion.Description,"Contente em deixar a simulação sozinha"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice2.Title,"Não deveríamos ter mexido nisso em primeiro lugar. Desligue-a de novo."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Choice2.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Summary,"{D(PlayerCharacter)} desligou de novo um banco de dados antigo de mentes enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Title,"Você está contente em deixar simulações dormentes em repouso"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.NewEvent2.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Choice.Title,"Vá fundo na documentação, precisamos consertar isto"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Choice.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Title,"Diário do Doutor K, Entrada #4"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Description,"""Logo quando consigo fazer uma simulação que não leva uma década para inicializar, a maldita coisa fica em loop depois de um dia. Projetei um procedimento para corrigi-la, mas poderia levar anos para implementar. É melhor eu usar o meu conhecimento recém-adquirido para começar o meu próximo projeto..."""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Flag.NameShown,"Simulação de Mentes Enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Plugbackin.Takestime.Flag.Tooltip,"Uma simulação de mentes enviadas está rodando numa lua orbitando {Context}. Ela tem falhas cruciais no sistema e poderia ser melhorada."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Takestime.NewActionMessage.ActionName,"Melhorar a simulação de mentes enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Pluggedin.Pluggedinv2.Pluggedinv3.Takestime.NewActionMessage.AdditionalHelp,"Você pode encontrar esta ação no painel de ações de {System}"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice1.Title,"Se ela foi desligada, provavelmente foi por um motivo."
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Choice1.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Summary,"{D(PlayerCharacter)} desligou de novo um banco de dados antigo de mentes enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Title,"Você está contente em deixar simulações dormentes em repouso"
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseMain.Turningonthesimulation.Turneditbackoff.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Assignment.Title,"Melhorar a simulação de mentes enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Assignment.EffectDescription,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Title,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Start.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Title,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Description,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Stop.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Summary,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Title,"{D(Assignee)} tem uma atualização sobre a simulação de mentes enviadas"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Short,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Description,"{He(Assignee)} aponta para linhas de código numa tela grande montada na parede. Você nota uma sequência recorrente e suspira. ""Então o 'dia' ainda se repete infinitamente?""
+
+{D(Assignee)} balança a cabeça {his(Assignee)} e sorri. ""Não exatamente. Isto é só um trecho pequeno. O log completo não caberia em todas as telas deste prédio.
+
+""Depois de implementar as mudanças descritas no diário do Doutor, a simulação parou de se repetir! Mas depois de alguns dias, um nome foi apagado do banco de dados. Alguns dias depois, outro. Agora, está completamente vazio. Vasculhamos os logs e encontramos esta mensagem.""
+
+""É uma mensagem?"" você pergunta. ""O que ela diz?""
+
+""Ela diz 'Obrigado'."""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Update.Help,""
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Emotion.Description,"Ajudou mentes enviadas a uma simulação a finalmente descansar"
+Expeditions.MindUploadDatabase.MindUploadDatabaseAssignment.Complete.Emotion1.Description,"Ajudou mentes enviadas a uma simulação a finalmente descansar"
+Expeditions.MindUploadDatabase.MindUploadDatabaseSuggestion.Suggestion.Description,"Você pode designar alguém para melhorar a simulação de mentes enviadas perto de {StarSystem}"

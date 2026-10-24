@@ -1,0 +1,53 @@
+﻿Name,Title,TacticEffects,Level
+Combat.Tactic.Attack,Ataque,,0
+Combat.Tactic.Retreat,Recuo,DealNoDamage(Tactical);Retreat(Tactical),0
+Combat.Tactic.Blitz,Blitz,"DamageDealtByType(Offense,20,Bomber);DamageTakenByType(10,Bomber)",1
+Combat.Tactic.Flexibility,Flexibilidade,"DamageDealtByType(Offense,20,Interceptor);DamageTakenByType(10,Interceptor)",1
+Combat.Tactic.Advance,Avanço,"DamageDealtByType(Offense,20,Frigate);DamageTakenByType(10,Frigate)",1
+Combat.Tactic.RearguardBombers,Defesa de Ponto,"DamageTakenByType(Defense,-40,Bomber);DamageDealtByType(-10,Bomber);Counter(Offense)",1
+Combat.Tactic.RearguardInterceptors,Interceptores de Retaguarda,"DamageTakenByType(Defense,-40,Interceptor);DamageDealtByType(-10,Interceptor);Counter(Defense)",1
+Combat.Tactic.RearguardFrigates,Tela de Caças,"DamageTakenByType(Defense,-40,Frigate);DamageDealtByType(-10,Frigate);Counter(Tactical)",1
+Combat.Tactic.PressForward,Avançar,"DamageDealtModifier(Tactical,10);DamageTakenModifier(5);Counter(Defense)",1
+Combat.Tactic.SelfDestructPolicy,Política de Abandono Tático,"DamageDealtModifier(Tactical,5);RecoveryRate(Tactical,20);Counter(Offense)",1
+Combat.Tactic.FeignedRetreat,Recuo Fingido,Counter(Tactical),1
+Combat.Tactic.AdvancedBlitz,Blitz Esmagadora,"DamageDealtByType(Offense,40,Bomber);DamageTakenByType(20,Bomber);Counter(Offense)",2
+Combat.Tactic.AdvancedFlexibility,Flexibilidade Avançada,"DamageDealtByType(Offense,40,Interceptor);DamageTakenByType(20,Interceptor);Counter(Tactical)",2
+Combat.Tactic.AdvancedAdvance,Avanço Implacável,"DamageDealtByType(Offense,40,Frigate);DamageTakenByType(20,Frigate);Counter(Defense)",2
+Combat.Tactic.CoverBombers,Cobrir Bombardeiros,"DamageTakenByType(Defense,-50,Bomber)",2
+Combat.Tactic.CoverInterceptors,Cobrir Interceptores,"DamageTakenByType(Defense,-50,Interceptor)",2
+Combat.Tactic.CoverFrigates,Cobrir Fragatas,"DamageTakenByType(Defense,-50,Frigate)",2
+Combat.Tactic.OffensiveRetreat,Recuo Ofensivo,"DamageDealtModifier(Tactical,-50);Retreat(Tactical)",2
+Combat.Tactic.Discipline,Disciplina,"RollRange(Tactical,-40);Counter(Defense)",2
+Combat.Tactic.Chaos,Caos,"RollRange(Tactical,40);Counter(Tactical)",2
+Combat.Tactic.CombatSuperiority,Superioridade de Combate,"DamageDealtModifier(Offense,15);Counter(Defense)",3
+Combat.Tactic.NuclearWarhead,Minas,"DirectDamage(Offense,-20);Counter(Offense)",3
+Combat.Tactic.ThreatenColony,Ameaçar Colônia,"OnlyIfAttacker;DamageTakenModifier(Offense,-35);EconomyDamage(Offense,1);Honor(-1)",3
+Combat.Tactic.StayAtRange,Permanecer no Alcance,"DamageTakenModifier(Defense,-25);DamageDealtModifier(-10)",3
+Combat.Tactic.DefuseAttack,Desarmar Ataque,"DamageTakenModifier(Defense,-10);Counter(Offense)",3
+Combat.Tactic.SlowTempo,Ritmo Lento,"DamageTakenModifier(Defense,-10);Counter(Tactical)",3
+Combat.Tactic.Decapitate,Decapitar,"EnemyCommanderDeath(Tactical,25);Counter(Tactical)",3
+Combat.Tactic.FightFromFront,Lutar na Frente,"CommanderDeath(15);DamageDealtModifier(Tactical,20);DamageTakenModifier(10);Counter(Defense)",3
+Combat.Tactic.Forethought,Previdência,"DamageDealtModifier(-10);RecoveryRate(Tactical,50)",3
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

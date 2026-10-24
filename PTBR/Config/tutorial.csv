@@ -1,0 +1,375 @@
+﻿Name,Title,Body,
+WelcomeTutorial.Welcome,Bem-vindo,"Neste cenário você aprenderá a jogar Star Dynasties. O jogo será desbloqueado incrementalmente conforme progredimos.
+
+Você poderá continuar jogando o cenário como um jogo normal depois que todos os recursos forem desbloqueados.
+
+Vamos começar com como interagir com o jogo.",
+WelcomeTutorial.Welcome.Demo,Bem-vindo à Demonstração,"Neste cenário você aprenderá a jogar Star Dynasties. O jogo será desbloqueado incrementalmente conforme progredimos.
+
+Nesta demonstração, você poderá continuar jogando o cenário como um jogo normal por 10 turnos depois que todos os recursos forem desbloqueados.
+
+Vamos começar com como interagir com o jogo.",
+WelcomeTutorial.BackToMenu,Voltar ao Menu,"Você pode alternar entre o jogo e o menu principal a qualquer momento, usando a <v>tecla Esc</v>.
+
+Se este texto for pequeno demais, você pode mudar a escala da interface nas Opções.",
+WelcomeTutorial.Map,Mapa,"A visão principal do jogo é o mapa estelar.
+
+Você pode se mover pelo mapa <v>segurando o botão direito do mouse e arrastando</v>. Use a <v>roda do mouse</v> para dar zoom para dentro e para fora. Experimente!
+
+Mais tarde, você poderá interagir com o mapa passando o cursor sobre elementos e clicando neles, mas desabilitamos isso por enquanto.",
+WelcomeTutorial.YourCharacter,O Seu Personagem,"Este é você!
+
+Star Dynasties é um jogo sobre personagens, as relações deles, e as lutas deles por poder e felicidade.
+
+<v>Clique no retrato para abrir os seus detalhes.</v>",
+CharIntroTutorial.CharacterPanel,Painel do Personagem,"Este é o painel do inspetor, atualmente focado no seu personagem.
+
+À direita do retrato, ele mostra informações-chave sobre o seu personagem, como idade e reputação.",
+CharIntroTutorial.Traits,Traços e Estados,"Esta seção mostra a personalidade do seu personagem, e outros atributos que ele tem atualmente.
+
+<v>Passe o cursor sobre um ícone</v> para entender o significado dele. Por exemplo, {PC} é corajoso e amigável.
+
+Alguns ícones, como o que mostra que o seu personagem é casado, podem ser clicados para focar num objeto relacionado.",
+CharIntroTutorial.Skills,Habilidades,"Esta seção mostra o nível do seu personagem num conjunto de cinco habilidades.
+
+As suas habilidades, e as dos membros da sua casa, impactam a sua eficácia em atividades pessoais e políticas.",
+CharIntroTutorial.TabPanels,Abas de Informação,"A parte inferior do painel do inspetor contém uma série de abas de informação sobre o seu personagem.
+
+Deixamos a aba Ações bloqueada por enquanto, e voltaremos a ela mais tarde.",
+KeyRelationshipsTutorial.Colonies,Colônias,"Este é o sistema estelar que contém a sua colônia!
+
+O mapa estelar mostra os sistemas que a humanidade explorou. Você pode <v>passar o cursor sobre um sistema</v> para ver detalhes sobre a colônia dele, ou <v>clicar para focar</v> nele.",
+KeyRelationshipsTutorial.Factions,Facções,"Esta região listrada no mapa é a sua facção, {PCFaction}!
+
+Facções são uma região de colônias leais a um único governante, o <v>duque</v> delas. Duques também governam pessoalmente o sistema capital da facção deles.
+
+Você pode <v>passar o cursor sobre uma facção</v> para ver detalhes sobre ela. <v>Clicar numa facção</v> mostrará detalhes sobre a facção e a casa do duque dela.",
+KeyRelationshipsTutorial.Independence,Independência,"Algumas facções são independentes. Elas são mostradas no mapa numa cor única. Algumas facções são súditas de uma união política maior chamada <v>liga</v>, e são mostradas no mapa nas listras daquela liga.",
+KeyRelationshipsTutorial.Leagues,Ligas,"A sua facção é mostrada como uma região listrada porque pertence a esta liga, {PCLeague}. Neste cenário, você começa como membro do império de outro governante.
+
+Ligas são governadas por um <v>arconte</v>. Você pode ver os detalhes de uma liga <v>passando o cursor ou clicando na parte de cor sólida da liga</v>. Esta é a facção mestre da liga, que {PCLeagueArchon} governa pessoalmente.",
+KeyRelationshipsTutorial.Vassalage,Vassalagem,"O sistema político é uma pirâmide;
+- Na base estão os <v>barões</v> que governam <v>colônias</v> individuais
+- Barões juram lealdade a um <v>duque</v>, que governa a <v>facção</v> deles
+- Duques podem ser independentes, ou podem jurar lealdade a um <v>arconte</v>. Arcontes governam <v>ligas</v> de facções.
+
+Clique <link=""vassalage"">aqui</link> para ver isto representado visualmente.
+
+Até o arconte mais poderoso governa diretamente apenas uma colônia, e depende da lealdade dos duques e barões vassalos dele para controlar o império.
+
+Se você ficar impopular, os seus vassalos se rebelarão, e o seu império pode desmoronar da noite para o dia.",
+KeyRelationshipsTutorial.Uncolonized,Sistemas Não Colonizados,"Alguns sistemas estelares não têm uma dica, e o nome deles só é mostrado se você der zoom o bastante. Estes sistemas nunca foram colonizados pela humanidade, e não temos mais a tecnologia para tentar.
+
+Você não pode interagir com estes sistemas.",
+HousesTutorial.House,Casas,"Como duque, você é o <v>chefe</v> de uma <v>casa</v> nobre (ou 'casa'). Fisicamente, a sua casa é a parte da colônia que você possui. Nela residem os membros da família que dependem de você e que ajudam a gerir os seus assuntos.",
+HousesTutorial.Members,Membros da Casa,"Você pode ver os membros da sua casa ao focar na sua facção, por um destes meios:
+- Clicando na sua facção no mapa, ou
+- Clicando na bandeira da sua casa ao lado do seu retrato
+
+<v>Foque na sua facção para continuar.</v>",
+HousesTutorial.Inheritance,Herança,"Um dos personagens mais importantes da sua casa é {PCHeir}. Ele herdará a sua casa e o território que ela governa quando o seu personagem, {PC}, morrer.
+
+Quando isso acontecer, você continuará jogando como {PCHeir}.",
+HousesTutorial.VictoryLoss,Vitória,"O seu objetivo é fazer da sua casa a casa mais poderosa da galáxia, expandindo o seu império através de intriga política e conquista. Você pode ver o seu progresso na janela de Vitória.
+
+Você perderá o jogo se a sua casa cair do poder e não controlar mais uma facção.",
+TurnAndEventsTutorial.EndTurn,Encerrar Turno,"Star Dynasties é baseado em turnos. Depois que você toma o seu turno, todo outro personagem do jogo age, e são mostrados a você os eventos mais importantes que acontecem.
+
+<v>Clique em Encerrar Turno para continuar</v>",
+TurnAndEventsTutorial.Event,Eventos,"Este é um evento. Ele descreve algo que aconteceu (ou está acontecendo), onde aconteceu, e quem está envolvido.
+
+<v>Clique em OK no evento para continuar.</v>",
+FeelingsTutorial.Reactions,Reações,Personagens têm reações emocionais a eventos. Os ícones sob o retrato do seu personagem mostram que você está satisfeito. Você pode passar o cursor sobre eles para ver a(s) emoção(ões) individual(is).,
+FeelingsTutorial.Happiness,Felicidade,"A felicidade é importante para o seu personagem. Ela permite que você tome mais ações, faz você ser mais agradável de se conviver, e aumenta a sua eficácia em várias tarefas.",
+FeelingsTutorial.Opinions,Opiniões,"Como resultado da felicidade causada, você se sente mais próximo de {Target}. Se você passar o cursor sobre o retrato dele, uma barra aparece sob o seu retrato mostrando a sua opinião sobre ele.
+
+Se você não estiver passando o cursor sobre nenhum personagem, as barras sob os retratos mostram a opinião daquele personagem sobre você.
+
+Vamos ver o detalhe por trás da sua opinião sobre {Target}. <v>Com o seu personagem focado, Ctrl-Clique no retrato dele ou arraste-o para o slot destacado.</v> 
+
+Para focar no seu personagem, simplesmente clique nele para abri-lo à esquerda.",
+FeelingsTutorial.OpinionOfTarget,Opiniões,"Quando você coloca um personagem no slot de contraste;
+- o painel do personagem mostra um detalhamento da sua opinião sobre ele
+- as barras sob os retratos de outros personagens mostram a opinião deles sobre o personagem no slot de contraste
+
+<v>Clique em OK no evento quando estiver pronto para continuar</v>",
+DecisionsTutorial.Decisions,Decisões,"Às vezes você precisa escolher entre uma ou mais <v>escolhas</v>. Neste evento, um barão numa facção próxima quer trair o mestre dele e se juntar à sua facção. Isto ampliaria o seu território, mas vem com uma penalidade.
+
+Antes de tomar esta decisão, você precisa entender a <v>reputação</v>.",
+DecisionsTutorial.Reputation,Reputação,"Quando você prejudica ou ajuda alguém, normalmente só aquele personagem muda a opinião dele sobre você. Mas algumas ações mudarão a opinião de TODOS os personagens sobre você. Estas opiniões amplamente sustentadas são a sua <v>reputação</v>. ",
+DecisionsTutorial.Honor,Honra,"A parte mais importante da sua reputação é a <h>honra</h>.
+
+A sua sociedade tem regras. Quando você faz algo que não deveria, você perde honra. Quando você vai além do esperado, você ganha honra.
+
+Os ícones vermelhos na primeira escolha mostram que ela é desonrosa, e o quanto. Passe o cursor sobre eles para ver qual regra você quebraria. 
+
+<nv><b>Importante:</b></nv> Atos desonrosos costumam ser bem atraentes, mas se você levar a sua reputação baixo demais, <i>você perderá o jogo rapidamente</i>. Guarde isso para os momentos em que a indignação pública vale o prêmio.
+
+<h>Aceite a oferta para continuar</h>",
+DecisionsTutorial.CrimePath,Queixas,"Quando você age desonrosamente contra alguém, essa pessoa fica com uma <v>queixa</v> contra você. Você pode ver a lista de queixas na aba Justiça do seu painel de personagem.
+
+Olho por olho! Queixas permitem que você busque vingança contra alguém, e qualquer ato desonroso proporcional contra ele não reduz a sua honra.
+
+Ao aceitar a traição de {Vassal}, você deu a {Leader} uma justificativa parcial para declarar guerra! Felizmente somos mais fortes que eles.",
+DecisionsTutorial.NoCrimePath,Queixas,"Quando você age desonrosamente contra alguém, essa pessoa fica com uma <v>queixa</v> contra você. Você pode ver a lista de queixas na aba Justiça do seu painel de personagem.
+
+Olho por olho! Queixas permitem que você busque vingança contra alguém, e qualquer ato desonroso proporcional contra ele não reduz a sua honra.
+
+Se você tivesse aceitado a traição de {Vassal}, teria dado ao duque deles uma justificativa parcial para declarar guerra.",
+ActionsTutorial.RecentEvents,Eventos Recentes,"No início do seu turno, é mostrada a você uma lista de eventos que não eram importantes o bastante para destacar no mapa estelar quando aconteceram, mas que você ainda pode achar interessantes.",
+ActionsTutorial.Actions,Ações,"Durante o seu turno você pode tomar ações. Ações custam <#03c2de><sprite name=""icon_ap"" tint=1></color>, isto é, Pontos de Ação ou PA, e você é limitado no quanto pode fazer pelo <#03c2de><sprite name=""icon_ap"" tint=1></color> disponível.
+
+Enquanto o seu império é pequeno, você verá que tem <#03c2de><sprite name=""icon_ap"" tint=1></color> de sobra, pois só há tanto que pode consumir a sua atenção!  Você se verá significativamente mais esticado mais tarde.",
+ActionsTutorial.RightClick,Menu de Clique Direito,"Clicar com o botão direito num retrato, colônia, bandeira ou região no mapa abre as ações que você pode tomar relacionadas àquele objeto.
+
+<v>Clique com o botão direito no seu personagem ou em outro objeto para ver as ações relacionadas.</v>
+
+Todas as ações estão atualmente bloqueadas, mas começaremos a desbloqueá-las em breve!",
+ActionsTutorial.ActionsTab,Aba de Ações,"Se você preferir, pode abrir as ações relacionadas a um objeto pela aba destacada no painel do inspetor. Você também pode ver a lista completa de ações clicando em ""Ações"" no canto inferior direito.",
+ActionsTutorial.Money,Dinheiro,"Algumas ações também custam <#dcab00><sprite name=""icon_money"" tint=1></color>, isto é, dinheiro. Como governante, você ganha <#dcab00><sprite name=""icon_money"" tint=1></color> a cada turno tributando os seus vassalos.
+
+<#03c2de><sprite name=""icon_ap"" tint=1></color> não usados no fim do seu turno são convertidos em <#dcab00><sprite name=""icon_money"" tint=1></color> de bônus.",
+CouncilTutorial.HouseAreas,Áreas da Casa,"As atividades da sua casa são divididas em cinco áreas, e a sua casa tem uma pontuação em cada área. Você pode passar o cursor sobre cada ícone de área para ver como a pontuação é calculada e o que ela afeta.",
+CouncilTutorial.Council,Conselho,"Para cada área, você deve designar um membro da sua casa para supervisioná-la e aumentar a pontuação.
+
+Para designar um membro do conselho, clique no botão + numa das áreas, e então selecione um membro da sua casa. Normalmente, você vai querer que o personagem com a maior habilidade naquela área fique no comando dela.
+
+<h>Designar um membro do conselho</h>
+
+O ícone ao lado do nome de um candidato indica que a ação é um favor. Se surgir a oportunidade, é desonroso não retribuir um favor.",
+CouncilTutorial.CouncilActions,Ações do Conselho,"Você agora tem a capacidade de gerir o seu conselho. Sinta-se à vontade para designar outros membros, ou mudar a seleção anterior.",
+MarriageTutorial.Family,Família,"A aba Família mostra os personagens que são parentes seus. Note que membros da família têm um ícone especial no retrato.
+
+A sua felicidade é afetada pelo que acontece com a sua família imediata, e os seus herdeiros herdarão o seu império quando você morrer.
+
+Nobres que são parentes seus têm muito mais chance de agir no seu interesse, ou ao menos de não se opor a você. É desonroso atacar um parente, ou deixar de ajudá-lo em momentos de necessidade.",
+MarriageTutorial.Marriage,Casamento,"Como resultado, você vai querer encontrar casamentos para os membros da sua família que fortaleçam relações políticas importantes. O seu herdeiro acaba de atingir a maioridade. Vamos encontrar um parceiro para ele.
+
+<v>Use a ação Arranjar Casamento para encontrar um casamento para {Heir}</v>
+
+O seu herdeiro é o seu filho mais velho. Você pode encontrá-lo na aba Família do seu personagem. Herdeiros têm o seguinte símbolo de estado: <#dcab00><sprite name=""moralityshaltnotmitigated"" tint=1></color>",
+MarriageTutorial.FindPartner,Encontrando um Parceiro,"Por enquanto, um bom candidato pode ser o parente de um duque ou barão próximo. Conforme você joga, você ficará melhor em encontrar bons partidos.
+
+Note que alguns parceiros em potencial se juntarão à sua casa, enquanto alguns casamentos podem resultar em {Heir} deixando a sua casa. Normalmente, você quer manter um controle próximo dos membros da sua família, mas há um tamanho máximo para o qual a sua casa pode crescer, destacado no painel da facção.
+
+<v>Escolha um parceiro para o seu herdeiro</v>",
+MarriageTutorial.HouseSizeLimit,Limite de Tamanho da Casa,"Não temos o conhecimento para construir novas colônias ou expandir significativamente as existentes, então há um limite de quantas pessoas podemos sustentar.  Ter um filho é o direito de todo homem e mulher. Ter um segundo é um luxo que poucos podem pagar. Famílias nobres que crescem demais geram ressentimento generalizado.
+
+Aumentar a sua casa além do limite é desonroso. Conforme {PCHouse} melhora a renda dela, o limite crescerá.
+
+Para evitar trazer vergonha à sua casa, os membros dela precisam receber permissão para ter filhos adicionais. Você pode ver quem já tem permissão passando o cursor sobre o indicador de limite no seu painel de facção.",
+MarriageTutorial.MarriageActions,Ações de Casamento,"Você agora tem a capacidade de arranjar um casamento para membros da sua casa, divorciar os casamentos existentes deles, e conceder ou retirar permissão de um casal para ter um filho. Você também pode decidir se quer ter mais filhos você mesmo.",
+PunishmentTutorial.Justice,Justiça,"Você é obrigado a ajudar os seus vassalos a punir aqueles que os prejudicaram. {Vassal} tem queixas contra o antigo mestre dele, e quer acertar as contas.
+
+Você tem 2 turnos para fazer algo sobre esta <v>acusação</v>, ou será visto como injusto e perderá honra.
+
+Como {Criminal} é um duque, você poderia pedir ao seu mestre que vingasse estas queixas. Mas você é forte o bastante para tomar esta questão nas próprias mãos.",
+PunishmentTutorial.Executing,Executando uma Acusação,"Para vingar uma queixa, você deve punir o criminoso de alguma forma. Há um conjunto de punições que você pode usar em criminosos em {PCSystem}, ou nos seus vassalos, mas elas não são apropriadas para um duque.
+
+<v>Qualquer ato desonroso</v> que você possa cometer contra o duque será visto como uma punição pela queixa. Normalmente, declarar guerra seria desonroso, mas com a queixa podemos declarar guerra com a desculpa de vingar o crime deles.",
+CombatTutorial.AnalysePosition,Analisando a Posição Militar,"Vamos dar uma olhada nas nossas chances se atacássemos {TargetDuke}.
+
+Em Star Dynasties, você não move as frotas da sua facção no mapa estelar. Em vez disso, quando você ataca ou defende um sistema, você convoca vassalos próximos e outros governantes às armas, e o tamanho da sua frota será determinado por quem aparecer.
+
+<v>Clique em {TargetSystem} e navegue até a aba Projeção de Poder</v>",
+CombatTutorial.PowerProjection,Projeção de Poder,"Na aba Projeção de Poder, você pode ver o tamanho esperado da sua frota se todos os vassalos ao alcance atenderem ao seu chamado neste sistema. Você também pode ver o tamanho esperado da frota para cada governante que pode atacá-lo ou defendê-lo.
+
+<h>A parte mais importante desta informação também é mostrada na dica do sistema, então você não precisa navegar até esta aba toda vez.</h>
+
+Frotas são representadas por três valores separados {bomber}, {interceptor} e {frigate}, correspondendo a três tipos diferentes de nave. Cada tipo de nave é forte contra um tipo, e fraco contra o outro.",
+CombatTutorial.War,Guerra,"Para {TargetSystem}, se todos os seus vassalos forem leais e nenhum outro governante se envolver, você pode projetar uma frota mais forte que a de {TargetDuke}.
+
+A obrigação de vingar o seu vassalo é uma oportunidade maravilhosa para usar esta vantagem militar e tomar {TargetSystem}!
+
+<v>Clique com o botão direito em {TargetFaction} e Declare Guerra</v>
+
+Note que a ação Declarar Guerra ainda é desonrosa, mas se você passar o cursor sobre os ícones de desonra, verá que a quantidade de desonra é menor por causa da acusação.",
+CombatTutorial.AttackSystem,Atacar Sistema,"Agora que estamos em guerra, vamos em frente e atacar {TargetSystem}.
+
+<v>Clique com o botão direito em {TargetSystem} e Atacar</v>",
+CombatTutorial.ChooseCommander,Escolher Comandante,"Você precisa escolher um comandante para liderar a sua frota em {TargetSystem}. Por enquanto, escolha você mesmo.
+
+<v>Escolha você mesmo como comandante da frota em {TargetSystem}'",
+CombatTutorial.CombatBuildup,Acumulação de Combate,"A primeira fase do combate é a fase de acumulação, onde você buscará apoio para o ataque. Você pode convocar cada vassalo direto ao alcance às armas, e pode pedir a cada outro governante ao alcance que ajude você.
+
+Note que cada sistema estelar relevante tem um controle que mostra a força de frota contribuída se o governante dele se juntar ao combate, e outras informações.
+
+Cada pedido que você faz custa {ap(RequestCost)}. Garantimos que você tenha PA suficiente desta vez para os pedidos que precisa fazer.
+
+<v>Clique no botão rotulado </v>""<#03c2de><sprite name=""icon_ap"" tint=1></color>: <#30b09c><sprite name=""stateambassador"" tint=1></color>""<v> no controle em {VassalSystem} para convocar {Vassal} às armas</v>",
+CombatTutorial.BuildupVassalJoined,Vassalo Juntou-se,"O controle à direita mostra um registro da atividade de acumulação. {Vassal} se juntou ao seu ataque, e o tamanho da sua frota cresceu de acordo. Passe o cursor sobre o valor para um detalhamento mais completo.
+
+Normalmente, você e o seu oponente se alternam pedindo a um governante que apoie, mas agora você tem o elemento surpresa. Quando você pede a um governante que se junte à sua frota, há uma chance de perder a surpresa, mostrada sob o botão de pedido.
+
+<v>Junte-se ao ataque você mesmo, e peça ao restante dos seus vassalos que façam o mesmo</v>",
+CombatTutorial.Launch,Lançar Ataque,"Você reuniu uma frota respeitável. Normalmente você também pode pedir apoio a governantes ao alcance, mas deixamos isso bloqueado por enquanto.
+
+Como atacante, você escolhe quando lançar o ataque, mas o defensor sempre ganha 4 movimentos de acumulação gratuitos depois que você compromete as suas forças (se possível). Manter a surpresa pelo máximo de tempo possível reduz o impacto desta vantagem do defensor.
+
+<v>Lance o ataque</v>",
+CombatTutorial.CombatResolution,Fase de Resolução,"A fase de resolução consiste em até três rodadas. Em cada rodada, você e o seu oponente escolherão uma <v>tática</v>, consumindo-a para aquele combate. Os efeitos dela persistirão pelo resto do combate.
+
+Depois que você escolhe uma tática, ambos os lados fazem uma rolagem de dano. Isto determina o dano causado na rodada, antes dos bônus.
+
+<v>Escolha 'Flexibilidade' para esta rodada</v>",
+CombatTutorial.CounterTactic,Táticas de Contra-Ataque,"Algumas táticas de combate são Contra-Ataques. Elas anulam quaisquer efeitos que o seu oponente tenha jogado com um tipo específico (ex.: {tacticTactical}).
+
+<v>Escolha 'Decapitar' para contra-atacar os efeitos do seu oponente</v>",
+CombatTutorial.DefaultTactics,Táticas Padrão,"Jogar uma tática a remove da sua lista disponível para aquele combate. Porém, duas táticas padrão estão sempre disponíveis: Ataque e Recuo.
+
+<v>Escolha a tática Ataque para esta rodada</v>",
+CombatTutorial.PickRuler,Escolher Governante,"Tendo conquistado {System}, você deve agora escolher quem o governará como seu vassalo. Você pode deixar {Ruler} no lugar, mas é improvável que ele seja leal.
+
+Você pode ver que para muitos candidatos escolhê-los seria um favor {favourIcon}, mas infelizmente também seria desonroso {crimeIcon}. Isto porque {Ruler} tem uma reivindicação de direito de ser o governante de {System} e aqueles candidatos não têm. Porém, você tem um candidato que também tem uma reivindicação de governar {System}.",
+CombatTutorial.Claims,Reivindicações,"Uma reivindicação é a aceitação generalizada de que um personagem ou facção é de direito o governante ou mestre de um território. Reivindicações reduzem a desonra de guerra ou rebelião quando lideradas pelo reivindicante, ou defendidas em nome dele.
+
+Reivindicações são adquiridas gradualmente ao longo do tempo ao manter território, ou através de herança.
+
+{Candidate} tem uma reivindicação de governar {StarSystem}. Isto permite substituir o governante anterior sem perder honra.
+
+<v>Escolha {Candidate} como o novo governante de {StarSystem}</v>",
+CombatTutorial.Annexation,Anexação,"Independentemente de o novo governante de {StarSystem} ter uma reivindicação de governá-lo, anexar um sistema à sua facção é desonroso se a sua facção não tiver uma reivindicação de <h>possuí-lo</h>.
+
+Veremos mais tarde como você pode adquirir reivindicações de posse para conquistas futuras.",
+CombatTutorial.WarActions,Ações de Guerra,"Você agora pode declarar guerra a outras facções e atacar sistemas.
+
+Note que enquanto estamos passando pela parte guiada deste cenário, outros duques não atacarão você.",
+AssignmentsTutorial.Assignments,Designações,"Membros da sua casa podem ser designados a tarefas que fornecem uma variedade de benefícios. Vamos disparar uma para ver como funciona.
+
+{StarSystem} é um alvo em potencial para conquista futura, mas agora as nossas chances de conquistá-lo numa luta direta não são muito altas.
+
+<v>Clique com o botão direito em {StarSystem} e use 'Planejar Ataque'</v>",
+AssignmentsTutorial.ChooseCharacter,Escolher Personagem,"<h>Planejar Ataque</h> é crucial ao tentar conquistar sistemas, pois aumenta gradualmente a sua força de frota projetada num local.
+
+O tempo que isto levará em {StarSystem} depende do nível de <v>Eficácia</v> da designação, que leva em conta;
+- a habilidade do personagem designado
+- a felicidade dele
+- o quanto ele gosta de você
+
+<v>Escolha um personagem para designar a esta tarefa</v>",
+AssignmentsTutorial.ChooseTravelNormal,Viajar ou Não,"A maioria das designações é fora da sua colônia. Um personagem pode trabalhar na tarefa remotamente através de agentes, ou pode viajar para executá-la pessoalmente. Designações realizadas pessoalmente são mais eficazes, se você estiver disposto a arriscar jogadas sujas contra o seu membro da casa.
+
+Membros do conselho não podem viajar, e sempre trabalham nas tarefas remotamente.
+
+<v>Escolha se este personagem viajará para {StarSystem} enquanto planeja um ataque a ele</v>",
+AssignmentsTutorial.ChooseTravelCouncillor,Viajar ou Não,"A maioria das designações é fora da sua colônia. Um personagem pode trabalhar na tarefa remotamente através de agentes, ou pode viajar para executá-la pessoalmente. Designações realizadas pessoalmente são mais eficazes, se você estiver disposto a arriscar jogadas sujas contra o seu membro da casa.
+
+Você designou um membro do conselho à tarefa. Membros do conselho não podem viajar, e sempre trabalham nas tarefas remotamente.",
+AssignmentsTutorial.ActiveAssignments,Designações Ativas,"Agora que a designação está em andamento, ela é listada na aba Membros da sua casa. A partir daqui você pode parar a designação, chamar o seu membro da casa de volta, ou pedir que ele viaje.",
+InstallationsTutorial.Intro,Instalações,"Uma colônia é composta de um conjunto de <h>instalações</h>, isto é, bases e estações espaciais que sobreviveram de antes do Colapso.
+
+Você pode ver as instalações presentes num sistema quando passa o cursor sobre ele ou clica nele.
+
+<v>Clique em {PCHomeSystem} para continuar</v>",
+InstallationsTutorial.Repairing,Reparando Instalações,"Instalações fornecem um benefício, mostrado sob o nome delas nesta lista. Porém, muitas instalações estão danificadas e só gerarão os efeitos delas se você <h>repará-las</h>. 
+
+<h>Comece a reparar a <b>Usina de Processamento de Resíduos</b> em {PCHomeSystem} para continuar</h>",
+InstallationsTutorial.Ranged,Instalações de Alcance,"A maioria das instalações fornece o benefício dela apenas ao governante direto daquela colônia, isto é, nem todas as instalações nas colônias dos seus vassalos serão úteis para você.
+
+Instalações de <h>Alcance</h>, marcadas com um símbolo laranja no canto inferior esquerdo, beneficiam todos os governantes aliados numa área. Passar o cursor sobre a instalação mostra o alcance no mapa.
+
+Por exemplo, a Fábrica de Plataformas de Defesa em {TargetSystem} fornece um bônus a qualquer designação de <h>Melhorar Defesas</h> dentro de <v>3</v> rotas estelares de {TargetSystem}. Você deve focar em reparar as instalações que complementam os seus objetivos numa região.
+
+<v>Encerre o turno quando estiver pronto para continuar</v>",
+AssignmentsTutorial.Arrests,Prisões,"Um personagem viajou para {PCSystem}. Ele está aqui porque está trabalhando numa designação para {House}. Isto não é necessariamente uma desvantagem para nós, mas você deve ficar de olho nos visitantes.
+
+Se você não gostar da aparência de {Visitor}, pode prendê-lo. Isto é desonroso a menos que você tenha uma queixa ou esteja em guerra.
+
+Os membros da sua casa também podem ser presos, então tenha cuidado para onde os envia.",
+AssignmentsTutorial.UnlockingActions,Desbloqueando Ações,As designações e ações do jogo agora vão desbloquear gradualmente conforme as introduzimos. Sinta-se à vontade para experimentar as ações desbloqueadas antes de clicar em Próximo nestas mensagens.,
+EconomicTutorial.AccountsTab,Renda e Despesas,"A sua renda vem principalmente da sua colônia e dos seus vassalos. Você tem três ferramentas principais para aumentá-la;
+- <h>Reparar instalações</h> que fornecem <h>Riqueza</h> aumentará a produção econômica de uma colônia, e o tamanho máximo da frota dela
+- A designação <h>Assistir Coleta de Impostos</h> aumentará a eficiência da coleta de impostos de um vassalo
+- Você pode <h>aumentar o nível de imposto</h> do seu império, mas isto reduzirá a opinião dos seus vassalos sobre você",
+EconomicTutorial.RebuildColony,Reconstruir Colônia,"Como resultado de dano colateral ou negligência, a nobreza de uma colônia pode perder a capacidade de sustentar o suporte de vida básico, e a colônia tem que ser abandonada.
+
+Se você acumular riqueza suficiente, é possível remendar uma colônia abandonada e trazê-la de volta à vida usando a designação <h>Reconstruir Colônia</h>.",
+PoliticsTutorial.Politics,Atos Políticos Formais,"Você pode manipular a hierarquia política das seguintes formas;
+- Você pode <h>Depor</h> um vassalo existente e substituí-lo por outro personagem. Isto normalmente é desonroso.
+- Você pode <h>Conceder Independência</h> a um vassalo
+- Você pode <h>Liderar uma Rebelião</h> contra o seu mestre. Isto normalmente é desonroso.
+- Se você for independente, pode <h>Oferecer Vassalagem</h> a um duque ou arconte independente para virar súdito dele",
+MilitaryTutorial.OtherTools,Designações Militares,"As seguintes designações ajudam você a gerir a sua posição militar;
+- <h>Melhorar Defesas</h> aumenta a força de frota numa das suas colônias
+- <h>Reconstruir Frota</h> aumenta a taxa na qual a frota de uma colônia é reposta depois de sofrer perdas em combate
+- <h>Mudar Composição da Frota</h> permite modificar o tipo primário de nave da frota numa colônia
+- <h>Esconder Movimentos da Frota</h> reduz a chance de perder a surpresa ao adicionar a frota de uma colônia na fase de acumulação de combate",
+DiplomacyTutorial.Diplomacy,Diplomacia,"Além de fazer coisas que os deixam felizes, você tem duas ferramentas para gerir a sua relação com os outros;
+- A designação <h>Melhorar Relações</h> aumenta a opinião de alguém sobre você
+- <h>Promover um banquete</h> em honra de alguém aumentará a opinião dele sobre você, e talvez também a sua reputação",
+DiplomacyTutorial.AcquiringClaims,Adquirindo Reivindicações,"Para reduzir a desonra de declarar guerra, você precisa de uma justificativa. Reivindicações funcionam bem, mas pode ser difícil encontrar o reivindicante certo.
+
+Você pode argumentar e subornar o caminho até uma reivindicação sobre uma colônia com a designação <h>Adquirir Reivindicação</h>.",
+SystemRebellionTutorial.SystemRebellion,Rebelião de Sistema,"Os plebeus que vivem e trabalham nas colônias nem sempre estão contentes com a vida deles, e podem se rebelar. O painel de Agitação Populacional de {PCSystem} mostra o nível de agitação nele, e as razões.
+
+A designação <h>Abafar Agitação</h> reduzirá a agitação e o risco de rebelião.
+
+Por outro lado, a designação <h>Espalhar Dissidência</h> tentará desestabilizar uma colônia. Ela também cria um <h>segredo</h>...",
+SecretsTutorial.Secrets,Segredos,"Certas ações criam segredos. A cada turno há uma pequena chance de outros personagens descobrirem um dos seus segredos. Se você souber de um segredo, pode revelá-lo publicamente, e isto geralmente impactará a reputação de quem o criou.
+
+A designação <h>Abafar Segredo</h> torna um segredo incrementalmente mais difícil de descobrir
+
+A designação <h>Rede de Espiões</h> aumenta a sua chance de descobrir segredos numa colônia",
+SecretsTutorial.Security,Intriga,"Você pode prejudicar os seus inimigos de formas que não envolvem frotas militares;
+- A designação <h>Difamar</h> espalha mentiras sobre um personagem e faz com que ele pareça desonroso
+- A designação <h>Assassinar</h> pode livrá-lo de um personagem problemático
+
+Para se defender destas estratégias, melhore a pontuação de Segurança da sua casa. A designação <h>Proteger</h> torna mais difícil um personagem ser assassinado.",
+ExpeditionsTutorial.Expeditions,Eventos de Expedição,"A humanidade vive nas ruínas de uma era anterior de expansão e descoberta. Tecnologia é preciosa, mesmo que mal compreendida. A sua casa se esforça para resgatar o que pode do passado, e investigar outros mistérios da galáxia.
+
+A cada turno você ganha <h>Pontos de Expedição</h>, com base na pontuação de tecnologia da sua casa, e um <h>Evento de Expedição</h> dispara quando você atinge o limiar.",
+HealthTutorial.Health,Saúde,"Personagens podem adoecer, tornando-se significativamente menos eficazes nas tarefas deles. A pontuação de tecnologia da sua casa melhora a saúde dos membros da sua casa, e você pode usar a designação <h>Atendimento Médico</h> para fornecer cuidados direcionados.",
+VassalLimit.Limit,Limite de Vassalos,"Se você tiver mais vassalos diretos do que a sua casa consegue sustentar, você receberá uma penalidade de PA e renda. Você pode aumentar o limite;
+- Melhorando a pontuação de {PCHouse} em Administração e Tecnologia
+- Melhorando a infraestrutura de {PCSystem}
+- Melhorando a sua renda
+- Usando a designação <h>Monitorar Vassalos</h>
+
+Um duque ou arconte independente também pode <h>formar facções vassalas</h> e <h>transferir colônias</h> para duques vassalos, reduzindo o número de vassalos diretos.",
+HaveFunTutorial.Suggestions,Sugestões,O jogo destacará aqui problemas ou sugestões que você pode querer resolver. Passe o cursor sobre um ícone para ler a dica.,
+HaveFunTutorial.HaveFun,Com Você,"O jogo agora será totalmente desbloqueado. Se você continuar jogando este cenário, mostraremos algumas mensagens adicionais de tempos em tempos.
+
+Se você preferir, pode começar um novo jogo (pressionando <h>Esc</h> e voltando ao menu principal) e personalizar o seu personagem inicial e a sua posição.
+
+Algumas dicas finais;
+- <nv>Não destrua a sua reputação</nv>
+- Designe todos na sua casa a uma tarefa
+- Preste atenção nas sugestões que aparecem
+
+<h>Star Dynasties não é um jogo de estratégia onde você constrói continuamente melhorias e exércitos, e então os usa para conquistar o mapa. É um jogo paciente de política; observando os seus oponentes cometerem um erro, se posicionando para se aproveitar quando eles erram, e lidando com habilidade com a boa e a má sorte que vier na sua direção.</h>
+
+Divirta-se dominando a galáxia!",
+HaveFunTutorial.HaveFun.Demo,Com Você,"O jogo agora será totalmente desbloqueado. Você pode continuar jogando esta demonstração por 10 turnos.
+
+Algumas dicas finais;
+- <nv>Não destrua a sua reputação</nv>
+- Designe todos na sua casa a uma tarefa
+- Preste atenção nas sugestões que aparecem
+
+<h>Star Dynasties não é um jogo de estratégia onde você constrói continuamente melhorias e exércitos, e então os usa para conquistar o mapa. É um jogo paciente de política; observando os seus oponentes cometerem um erro, se posicionando para se aproveitar quando eles erram, e lidando com habilidade com a boa e a má sorte que vier na sua direção.</h>
+
+Divirta-se sobrevivendo a esta galáxia!",
+DynamicTutorial.MiddleClicking,Ir ao Local,"Você pode mover o mapa estelar até onde um objeto está localizado <h>clicando no botão do meio do mouse</h> naquele objeto.
+
+Você pode fazer isto até em referências no texto! Por exemplo, tente clicar com o botão do meio no seguinte nome de personagem para centralizar o mapa no local dele: {Character}",
+DynamicTutorial.MapModes,Modos de Mapa,"Algumas informações podem ser mostradas como uma sobreposição no mapa estelar.
+
+Passe o cursor sobre um modo de mapa para entender o que ele faz. Tente mudar para um diferente!",
+DynamicTutorial.Quickbar,Barra Rápida,"Você pode arrastar objetos para esta fileira de slots para usá-los como marcadores.
+
+Você pode até arrastar objetos de textos! Experimente: {StarSystem}",
+DynamicTutorial.EventModes,Modos de Evento,"Quando um evento acontece, a caixa de evento pode ser mostrada em qualquer lugar da tela.
+
+Você pode definir para que ela apareça sempre no mesmo lugar, usando o botão de alternância no canto superior direito da caixa de evento. Você pode então arrastá-la para definir onde ela deve sempre aparecer.
+
+Experimente, e veja qual modo você prefere.",
+DynamicTutorial.Importance.Global,Importância,"Você pode sentir que o jogo mostra eventos demais, ou talvez que não mostra o bastante!
+
+Você pode mudar quantos eventos são trazidos à sua atenção diretamente usando a Configuração de Popups de Eventos.",
+DynamicTutorial.Importance.Character,Importância de Personagem,"Você também pode dizer ao jogo que está mais ou menos interessado num personagem específico clicando neste ícone, e mais ou menos atualizações sobre aquele personagem serão mostradas.",
+DynamicTutorial.History,Histórico,"Você pode ver um histórico de todos os eventos que aconteceram relacionados a um objeto específico.
+
+Esta é uma ótima forma de lembrar quem era um personagem específico, se ele não estiver muito ativo há alguns turnos.",
+DynamicTutorial.Codex,Códice,"Se você quiser saber mais sobre como o jogo funciona, dê uma olhada no Códice",
+DynamicTutorial.AllActions,Disparando Ações,"Você parece estar disparando a maioria das ações pelo Painel de Todas as Ações. Você já tentou disparar ações <h>clicando com o botão direito</h> em objetos, ou usando a aba Ações no painel do inspetor? A maioria dos jogadores acha mais fácil disparar ações assim.",
+DynamicTutorial.EndGame,Obrigado,"Obrigado por jogar a demonstração do Star Dynasties. Espero que você tenha gostado do tempo com ela, e que esteja ansioso para tentar uma campanha mais longa. Você pode comprar o jogo agora na Steam!",

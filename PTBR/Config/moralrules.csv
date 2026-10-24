@@ -1,0 +1,131 @@
+﻿MoralRule,Description,OpinionDescription,ModifierImpact
+Morality.ReciprocalMoralRule.Forgiveness,Perdão por {ReciprocalDebt},Perdoou {ReciprocalDebt},Forgiving++
+Morality.ReciprocalMoralRule.Repayment,Retribuição por {ReciprocalDebt},,
+Morality.ReciprocalMoralRule.Redemption,Redenção por {ReciprocalDebt},,
+Morality.ReciprocalMoralRule.Ingratitude,Ingratidão por {ReciprocalDebt},Magoou {d(TargetCharacter)} apesar de {ReciprocalDebt},Loyal++
+Morality.ReciprocalMoralRule.Punishment,Punição por {ReciprocalDebt},,
+Morality.ReciprocalMoralRule.NegatingGoodwill,Anulou a boa vontade de {ReciprocalDebt},,
+Morality.ReciprocalMoralRule.Justice,Justiça por {ReciprocalDebt},,
+Morality.WastedGoodwillMoralRule,Desperdiçou a boa vontade de {ReciprocalDebt},,
+Morality.Charging.ProvideJusticeMoralRule,Não deixe crimes ficarem impunes,Não puniu {d(Criminal)} pelos crimes dele contra {d(Victim)},SameLeague+;SameFaction+;SameSystem+;SameHouse+;Vengeful+
+Children.DoNotAllowPopOverflowRule,Não pressione os escassos recursos de sobrevivência da colônia,Deixou {houseOf(Actor)} crescer demais,SameSystem++
+Children.DoNotHaveUnpermittedChildRule,Não pressione os escassos recursos de sobrevivência da colônia,Teve um filho sem permissão,SameSystem++;SameHouse+;IsHead+
+Children.DontOverlyFavourMoralRule,Não mostre favoritismo ao conceder permissões de nascimento,Favoreceu {d(Character)} demais ao conceder permissões de nascimento,SameHouse++
+Children.OnlyOneChildMoralRule,Nunca é favoritismo conceder a um casal permissão para um segundo filho,,
+Children.UnderSociallyAcceptableLimitMoralRule,"É compreensível que este casal receba preferência, dado o relacionamento com {Actor}",,
+Children.NoLesserFavouredMoralRule,"Isto é favoritismo, mas nenhum outro casal da Casa está sendo tratado injustamente de qualquer jeito",,
+Claims.NoClaimMitigationRule,Nenhuma reivindicação concorrente,,
+Claims.WeakerClaimMitigationRule,Defendendo reivindicação mais fraca,,
+Claims.EqualClaimMitigationRule,Defendendo reivindicação igual,,
+Claims.StrongerClaimMitigationRule,Defendendo reivindicação mais forte,,
+Claims.MuchStrongerClaimMitigationRule,Defendendo reivindicação muito mais forte,,
+Politics.DoNotDeposeMoralRule,Respeite o direito de um governante ao seu sistema,Depôs {d(TargetCharacter)},SameFaction+;SameHouse--;IsRuler++
+Politics.JustConqueredExceptionMoralRule,Sistema tomado em guerra,,
+Kinship.CloseKinshipMoralRule,Ajude o seu parente mais próximo ({d(TargetCharacter)}) e não o fira,Fez injustiça com {d(TargetCharacter)} apesar de ser parente próximo,Tribal++
+Kinship.NormalKinshipMoralRule,Ajude o seu parente ({d(TargetCharacter)}) e não o fira,Fez injustiça com {d(TargetCharacter)} apesar de ser parente,Tribal++
+Kinship.DistantKinshipMoralRule,Ajude o seu parente distante ({d(TargetCharacter)}) e não o fira,Fez injustiça com {d(TargetCharacter)} apesar de ser parente distante,Tribal++
+Politics.DoNotFightAgainstLeaderMoralRule,Não lute contra o seu suserano,Lutou contra {d(TargetCharacter)} apesar de ser vassalo dele,SameLeague+;SameFaction+;SameHouse--;IsLeader+;IsArchon+
+Politics.DoNotFightAgainstRulerMoralRule,Não lute contra os seus vassalos,Lutou contra {d(TargetCharacter)} apesar de ser suserano dele,SameLeague+;SameFaction+;SameHouse--;IsRuler+
+Politics.Wars.DoNotDeclareWarMoralRule,Não vá à guerra,Declarou ou ameaçou guerra a {factionOf(TargetCharacter)},SameFaction-;SameSystem-;SameHouse--;Cowardly+
+Politics.Wars.DoNotDeclareWarOnLeagueMoralRule,Não vá à guerra contra ligas,Declarou ou ameaçou guerra a {leagueOf(TargetCharacter)},SameFaction-;SameSystem-;SameHouse--;Cowardly+
+Combat.ReplyToCallToArmsMoralRule,Empunhe armas a serviço do seu suserano quando convocado,Ignorou o chamado às armas de {d_s(TargetCharacter)} em {StarSystem},SameLeague+;SameFaction+;SameSystem-;SameHouse--;IsLeader+;IsArchon+
+Politics.MakeHeadFavourRule,Ergueu {d(TargetCharacter)} a uma posição de poder,,
+Marriage.DoNotDivorceMoralRule,Não divorcie um casamento,Divorciou o casamento de {d_s(TargetCharacter)},SameHouse+;Tribal++;IsHead+
+Marriage.DoNotMutualDivorceMoralRule,Não divorcie um casamento,Divorciou o casamento deles,
+Murder.DoNotMurderMoralRule,Não matarás,Matou ou tentou matar {d(TargetCharacter)},SameHouse++;SameSystem+
+Murder.DoNotUnderageMurderMoralRule,Não matarás crianças indefesas,Matou ou tentou matar uma criança,SameHouse++;SameSystem+
+Murder.DoNotConspireMurderMoralRule,Não matarás,Conspirou para assassinar {d(TargetCharacter)},
+Murder.DoNotConspireUnderageMurderMoralRule,Não matarás crianças indefesas,Conspirou para assassinar uma criança,
+Politics.DoNotChangeAllegianceMoralRule,Não traia o seu duque e facção,Separou {StarSystem} de {SourceFaction},SameFaction-;SameSystem--;SameHouse--;IsLeader+;IsArchon+
+Politics.DoNotChangeAllegianceToEnemyMoralRule,Não traia o seu duque para os inimigos dele,Separou {StarSystem} para o oponente de guerra,SameFaction++;SameSystem--;SameHouse--;IsLeader++;IsArchon+
+Politics.DoNotChangeAllegianceAtWartimeMoralRule,Não traia o seu duque enquanto necessário na guerra,Separou {StarSystem} enquanto necessário na guerra,SameFaction++;SameSystem--;SameHouse--;IsLeader++;IsArchon+
+Politics.DoNotAcceptChangeAllegianceMoralRule,Respeite a soberania de um duque sobre o seu território,Anexou {StarSystem},SameFaction-;SameSystem--;SameHouse--;IsRuler-
+Politics.DoNotAcceptChangeAllegianceFromVassalMoralRule,Respeite a posse de um vassalo sobre o seu território,Anexou {StarSystem},SameLeague+;SameFaction-;SameSystem--;SameHouse--;IsRuler-;IsLeader+
+Politics.LeadingRebellionExceptionMoralRule,{D(Actor)} está liderando uma rebelião,,
+Politics.Raid.AssistRaidFavourMoralRule,Ajudou {d(TargetCharacter)} no saque dele,,
+Politics.Raid.AssistRaidDefenseFavourMoralRule,Concordou em ajudar {d(TargetCharacter)} a defender-se de um saque,,
+Politics.RaidCrimeMoralRule,Não tome pela violência,Saqueou {homeSystemOf(TargetCharacter)},SameSystem--;SameHouse--;IsLeader+;IsArchon+;Cowardly+
+Politics.DoNotRebelMoralRule,Não se rebela contra a ordem estabelecida,Rebelou-se ou ameaçou rebelar-se contra {d(TargetCharacter)},SameSystem--;SameHouse--;IsLeader+
+Politics.RebelIsLargerThanMasterMoralRule,Não é correto que um suserano fraco governe um vassalo forte,,
+Politics.Wars.AnnexSystemsMoralRule,Respeite a soberania de um governante sobre o seu território,Anexou {StarSystem},SameLeague-;SameFaction--;SameSystem--;SameHouse--
+Politics.Wars.PledgeDishonoredCrimeMoralRule,Não volte atrás na sua palavra,Desonrou a promessa de conceder sistemas a {d(TargetCharacter)} no fim da guerra,
+Politics.Wars.PledeHonorFavourMoralRule,Cumpriu a promessa de entregar os sistemas conquistados a {d(TargetCharacter)},,
+Politics.DoNotSysRebelMoralRule,Não se rebela contra a ordem estabelecida,Rebelou-se ou ameaçou rebelar-se contra {d(TargetCharacter)},SameHouse--;IsLeader+;IsRuler+;IsArchon+
+Politics.SystemRebellion.AssistRebelFavourMoralRule,Ajudou {d(TargetCharacter)} na rebelião dele,,
+Politics.SystemRebellion.AssistRulerFavourMoralRule,Ajudou {d(TargetCharacter)} a sufocar uma rebelião,,
+Politics.AssistRulersMoralRule,Proteja a facção e os governantes dela,Recusou ajudar {d(TargetCharacter)} a sufocar uma rebelião,SameFaction+;SameSystem--;SameHouse--;IsRuler++
+Politics.Depose.AssistAttackFavourMoralRule,Ajudou {d(TargetCharacter)} a depor um dos governantes dele,,
+Politics.Depose.AssistDefenseFavourMoralRule,Ajudou {d(TargetCharacter)} a defender o direito de governar dele,,
+Politics.War.AssistAttackFavourMoralRule,Ajudou {d(TargetCharacter)} a invadir um sistema,,
+Politics.War.AssistDefenseFavourMoralRule,Ajudou {d(TargetCharacter)} a defender um sistema de invasão,,
+Punishment.ExileCharacterCrimeMoralRule,Não expulse alguém da própria casa,Exilou {d(TargetCharacter)},SameHouse++;SameSystem++
+Punishment.HumiliateCrimeMoralRule,Respeite a dignidade de outro nobre,Humilhou {d(TargetCharacter)} publicamente,SameHouse++;SameSystem++;Proud++
+Punishment.TortureCrimeMoralRule,Não cometa violência contra outra pessoa,Aplicou chicote de nervos em {d(TargetCharacter)},SameHouse++;SameSystem++;Cowardly++
+Punishment.LevyFineMoralRule,Não extorquina dinheiro dos seus súditos,Multou {d(TargetCharacter)},SameHouse--;SameFaction++;IsArchon-;IsRuler++
+Punishment.DriveIntoDebtMoralRule,Não leve um homem à dívida,Levou {TargetCharacter} à dívida,SameFaction++;IsRuler++;IsArchon-;SameHouse--
+Roles.PromotedToCouncilFavourMoralRule,Promoveu {d(TargetCharacter)} ao conselho dele,,
+Roles.PromoteSpouseMoralRule,Um cônjuge deve ocupar posição de poder na casa do parceiro,Não promoveu {d(TargetCharacter)} ao conselho,SameKin+;Tribal++
+Roles.LoyaltyToStaffMoralRule,Seja leal aos seus conselheiros,Demitiu {d(TargetCharacter)} do conselho dele,
+Romance.IllicitRomanceShaltNotMoralRule,Não seja íntimo fora do casamento,o romance fora do casamento entre {d(FirstPartner)} e {d(SecondPartner)},
+Romance.IncestShaltNotMoralRule,Não se deite com o seu próprio sangue,o incesto entre {d(FirstPartner)} e {d(SecondPartner)},SameKin+;Tribal+
+Marriage.IncestMarriageMoralRule,Não se deite com o seu próprio sangue,o casamento incestuoso entre {d(FirstSpouse)} e {d(SecondSpouse)},SameKin+;Tribal+
+Romance.AffairSpouseCrimeMoralRule,Não traia o seu cônjuge,Traiu {d(TargetCharacter)},Tribal++
+Romance.AffairThirdPartyCrimeMoralRule,Não se deite com o cônjuge alheio,Teve um caso com o cônjuge de {d_s(TargetCharacter)},Tribal++
+Politics.Wars.SystemConquered.VassalRefusedArchonDemandCrimeMoralRule,Um arconte tem o direito de decidir o destino dos sistemas pelos quais a liga está em guerra,Não respeitou o direito de {d_s(Archon)} de decidir o destino de {StarSystem},IsArchon+;IsLeader-;SameFaction--;SameSystem--;SameHouse--
+Politics.Wars.SystemConquered.DishonoredPledgeCrimeMoralRule,Não volte atrás na palavra ao defender reivindicações alheias,Desonrou a promessa feita a {d(TargetCharacter)} e ignorou a reivindicação dela,SameHouse+;SameSystem+;SameFaction++
+Politics.GiveSystemFavourMoralRule,Deu um sistema a {d(TargetCharacter)},,
+Politics.MakeLeaderFavourRule,Fez {d(TargetCharacter)} duque,,
+Politics.Wars.SupportingCloseKinMoralRule,Acorra em defesa dos seus parentes próximos,"Acorreu em auxílio do {kinRel(Actor,TargetCharacter)} {his(Actor)}",Tribal++
+Politics.Wars.SupportingNormalKinMoralRule,Acorra em defesa dos seus parentes,"Acorreu em auxílio do {kinRel(Actor,TargetCharacter)} {his(Actor)}",Tribal++
+Politics.Wars.SupportingDistantKinMoralRule,Acorra em defesa dos seus parentes distantes,"Acorreu em auxílio do {kinRel(Actor,TargetCharacter)} {his(Actor)}",Tribal++
+Politics.Wars.SystemConquered.UnjustifiedAnnexationShaltNotMoralRule,Não anexe sistemas que não sejam legitimamente seus,Anexou {StarSystem},SameLeague-;SameFaction--;SameSystem--;SameHouse--
+Politics.GrantRulerIndependenceFavourMoralRule,Concedeu independência a {d(TargetCharacter)},,
+Politics.Wars.DoNotDeclareWarOnRecentVassalMoralRule,Não declare guerra a um governante a quem concedeu independência,Declarou guerra a {d(TargetCharacter)} pouco depois de conceder independência,SameLeague+;SameSystem-;SameHouse--
+Claims.ChampioningClaimMoralRule,Defendendo uma reivindicação válida,,
+Politics.DoNotChangeFactionAllegianceMoralRule,Não traia o seu arconte e liga,Separou {Faction} de {SourceLeague},SameLeague-;SameFaction-;SameSystem--;SameHouse--;IsLeader-
+Politics.DoNotChangeFactionAllegianceToEnemyMoralRule,Não traia o seu arconte para os inimigos dele,Separou {Faction} para o oponente de guerra,SameLeague++;SameFaction--;SameSystem--;SameHouse--;IsLeader-;IsArchon++
+Politics.DoNotChangeFactionAllegianceAtWartimeMoralRule,Não traia o seu arconte enquanto necessário na guerra,Separou {Faction} enquanto necessário na guerra,SameLeague++;SameFaction--;SameSystem--;SameHouse--;IsLeader-;IsArchon++
+Politics.DoNotAcceptChangeFactionAllegianceMoralRule,Respeite a soberania de um arconte sobre o seu território,Anexou {Faction},SameLeague-;SameFaction--;SameSystem--;SameHouse--;IsLeader-
+Politics.Wars.SystemConquered.ShamWarCrimeMoralRule,Não vá à guerra,Declarou guerra a {factionOf(TargetCharacter)} sob falsos pretextos,
+Politics.DoNotDeposeLeaderMoralRule,Respeite o direito de um duque à sua facção,Depôs {d(TargetCharacter)},SameLeague+;SameFaction-;SameSystem--;SameHouse--;IsLeader++
+Politics.DoNotDriveToRebellionMoralRule,Não faça exigências irracionais aos seus vassalos,Forçou {d(TargetCharacter)} a rebelar-se,
+Politics.GiveVassalFavourMoralRule,Deu uma facção a {d(TargetCharacter)},,
+Romance.IncestAttractionShaltNotMoralRule,Não se deite com o seu próprio sangue,"Sente atração pelo {kinRel(Actor,TargetCharacter)} {his(Actor)}",SameKin+;Tribal+
+Politics.SurrenderFactionFavourMoralRule,Deu uma facção a {d(TargetCharacter)},,
+Politics.VassalageFavourMoralRule,Deu uma facção a {d(TargetCharacter)},,
+Charging.ImplicitGrievanceMoralRule,Justiça por implicação no crime de {d_s(Criminal)}; {Crime},,
+Combat.DefendYourVassalsMoralRule,Defenda os seus vassalos,Recusou ajudar {d(TargetCharacter)} em combate,SameLeague+;SameFaction++;SameSystem--;SameHouse--;IsRuler++;IsArchon-
+Combat.DefendYourVassalDukeOnInvasionMoralRule,Defenda os seus duques vassalos quando invadidos,Recusou ajudar {d(TargetCharacter)} em combate,SameLeague++;SameSystem--;SameHouse--;IsLeader++;IsArchon-
+Combat.DefendYourVassalDukeOnCapitalMoralRule,Defenda os seus duques vassalos quando atacados na capital,Recusou ajudar {d(TargetCharacter)} em combate,SameLeague++;SameSystem--;SameHouse--;IsLeader++;IsArchon-
+Combat.DefendYourVassalDukeOnWeakClaimedMoralRule,Defenda os seus duques vassalos quando atacados num sistema de reivindicação fraca,Recusou ajudar {d(TargetCharacter)} em combate,SameLeague++;SameSystem--;SameHouse--;IsLeader++;IsArchon-
+Combat.DefendYourVassalDukeOnStrongClaimedMoralRule,Defenda os seus duques vassalos quando atacados num sistema de reivindicação forte,Recusou ajudar {d(TargetCharacter)} em combate,SameLeague++;SameSystem--;SameHouse--;IsLeader++;IsArchon-
+Charging.DeliveredJusticeMoralRule,Garanta que a justiça seja feita e os malignos sejam punidos,Puniu {d(TargetCharacter)} pelos crimes {his(TargetCharacter)},Honorable++;SameHouse+;SameSystem+;SameFaction+;SameLeague+
+Unrest.DoNotCreateUnrestMoralRule,Não interfira na política interna de outra colônia,Espalhou dissidência dentro da nobreza de {homeSystemOf(TargetCharacter)},SameHouse--;SameSystem--;IsRuler+
+Story.FoodShortage.TryToSaveMoralRule,Proteja os colonos sob o seu governo,Dividiu a comida com justiça entre os colonos durante a escassez,SameSystem++
+Story.FoodShortage.AbandonOthersMoralRule,Proteja os colonos sob o seu governo,Abandonou os colonos ao destino deles durante a escassez de comida,SameHouse--;SameSystem++
+Story.SpaceportExplosion.SendResponsersMoralRule,Proteja os colonos sob o seu governo,Enviou socorristas para ajudar sobreviventes de uma explosão de espaçoporto,SameSystem++
+Military.AbandonFleetMoralRule,Não abandone uma luta,Abandonou a frota de {TargetCharacter} durante a batalha,SameFaction+;SameLeague+;Brave++
+Combat.DoNotBetraySurpise.Master.MoralRule,Não revele os planos do seu suserano ao inimigo,Revelou o ataque de {TargetCharacter} ao inimigo,SameFaction++;SameLeague++;IsLeader++;Loyal++
+Combat.DoNotBetraySurpise.Vassal.MoralRule,Não revele os planos do seu vassalo ao inimigo,Revelou o ataque de {TargetCharacter} ao inimigo,SameFaction++;SameLeague++;IsRuler++;Loyal++
+Combat.UnderhandedTacticsMoralRule,"Lute com lealdade, sem recorrer a truques desonrosos",Usou táticas desleais em combate,SameHouse--
+Combat.AcceptFavourMoralRule,Ajudou {d(TargetCharacter)} em combate,,
+Morality.DebugFavourMoralRule,Faça favores de depuração quando o programador precisar!,Fez um favor de depuração a {TargetCharacter},
+Morality.DebugCrimeMoralRule,Não seja um valentão!,Foi um grande valentão com {TargetCharacter},Kind++
+Arrest.ArrestMoralRule,Não prenda sem causa,Manteve {TargetCharacter} na prisão,
+Arrest.ArrestLeadingMoralRule,Não prenda um membro de casa líder sem causa,Manteve {TargetCharacter} na prisão,
+Arrest.ArrestLeadingHeirMoralRule,Não prenda o herdeiro de uma facção sem causa,Manteve {TargetCharacter} na prisão,
+Arrest.ArrestRulingHeirMoralRule,Não prenda o herdeiro de uma colônia sem causa,Manteve {TargetCharacter} na prisão,
+Arrest.ArrestWarOpponentAgentMoralRule,As facções estão em guerra,,
+Arrest.CaughtRedHandedMoralRule,Pego em flagrante,,
+Morality.FramedMoralRule,Não minta para machucar a reputação alheia,Difamou falsamente {d(TargetCharacter)},
+Morality.FalseCrimeRule,Proteja os colonos sob o seu governo,Conduziu experimentos desumanos nos habitantes de uma colônia,SameSystem++;SameFaction++;SameLeague++
+Combat.StandardAttack.AssistRaidFavourMoralRule,Ajudou {d(TargetCharacter)} no ataque dela,,
+Combat.StandardAttack.AssistRaidDefenseFavourMoralRule,Ajudou {d(TargetCharacter)} a defender um ataque,,
+Morality.AlternativeIsDishonorableMoralRule,A ação alternativa é desonrosa,,
+Guardianship.EndGuardianshipMoralRule,Não quebre um acordo de tutela,Quebrou um acordo de tutela com {TargetCharacter},SameHouse--;IsRuler++
+Inheritance.ChangeSuccessionRule.DoNotDisinheritMoralRule,Não deserdite o herdeiro legítimo,Deserditou {TargetCharacter},
+Inheritance.ChangeSuccessionRule.ChangedMoralRule,Não minar alianças matrimoniais existentes mudando a lei de sucessão,Mudou a lei de sucessão,
+Inheritance.DisinheritedHeir.DoNotDisinheritMoralRule,Não deserdite o herdeiro legítimo,Deserditou {TargetCharacter},
+Inheritance.AppointHeir.DoNotDisinheritMoralRule,Não deserdite o herdeiro legítimo,Deserditou {TargetCharacter},
+Inheritance.AppointHeir.AppointMoralRule,Não minar alianças matrimoniais existentes nomeando um herdeiro unilateralmente,Ignorou a sucessão e nomeou um herdeiro,
+Inheritance.Abdication.AbdicationMoralRule,Não abandone os seus deveres como governante,Abdicou,

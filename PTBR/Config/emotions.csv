@@ -1,0 +1,1019 @@
+﻿Emotion,InitialIntensity,Length,Description,ModifierImpact
+ApartFromPartnerEmotion,Dynamic,Dynamic,Longe de {Spouse},Friendly++;Tribal++
+EconomySys.HousePovertyEmotion,Dynamic,Dynamic,Dificuldade econômica,Greedy++
+EconomySys.RulerTaxEmotion,Dynamic,Dynamic,Foi tributado num nível {TaxLevel},Greedy++
+LivingWithPartnerEmotion,Dynamic,Dynamic,Morando com {Spouse},Friendly++;Tribal++
+RomanceSys.RomanceEmotion,Dynamic,Dynamic,Numa relação secreta com {RomanticPartner},Friendly++;Tribal+
+WorkSatisfactionEmotion,Dynamic,Dynamic,,Proud+
+Unrest.QuellUnrestEmotion,Dynamic,Dynamic,Abafou agitação em {StarSystem},Cowardly++
+HeadPowerLostEmotion,Major-,6,Perdeu poder,Greedy++;Proud++;Cowardly-
+GainedAristocraticHouseEmotion,Large+,4,Absorveu casa menor,Greedy+;Proud+;Friendly+
+HeadPowerGainedEmotion,Large+,4,Ganhou poder,Greedy++;Proud++;Cowardly-
+HealthSys.IllEmotion,Large-,4,Doente,Proud+;Friendly++
+HeadRankChangedEmotion,Large+,3,,Greedy+;Proud++;Cowardly-
+BecameRulerEmotion,Major+,2,Virou barão,Greedy++;Proud++;Brave+
+BecomeActingHeadEmotion,Medium+,2,Virou chefe interino,Proud++;Brave+
+BecomeIndependentEmotion,Large+,2,Ficou independente,Greedy++;Proud++;Brave++
+BecomeVassalLeaderEmotion,Medium+,2,Virou duque vassalo,Greedy++;Proud++;Brave++
+CharacterDiedEmotion,-100,2,{Character} morreu,Kind++
+CharacterDiedGladEmotion,100,2,{Character} morreu,Cruel++
+Murder.BecomeAwareOfMurderEmotion,-100,2,{Victim} foi assassinado,Kind++
+Murder.BecomeAwareOfAttemptedMurderEmotion,-50,2,{Killer} tentou assassinar {Victim},Kind++
+ChildrenSys.CharacterBornEmotion,Major+,2,Nasceu uma criança,Tribal++
+ChildrenSys.CharacterPregnantEmotion,Large+,2,Esperando um filho,Tribal++
+CouncilPositionLostEmotion,Medium-,2,Cargo perdido,Proud++;Friendly+
+CouncilPromotionEmotion,Medium+,2,Promoção no conselho,Proud++;Friendly+
+DeposedEmotion,Major-,2,Foi deposto,Greedy++;Proud++;Cowardly-;Reserved-
+EconomySys.AbandonedColonyEmotion,Large-,2,Colônia destruída,Proud+
+EnemyDiedEmotion,100,2,{Character} morreu,
+FactionGainedEmotion,Large+,2,Império expandido,Greedy++;Proud++
+FactionLostEmotion,Large-,2,Império reduzido,Greedy++;Proud++
+LostIndependenceEmotion,Large-,2,Perdeu a independência,Greedy++;Proud++;Cowardly--
+OccupationEndedEmotion,Medium-,2,Ocupação terminada,
+OccupationStartedEmotion,Medium+,2,Ocupação iniciada,
+RebellionLoserEmotion,Major-,2,Resultado da rebelião,Greedy++;Proud++;Cowardly-
+RebellionWinnerEmotion,Major+,2,Resultado da rebelião,Greedy++;Proud++;Cowardly-
+SystemGainedEmotion,Large+,2,Ganhou {listAsSentence(GainedSystems)},Greedy++;Proud++
+SystemLostEmotion,Large-,2,Perdeu {listAsSentence(LostSystems)},Greedy++;Proud++
+WarDefeatEmotion,Medium-,2,Foi conquistado,Greedy+;Proud++;Cowardly-
+Politics.BecomeArchonEmotion,Large+,2,Virou arconte,Greedy++;Proud++;Cowardly--
+Politics.LeagueDisbandedEmotion,Medium-,2,Liga dissolvida,Greedy++;Proud++
+Politics.BecomeIndependentLeaderEmotion,Medium+,2,Virou governante independente,Greedy++;Proud++;Cowardly--
+Politics.BecomeIndependentLeaderThroughRebellionEmotion,Medium+,2,Virou governante independente,Greedy++;Proud++;Cowardly--;Loyal--
+Romance.JealousOfPartnerAttractionEmotion,Medium-,2,{Admirer} sente atração por outro,Tribal+;Proud+
+Children.ComingOfAgeEmotion,Small+,2,Agora sou adulto,Proud+;Cowardly-
+Story.SpaceportExplosion.Emotion,Medium-,2,Militar danificado na explosão,Cowardly++
+Story.ChildrenSquabble.FightingEmotion,Large-,2,Eles vivem levando os meus brinquedos!,
+Story.ChildhoodFriendsEmotion,Large+,2,Aventuras de infância,
+Story.ExperimentalTreatment.FoundTreatmentEmotion,Large+,2,Encontrou novo tratamento médico,Proud++
+Story.AmbassadorDiseaseIntroEmotion,Medium-,2,Doença se espalhou entre a nobreza de {StarSystem},
+Story.SystemWantsOtherRulerEmotion,Medium-,2,Movimento popular para me substituir,Proud++;Cowardly++
+Story.SystemWantsMeRulerEmotion,Medium+,2,Movimento popular para me tornar governante,Proud++
+Story.RulingClaimEvidenceEmotion,Medium+,2,Ganhou reivindicação sobre {StarSystem},Proud++;Greedy++
+Story.OwningClaimEvidenceEmotion,Medium+,2,Ganhou reivindicação sobre {StarSystem},Proud++;Greedy++
+Story.WantsToWriteHistory.FailedEmotion,Medium-,2,Falhou em escrever a história de {houseOf(Character)},Proud++
+Story.WantsToWriteHistory.SucceededEmotion,Medium+,2,Escreveu a história de {houseOf(Character)},Proud++
+Romance.LoveInterestFellOutOfLoveEmotion,Medium-,2,{Character} não me ama mais,
+Gatherings.ContestWinnerEmotion,Large+,2,Venceu o torneio,Proud++
+Gatherings.ContestRunnerUpEmotion,Medium+,2,Foi bem no torneio,Proud++
+Gatherings.BadFeastHonoredEmotion,Large-,2,O banquete foi terrível,Proud++
+Gatherings.GoodFeastHonoredEmotion,Large+,2,O banquete foi bem,Proud++
+Arrest.ArrestedEmotion,Large-,2,Preso,Cowardly++
+Arrest.FreedEmotion,Large+,2,Libertado,Cowardly++
+AcceptedToAssistOpponentEmotion,Small-,1,{Up(AskingCharacter)} sendo ajudado,Proud+;Cowardly+
+ArrangeMarriageRefusedEmotion,Medium-,1,Casamento recusado,
+AttackedSystemEmotion,Small-,1,{StarSystem} atacado,Greedy+;Cowardly++;Proud+
+ChangeAllegianceOfferRefusedEmotion,Small-,1,Oferta recusada,Proud+
+ChangeAllegianceRequestRefusedEmotion,Small-,1,Pedido recusado,Greedy++;Proud++
+Politics.VassalageOffer.RefusedEmotion,Small-,1,Vassalagem recusada,
+Politics.VassalageOffer.RequestRefusedEmotion,Small-,1,Pedido de vassalagem recusado,Greedy++;Proud++
+Politics.SurrenderFaction.OfferRefusedEmotion,Small-,1,Rendição recusada,Cowardly++
+Politics.SurrenderFaction.RequestRefusedEmotion,Small-,1,Pedido de entrada na facção recusado,Greedy++;Proud++
+ChildrenSys.LostChildPermitEmotion,Large-,1,Permissão para outra criança revogada,Tribal++
+ChildrenSys.MiscarriageEmotion,Major-,1,Sofreu aborto,Tribal++
+ChildrenSys.PermittedNextChildEmotion,Large+,1,Permitiu outra criança,Tribal++
+ChildrenSys.RefusedNextChildRequestEmotion,Large-,1,Pedido por outra criança recusado,Tribal++
+ChildrenSys.StillbirthEmotion,Major-,1,Sofreu natimorto,Tribal++
+Claims.GainedClaimEmotion,Medium+,1,Ganhou legitimidade,Proud+;Cowardly+;
+Claims.GainedFactionClaimEmotion,Small+,1,A facção tem mais direitos,Proud+;Cowardly+;
+Claims.GainedLeadingClaimEmotion,Medium+,1,Ganhou legitimidade,Proud+;Cowardly+;
+Claims.GainedMasterClaimEmotion,Small+,1,A facção tem mais direitos,Proud+;Cowardly+;
+Claims.LostFactionClaimEmotion,Medium-,1,O governo tem menos legitimidade,Proud+;Cowardly+;
+Combat.AcceptedToAssistEmotion,Large+,1,{Up(AcceptingCharacter)} ajudando em combate,Proud+;Cowardly+
+Combat.AcceptedToAssistOpponentEmotion,Medium-,1,{Up(Character)} sendo ajudado,Proud+;Cowardly++
+Combat.AttackTirednessEmotion,Medium-,1,Lutando demais,Greedy++;Cowardly++
+Combat.DidNotReplyToCallEmotion,Large-,1,Chamado às armas ignorado,Greedy+;Proud+;Cowardly++
+Combat.EconomyDamageEmotion,Major-,1,Dano à infraestrutura,Greedy++
+Combat.FleetDamagedEmotion,Medium-,1,Frota danificada,Greedy+;Cowardly+
+Combat.LostSkirmishEmotion,Large-,1,Perdeu escaramuça,Proud+;Cowardly+
+Combat.RefusedToAssistEmotion,Large-,1,{Up(RefusingCharacter)} não ajudando em combate,Proud+
+Combat.RefusedToAssistOpponentEmotion,Medium+,1,{Up(AskingCharacter)} recusou ajuda,Proud+
+Combat.WonSkirmishEmotion,Medium+,1,Venceu escaramuça,Proud+;Cowardly+
+DeclaredWarEmotion,Large-,1,Guerra declarada,Greedy+;Proud+;Cowardly++
+Politics.DeposeRuler.DeposeEmotion,Medium-,1,{Leader} quer depor,Greedy++;Proud++;Cowardly+
+Politics.DeposeRuler.ChosenReplacementEmotion,Small+,1,{Leader} quer entronizar,Greedy++;Proud++
+Politics.DeposeLeader.DeposeEmotion,Medium-,1,{Archon} quer depor,Greedy++;Proud++;Cowardly++
+Politics.DeposeLeader.ChosenReplacementEmotion,Small+,1,{Archon} quer entronizar duque,Greedy++;Proud++;Cowardly-
+DidNotReplyToCallEmotion,Large-,1,Chamado às armas ignorado,Greedy+;Proud+;Cowardly++
+DiplomacySys.AmbassadorAcceptedEmotion,Small+,1,Embaixador aceito,Proud+;Cowardly+
+DiplomacySys.AmbassadorRecalledEmotion,Medium-,1,Embaixador chamado de volta,Proud+;Cowardly+;Friendly+
+DiplomacySys.AmbassadorRefusedEmotion,Medium-,1,Embaixador recusado,Proud+;Cowardly+
+DiplomacySys.ExpelledAmbassadorEmotion,Medium-,1,Embaixador expulso,Proud+;Cowardly+
+DiplomacySys.RefusedAsAmbassadorEmotion,Medium-,1,Recusado como embaixador,Proud+;Friendly++
+DivorcedEmotion,Large-,1,Foi divorciado,Tribal++;Friendly++
+DivorceRequestRefusedEmotion,Large-,1,Divórcio recusado,Individualistic++;Reserved++
+DivorceSuggestionRefusedEmotion,Small-,1,Divórcio recusado,Individualistic++
+DivorceRequestAcceptedEmotion,Medium+,1,Pedido de divórcio aceito,Individualistic++
+EconomySys.InvestedInEconomyEmotion,Medium+,1,Economia melhorada,Greedy++
+EconomySys.RefusedInvestmentEmotion,Small-,1,Apoio econômico recusado,Greedy++
+EconomySys.RulerTaxLoweredEmotion,Small+,1,Impostos reduzidos,Greedy++
+EconomySys.RulerTaxRaisedEmotion,Medium-,1,Impostos aumentados,Greedy++
+FleetDamagedEmotion,Medium-,1,Frota danificada,Greedy+;Cowardly+
+HealthSys.IllnessEndsNoEffectsEmotion,Medium+,1,Sentindo-se melhor,Proud+;Friendly++
+HealthSys.IllnessEndsWithEffectsEmotion,Small+,1,Sentindo-se um pouco melhor,Proud+;Friendly++
+HouseMembership.AdoptedAsMemberEmotion,Medium+,1,Adotado pela Casa governante,Proud++;Friendly+
+JoinFactionOfferRefusedEmotion,Small-,1,Oferta recusada,Greedy++;Proud++
+JustMarriedEmotion,Large+,1,Casou-se,Friendly++;Tribal++
+JustMarriedUnhappilyEmotion,Medium-,1,Casou-se infeliz,Tribal++;Friendly--
+LeaderNeutralOnRebelEmotion,Small+,1,Sem apoio de {Leader},
+LeaderNeutralOnRulerEmotion,Small-,1,Sem apoio de {Leader},
+LeaderSidedRebelOnRebelEmotion,Medium+,1,{Up(Leader)} apoiou a rebelião,
+LeaderSidedRebelOnRulerEmotion,Medium-,1,{Up(Leader)} apoiou a rebelião,
+LeaderSidedRulerOnRulerEmotion,Small+,1,{Up(Leader)} ajudou na rebelião,
+LostSkirmishEmotion,Medium-,1,Perdeu escaramuça,Proud+;Cowardly+
+MarriageAcceptedEmotion,Medium+,1,Casamento aceito,Tribal+
+Military.EconomyDamageEmotion,Major-,1,Dano à infraestrutura,Greedy++
+MoralitySys.Charging.DeliveredJusticeEmotion,100,1,Justiça cumprida por {AvengedAct},Honorable++
+MoralitySys.Charging.NotAvengedEmotion,Medium-,1,Não vingado,Honorable++
+MoralitySys.Charging.NotPunishedEmotion,Medium+,1,Não punido,Honorable--
+Charging.ChargedAgainstEmotion,Large-,1,{Executor} foi acusado para me punir,Honorable--;Cowardly++
+MurderSys.AskToMurderRefusedEmotion,Small-,1,Pedido de assassinato recusado,
+MurderSys.AttemptedMurderEmotion,Major-,1,Alguém tentou me matar,Cowardly++
+MurderSys.InstigatedMurderEmotion,Medium-,1,Conspiração para me matar,Cowardly++
+MurderSys.MurderAttemptDiscoveredEmotion,Large-,1,Tentativa de assassinato descoberta,Honorable++
+MurderSys.MurderAttemptFailedEmotion,Medium-,1,Tentativa de assassinato fracassada,Honorable--
+MurderSys.MurderAttemptUndiscoveredEmotion,Medium+,1,Tentativa de assassinato indetectada,Honorable++
+MurderSys.MurderConspiracyDiscoveredEmotion,Large-,1,Conspiração de assassinato descoberta,Honorable++
+MurderSys.MurderRequestSuccessfulEmotion,Medium+,1,Assassino bem-sucedido,Honorable--
+NotDeposedEmotion,Medium+,1,Mantido como governante,Greedy++;Proud++;Cowardly-;Reserved-
+PeaceOfferRefusedEmotion,Small-,1,Paz recusada,
+PetitionMarriageAcceptedEmotion,Medium+,1,Petição aceita,Tribal++;Friendly++
+PetitionMarriageRefusedEmotion,Large-,1,Petição recusada,Tribal++;Friendly++
+Politics.BeingRaidedEmotion,Small-,1,Sistema saqueado,Greedy++;Cowardly++
+Politics.ChampionRequestDeposeRefuseOnClaimantEmotion,Medium-,1,Pedido de governo recusado,Greedy++;Proud++;Cowardly-;Reserved-
+Politics.ChampionRequestDeposeRefuseOnRulerEmotion,Medium+,1,Pretendente rival foi ignorado,Greedy++;Proud++;Cowardly++
+Politics.ChampionRequestWarRefuseOnClaimantEmotion,Medium-,1,Pedido para reivindicar direitos recusado,Greedy++;Proud++;Cowardly-;Reserved-
+Politics.ChampionRequestWarRefuseOnRulerEmotion,Medium+,1,Pretendente rival foi ignorado,Greedy++;Proud++;Cowardly++
+Politics.RaidSuccessfulEmotion,Medium+,1,Saque lucrativo,Greedy++
+Politics.Wars.BeneficiaryRefusedWarEmotion,Medium-,1,{ChampionedCharacter} recusou que a reivindicação fosse defendida,Proud+;Cowardly--
+Politics.Wars.ClaimChampionedEmotion,Medium+,1,Reivindicação defendida,Greedy++;Proud++;Cowardly-
+Politics.Wars.PeaceOffer.OfferRefusedEmotion,Small-,1,Paz recusada,Greedy+;Proud+;Cowardly++
+Politics.Wars.PledgeDishonoredEmotion,Large-,1,Promessa de entronização não cumprida,Greedy++;Proud++;Cowardly-
+Politics.Wars.RemainInPowerEmotion,Small+,1,Manteve-se no poder,Greedy++;Proud++;Cowardly-;Reserved-
+Politics.WasRaidedEmotion,Large-,1,Roubado por saqueadores,Greedy++
+PromotedToCouncilEmotion,Large+,1,Promovido ao conselho,Proud++;Friendly+
+PromotionRequestRefusedEmotion,Medium-,1,Pedido de promoção recusado,Proud++;Friendly+
+PromotionRequestRefusedToCompetitorEmotion,Small+,1,Preferido no cargo,Proud++;Friendly+
+Punishment.ExiledEmotion,Major-,1,Exilado,Proud+
+Punishment.PainEmotion,Major-,1,Feriado fisicamente,Cowardly++
+Punishment.HumiliatedEmotion,Large-,1,Humilhado,Proud++
+Punishment.LeviedFineEmotion,Medium-,1,{Master} me multou,Greedy++
+RefusedToAssistEmotion,Medium-,1,{Up(RefusingCharacter)} não ajudando em combate,Greedy+;Proud+
+RefusedToAssistOpponentEmotion,Small+,1,{Up(AskingCharacter)} recusou ajuda,Greedy+;Proud+
+RemovedFromCouncilEmotion,Large-,1,Removido do conselho,Proud++
+RequestToChangeRoleAcceptedEmotion,Medium+,1,Pedido de mudança de funções aceito,
+RequestToChangeRoleRefusedEmotion,Medium-,1,Pedido de mudança de funções recusado,
+RomanceSys.EndedRomanceEmotion,Large-,1,Romance terminou,Friendly++
+RomanceSys.IllicitRomanceRefusedEmotion,Small-,1,Recusado,Friendly++
+RomanceSys.RevealedRomanceEmotion,Medium-,1,Romance revelado,Honorable++
+RomanceSys.RomanticPartnerDiscoveredCompetitorEmotion,Medium-,1,O parceiro tem outros parceiros secretos,
+RomanceSys.LoveInterestHasRomanticPartnerEmotion,Medium-,1,O interesse amoroso tem relação íntima com outro,
+RomanceSys.SpouseDiscoveredAffairEmotion,Large-,1,O cônjuge teve caso,Tribal++
+RomanceSys.SpouseDiscoveredSecretRomanceEmotion,Small-,1,O cônjuge teve romance secreto,Tribal++
+RomanceSys.StartedRomanceEmotion,Medium+,1,Começou um romance,Friendly++
+RomancySys.AdmirerEmotion,Small+,1,{Up(Admirer)} sente atração por mim,Friendly+
+SpouseWantsDivorceEmotion,Medium-,1,{Up(AgreedSpouse)} quer o divórcio,Tribal++;Proud+;Honorable+
+SystemRebellionEmotion,Large-,1,Rebelião em {StarSystem},Greedy++;Proud++;Cowardly++
+WarVictoryEmotion,Medium+,1,Facção conquistada,Greedy+;Proud++;Cowardly++
+WonSkirmishEmotion,Medium+,1,Venceu escaramuça,Proud+;Cowardly+
+Politics.Wars.SystemConquered.RefusedControl,Medium-,1,Recusou o controle de {StarSystem},
+Politics.Wars.SystemConquered.DishonoredPledgeEmotion,Medium-,1,Promessa de reivindicação quebrada,Honorable++
+Politics.LostVassalEmotion,Small-,1,Perdeu vassalo da liga,Greedy++;Proud++
+Politics.Wars.AchievedClaimEmotion,Small+,1,Reivindicação defendida com sucesso,Honorable+;Proud+
+Claims.DemandEmotion,Small-,1,Exigência para defender reivindicação,Cowardly++;Honorable--
+Claims.DemandSystemEmotion,Medium-,1,Exigência de entrega de {StarSystem},Cowardly++;Greedy+;Proud+
+Claims.DemandVassalEmotion,Medium-,1,Exigência de entrega de {Faction},Cowardly++;Greedy+;Proud+
+Claims.DemandVassalageEmotion,Medium-,1,Exigência de virar vassalo,Cowardly++;Greedy+;Proud+
+Claims.DemandSurrenderEmotion,Medium-,1,Exigência de rendição da facção,Cowardly++;Greedy+;Proud+
+Roles.SwitchedBackEmotion,Medium-,1,Pedido de mudança de funções revertido,
+Romance.AttractionRevealedEmotion,Small-,1,Sentimentos românticos revelados,Honorable+
+Combat.AllRespondedCallToArmsEmotion,Small+,1,Todos os vassalos atenderam ao chamado às armas,Proud+
+Claims.RefusedFixedDemandEmotion,Small-,1,Exigência{Demand} recusada,Greedy++;Proud+
+Claims.RefusedDynamicDemandEmotion,Medium-,1,Exigência de defender {claimSentenceEnding(Claim)} recusada,Greedy++;Proud+
+Claims.AcceptedDynamicDemandEmotion,Small+,1,Exigência de defender {claimSentenceEnding(Claim)} aceita,Greedy++;Proud+
+Politics.ForgivenCrimesEmotion,Small+,1,Queixas perdoadas,Honorable--;Proud-
+Politics.LostGrievancesEmotion,Small-,1,Perdoou crimes alheios,Honorable++;Proud+
+ChildrenSys.ExpectingJealousyEmotion,Large-,1,Inveja do amante esperando filho com outro,
+ChildrenSys.SpouseExpectingJealousyEmotion,Large-,1,Inveja do cônjuge esperando filho com outro,Tribal++
+Claims.ClaimChampionedEmotion,Medium+,1,Reivindicação defendida,Greedy++;Proud++;Cowardly-
+Claims.DemandOnMyBehalfEmotion,Medium+,1,Exigência de defender {claimSentenceEnding(Claim)},Greedy++;Proud++;Cowardly-
+Unrest.CreatedUnrestInSecretEmotion,Small+,1,Criou agitação em segredo,Honorable-
+Unrest.UnrestOnSystemEmotion,Medium-,1,Agitação em {StarSystem},Cowardly++
+Unrest.CreatedUnrestThwartedEmotion,Medium-,1,Pego tentando criar agitação em {StarSystem},Cowardly+;Honorable+
+Unrest.CreatedUnrestCaughtEmotion,Medium+,1,Tentativa de desestabilizar {StarSystem} frustrada,Cowardly++
+Unrest.RulerSpreadUnrestEmotion,Medium-,1,{Character} espalhou agitação em {StarSystem},Cowardly++
+Unrest.SuppressUnrestEmotion,Medium+,1,Abafou agitação em {StarSystem},Cowardly++
+Unrest.CreatedUnrestAttemptEmotion,Large-,1,Tentativa de desestabilizar {StarSystem},Cowardly++
+Security.SecretRevealedEmotion,Small+,1,Segredo contra mim revelado,
+Story.FoodShortage.FoodShortageEmotion,Large-,1,Falta de comida em {StarSystem},Greedy++
+Story.FoodShortage.FoodAvailableEmotion,Large+,1,Comida acumulada durante a escassez,Greedy++
+Story.NewMineDiscovered.MoreWealthEmotion,Medium+,1,Nova mina descoberta em {StarSystem},Greedy++
+Story.MineCollapsedStoryEvent.LessEconomyEmotion,Medium-,1,Colapso de mina em {StarSystem},Greedy++
+Story.ExperimentalTreatment.RefusedExperimentEmotion,Medium-,1,Recusou oportunidade de experimentar,
+Story.NeedMoreStaff.RequestAcceptedEmotion,Medium+,1,Aceito o pedido de reatribuir {RequestedCharacter},Proud++
+Story.NeedMoreStaff.StaffMemberTakenEmotion,Medium-,1,{currentHeadOf(Character)} aceitou um pedido de reduzir a minha equipe,Proud++
+Story.MutiniedShipEmotion,Small-,1,A nave se amotinou,Proud++
+Story.MercenariesJoinedEmotion,Small+,1,Mercenários se juntaram à frota permanente,Proud++
+Story.SystemWantsToLeaveEmotion,Small-,1,{StarSystem} quer sair da facção,Proud++;Greedy++
+Story.SystemWantsToJoinEmotion,Small+,1,{StarSystem} quer entrar na facção,Proud++;Greedy++
+Story.WonBetEmotion,Medium+,1,Ganhei a minha aposta contra {OtherRuler},Proud++;Greedy++
+Story.LostBetEmotion,Medium-,1,Perdi a minha aposta contra {Ruler},Proud++;Greedy++
+Story.RulingCompetitorEmotion,Small-,1,Outro competidor pela minha reivindicação sobre {StarSystem},Proud++;Greedy++
+Story.OwningCompetitorEmotion,Small-,1,Outro competidor pela minha reivindicação sobre {StarSystem},Proud++;Greedy++
+Story.ArtifactDiscoveredEmotion,Small+,1,Artefato anterior ao Colapso descoberto,Proud++
+Story.WantsToWriteHistory.WastedInvestmentEmotion,Small-,1,{Character} falhou em produzir a obra,Greedy++;Proud+
+Story.WantsToWriteHistory.PaidOffEmotion,Small+,1,{Character} escreveu a história de {houseOf(Character)},Proud++
+Story.WantsToWriteHistory.DeniedEmotion,Small-,1,Recusou o meu pedido de escrever a história,Proud++
+Story.PersonalJoyride.CapturedCriminalEmotion,Medium+,1,Matou um criminoso notório em combate direto,Proud++;Brave++
+Story.PersonalJoyride.CriminalEscapedEmotion,Small-,1,O criminoso escapou desta vez,Proud++;Brave++
+Punishment.EnjoyedTortureEmotion,Small+,1,Curtiu torturar {TargetCharacter},Cruel++
+Punishment.DislikedTortureEmotion,Small-,1,Torturar {TargetCharacter} não foi agradável,Kind++
+Punishment.EnjoyedExecutionEmotion,Small+,1,Curtiu a execução de {TargetCharacter},Cruel++
+Punishment.DislikedExecutionEmotion,Small-,1,Não foi agradável ver {TargetCharacter} executado,Kind++
+Combat.EnemyRetreatedEmotion,Medium+,1,O inimigo recuou de {StarSystem},Cowardly++
+Gatherings.RefuseToHostEmotion,Small-,1,Todos me acham pão-duro por não celebrar {Occasion},Proud++
+Gatherings.RulerSnubbedEmotion,Medium-,1,{Host} não me convidou para o banquete,Proud++;Friendly+
+Gatherings.RulerRefusedInviteEmotion,Small-,1,{Ruler} recusou comparecer ao meu banquete,Proud++;Friendly+
+Gatherings.PickedAsChampionEmotion,Small+,1,Escolhido como campeão de {houseOf(Champion)},Proud++;Brave++
+Gatherings.ContestChampionWonEmotion,Medium+,1,O campeão venceu o torneio,Proud++
+Gatherings.ContestChampionRunnerUpEmotion,Medium+,1,O campeão foi bem no torneio,Proud++
+Gatherings.TournamentMatchWonEmotion,Small+,1,Venceu a partida do torneio,Proud++
+Gatherings.TournamentMatchLostEmotion,Medium-,1,Perdeu a partida do torneio,Proud++
+Gatherings.TournamentChampionMatchLostEmotion,Small-,1,O campeão perdeu no torneio,Proud++
+Gatherings.WasInvitedEmotion,Small+,1,Convidado para o banquete,Proud++;Friendly+
+Gatherings.BadFeastHostEmotion,Medium-,1,O banquete foi terrível,Proud++
+Gatherings.BadFeastOrganizerEmotion,Medium-,1,O banquete foi terrível,Proud++
+Gatherings.GoodFeastHostEmotion,Medium+,1,O banquete foi bem,Proud++
+Gatherings.GoodFeastOrganizerEmotion,Medium+,1,O banquete foi bem,Proud++
+Gatherings.GoodFeastParticipantEmotion,Medium+,1,Banquete agradável,Friendly+
+Gatherings.BadFeastParticipantEmotion,Medium-,1,Banquete terrível,Friendly+
+Gatherings.HonoredRefusedInviteEmotion,Medium-,1,{Ruler} recusou comparecer ao banquete dado em honra dele,Proud++
+Security.DestroyedEvidenceEmotion,Small+,1,O segredo está mais seguro,Cowardly++
+Negotiation.ThreatenedEmotion,Medium-,1,Ameaçado por {Requester},Cowardly++
+Negotiation.RequestRefusedEmotion,Small-,1,Pedido de {RequestInEmotion} recusado,
+Negotiation.OfferRefusedEmotion,Small-,1,Oferta de dar {RequestInEmotion} recusada,
+Emotion.DebugPositiveEmotion,Medium+,1,Depuração +Felicidade,
+Emotion.DebugNegativeEmotion,Medium-,1,Depuração -Felicidade,
+Combat.BetrayedSurpriseSecret.BetrayedEmotion,Medium-,1,Traído por {Weasel},Loyal++;Honorable++
+Combat.BetrayedSurprise.GivenInfoEmotion,Small+,1,Avisado sobre ataque iminente,Cowardly++
+HouseMembership.RefusedToJoinEmotion,Small-,1,{Character} recusou entrar na minha casa,Proud+;Tribal++
+HouseMembership.JoinedOnAskedEmotion,Small+,1,Pertenço mais a {House},Tribal++
+HouseMembership.JoinedOnSrcHeadEmotion,Small-,1,{Character} saiu da minha casa,Tribal--
+HouseMembership.JoinedOnDstHeadEmotion,Small+,1,{Character} entrou na minha casa,Tribal++
+Morality.RefusedJusticeOfferEmotion,Small-,1,{Victim} recusou perseguir justiça contra {Criminal},Honorable+
+Claims.FabricatedClaimEmotion,Medium-,1,Arguiu reivindicação rival sobre {StarSystem},Proud++;Greedy++
+Morality.AttemptedFrameEmotion,Small-,1,Alguém tentou me incriminar por um crime,Cowardly++;Honorable++
+Morality.FrameAttemptDiscoveredEmotion,Medium-,1,Tentativa de difamação falsa descoberta,Honorable++
+Morality.FrameAttemptFailedEmotion,Medium-,1,Tentativa de difamação falsa fracassada,Honorable--
+Morality.FramedPCEmotion,Medium-,1,Falsamente difamado,Cowardly++;Honorable++
+Morality.FramedEmotion,Medium-,1,Pego conduzindo experimentos desumanos,Cowardly++;Honorable++
+Combat.EnemyDidntShowEmotion,Small+,1,{Defender} não compareceu em {StarSystem},Cowardly++
+Installations.Repair.RepairedEmotion,Medium+,1,{Emotion_Installation} em {Emotion_StarSystem} reparada,Greedy++
+Installations.Abandon.AbandonedEmotion,Medium-,1,{Emotion_Installation} em {Emotion_StarSystem} abandonada,Greedy++
+Installations.Repair.Multiple.RepairedEmotion,Medium+,1,Várias instalações em {Emotion_StarSystem} reparadas,Greedy++
+Installations.Abandon.Multiple.AbandonedEmotion,Medium-,1,Várias instalações em {Emotion_StarSystem} abandonadas,Greedy++
+Core.CloneCharacterEmotion,100,1,Memórias de outra vida,
+Guardianship.BecameGuardianEmotion,Medium+,1,Virou tutor de um tutelado importante,Proud++
+Guardianship.BecameWardEmotion,Large+,1,Virou tutelado de {Guardian},
+Guardianship.StrippedOfGuardianshipEmotion,Medium-,1,Perdeu a tutela de {Ward},Proud++
+Guardianship.GuardianAbdicatedDutyEmotion,Medium-,1,{Guardian} renunciou à tutela de {Ward},Tribal++
+Guardianship.GuardianshipOverOnGuardianEmotion,Large+,1,Tutela de {Ward} encerrada,
+Guardianship.GuardianshipOverOnWardEmotion,Large+,1,A tutela de {Guardian} chegou ao fim,
+Guardianship.TrustedEmotion,Dynamic,Dynamic,Confiado a tutela de {Ward},Proud++
+Guardianship.GuardianEmotion,Dynamic,Dynamic,Mentorando {Ward},
+Guardianship.WardEmotion,Dynamic,Dynamic,Tutelado de {Guardian},
+Inheritance.ChangeSuccessionRule.NoLongerHeirEmotion,Major-,2,Perdeu a herança,Proud++;Greedy++
+Inheritance.ChangeSuccessionRule.BecameHeirEmotion,Major+,1,Nomeado herdeiro,Proud++;Greedy++
+Inheritance.Abdication.AbdicatedEmotion,Major-,2,Abdicou,Proud++;Greedy++
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

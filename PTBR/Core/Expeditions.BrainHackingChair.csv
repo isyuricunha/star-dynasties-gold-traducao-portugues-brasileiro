@@ -1,0 +1,91 @@
+Key,Text
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Title,"Durante uma viagem de rotina a {System}, {d(Baron)} reporta que batedores descobriram uma instalação sinistra nas bordas da colônia"
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Description,"Por fora, estes prédios abandonados pareciam uma prisão, as janelinhas perdidas entre blocos brutalistas de metal. Mas ao pisar entre os destroços, passando por pilhas de equipamento médico e camas com restrições, você estremece com o que deve ter acontecido aqui.
+
+Você segue {d(Baron)} até uma sala espaçosa, e arfa: ela está cheia de dispositivos sinistros tipo cadeira, cabos conectando cada aparelho a algum tipo de capacete.
+
+""Estão todos além do reparo... exceto um. Não temos certeza do que ele faz. Diz NovaCorp na lateral. Eles nunca fizeram máquinas de tortura, fizeram?"" {d(Baron)} ri nervosamente."
+Expeditions.BrainHackingChair.BrainHackingChair.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.Flag.NameShown,"Prédio sinistro"
+Expeditions.BrainHackingChair.BrainHackingChair.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.RebellionRiskFlag.Summary,"Assustado"
+Expeditions.BrainHackingChair.BrainHackingChair.RebellionRiskFlag.Description,"Histórias de uma instalação maligna na borda da colônia estão assustando alguns dos locais. Eles querem que ela seja destruída."
+Expeditions.BrainHackingChair.BrainHackingChair.Choice.Title,"Só há um jeito de descobrir: me ligue!"
+Expeditions.BrainHackingChair.BrainHackingChair.Choice.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Summary,"{D(PlayerCharacter)} demoliu um prédio sinistro nos arredores de {System}"
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Title,"Ao baixar o capacete, um calafrio percorre a sua espinha"
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Description,"A sua visão explode com cores; um rugido puxa você para dentro. Então, nada. Você remove o capacete, e a cadeira irrompe em faíscas e fumaça.
+
+""A maldita coisa quebrou!"" exclama {d(Baron)}, puxando você para fora do aparelho.
+
+""Já vi o suficiente,"" você responde. ""Este lugar está além do reparo. Queimem-no."""
+Expeditions.BrainHackingChair.BrainHackingChair.ChairBreaksImmediately.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Summary,"{D(PlayerCharacter)} expandiu a mente de {d_s(PlayerCharacter)} usando um 'programa de tratamento' de um aparelho misterioso em forma de cadeira"
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Title,"Ao baixar o capacete, um calafrio percorre a sua espinha"
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Description,"A sua visão explode com cores; um rugido puxa você para dentro. Você não está mais sentado numa cadeira. Você está num oceano de cores e tons, mudando como marés gravitacionais. Vozes, pensamentos, memórias se fundem numa torrente sensorial.
+
+As sensações se dissolvem; você remove o capacete. Por um momento, você não consegue lembrar onde está. Alguém está gesticulando loucamente. Você desliza um painel na sua mente para fechá-lo, e eles silenciam. Você sente o coração batendo, os pulmões enchendo de ar. Um sorriso torto cruza o seu rosto.
+
+Você se vira para a cadeira. Fumaça jorra dela, faíscas estalam como estrelas. Juntas, elas se transformam em rostos, animados, suplicando a você.
+
+Seja o que for aquela experiência, você foi o último a tê-la."
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChair.BrainHackingChairWorks.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.Choice1.Title,"Vamos chamar {TechHead}"
+Expeditions.BrainHackingChair.BrainHackingChair.Choice1.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Title,"""Estamos prontos para prosseguir."""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Description,"O seu estômago se aperta ao ler a mensagem de {d(TechHead)}. A sua visita àquele lugar terrível deve ter deixado uma impressão em você. Ou será empolgação? Você parte imediatamente para {System}.
+
+""Todos os cobaias - criminosos, claro - saíram consideravelmente mudados. Mais espertos, mais ambiciosos. Eles subitamente se destacam numa esfera específica de liderança, mas sofrem pequenos déficits cognitivos em outras áreas,"" divaga {d(TechHead)}.
+
+""Porém, a máquina parece alternar aleatoriamente entre 'programas de tratamento'. É uma aposta completa. Pior de tudo, ela está à beira de uma falha estrutural."""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice.Title,"Aceito as probabilidades."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice.Description,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Summary,"{D(PlayerCharacter)} expandiu a mente de {d_s(PlayerCharacter)} usando um 'programa de tratamento' de um aparelho misterioso em forma de cadeira"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Title,"Ao baixar o capacete, um calafrio percorre a sua espinha"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Description,"A sua visão explode com cores; um rugido puxa você para dentro. Você não está mais sentado numa cadeira. Você está num oceano de cores e tons, mudando como marés gravitacionais. Vozes, pensamentos, memórias se fundem numa torrente sensorial.
+
+As sensações se dissolvem; você remove o capacete. Por um momento, você não consegue lembrar onde está. Alguém está gesticulando loucamente. Você desliza um painel na sua mente para fechá-lo, e eles silenciam. Você sente o coração batendo, os pulmões enchendo de ar. Um sorriso torto cruza o seu rosto.
+
+Você se vira para a cadeira. Fumaça jorra dela, faíscas estalam como estrelas. Juntas, elas se transformam em rostos, animados, suplicando a você.
+
+Seja o que for aquela experiência, você foi o último a tê-la."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.UsingChair.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice1.Title,"Não vale o risco. Encerre este projeto e queime o maldito lugar que o criou."
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.Choice1.Description,"{D(PlayerCharacter)} demoliu um prédio sinistro nos arredores de {System}"
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.DestroyChair.Update.Summary,""
+Expeditions.BrainHackingChair.BrainHackingChair.TechHeadChairReady.DestroyChair.Update.Title,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Summary,"{D(PlayerCharacter)} {dwas(PlayerCharacter)} atormentado por sonhos sobre o misterioso aparelho em forma de cadeira"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Title,"Como eu vim parar aqui?"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Description,"Você se encontra em lugares sem lembrar como chegou lá. Às vezes, você até 'acorda' no meio de uma conversa. As pessoas notaram?
+
+Os sonhos ficaram mais intensos do que nunca. Você sonha com a vida antes do Colapso no detalhe mais vívido. Você fala com vozes diferentes. Você é um homem diante de um júri. Você é um adolescente numa briga de socos. Você é uma senhora idosa segurando um vidro ensanguentado.
+
+Sempre termina naquela cadeira torturante. Ao acordar, você anseia por outra sessão nela. {D(TechHead)} afirma que ela está além do reparo, mas será esse realmente o caso?"
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Update.Help,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Flag.NameShown,""
+Expeditions.BrainHackingChair.BrainHackingChairFollowUp.Flag.Tooltip,""
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Summary,"{D(PlayerCharacter)} demoliu um prédio sinistro nos arredores de {System}"
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Title,"""Esta cadeira é maligna e deve ser destruída!"" você grita ao seu supervisor da NovaCorp."
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Short,""
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Description,"Ele ri maniacamente, chamando você de insano. Você olha para baixo: está segurando uma lata de combustível e a derrama sobre a cadeira.
+""O que você está fazendo?!"" grita o homem. Ele se transforma num oficial, imobilizando os seus braços atrás das costas. Você acorda.
+
+O mundo está borrado, girando. Fumaça morde os seus pulmões; você tosse. <i>É sangue?</i> Uma descarga de adrenalina limpa a sua visão. <i>São bolhas. Por todo o meu corpo.</i> 
+
+Você olha para cima: a cadeira desmorona numa onda de chamas. Ao seu redor, as ruínas do prédio assombrado de {System} estão em chamas. A sua mente está clara, talvez pela primeira vez em meses.
+
+Voando para casa, você sente uma estranha sensação de calma. Eles podiam ter toda aquela tecnologia naquela época, mas não eram mais sábios."
+Expeditions.BrainHackingChair.BrainHackingChairEnding.Update.Help,""

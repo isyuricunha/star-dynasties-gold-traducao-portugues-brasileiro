@@ -1,0 +1,193 @@
+Key,Text
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.Update.Title,"Sensores captam uma espaçonave num caminho de voo errático"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.Update.Description,"""Eles não respondem aos nossos chamados,"" diz {d(MilitaryHead)}. ""Não é uma nave de guerra - na verdade, é antiga.""
+
+Você para para pensar. ""Vamos abordá-la.""
+
+O curso errante da nave lembra você de um animal moribundo. O pensamento faz o cabelo da sua nuca se arrepiar.
+
+""Não sabemos se ainda há ar a bordo. Vistam os trajes,"" diz {d(MilitaryHead)}.
+
+Conforme {he(MilitaryHead)} abre a porta, você estremece."
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.Update.Title,"As leituras indicam que o ar é quase irrespirável"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.Update.Description,"""Níveis altos de dióxido de carbono e... traços de enxofre? Melhor mantermos os capacetes,"" diz {d(MilitaryHead)}. 
+
+A iluminação fraca sugere que a nave está rodando com energia de emergência. Você passa pelo convés de voo. Vazio. Computadores não mostram um caminho de voo previsto.
+
+""Isto não faz sentido!"" {d(MilitaryHead)} grita. ""Se uma IA está pilotando isto, por que não há um caminho de voo?""
+
+""Vamos checar a sala de motores,"" você responde. A sua respiração agora vem pesada. As válvulas e fiações ao crepúsculo parecem se contorcer, levando você mais fundo na nave."
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Update.Title,"A sala de motores está tomada por grafites: símbolos desconhecidos, desenhos estranhos e fórmulas matemáticas"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Update.Description,"{D(MilitaryHead)} envia as varreduras a {d(TechHead)}, que imediatamente responde. ""Parecem várias iterações da mesma fórmula de conversão de energia, embora haja variáveis para alguma fonte de energia bizarra, e... universos escuros? Parece que eles não conseguiam explicar as próprias descobertas. Francamente é papo furado: parece quebrar as leis da--""
+
+Vários corpos estão dentro da sala de motores, fios e tubos os conectando a uma máquina central. Os torsos deles encolheram, os braços e pernas nada mais que gravetos saindo de sacos de carne.
+
+""Eles estão respirando,"" {d(MilitaryHead)} arfa. ""E as leituras desta máquina... De alguma forma, estes corpos estão gerando energia para a nave inteira."""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Choice.Title,"Devemos mostrar misericórdia a eles; envie-a para o sol"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Choice.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Update.Title,"De volta à sua nave, {d(MilitaryHead)} abre uma garrafa de sintohol"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Update.Description,"""Você fez a coisa certa hoje,"" {he(MilitaryHead)} exclama. ""Agora, vamos beber para esquecer este assunto triste."""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.Emotion.Description,"Respeita a sua decisão difícil de encerrar este experimento horrível"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent.StatusEvent.Description,"Tomou uma decisão difícil, mas misericordiosa"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Choice1.Title,"Use-os para gerar energia para {StarSystem}"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.Choice1.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Update.Title,"""Você está falando sério?!"" {d(MilitaryHead)} grita"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Update.Description,"Você assente.
+
+""Então não há necessidade de eu estar aqui mais!"" {he(MilitaryHead)} ruge, saindo furioso.
+
+Depois de uma viagem desconfortável para casa, você convoca o conselho e apresenta o seu plano. Olhares confusos são trocados.
+
+""Vocês não podem respirar uma palavra deste projeto,"" você ordena.
+
+O seu desejo parece ser imediatamente respeitado."
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Emotion.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Emotion1.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Emotion2.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Emotion3.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Emotion4.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Flag.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Flag.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Flag1.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare01Intro.NewEvent.NewEvent.NewEvent2.Flag1.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Update.Title,"""O gerador movido a humano em {StarSystem} excede as nossas expectativas."""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Update.Description,"A voz de {D(Character)} é seca enquanto {he(Character)} recita os números. {He(Character)} encara você - em silêncio total, mas você sente em {him(Character)} uma esperança desesperada."
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice.Title,"Desligue-o"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Update.Title,"Um suspiro de alívio inunda a câmara do conselho"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Update.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Emotion.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Emotion1.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Emotion2.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Emotion3.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Turnoff.Emotion4.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice1.Title,"Mantenha-o rodando"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice1.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent.Update.Title,"A sala está tensa como um cabo de reboque, e duas vezes mais carregada"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent.Update.Description,"Você visita o gerador uma última vez. Os corpos atrofiados parecem assombrados na penumbra. Cada pulso de sensor da estação, cada simulação de VR, cada arquivo de música gravado, será alimentado por estes cérebros aprisionados daqui em diante.
+
+Você estremece, e fecha a porta."
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice2.Title,"Podemos expandir o efeito dele conectando plebeus à rede?"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.Choice2.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Update.Title,"{D(MilitaryHead)} bate o punho {his(MilitaryHead)} na mesa, mas se segura {him(MilitaryHead)} de falar"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Update.Description,"""Permissão para sair,"" {he(MilitaryHead)} finalmente diz.
+
+""Concedida.""
+
+Sem hesitação, os outros membros do conselho o seguem. ""Dá para fazer?"" você pergunta.
+
+""Sim,"" {d(Character)} sibila, e bate a porta."
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Emotion.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Emotion1.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Emotion2.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Emotion3.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Emotion4.Description,"Chocado com a sua decisão de continuar o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.MoralAct.Description,"Não faça experimentos com o seu povo"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.MoralAct.ReciprocalDescription,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.MoralRule.Description,"Não faça experimentos com o seu povo"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.MoralRule.OpinionDescription,"{D(PlayerCharacter)} experimentou com o próprio povo de {D_s(Playercharacter)}"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.MoralRule.ModifierImpact,"Bondoso+;Cruel--"
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Flag.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Flag.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Flag1.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare02Continued.NewEvent2.Flag1.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Update.Title,"Pessoas em {StarSystem} afirmam ter ouvido gritos vindo da instalação que abriga o gerador hediondo"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Update.Description,"""Por que eles estão gritando? Pensei que o processo não dói?"" você pergunta.
+
+{D(Character)} encara você. ""Os sujeitos... têm tido dificuldade em cumprir o seu... esquema."" "
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Choice.Title,"Desligue-o"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Choice.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Update.Title,"Um suspiro de alívio inunda a câmara do conselho"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Update.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Emotion.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Emotion1.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Emotion2.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Emotion3.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Turnoff.Emotion4.Description,"Aliviado que você parou o experimento"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Choice1.Title,"Mantenha-o rodando"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.Choice1.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Update.Title,"A sala está tensa como um cabo de reboque, e duas vezes mais carregada"
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Update.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Flag.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Flag.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Flag1.NameShown,""
+Expeditions.PerpetualNightmare.PerpetualNightmare03Escalation.NewEvent.Flag1.Tooltip,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Update.Title,"Um trabalhador do gerador movido a humano cometeu suicídio"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Update.Description,"""Ele viu a máquina, e os... sujeitos. Ele expôs tudo numa carta antes de..."" {D(Character)} não consegue encontrar o seu olhar.
+
+{D(SecurityHead)} irrompe na sala. ""Os plebeus estão se amotinando! Estão tentando destruir as instalações!""
+
+""Ótimo,"" {d(Character)} cospe, e sai."
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.MoralAct.Description,"Não faça experimentos com o seu povo"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.MoralAct.ReciprocalDescription,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.MoralRule.Description,"Não faça experimentos com o seu povo"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.MoralRule.OpinionDescription,"{D(PlayerCharacter)} experimentou com o próprio povo de {D_s(PlayerCharacter)}"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.MoralRule.ModifierImpact,"+Bondoso;--Cruel"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.RebellionRiskChangeEvent.Summary,"Motins contra experimentos malignos"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.RebellionRiskChangeEvent.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Choice.Title,"Desista"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Choice.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.NewEvent.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.NewEvent.Update.Title,"O gerador movido a humano foi destruído no motim"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.NewEvent.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.NewEvent.Update.Description,"Você corre para a instalação e encontra o gerador destruído, os corpos atrofiados desconectados e arfando. Um estende um braço mirrado em direção a você, agarra você com força inesperada.
+
+""{PlayerCharacter},"" ele crocita, embora você saiba que este antigo nunca soube o seu nome. ""Salvador-carcereiro. Líder-assassino..."" Ele desaba. ""Rasgamos o véu...""
+
+Enquanto os seus médicos o carregam, você estremece. Talvez seja melhor esta coisa amaldiçoada queimar."
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.NewEvent.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Choice1.Title,"Proteja-o com tudo o que temos"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Choice1.Description,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.Update.Summary,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.Update.Title,"As forças de {PlayerHouse} salvaram o gerador movido a humano do motim"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.Update.Short,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.Update.Description,"Os insurgentes foram contidos com força excessiva. Você duvida que ousem tocar nas instalações de novo.
+
+"
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.Update.Help,""
+Expeditions.PerpetualNightmare.PerpetualNightmare04Ending.Turnoff.UpdDescTextLine.Script,"Você visita o gerador uma última vez. Os corpos atrofiados parecem assombrados na penumbra. Cada pulso de sensor da estação, cada simulação de VR, cada arquivo de música gravado, será alimentado por estes cérebros aprisionados daqui em diante.
+
+Você estremece, e fecha a porta."
+Expeditions.PerpetualNightmare.PerpetualNightmareInstallations.InstallationBlueprint.InstallationName,"Gerador Movido a Humano"
+Expeditions.PerpetualNightmare.PerpetualNightmareInstallations.InstallationBlueprint.Description,"Reaproveitado de uma nave à deriva de origem desconhecida, este gerador parece extrair energia de cascas humanas semivivas."
+Expeditions.PerpetualNightmare.PerpetualNightmareInstallations.InstallationBlueprint1.InstallationName,"Gerador Movido a Humano Aprimorado"
+Expeditions.PerpetualNightmare.PerpetualNightmareInstallations.InstallationBlueprint1.Description,"Reaproveitado de uma nave à deriva de origem desconhecida, e reforçado com algumas almas novas da colônia, este gerador de algum modo extrai"

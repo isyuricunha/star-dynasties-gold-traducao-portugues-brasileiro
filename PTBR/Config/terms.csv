@@ -1,0 +1,7 @@
+Term,DisplayName,Visible
+Term.DeclarePeace,Administração,TRUE
+,Guerra,TRUE
+,Diplomacia,TRUE
+,Segurança,TRUE
+,Medicina,TRUE
+,Mentoria,FALSE

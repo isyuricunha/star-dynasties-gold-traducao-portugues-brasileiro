@@ -1,0 +1,708 @@
+﻿Update,Summary,Short,Title,Image,Audio,CategoryIcon,Description,Help
+AppointedHeadUpdate,,,"{D(Character)} estabeleceu {himself(LegalHead,Character)} como chefe de {houseOf(LegalHead)}{moralOutcome()}",swearingallegiance,,Politics,,
+AppointedHeadUpdate.Ruler,,Nomeado governante de {StarSystem},"{D(Character)} ergueu {himself(LegalHead,Character)} ao poder como governante de {StarSystem}{moralOutcome}",swearingallegiance,,Politics,,
+ArrangeMarriageOfferUpdate,,,"{Dis(OfferHead)} quem propõe um casamento entre {himself(OfferSpouse,OfferHead)} e {d(ConsiderSpouse)}",discussionprivateexternal,,Marriage,,
+ArrangeMarriageOfferUpdate.Moving,,,"{Dis(OfferHead)} quem propõe um casamento entre {himself(OfferSpouse,OfferHead)} e {d(ConsiderSpouse)}, com {d(MovingSpouse)} se mudando para {ResidingHouse}",discussionprivateexternal,,Marriage,,
+ArrangeMarriageRefusedUpdate,,,{D(ConsiderHead)} recusou a proposta de casamento entre casas de {d_s(OfferHead)},unhappynoble,,Marriage,{SilentNull(Reason)},
+AssignedToRoleUpdate,,,{Dwas(Character)} designado às funções de {Role} de {houseOf(Character)},roles,,Administration,,
+AssignedToRoleUpdate.Removed,,,{Dwas(Character)} removido das funções de {Role} de {houseOf(Character)},roles,,Administration,,
+AttackSystemFailedUpdate,,{D(AttackingCharacter)} falhou em conquistar {StarSystem},{D(AttackingCharacter)} falhou em conquistar {StarSystem},victoryspace,,Military,,
+AttackSystemHeaderUpdate,,,Ataque a {StarSystem},attackonsystem,,Military,,
+AttackSystemUpdate,,,{Dis(AttackingCharacter)} quem ataca {StarSystem},attackonsystem,attackonsystem,Military,,
+BasicTutorialUpdate1,,,Vida longa a {PlayerCharacter}!,newleader,,Personal,"Como toda casa ao nosso redor, estamos tentando fazer de {houseOf(PlayerCharacter)} a casa mais poderosa da galáxia. Embora tenhamos perdido o rastro de onde muitas outras colônias humanas existem, acreditamos que há aproximadamente 100 sistemas habitados por aí. Algum dia o nosso império se estenderá através deles.<helptext>
+
+Nota: Este jogo está usando o modo Início Lento, que adicionará novas ações ao jogo incrementalmente</helptext>",
+BasicTutorialUpdate2,,,Coisas boas vêm para quem espera,landing,,Personal,"A vantagem econômica e militar que poderíamos construir contra os nossos vizinhos é pequena, e ser agressivo criará ódio e resistência.
+
+A nossa melhor estratégia é esperar por oportunidades que possam surgir para melhorar a nossa posição, cultivando a boa vontade dos outros, e nos posicionando para atacar quando uma chance rara se apresentar.
+
+É melhor esperar o tempo certo e ter os filhos dos seus filhos governando a galáxia, do que perder tudo na sua vida.",
+ChangeAllegianceAcceptedUpdate,,,{D(Ruler)} quebrou a lealdade com {SourceFaction} e prometeu {StarSystem} a {DestinationFaction}{moralOutcome},swearingallegiance,betrayal,Aggression,,
+ChangeAllegianceOfferRefusedUpdate,,,Você rejeitou a tentativa de {d_s(Ruler)} de abandonar {SourceFaction} e se juntar à sua facção,unhappynoble,,Aggression,,
+ChangeAllegianceOfferUpdate,,,{D(Ruler)} está tentando deixar {SourceFaction} e fazer de {StarSystem} um membro de {DestinationFaction},discussionprivateexternal,,Aggression,,
+ChangeAllegianceRequestRefusedUpdate,,,{D(Ruler)} recusou a sua oferta de se separar de {SourceFaction} e se juntar a {DestinationFaction},unhappynoble,,Aggression,{SilentNull(Reason)},
+CharacterDiedUpdate,,{Character} morreu,{Up(Character)} de {houseOf(Character)} está morto,funeral,,Life,,
+CharacterDiedUpdate.Kin,,{Character} morreu,{D(Character)} está morto,funeral,,Life,,
+CharacterDiedUpdate.Leader,,{Character} morreu,{Up(Character)} de {factionOf(Character)} está morto,funeral,,Politics,,
+CharacterDiedUpdate.PC,,{Character} morreu,Você está morto,funeral,,Politics,,
+CharacterDiedUpdate.Ruler,,{Character} morreu,{Up(Character)} de {homeSystemOf(Character)} está morto,funeral,,Politics,,
+Children.GrowingTutorialUpdate1,,,A união faz a força,actinghead,,Administration,"Gostaríamos de expandir {houseOf(PlayerCharacter)}. Uma casa maior é mais eficaz em gerir a si mesma e o seu domínio, e ter mais parentes (em {houseOf(PlayerCharacter)}, ou fora dela) normalmente é uma vantagem política nossa.
+
+Podemos expandir {houseOf(PlayerCharacter)} tendo filhos, ou através de adoção.<helptext>
+
+Ação Habilitada: Tentar outro filho
+Ação Habilitada: Parar de tentar outro filho
+Ação Habilitada: Adotar um novo membro da casa</helptext>",
+Children.GrowingTutorialUpdate2,,,O dom dos filhos,happycouple, ,Administration,"A humanidade não tem o conhecimento para construir novas colônias ou expandir significativamente as existentes, então há um limite de quantas pessoas podemos sustentar.
+
+Uma regra que se tornou universal nas colônias é que um casal casado tem o direito de ter um filho, mas deve merecer o direito de ter mais. Como chefe de {houseOf(PlayerCharacter)}, você é responsável por decidir quem merece este direito nela.
+
+Nobres que expandem as casas deles além dos benefícios que são vistos trazendo à colônia atraem raiva generalizada. Conforme melhoramos a economia de {homeSystemOf(PlayerCharacter)}, ou trazemos mais dinheiro tributando {factionOf(PlayerCharacter)}, ganharemos o consentimento público para expandir {houseOf(PlayerCharacter)}.<helptext>
+
+Ação Habilitada: Permitir outro filho a um membro da casa
+Ação Habilitada: Revogar o permiso de filho de um membro da casa</helptext>",
+ChildrenSys.AllowedPopOverflowUpdate,,,{Dhas(Character)} permitido que a população de {houseOf(Character)} crescesse além do considerado justo,negativepublicreaction,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.ChildBornUpdate,,,{D(Mother)} e {d(Father)} tiveram um bebê,birth,childbirth,Life,"{if(isVisible(Child),concat(""O filho foi nomeado "",Child),"""")}.
+
+{D(Child)} agora é membro de {houseOf(Child)}.",
+ChildrenSys.PlayerBoyPreBirthUpdate,,,{D(Mother)} e {d(Father)} tiveram um menino,birth,,,Como este filho será nomeado?,
+ChildrenSys.PlayerGirlPreBirthUpdate,,,{D(Mother)} e {d(Father)} tiveram uma menina,birth,,,Como esta filha será nomeada?,
+ChildrenSys.PlayerChildBornUpdate,,,{Child} agora é membro de {houseOf(Child)},happycouple,,,,
+ChildrenSys.ComingOfAgeUpdate,,,{D(Character)} celebrou o aniversário de maioridade {his(Character)},adultingoodhealth,,Personal,"Como adulto, {he(Character)} agora pode assumir um papel ativo em {houseOf(Character)}, e um casamento vantajoso para a casa deve ser encontrado para {him(Character)}.",
+ChildrenSys.MaternalDeathAndStillbirthUpdate,,,{D(Mother)} e o filho dela morreram durante o parto,funeral,,Life,,
+ChildrenSys.MaternalDeathUpdate,,,{D(Mother)} morreu durante o parto do filho dela,funeral,,Life,,
+ChildrenSys.MiscarriageUpdate,,,{D(Mother)} teve um aborto espontâneo,funeral,,Life,,
+ChildrenSys.PermitNextChildUpdate,,,{D(currentHeadOf(Character))} concedeu permissão a {d(Character)} e {d(spouseOf(Character))} para ter outro filho,happycouple,,Administration,A rapidez com que {Character} e {spouseOf(Character)} serão abençoados com outro filho depende principalmente da idade deles.,Limite de Tamanho da Casa
+ChildrenSys.PregnantUpdate,,,"{if(isVisible(Mother), Dis(Mother), concat(""A esposa de "", dis(Father)))} grávida",pregnant,,Life,,
+ChildrenSys.RequestNextChildPermitDecisionUpdate,,,{Dis(Character)} quem pede permissão para tentar outro filho com {d(spouseOf(Character))},publicinformal,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.RequestNextChildPermitRefusedUpdate,,,{D(currentHeadOf(Character))} recusou permissão a {d(Character)} e {d(Spouse)} para ter outro filho{moralOutcome},unhappypair,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.RequestToHaveMoreChildrenDecisionUpdate,,,O seu cônjuge quer ter outro filho com você,publicinformal,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.RequestToHaveMoreChildrenRefusedUpdate,,,{D(Character)} recusou o pedido de {d_s(spouseOf(Character))} de ter outro filho,unhappynoble,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.ResolveToHaveMoreChildrenUpdate,,,Você quer outro filho com {d(spouseOf(Character))},happycouple,,Personal,,Limite de Tamanho da Casa
+ChildrenSys.ResolveToStopHavingChildrenUpdate,,,Você não quer ter outro filho com {d(spouseOf(Character))},unhappynoble,,Personal,,Limite de Tamanho da Casa
+ChildrenSys.RevokeChildPermitUpdate,,,{D(currentHeadOf(Character))} revogou a permissão de {d_s(Character)} para {d(Character)} e {d(spouseOf(Character))} terem outro filho,unhappypair,,Administration,,Limite de Tamanho da Casa
+ChildrenSys.StillbirthUpdate,,,{D(Mother)} teve um bebê natimorto,funeral,,Life,,
+Claims.ChampionOfferAccepted,,,{D(Claimant)} aceitou a proposta de {d_s(Champion)} de pressionar {claimSentenceEnding(Claim)},agreement,,Aggression,,defendendo reivindicações
+Claims.ConsiderWarDemandUpdate,,,Você pode encerrar a guerra com {factionOf(AttackingLeader)} pressionando {claimSentenceEnding(Claim)},decision,,Claims,,reivindicações
+Claims.FactionGainsMasterClaimUpdate.Strong,,,{Up(MasterFaction)} agora é considerada a mestra legítima e de direito de {VassalFaction},councilbusiness,,Claims,{Up(MasterFaction)} tem: {Claim},reivindicações
+Claims.FactionGainsMasterClaimUpdate.Weak,,,{Up(MasterFaction)} agora é considerada uma mestra cridamente legítima de {VassalFaction},councilbusiness,,Claims,{Up(MasterFaction)} tem: {Claim},reivindicações
+Claims.FactionGainsOwningClaimUpdate.Strong,,,{Up(factionOf(StarSystem))} agora é considerada a dona legítima e de direito de {StarSystem},councilbusiness,,Claims,{Up(factionOf(StarSystem))} tem: {Claim},reivindicações
+Claims.FactionGainsOwningClaimUpdate.Weak,,,{Up(factionOf(StarSystem))} agora é considerada uma dona cridamente legítima de {StarSystem},councilbusiness,,Claims,{Up(factionOf(StarSystem))} tem: {Claim},reivindicações
+Claims.LeaderGainsClaimUpdate.Strong,,,{Dis(Character)} agora é considerado o governante legítimo e de direito de {factionOf(Character)},councilbusiness,,Claims,{Character} tem: {Claim},reivindicações
+Claims.LeaderGainsClaimUpdate.Weak,,,{Dis(Character)} agora é considerado um governante cridamente legítimo de {factionOf(Character)},councilbusiness,,Claims,{Character} tem: {Claim},reivindicações
+Claims.OfferToChampionUpdate,,,{Dis(Character)} se oferecendo para defender a sua {claimSentenceEnding(Claim)} com {d(TargetCharacter)},discussionprivateexternal,,Claims,,defendendo reivindicações
+Claims.PressDemandDecisionUpdate,,,{Dhas(Character)} exigido que {d(AskedCharacter)} pressione {claimSentenceEnding(Claim)},publicformal,,Aggression,,reivindicações
+Claims.AcceptedDemandUpdate,,,{D(Character)} aceitou a exigência de {d_s(DemandingCharacter)} de pressionar {claimSentenceEnding(Claim)},agreement,,,,
+Claims.RefusedDemandUpdate,,Exigência de reivindicação recusada,{D(Character)} recusou a exigência de {d_s(DemandingCharacter)} de pressionar {claimSentenceEnding(Claim)},unhappyrulerpublic,,Aggression,,reivindicações
+Claims.RefusedDemandUpdate.Fixed,,Exigência recusada,{D(Character)} recusou a exigência de {d_s(DemandingCharacter)}{Demand},unhappyrulerpublic,,Aggression,,
+Claims.RefuseOfferUpdate,,,{D(Character)} recusou a oferta de {d_s(OfferingCharacter)} de defender {claimSentenceEnding(Claim)},unhappynoble,,Claims,,defendendo reivindicações
+Claims.RulerGainsClaimUpdate.Strong,,,{Dis(Character)} agora é considerado o governante legítimo e de direito de {homeSystemOf(Character)},councilbusiness,,Claims,{Character} tem: {Claim},reivindicações
+Claims.RulerGainsClaimUpdate.Weak,,,{Dis(Character)} agora é considerado um governante cridamente legítimo de {homeSystemOf(Character)},councilbusiness,,Claims,{Character} tem: {Claim},reivindicações
+Claims.TutorialUpdate1,,,Direito de governar,thrivingcolony,,Claims,"Alguns governantes e facções são mais legítimos que outros, porque eles ou a linhagem deles governam o território deles há muito tempo.<helptext>
+
+Aba do Personagem Habilitada: Reivindicações
+Aba da Casa Habilitada: Reivindicações da Facção
+Aba da Casa Habilitada: Reivindicantes
+Aba do Sistema Estelar Habilitada: Reivindicantes</helptext>",
+Claims.TutorialUpdate2,,,Reivindicações de fama e poder,thrivingcolony,,Claims,"Ter uma reivindicação a um pedaço de território torna mais difícil para outros justificar agressão contra você. Por outro lado, se você tem uma reivindicação legítima a algo, pode usar a força honrosamente para obtê-lo.
+
+Você também achará mais fácil justificar agir contra os seus rivais sob o pretexto de defender a reivindicação de outra pessoa.<helptext>
+
+Ação Habilitada: Exigir com base numa reivindicação
+Ação Habilitada: Defender a reivindicação de outro
+Ação Habilitada: Aceitar exigência de guerra por reivindicação</helptext>",
+Claims.TutorialUpdate3,,,Defendendo outros,thrivingcolony,,Claims,"    Você pode esperar que reivindicantes se aproximem de você em busca de apoio para pressionar as reivindicações deles a sistemas ou facções possuídos por outros. Você não precisa abraçar a causa deles, mas é claro que pode ser vantajoso para você defendê-los e apoiar a busca deles por um direito ao qual têm uma reivindicação igual ou mais forte.  De fato, você pode abordar qualquer um dos seus próprios nobres se perceber tal oportunidade.
+    O respeito à legitimidade ajuda a manter a nossa sociedade estável.  O uso da força em nome de tais reivindicantes não encontrará desaprovação generalizada, desde que você honre as reivindicações deles quando a poeira assentar.  Qualquer vantagem que você ganhar no processo será fácil de justificar.",
+Combat.AcceptCallToArmsDecisionUpdate,,,Você atenderá ao chamado às armas de {d_s(Leader)} em {StarSystem}?,publicformal,,Military,{CombatPlan},
+Combat.AskForSupportDecisionUpdate,,,Você deseja aumentar o tamanho da sua frota?,councilbusiness,,Military,{CombatPlan},
+Combat.Assign.AssignedCommanderUpdate.Head,,,{Dhas(Character)} assumido o comando pessoal das forças de {House} em {StarSystem},combatassistance,,Military,,
+Combat.Assign.AssignedCommanderUpdate.Member,,,{Dhas(Character)} sido designado como comandante das forças de {House} em {StarSystem},combatassistance,,Military,,
+Combat.Assign.AssignedSupportUpdate,,,{Dhas(Character)} sido designado para apoiar as forças de {House} em {StarSystem},councilmemberaccepted,,Military,A equipe de comando atual designada por {House} é {listAsSentence(AssignedPersonnel)}.,
+Combat.Assign.CommanderDecisionUpdate,,,Quem comandará a frota de {House} em {StarSystem}?,attackonsystem,,Military,"O comandante da frota da nossa casa tem um impacto significativo em como as nossas forças serão eficazes em combate, e supervisionará reparos de campo oportunos depois da batalha, minimizando as nossas perdas. Ele corre risco de ferimento ou morte se o engajamento correr mal.",
+Combat.CallToArmsUpdate,,,{D(Leader)} emitiu um chamado às armas aos vassalos {his(Leader)},publicformal,,Military,,
+Combat.CallToArmsUpdate.AllRespond,,,Todos os vassalos de {d_s(Leader)} atenderam ao chamado às armas {his(Leader)},attackonsystem,,Military,,
+Combat.CallToArmsUpdate.MultipleIgnore,,,Alguns governantes ignoraram o chamado às armas de {d_s(Leader)},unhappyrulerpublic,,Military,"Vassalos que recusaram o chamado;
+{listAsList(IgnoredCall)}",
+Combat.CallToArmsUpdate.OneIgnore,,,Apenas {d(IgnoredCall)} ignorou o chamado às armas de {d_s(Leader)},unhappyrulerpublic,,Military,,
+Combat.CallToArmsUpdate.OneRespond,,,{D(Ruler)} atendeu ao chamado às armas de {d_s(Leader)},combatassistance,,Military,,
+RevisedCombat.CannotAttackNoPersonnelUpdate,,,Todos os membros de {houseOf(Character)} estão longe em designações. Não há ninguém que possa montar um ataque em {StarSystem}.,unhappyrulerpublic,,,,Designação de Frota
+RevisedCombat.CannotDefendNoPersonnelUpdate,,,Todos os membros de {houseOf(Character)} estão longe em designações. Não há ninguém restante para defender em {StarSystem}.,,,,,Designação de Frota
+Combat.CannotAttackNoPersonnelUpdate,,,O pessoal militar de {D_s(Character)} está engajado em outras batalhas.  Não há ninguém restante para montar um ataque em {StarSystem}.,unhappyrulerpublic,,Military,,Designação de Frota
+Combat.CannotDefendNoPersonnelUpdate,,,O pessoal militar de {D_s(Character)} está engajado em outras batalhas.  Não há ninguém restante para defender em {StarSystem}.,unhappyrulerpublic,,Military,,Designação de Frota
+Combat.DependentsJoinedFleetUpdate,,,Vassalos dos aliados de {d_s(Character)} se juntaram à frota {his(Character)},attackonsystem,,Military,"Alguns vassalos de um ou mais aliados de {d_s(Character)} haviam sido convocados às armas, mas não conseguiam alcançar {StarSystem} porque as frotas deles teriam que passar por território não alinhado. Agora que a sua frota também contém o mestre daquele território, estes vassalos conseguiram se juntar à frota.
+
+{CombatPlan}",
+Combat.FleetSkirmishUpdate,,Escaramuça em {StarSystem},{Up(WinningSide)} derrotou a frota de {LosingSide} numa escaramuça em {StarSystem},spacebattle,boom,Military,,
+Combat.HiredMercenariesUpdate,,,{D(Character)} contratou uma força de {MercFleetSize} mercenários para a batalha que vem,mercenaries,,Military,{CombatPlan},
+Combat.HireMercenariesDecisionUpdate,,,Você gostaria de contratar mercenários para a batalha que vem?,councilbusiness,,Military,{CombatPlan},
+Combat.InjuryUpdate,,,{Dhas(Character)} sido ferido em combate,bedridden,,Military,,
+Combat.KilledInCombatUpdate,,,{Dhas(Character)} sido morto em combate,victoryspace,,Military,,
+Combat.MidSkirmishRetreatUpdate,,Escaramuça em {StarSystem},"{Up(LosingSide)} recuou da escaramuça em {StarSystem}, minimizando as perdas",spacetravel,,Military,,
+Combat.PCSkirmishResult.Larger.Against.Update,,Escaramuça em {StarSystem},"Apesar de alguns contratempos, {WinningSide} derrotou a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PCSkirmishResult.Larger.Favored.Update,,Escaramuça em {StarSystem},"Acumulando vantagem, {WinningSide} derrotou a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PCSkirmishResult.Larger.None.Update,,Escaramuça em {StarSystem},"Como esperado, {WinningSide} derrotou a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PCSkirmishResult.Smaller.Favoured.Update,,Escaramuça em {StarSystem},"Aproveitando a vantagem, a força menor de {WinningSide} consegue derrotar a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PCSkirmishResult.Smaller.Fudge.Update,,Escaramuça em {StarSystem},"Aproveitando a vantagem, a força menor de {WinningSide} consegue derrotar a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PCSkirmishResult.Smaller.None.Update,,Escaramuça em {StarSystem},"Apesar de ter a força mais fraca, {WinningSide} derrotou a frota de {LosingSide} em {StarSystem}",spacebattle,boom,Military,,
+Combat.PreCombat.CombatStartingUpdate,,,As frotas se engajam,spacebattle,,Military,{CombatPlan},
+Combat.PreSkirmishRetreat.Attacker.Update,{D(Character)} cancelou o ataque a {StarSystem},,,spacetravel,,Military,,
+Combat.PreSkirmishRetreat.Defender.Update,{D(Character)} abandonou a defesa de {StarSystem},,,spacetravel,,Military,,
+Combat.RefuseSupportNoPersonnelUpdate,,,"{Dhas(RefusingCharacter)} recusado o pedido de {d_s(AskingCharacter)} de ajudar em {StarSystem}, porque todo o pessoal militar já está engajado",unhappyrulerpublic,,Personal,,Designação de Frota
+Combat.SkirmishRetreatUpdate,,,{Up(RetreatingSide)} recuou da escaramuça em {StarSystem},spacetravel,,Military,,
+Combat.TutorialUpdate1,,,O vínculo feudal na guerra,combatassistance,,Military,"Os governantes vassalos de {factionOf(PlayerCharacter)} e os nobres em {homeSystemOf(PlayerCharacter)} são obrigados a responder ao seu chamado às armas com as frotas militares combinadas deles.
+
+A frota que um sistema pode mobilizar está diretamente relacionada à força econômica dele, então aumentar a riqueza de um sistema aumentará a sua força militar geral. ",
+Combat.TutorialUpdate2,,,Usando o seu poderio militar,combatassistance,,Military,"Frotas custam muito para sustentar e um sistema estelar não pode enviar as frotas dele muito longe, então o tamanho da força à sua disposição variará dependendo do local pelo qual você luta. 
+
+Você deve considerar quanto poder militar um oponente pode reunir num local antes de se comprometer com o combate, e considerar a probabilidade de aliados e inimigos de ambos os lados que possam escolher se juntar à luta.",
+Combat.TutorialUpdate3,,,Feridas levam tempo para sarar,combatassistance,,Military,"    A nossa sociedade é focada em construir, manter e abastecer as frotas necessárias para nos defendermos.  Se parte da sua frota for danificada numa escaramuça, os seus nobres e governantes a repararão e reconstruirão ao longo do tempo.
+    Você deve ficar atento a tais momentos de fraqueza naqueles ao seu redor.",
+Combat.VassalAnswersCallToArmsUpdate,,,{D(Vassal)} atendeu ao chamado às armas de {d_s(Leader)},attackonsystem,,Military,,
+Combat.VassalIgnoresCallToArmsUpdate,,,{D(Vassal)} ignorou o chamado às armas de {d_s(Leader)},unhappyrulerpublic,,Military,,
+ConsortRequestToBecomeCouncilMemberRefusedUpdate,,,{D(spouseOf(Character))} recusou fazer de {d(Character)} um membro do conselho,unhappynoble,,Administration,,
+ConsortRequestToBecomeCouncilMemberUpdate,,,Você está enfrentando pressão pública para fazer de {d(Consort)} um membro do conselho,publicinformal,,Administration,"<info>Espera-se que você dê ao seu cônjuge uma posição de poder na sua casa, em reconhecimento ao status dele</info>",
+Core.HeadManagement.SetLegalHeadUpdate,,,{Dis(Character)} agora o chefe legal de {houseOf(Character)},actinghead,,Politics,,
+Core.HouseManagementEvents.TransferHouseUpdate,,,{Dhas(Character)} assumido a posse de {House},actinghead,,Politics,,
+Core.HouseManagementEvents.TransferNewHouseUpdate,,,{Dhas(Character)} estabelecido uma nova casa,actinghead,,Politics,,
+CouncilMemberRoleChangedUpdate,,,As responsabilidades de conselho de {D_s(Character)} agora são as funções de Chefe de {Role} em {houseOf(Character)},roles,,Administration,,
+CouncilMemberRoleSwappedUpdate,,,"{D(Character)} e {d(SwappedChar)} trocaram as responsabilidades de conselho para as funções de {Role} e {SwappedRole}, respectivamente, em {houseOf(Character)}",roles,,Administration,,
+DeclaredWarUpdate,,Guerra declarada a {DefendingFaction},{D(Actor)} declarou guerra a {factionOf(TargetCharacter)}{claimMoralOutcome},war,drums,Aggression,,
+Depose.AcceptedAttackSupportUpdate,,,{Dis(AcceptingCharacter)} quem apoia {d(Character)} em depor {d(EnemyCharacter)} de {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Depose.AcceptedDefenseSupportUpdate,,,{Dis(AcceptingCharacter)} quem apoia {d(Character)} a defender o direito dele de governar {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Depose.RefusedAttackSupportUpdate,,,{D(RefusingCharacter)} recusou ser associado à tentativa de {d_s(AskingCharacter)} de depor {d(EnemyCharacter)} de {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+Depose.RefusedDefenseSupportUpdate,,,{D(RefusingCharacter)} recusou defender o direito de {d_s(AskingCharacter)} de governar {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+Depose.SupportAttackDecisionUpdate,,,{Dis(Character)} quem pede a você apoio militar para depor {d(EnemyCharacter)} de {StarSystem},publicformal,,Military,{CombatPlan},
+Depose.SupportDefenseDecisionUpdate,,,{Dis(Character)} quem pede a você apoio militar para defender o direito dele de governar {StarSystem} contra um ataque de {d(EnemyCharacter)},publicformal,,Military,{CombatPlan},
+Diplomacy.AcceptNewAmbassdorDecisionUpdate,,,{D(CurrentHead)} gostaria de substituir {d(CurrentAmbassador)} por {d(NewAmbassador)} como representante deles em {TargetDomain},publicformal,,Diplomacy,,
+Diplomacy.SwapAmbassador.AcceptedUpdate,,,{D(CurrentHead)} substituiu {d(CurrentAmbassador)} por {d(NewAmbassador)} como representante {his(CurrentHead)} em {TargetDomain},publicformal,,Diplomacy,,
+Diplomacy.SwapAmbassador.RefusedUpdate,,,{D(TargetHead)} recusou o pedido de {d_s(CurrentHead)} de substituir {d(CurrentAmbassador)} por {d(NewAmbassador)} como representante {his(CurrentHead)} em {TargetDomain},unhappyrulerpublic,,Diplomacy,,
+Diplomacy.SwapAmbassadorDecisionUpdate,,,"Quem você gostaria de enviar, em vez de {d(CurrentAmbassador)}, como seu representante em {TargetDomain}?",councilbusiness,,Diplomacy,,
+Diplomacy.TutorialUpdate1,,,Precisamos de diplomatas para melhorar as relações com outros sistemas,spacetravel,,Diplomacy,"Também podemos enviar diplomatas individuais como embaixadores a governantes ou líderes particularmente importantes.<helptext>
+
+Ação Habilitada: Enviar Embaixador
+Ação Habilitada: Chamar Embaixador de Volta
+Ação Habilitada: Expulsar Embaixador
+Ação Habilitada: Trocar Embaixador</helptext>",
+DiplomacySys.AmbassadorAcceptedUpdate,,,{D(AskedHead)} deu as boas-vindas a {d(Ambassador)} em {homeSystemOf(AskedHead)} como representante de {d_s(SendingHead)},publicformal,,Politics,{D(Ambassador)} agora será um convidado de {houseOf(AskedHead)}.  {D(SendingHead)} pagará uma pequena taxa contínua para mantê-lo.,
+DiplomacySys.AmbassadorExpelledUpdate,,,{D(Actor)} expulsou o embaixador de {d_s(SendingHead)} de {homeSystemOf(Actor)},spacetravel,,Politics,,
+DiplomacySys.AmbassadorRefusedUpdate,,,{D(AskedHead)} recusou o pedido de {d_s(SendingHead)} de enviar {d(Ambassador)} a {homeSystemOf(AskedHead)} como embaixador deles,unhappyrulerpublic,,Politics,{SilentNull(Reason)},
+DiplomacySys.RecalledAmbassadorUpdate,,,"{D(currentHeadOf(Ambassador))} chamou {d(Ambassador)} de volta para casa, encerrando o turno diplomático {his(Ambassador)} em {homeSystemOf(TargetRuler)}",spacetravel,,Politics,,
+DiplomacySys.ReturnedAmbassadorUpdate,,,{Dis(Ambassador)} ex-embaixador de {d_s(currentHeadOf(Ambassador))} em {TargetSystem},spacetravel,,Administration,,
+DiplomacySys.SendAmbassadorRequestDecisionUpdate,,,Quem você gostaria de enviar como embaixador a {TargetHouse}?,councilbusiness,,Politics,,
+DiplomacySys.SendAmbassadorRequestUpdate,,,{D(SendingHead)} deseja enviar {d(Ambassador)} a {homeSystemOf(AskedHead)} como embaixador deles,publicformal,,Politics,,
+DivorcedUpdate,,,"{D(CurrentHead)} concedeu o divórcio a {d(AgreedSpouse)}, encerrando o casamento com {d(SecondSpouse)}{moralOutcome}",divorce,,Marriage,<info>Os filhos permanecem com a mãe até a maioridade</info>,
+DivorcedUpdate.HeadFemaleSpouse,,,"{D(CurrentHead)} se divorciou da {link(""esposa"",HeadSpouse)} {his(CurrentHead)}{moralOutcome}",divorce,,Marriage,,
+DivorcedUpdate.HeadMaleSpouse,,,"{D(CurrentHead)} se divorciou do {link(""marido"",HeadSpouse)} {his(CurrentHead)}{moralOutcome}",divorce,,Marriage,,
+DivorcedUpdate.PCtoSpouse,,,Você se divorciou de {SecondSpouse},divorce,,Marriage,,
+DivorcedUpdate.SpousetoPC,,,{AgreedSpouse} se divorciou de você,divorce,,Marriage,,
+DivorceRequestRefusedUpdate,,,{D(CurrentHead)} recusou o pedido de divórcio de {d_s(AgreedSpouse)},unhappynoble,,Marriage,,
+DivorceRequestUpdate,,,{D(AgreedSpouse)} quer um divórcio de {d(SecondSpouse)},discussionprivateinternal,,Marriage,,
+DivorceSuggestionRefusedUpdate,,,{D(AgreedSpouse)} recusou a instrução de {d_s(CurrentHead)} de se divorciar de {his(AgreedSpouse)} cônjuge,unhappynoble,,Marriage,{SilentNull(Reason)},
+DivorceSuggestionUpdate,,,{D(Head)} está pedindo a {d(AgreedSpouse)} que concorde com um divórcio de {d(spouseOf(AgreedSpouse))},discussionprivateinternal,,Marriage,,
+Economy.TutorialUpdate1,,,Dinheiro fala mais alto,wealth,,Administration,"Vamos precisar de dinheiro para mercenários, ou para adoçar os nossos acordos com outros governantes e líderes.
+
+Ganhamos dinheiro principalmente tributando o nosso sistema natal e a nossa facção. Os membros de {houseOf(PlayerCharacter)} designados à Administração também participam ativamente da supervisão das atividades econômicas dos seus vassalos, melhorando a nossa renda.<helptext>
+
+Ação Habilitada: Definir nível de imposto da facção
+Ação Habilitada: Investir na economia do sistema
+Ação Habilitada: Reconstruir colônia abandonada
+Item de Negociação Habilitado: Dinheiro
+Aba da Casa Habilitada: Renda/Despesas do Último Turno</helptext>",
+Economy.TutorialUpdate2,,,Temos recursos limitados,wealth,,Administration,"* Espaço de vida limitado
+* Não temos a tecnologia para expandir com novas colônias, então as que temos são muito valiosas
+* Às vezes é possível reparar colônias muito danificadas, a grande custo",
+Economy.TutorialUpdate3,,,Vamos falar sobre a economia mais ampla da facção,wealth,,Administration,"    Além de investir na nossa parte da colônia para sermos mais produtivos, coletamos impostos das atividades econômicas de outras casas nobres e governantes vassalos, em troca da nossa proteção. Pode ser vantajoso para nós expandir a economia não só da capital, mas de outros sistemas da nossa facção.
+     Você decide quanto tributar os seus nobres; deve equilibrar a disposição deles de pagar com a sua necessidade de economia. Baixo demais e você não conseguirá flexionar os músculos como líder quando quiser.  Alto demais e os seus governantes pensarão em rebelião.",
+EconomySys.EconomicCollapseNewArchonUpdate,,,{D(Character)} é o novo arconte de {leagueOf(Character)},newleader,,Politics,,
+EconomySys.EconomicCollapseNewLeaderUpdate,,,{D(Character)} é o novo duque de {factionOf(Character)},newleader,,Administration,,
+EconomySys.EconomicCollapseUpdate,,,A infraestrutura em {StarSystem} se deteriorou ao ponto de não poder sustentar habitação humana,abandonedcolony,,Administration,"As seguintes casas estão abandonando a colônia:
+{listAsList(EscapedHouses)}",Colônias Abandonadas
+EconomySys.InvestedInEconomyUpdate,,,{D(Character)} investiu na economia de {StarSystem},thrivingcolony,coins,Administration,,economia;renda da casa
+Economy.MaintainColonyUpdate,,,{D(Character)} realizou reparos em {StarSystem} e melhorou a infraestrutura dele,thrivingcolony,,,,economia;renda da casa
+EconomySys.RebuiltColonyUpdate,,,{D(Character)} reconstruiu a infraestrutura em {StarSystem} e estabeleceu uma nova colônia lá como parte de {factionOf(Character)},thrivingcolony,,Administration,,Colônias Abandonadas
+EconomySys.RequestInvestmentRefusedUpdate,,,{D(Leader)} recusou o pedido de {d_s(Ruler)} por recursos para {homeSystemOf(Ruler)},unhappyrulerpublic,,Administration,,economia
+EconomySys.RequestInvestmentUpdate,,,{D(Ruler)} está pedindo a {d(Leader)} mais recursos para {homeSystemOf(Ruler)},publicformal,,Administration,,economia
+EconomySys.TaxLevelLoweredUpdate,,,{D(currentHeadOf(Faction))} reduziu os impostos sobre os governantes de {Faction} para {TaxLevel},wealth,coins,Administration,,impostos
+EconomySys.TaxLevelRaisedUpdate,,,{D(currentHeadOf(Faction))} aumentou os impostos sobre os governantes de {Faction} para {TaxLevel},wealth,coins,Administration,,impostos
+FactionConqueredUpdate,,{Up(ConqueredFaction)} conquistada,{D(WinningLeader)} conquistou {ConqueredFaction},faction_conquered,,Aggression,"Os seguintes se tornaram independentes;
+{listAsList(NewLeaderList)}",
+GameOverUpdate,,,Fim de Jogo,landing,,Personal,"<info>A sua casa não é mais a casa líder da sua facção, e você portanto perdeu o jogo.  Para continuar testando este beta, você agora continuará jogando da perspectiva de outro duque (aleatório) no jogo.</info>",
+Gatherings.AcceptedInviteUpdate,,,{D(Ruler)} aceitou o convite de {d_s(Host)} para o banquete de {Occasion},spacetravel,,Personal,,
+Gatherings.AcceptedMassInviteUpdate,,,Convites Aceitos,spacetravel,,Personal,{listAsSentence(AcceptedList)} aceitaram o convite de {d_s(Host)} para o banquete de {Occasion},
+Gatherings.ChooseGuestsDecisionUpdate,,,Quem você gostaria que acompanhasse você ao banquete de {Occasion}?,decision,,Personal,Você pode escolher até mais {RemainingCount} membros da sua casa.,
+Gatherings.ConcludeRuinUpdate,,,"O banquete em honra de {Occasion} foi arruinado, e os convidados partem com o coração pesado",unhappyrulerpublic,,Personal,,
+Gatherings.ConcludeWellUpdate,,,"O banquete em honra de {Occasion} foi em grande parte um sucesso, e os convidados partem bem-humorados",happycouple,,Personal,,
+Gatherings.ContestInconclusiveResultUpdate,,,Uma lesão roubou do torneio um vencedor claro,duelinjury,,Personal,Porém {listAsSentence(OtherDistinguished)} se saiu admiravelmente,
+Gatherings.ContestResultUpdate,,,{Dhas(Champion)} o título do torneio em honra de {Occasion},dueltriumph,,Personal,{listAsSentence(OtherDistinguished)} também se saiu admiravelmente,
+Gatherings.HostDecisionUpdate,,,Espera-se que realizemos um banquete para {Occasion},councilbusiness,,Personal,"O organizador deste banquete será {d(Organizer)}.
+
+Se realizarmos um banquete, os seguintes governantes ficarão ofendidos se não forem convidados. Se convidarmos todos, o banquete custará um adicional de {AdditionalCost}.
+{listAsList(ExpectedInviteeList)}",banquete
+Gatherings.HostSnubbedUpdate.Many,,,{D(Host)} esnobou alguns governantes no banquete que {heis(Host)} quem realiza para {Occasion},unhappynoble,,Personal,"Estes governantes são;
+{listAsList(UninvitedList)}",
+Gatherings.HostSnubbedUpdate.Single,,,{D(Host)} esnobou {d(Uninvited)} no banquete que {heis(Host)} quem realiza para {Occasion},unhappynoble,,Personal,,
+Gatherings.HostSnubbedUpdate.Some,,,{D(Host)} esnobou {listAsSentence(UninvitedList)} no banquete que {heis(Host)} quem realiza para {Occasion},unhappynoble,,Personal,,
+Gatherings.InjuryInTournamentUpdate,,,{Dhas(Character)} sido ferido no torneio em honra de {Occasion},duelinjury,,Personal,,
+Gatherings.InviteDecisionUpdate,,,Quem você gostaria de convidar para o banquete?,councilbusiness,,Personal,,
+Gatherings.InviteResponseDecisionUpdate,,,{D(Host)} convidou você a comparecer a um banquete para {Occasion},publicformal,,Personal,"Se recusarmos, {d(Host)} ficará decepcionado.",
+Gatherings.KilledInTournamentUpdate,,,{Dhas(Character)} sido morto no torneio em honra de {Occasion},victoryspace,,Personal,,
+Gatherings.MinorGatheringUpdate,Um banquete foi realizado para celebrar {Occasion},,Um banquete está sendo realizado para celebrar {Occasion},newleader,,Personal,,
+Gatherings.PickChampionDecisionUpdate,,,Quem você gostaria que representasse você no torneio?,decision,,Personal,É hora de ganhar alguma glória determinando quem é a mão mais afiada ao pilotar uma lançadeira de combate,torneio
+Gatherings.PickedChampionUpdate,,,{D(Champion)} representará {houseOf(Champion)} no torneio,councilmemberaccepted,,Personal,,
+Gatherings.RefusedInviteUpdate,,,{D(Ruler)} recusou o convite de {d_s(Host)} para o banquete de {Occasion},unhappyrulerpublic,,Personal,,
+Gatherings.RefuseToHostUpdate,,,{Host} não está realizando um banquete para celebrar {Occasion},negativepublicreaction,,Personal,,
+Gatherings.RulerIsChampionUpdate,,,{D(Ruler)} participará pessoalmente do torneio,prepareforduel,,Personal,,
+Gatherings.TournamentMatchResultUpdate,,,{Dhas(Winner)} derrotado {d(Loser)} no torneio,duelvictory,,Personal,,torneio
+Gatherings.TournamentMatchUpdate,,,{D(ChampionA)} lutará contra {d(ChampionB)} na próxima partida do torneio,prepareforduel,,Personal,,torneio
+Gatherings.TournamentRuinedUpdate,,,O torneio em honra de {Occasion} foi cancelado,negativepublicreaction,,Personal,,
+Gatherings.TournamentUpdate,,,Um torneio está sendo realizado em honra de {Occasion},tournament,,Personal,,torneio
+Gatherings.TutorialUpdate1,,,Um anfitrião gracioso,publicformal,,,"Quando eventos importantes acontecem em {houseOf(PlayerCharacter)}, espera-se que realizemos um banquete em celebração. Governantes virão de longe, e um torneio será realizado como parte das festividades.
+
+Você também pode escolher realizar um banquete em honra de alguém - a bajulação pode ser uma boa forma de melhorar uma relação política.<helptext>
+
+Ação Habilitada: Promover banquete em honra de alguém</helptext>",
+General.BlankUpdate,,,Espaço reservado,,,,,
+General.Defeat.ChooseNewLeaderUpdate,,,Com quem você gostaria de continuar jogando?,landing,,Personal,,
+General.DefeatUpdate,,,Você foi derrotado,faction_conquered,,Politics,"A sua casa foi derrubada das alturas elevadas da liderança.  Você pode não ter tido sorte, mas também não teve a habilidade de sobreviver às águas políticas infestadas de tubarões.
+
+Você jogou por <v>{NumYear}</v> anos, através de uma linhagem de <v>{NumLegal}</v> personagens
+{listAsList(Reigns)}",
+General.VictoryUpdate,,,Cavalgando a tempestade da história,newleader,,Politics,"Foi durante o governo de {currentHeadOf(PlayerHouse)} que {PlayerHouse} se tornou o poder incontestado da galáxia. Você e os seus ancestrais conspiraram, aprimoraram e dominaram o caminho até as alturas do poder galáctico. O império de {PlayerHouse} agora caminha pelo cosmos: cada passo um mundo, cada respiração uma estrela.
+
+Você jogou por <v>{NumYear}</v> anos, através de uma linhagem de <v>{NumLegal}</v> personagens
+{listAsList(Reigns)}",
+Health.BecomeIllGroupLargeUpdate,,Doentios,Alguns personagens não estão bem,bedridden,,Life,{listAsList(CharList)},
+Health.BecomeIllGroupSmallUpdate,,Doentios,{Up(listAsSentence(CharList)} estão muito doentes,bedridden,,Life,,saúde
+Health.TutorialUpdate1,,,Garanta que temos gente suficiente que entenda de medicina,bedridden,,Medical,"Histórias e vídeos contam de um tempo em que os nossos antepassados podiam curar quase todas as doenças, mas o nosso equipamento e conhecimento médico são limitados. Até para nobres; doença, ferimentos e parto podem ser perigosos. Médicos e cirurgiões habilidosos são inestimáveis para o bem-estar dos membros da nossa casa.",
+HealthSys.BecameIllUpdate,,{Dis(Character)} doente,{Dis(Character)} muito doente,bedridden,,Life,,saúde
+HealthSys.IllnessEndsBecameSicklyUpdate,,,"A saúde de {D_s(Character)} melhorou, mas nunca se recuperará completamente",sickly,,Life,,
+HealthSys.IllnessEndsNoIllEffectsUpdate,,,A saúde de {D_s(Character)} se recuperou completamente,adultingoodhealth,,Life,,
+Health.ContinueMedicalCareAssignmentDecisionUpdate,,,{Dis(Character)} livre da doença. Você quer parar a designação de atendimento médico em {him(Character)}?,medicalcare,,,"A designação ainda é útil, pois reduz a chance de {d_s(Character)} adoecer de novo, mas você pode querer designar {Assignee} a alguma outra tarefa.",
+HouseManagement.PickHomeSystem.ChangeUpdate,,,A capital de {D_s(Character)} agora é {StarSystem},councilbusiness,,Politics,,
+HouseMembership.AdoptMemberUpdate,,,"{D(Actor)} adotou {if(isNull(TargetCharacter), ""um novo membro em"", concat(d(TargetCharacter), "" como um novo membro de""))} {houseOf(Actor)}",actinghead,,Administration,,
+InactiveWarEndedUpdate,,,"Depois de um longo período sem hostilidades, {AttackingFaction} e {DefendingFaction} são consideradas em paz",councilbusiness,,Aggression,,
+InheritedNonHouseUpdate,,,{D(Heir)} herdou os bens e obrigações de {d_s(Deceased)},wealth,,Politics,{SilentNull(NonHouseInheritance)},herança
+InheritedUpdate,,Herda {Estate},{D(Character)} herdou {Estate},newleader,,Politics,{SilentNull(NonHouseInheritance)},herança
+LegalHeadResumesUpdate.Head,,,"{D(ActingHead)} transferiu o comando a {d(LegalHead)}, e renunciou como Chefe Interino de {House}",actinghead,,Politics,,
+LegalHeadResumesUpdate.Leader,,,"{D(ActingHead)} transferiu o comando a {d(LegalHead)}, e renunciou como Governante Interino de {Faction}",actinghead,,Politics,,
+LegalHeadResumesUpdate.Ruler,,,"{D(ActingHead)} transferiu o comando a {d(LegalHead)}, e renunciou como Governante Interino de {StarSystem}",actinghead,,Politics,,
+Marriage.ChooseMarriagePartnerDecisionUpdate,,,Com quem você gostaria de casar {d(HouseMember)}?,decision,,Marriage,,
+Marriage.ChooseMovingPartnerDecisionUpdate,,,Onde você propõe que eles vivam depois de se casarem?,decision,,Marriage,,
+MarriageTutorialUpdate1,,,O sangue é o alicerce do poder político,marriage,,Personal,"Tudo o mais sendo igual, os seus parentes têm muito mais chance de ajudar você do que estranhos. Do mesmo modo, espera-se que você os ajude a menos que queira parecer insensível e atrair desaprovação generalizada e desconfiança por não respeitar os laços de família.
+
+O casamento é a sua ferramenta mais importante para estabelecer alianças de longo prazo, e também pode ser uma forma de o seu herdeiro ganhar território sem derramamento de sangue.<helptext>
+
+Ação Habilitada: Arranjar um Casamento
+Item de Negociação Habilitado: Casamento</helptext>",
+MarriageTutorialUpdate2,,,"O que Deus uniu, que o homem não separe",marriage,,Personal,"Como o casamento é tão importante, não espere nada além de má publicidade e problemas se você se divorciar.<helptext>
+
+Ação Habilitada: Divorciar o seu cônjuge
+Ação Habilitada: Divorciar o casamento de um membro da casa
+Ação Habilitada: Propor romance secreto ao seu interesse amoroso
+Ação Habilitada: Encerrar romance secreto</helptext>",
+MarriageTutorialUpdate3,,,"O que Deus uniu, que o homem não separe",marriage,,Personal,"    Não espere nada além de má publicidade e problemas se você se divorciar. Um divórcio dissolve laços de parentesco, minando a estabilidade das alianças entre casas.  O rancor pode facilmente escalar para guerra, que facções mais fortes ficarão felizes em explorar.  Conceda divórcios aos membros da sua casa com moderação, e onde o erro justificar.
+    Claro, às vezes você pode decidir que um divórcio vale o risco para poder arranjar um casamento melhor em outro lugar... apesar de como outros podem julgar as suas ações. Pense com cuidado antes de agir!",
+MarriageUpdate,,{DominantPartner} agora é casado com {MinorPartner},{DominantPartner} agora é casado com {MinorPartner},marriage,fanfare,Marriage,,
+MarriageUpdate.ForgedAlliance,,{Instigator} e {Other} forjaram uma aliança através do casamento de {DominantPartner} e {MinorPartner},{Instigator} e {Other} forjaram uma aliança através do casamento de {DominantPartner} e {MinorPartner},marriage,fanfare,Marriage,,
+MarriageUpdate.StrengthenedAlliance,,{Instigator} e {Other} fortaleceram a aliança deles através do casamento de {DominantPartner} e {MinorPartner},{Instigator} e {Other} fortaleceram a aliança deles através do casamento de {DominantPartner} e {MinorPartner},marriage,fanfare,Marriage,,
+Military.BuildDefenseUpdate,,,{D(Actor)} está construindo uma série de satélites defensivos em {StarSystem},attackonsystem,,Military,Isto aumentará o bônus de defesa de qualquer defensor em {StarSystem} em {DefenseBonus},
+Morality.TutorialUpdate1,,,Olho por olho e dente por dente,callingforjustice,,Personal,"Todos entendem que quando uma pessoa fere desonrosamente outra, ela deve ser punida no mesmo grau pela parte lesada. Do mesmo modo, atos de boa vontade ou bondade devem ser retribuídos. Você achará prudente dar aos seus pares o mínimo de justificativa possível para atacar você, e tê-los em dívida com você.<helptext>
+
+Aba do Personagem Habilitada: Justiça e Dívida Social</helptext>",
+Morality.TutorialUpdate2,,,A justiça está nas suas mãos,callingforjustice,,Security,"    Como líder, você também é responsável pelo destino dos seus súditos.  Se você quiser ser considerado um líder forte mas bom, deve defender os direitos deles e buscar justiça em nome deles quando forem prejudicados.  Se não o fizer, a opinião sobre você cairá.
+
+Outros líderes também exigirão que você faça justiça em nome deles ou dos súditos deles, e alguns até irão à guerra se você não o fizer.",
+MoralitySys.Charging.ChargedUpdate,,,{D(Victim)} acusou {d(Executor)} de vingar os crimes de {d_s(Criminal)},callingforjustice,,Law,"{Dis(Victim)} quem pede justiça pelos seguintes crimes, pelos quais {dis(Criminal)} responsável:
+{listAsList(Grievances)}
+",moralidade
+MoralitySys.Charging.ChargedUpdate.Single,,,{D(Victim)} acusou {d(Executor)} de vingar o crime de {d_s(Criminal)}; {Grievances},callingforjustice,,,,
+MoralitySys.Charging.PlayerReactToChargeDecisionUpdate,,,Como você quer lidar com este pedido de justiça?,callingforjustice,,,"<helptext>Note que as opções abaixo são as opções <i>diretas</i> disponíveis para lidar com este pedido de justiça. Mas qualquer outro ato desonroso proporcional que você cometa contra {d(Criminal)} enquanto acusado também será percebido como justiça.
+
+Pode nem sempre haver uma opção de lidar com um pedido de justiça de uma forma que não faça você parecer mal. É assim que é a vida no topo.</helptext>",
+MoralitySys.Charging.PlayerChoosePunishmentDecisionUpdate,,,Como você quer punir esta queixa?,punishment,,,"<helptext>Note que as opções abaixo são as opções <i>diretas</i> disponíveis para punir esta queixa. Mas qualquer outro ato desonroso proporcional que você cometa contra {d(Criminal)} também será justificado, então isto pode ser uma oportunidade de ganhar vantagem política.
+
+Ex.: se você tem uma queixa contra um duque, poderia usar aquela queixa para declarar guerra. Mas também poderia usá-la para mitigar a desonra de pedir a um dos governantes dele que o traia e se junte à sua facção.</helptext>",
+MoralitySys.Charging.ExpiredChargeUpdate,,,{D(Executor)} falhou em vingar os crimes de {d_s(Criminal)}{moralOutcome},negativepublicreaction,,Law,"Os seguintes crimes contra {d(Victim)} permanecem impunes:
+{listAsList(Grievances)}",moralidade
+MoralitySys.Charging.ExpiredChargeUpdate.Single,,,{D(Executor)} falhou em vingar o crime de {d_s(Criminal)} ({Grievances}){moralOutcome},negativepublicreaction,,,,
+MoralitySys.Charging.RemovedChargeUpdate,,,{Dis(Executor)} isento da responsabilidade de vingar os crimes de {d_s(Criminal)} contra {d(Victim)},councilbusiness,,Law,,moralidade
+Murder.TutorialUpdate,,,Não esqueça a nossa segurança pessoal,murder,,Law,"O assassinato pode ser uma ferramenta útil para se livrar de um inimigo, se você puder encontrar um indivíduo no sistema natal do seu inimigo para fazer o serviço. 
+
+Os membros de segurança da sua casa servem dobrados como os seus guarda-costas pessoais, cujo trabalho principal é proteger você de jogadas sujas e assassinato.<helptext>
+
+Ação Habilitada: Assassinar alguém
+Ação Habilitada: Pedir a alguém que assassine alguém</helptext>",
+MurderSys.AskToMurderDecisionUpdate,,,{D(Instigator)} pediu que você assassine {d(Character)} em nome dele,secretletter,,Personal,,
+MurderSys.AskToMurderRefusedUpdate,,,{D(AskedCharacter)} recusou a instigação de {d_s(Instigator)} de assassinar {d(Character)},unhappynoble,,Personal,{SilentNull(Reason)},
+MurderSys.ChooseAssassinUpdate,,,A quem você vai pedir que assassine {d(Character)}?,decision,,Personal,,
+MurderSys.MurderFailedDiscoveredDiscoveredUpdate,,Tentativa de assassinato de {d(TargetCharacter)},"{Dwas(Character,""Alguém"")} pego tentando assassinar {d(TargetCharacter,""um estranho sem nome"")}",caughtredhanded,,Law,,
+MurderSys.MurderFailedDiscoveredHiddenPersonalUpdate,,,"A tentativa de {D_s(Character,""Um atacante não identificado"")} de assassinar {d(TargetCharacter,""um estranho sem nome"")} falhou, e {he(Character)} escapou por pouco da captura",intrigue,,Law,,
+MurderSys.MurderFailedDiscoveredHiddenPublicUpdate,,,"Alguém tentou assassinar {d(Character,""um estranho desconhecido"")}, mas a identidade é um mistério",intrigue,,Law,,
+MurderSys.MurderFailedHiddenHiddenUpdate,,,"A tentativa de {D_s(Character)} de assassinar {d(TargetCharacter)} falhou, mas ninguém percebeu",intrigue,,Law,,
+MurderSys.MurderRequestSuccessfulUpdate,,,"{D(Killer)} assassinou com sucesso {d(Victim)}, como você desejava",murder,,Personal,,
+MurderSys.MurderSuccessfulDiscoveredDiscoveredUpdate,,"{D(Character,""Alguém"")} assassinou {d(TargetCharacter,""um estranho"")}","{D(Character,""Alguém"")} assassinou {d(TargetCharacter,""um estranho"")} e foi pego em flagrante",murder,,Law,,
+MurderSys.MurderSuccessfulDiscoveredHiddenPersonalUpdate,,"{D(Character,""Alguém"")} assassinou {d(TargetCharacter,""um estranho"")}","{D(Character)} matou com sucesso {d(TargetCharacter)} sem ser implicado, embora as pessoas tenham certeza de que a morte {his(TargetCharacter)} não foi acidental",murder,,Personal,,
+MurderSys.MurderSuccessfulDiscoveredHiddenPublicUpdate,,"{D(Character,""Alguém"")} assassinou {d(TargetCharacter,""um estranho"")}",{Dis(Character)} assassinado por um assassino misterioso,murder,,Law,,
+MurderSys.MurderSuccessfulHiddenHiddenUpdate,,"{D(Character,""Alguém"")} assassinou {d(TargetCharacter,""um estranho"")}","{D(Character)} matou com sucesso {d(TargetCharacter)} sem ser pego, e sem que ninguém suspeitasse de que a morte {his(TargetCharacter)} foi resultado de jogo sujo",funeral,,Personal,,
+MustAppointAnotherDecisionUpdate,,,{D(AppointingCharacter)} deve nomear alguém para assumir {House} em {homeSystemOf(House)},councilbusiness,,Politics,,
+MustAppointAnotherDecisionUpdate.Ruling,,,{D(AppointingCharacter)} deve nomear alguém para assumir o governo de {homeSystemOf(House)},councilbusiness,,Politics,"<info>Um governante só pode governar pessoalmente um sistema</info>
+
+<lore>A humanidade aprendeu através das eras das trevas desde o colapso da civilização do século XXII que governantes fortes são necessários para as colônias evitarem a ilegalidade e brigas internas que poderiam ameaçar a sobrevivência de todos no ambiente hostil do espaço. Tentativas de governar sistemas remotamente invariavelmente falham por causa dos desafios de viagem e comunicação, e da probabilidade de senhores da guerra locais aproveitarem a oportunidade de tomar o poder para si. Líderes de facções dependem do poderio militar e político deles, e da lealdade dos governantes deles, para manter a posse de sistemas dentro da facção deles</lore>",
+Negotiation.AcceptDemandDecisionUpdate,,,{Dis(Requester)} quem exige {Request},discussionprivateexternal,,Personal,{Dis(Requester)} quem ameaça {Threat} se {Responder} não cumprir{es(Responder)},
+Negotiation.AcceptOfferTradeDecisionUpdate,,,{D(Responder)} quer {Response} para aceitar {Request},discussionprivateexternal,,Personal,,
+Negotiation.AcceptOfferTradeUpdate,,,{D(Responder)} aceitou {Request} e {Response} de {d(Requester)},agreement,,Personal,,
+Negotiation.AcceptRequestTradeDecisionUpdate,,,{D(Responder)} quer {Response} por {Request},discussionprivateexternal,,Personal,{RequestConsequence}. {ResponseConsequence}.,
+Negotiation.AcceptRequestTradeUpdate,,,"{D(Responder)} deu {Request} a {d(Requester)}, em troca de {Response}",agreement,,Personal,,
+Negotiation.DemandUpdate,,,{Dis(Requester)} quem exige {Request} de {Responder},publicformal,,Personal,{Dis(Requester)} quem ameaça {Threat} se {Responder} não cumprir{es(Responder)},
+Negotiation.OfferResponseDecisionUpdate,,,{D(Requester)} está oferecendo {Request}. Você quer pedir algo em troca?,discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+Negotiation.OfferRequiringResponseDecisionUpdate,,,{D(Requester)} está oferecendo {Request},discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+Negotiation.RefusedDemandUpdate,,,{D(Responder)} recusou a exigência de {d_s(Requester)} por {Request},unhappyrulerpublic,,Personal,,
+Negotiation.RefuseOfferTradeUpdate,,,{D(Requester)} recusou o pedido adicional de {d_s(Responder)} de {Response} além da oferta {his(Requester)} de {Request},unhappyrulerpublic,,Personal,,
+Negotiation.RefuseOfferUpdate,,,{D(Responder)} recusou {Request} de {d(Requester)},unhappyrulerpublic,,Personal,,
+Negotiation.RefuseRequestTradeUpdate,,,{D(Requester)} recusou o contra-pedido de {d_s(Responder)} de {Response} por {Request},unhappyrulerpublic,,Personal,,
+Negotiation.RefuseRequestUpdate,,,{D(Responder)} recusou dar {Request} a {d(Requester)},unhappyrulerpublic,,Personal,,
+Negotiation.RequestResponseDecisionUpdate,,,{D(Requester)} quer {Request}. O que você pedirá em troca?,discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+Negotiation.RequestRequiringResponseDecisionUpdate,,,{D(Requester)} quer {Request},discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+Negotiation.YesNoOfferResponseDecisionUpdate,,,{D(Requester)} está oferecendo {Request},discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+Negotiation.YesNoRequestResponseDecisionUpdate,,,{D(Requester)} quer {Request},discussionprivateexternal,,Personal,Se você aceitar: {RequestConsequence},
+NegotiationDom.RequestOrThreatDecisionUpdate,,,"Você vai pedir, ou fazer uma exigência?",decision,,Personal,Você está pedindo {Request},
+NewFactionUpdate,,,"{houseOf(Faction)} se tornou independente e se estabeleceu como uma nova facção, {Faction}, em {homeSystemOf(Faction)}",faction_conquered,,Politics,,
+NewFactionUpdate.Vassal,,,"Um novo membro de {leagueOf(Faction)} foi estabelecido em {homeSystemOf(Faction)}, {Faction}",councilbusiness,,Politics,,
+OpportunityToMoveHouseDecisionUpdate,,,Você gostaria de aproveitar esta oportunidade para mudar o sistema governado pela sua casa para {TargetSystem}?,decision,,Administration,<info>Os membros da casa governante atual daquele sistema virarão membros da sua casa</info>,
+OpportunityToMoveHouseTakenUpdate,,,{Dhas(Character)} assumido o governo de {TargetSystem},thrivingcolony,,Politics,,
+PetitionMarriageAcceptedUpdate,,,{D(OfferHead)} concordou com o casamento entre {d(OfferSpouse)} e {d(ConsiderSpouse)},marriage,,Marriage,,
+PetitionMarriageAcceptedUpdate.Propose,,,{D(OfferHead)} concordou em propor um casamento entre {d(OfferSpouse)} e {d(ConsiderSpouse)},agreement,,Marriage,,
+PetitionMarriageRefusedUpdate,,,{D(RefusingHead)} recusou o desejo de {d_s(OfferSpouse)} de se casar com {d(ConsiderSpouse)},unhappynoble,,Marriage,,
+PetitionMarriageUpdate,,,{D(OfferSpouse)} quer se casar com {d(ConsiderSpouse)},discussionprivateinternal,,Marriage,,
+PetitionMarriageUpdate.External,,,"{D(OfferSpouse)} quer se casar com {d(ConsiderSpouse)}, de {ConsiderHouse}",discussionprivateinternal,,Marriage,"Se você concordar com este casamento, você o proporá por sua vez a {currentHeadOf(ConsiderHouse)}
+
+Se casados, {d(ConsiderSpouse)} se mudará para {houseOf(OfferSpouse)}",
+PickHomeSystemDecisionUpdate,,,Qual sistema estelar você gostaria de continuar governando pessoalmente?,decision,,Administration,,
+Politics.ArchonResurrectsDeadFactionUpdate,,{Up(Faction)} ressuscitada,{Up(Faction)} foi ressuscitada por {d(Actor)},councilbusiness,,Politics,,
+Politics.ChangeFactionAllegiance.AcceptedUpdate,,,{D(Leader)} quebrou a lealdade com {SourceLeague} e prometeu {Faction} a {DestinationLeague}{moralOutcome},swearingallegiance,,Aggression,,
+Politics.ChangeFactionAllegiance.OfferRefusedUpdate,,,{D(DestLeader)} rejeitou a tentativa de {d_s(Leader)} de abandonar {SourceLeague} e virar vassalo {his(DestLeader)},unhappynoble,,Aggression,{SilentNull(Reason)},
+Politics.ChangeFactionAllegiance.OfferUpdate,,,{D(Leader)} está tentando deixar {SourceLeague} e fazer de {Faction} uma vassala de {DestinationFaction},discussionprivateexternal,,Aggression,,
+Politics.ChangeFactionAllegiance.RequestRefusedUpdate,,,{D(Leader)} recusou de {d_s(legalHeadOf(DestinationFaction))} a sua oferta de se separar de {SourceLeague} e virar vassalo de {DestinationFaction},unhappynoble,,Aggression,{SilentNull(Reason)},
+Politics.ChangeFactionAllegiance.RequestUpdate,,,{D(Leader)} gostaria que você traísse a sua lealdade a {SourceLeague} e virasse vassalo {his(Leader)},discussionprivateexternal,,Aggression,,
+Politics.ChangeHouseUpdate,,,{Dis(Character)} agora um membro de {House},actinghead,,Administration,,
+Politics.Depose.ChooseReplacementDecisionUpdate,,,Por quem você gostaria de substituir {d(TargetCharacter)}?,councilbusiness,,Aggression,,
+Politics.DeposeLeader.FailedUpdate,,,{Dhas(Leader)} se separado de {League} depois da tentativa de {d_s(Archon)} de depor {him(Leader)},unhappyrulerpublic,,Aggression,,
+Politics.DeposeLeader.HeaderUpdate,,,Tentativa de depor {d(Leader)},publicformal,,Aggression,,
+Politics.DeposeLeader.ReactionUpdate,,,{D(Archon)} ordenou que {d(Leader)} renunciasse e transferisse o governo de {Faction} para {Replacement},publicformal,,Aggression,,
+Politics.DeposeLeader.RebellionUpdate,,A rebelião de {D_s(Leader)},A tentativa de {D_s(Archon)} de depor {d(Leader)} levou à rebelião,attackonsystem,,Aggression,,
+Politics.DeposeLeader.WarAfterIndependenceUpdate,,,{Up(factionOf(Archon))} agora está em guerra com {factionOf(Leader)}{claim},unhappyrulerpublic,,Aggression,,
+Politics.DeposeRuler.HeaderUpdate,,,Tentativa de depor {d(Ruler)},publicformal,,Aggression,,
+Politics.DeposeRuler.ReactionUpdate,,,{D(Leader)} ordenou que {d(Ruler)} renunciasse e transferisse o governo de {StarSystem} para {d(Replacement)},publicformal,,Aggression,,
+Politics.DeposeRuler.RebellionUpdate,,A rebelião de {D_s(Ruler)},A tentativa de {D_s(Leader)} de depor {d(Ruler)} levou à rebelião,attackonsystem,,Aggression,,
+Politics.GiveSystem.DemandHeaderUpdate,,Exigência por {StarSystem},Exigência por {StarSystem},publicformal,,Aggression,,
+Politics.GiveSystem.DemandUpdate,,,{Dis(Leader)} quem exige que {d(TargetLeader)} dê a {him(Leader)} a posse de {StarSystem},publicformal,,Aggression,,
+Politics.GiveSystem.GiveSystemUpdate,,,{D(Leader)} deu a posse de {StarSystem} a {Faction},councilbusiness,,Politics,,
+Politics.GiveSystem.OfferSystemUpdate,,,{D(Leader)} deseja dar a você o controle de {StarSystem},discussionprivateexternal,,Politics,,
+Politics.GiveSystem.RefusalUpdate,,,{D(Leader)} recusou aceitar a posse de {StarSystem},unhappynoble,,Politics,,
+Politics.GiveVassal.ChooseTargetUpdate,,,A qual facção você deseja dar {Faction}?,decision,,Politics,,
+Politics.GiveVassal.DemandHeaderUpdate,,,Exigência pelo controle de {Faction},publicformal,,Aggression,,
+Politics.GiveVassal.DemandUpdate,,,{Dis(Leader)} quem exige que {d(TargetArchon)} dê a {him(Leader)} o controle de {Faction},publicformal,,Aggression,,
+Politics.GiveVassal.RefusalUpdate,,,{D(Leader)} recusou aceitar a posse de {Faction},unhappynoble,,Politics,,
+Politics.GiveVassalUpdate,,{D(currentHeadOf(TargetFaction))} ganhou {Faction},{D(Leader)} concedeu o controle de {Faction} a {TargetFaction},swearingallegiance,,Politics,,
+Politics.GrantRulerIndependenceUpdate,,,{D(Leader)} concedeu independência a {d(Ruler)},newleader,,Politics,,
+Politics.LeaderDeposedUpdate,,{D(Leader)} deposto,{D(Archon)} depôs {d(Leader)}{moralOutcome},unhappypair,,Aggression,{Up(he(Leader))} será substituído por {d(Replacement)},
+Politics.LeaderRebellionUpdate.Independent,,{D(RebelLeader)} se rebelou,{D(RebelLeader)} se rebelou contra {d(Archon)} e virou uma facção independente{claimMoralOutcome},newleader,,Aggression,,
+Politics.LeaderRebellionUpdate.League,,{D(RebelLeader)} se rebelou,{D(RebelLeader)} se rebelou contra {d(Archon)} e formou {RebelLeague}{claimMoralOutcome},newleader,,Aggression,,
+Politics.LeagueDisbandedUpdate,,,A liga de {MasterFaction} foi dissolvida,councilbusiness,,Politics,,
+Politics.MasterSubjectForgiveGrievancesUpdate,,,{D(Master)} e {d(Subject)} concordaram em enterrar o machado de guerra,agreement,,Politics,"Como parte do início da relação feudal, ambos os lados concordaram em limpar a lousa entre eles e renunciaram publicamente ao direito de buscar vingança pelos seguintes crimes;
+{listAsList(Crimes)}",
+Politics.NewLeagueUpdate,,,"{Dhas(Archon)} estabelecido uma nova liga de facções, {League}",newleader,,Politics,,
+Politics.Raid.AcceptedAttackSupportUpdate,,,{Dis(AcceptingCharacter)} quem ajuda {d(Character)} a saquear {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Politics.Raid.AcceptedDefenseSupportUpdate,,,{Dis(AcceptingCharacter)} quem ajuda {d(Character)} a se defender do saque de {d_s(EnemyCharacter)} em {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Politics.Raid.RefusedAttackSupportUpdate,,,{D(RefusingCharacter)} recusou se juntar ao saque de {d_s(AskingCharacter)} em {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+Politics.Raid.RefusedDefenseSupportUpdate,,,{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a se defender do saque de {d_s(EnemyCharacter)} em {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+Politics.Raid.SupportAttackDecisionUpdate,,,{Dis(Character)} quem pede a você apoio militar para saquear {StarSystem},discussionprivateexternal,,Military,{CombatPlan},
+Politics.Raid.SupportDefenseDecisionUpdate,,,"{Dis(Character)} quem pede a você apoio militar para defender {StarSystem} de ser saqueado por {d(EnemyCharacter,""um atacante desconhecido"")}",publicformal,,Military,{CombatPlan},
+Politics.RaidHeaderUpdate,,,Saque a {StarSystem},raidonsystem,,Military,,
+Politics.RaidSuccessfulUpdate,,{D(Character)} saqueou {homeSystemOf(Victim)},{D(Character)} saqueou {StarSystem} e levou parte da comida e maquinário dele,victoryspace,,Military,,
+Politics.RaidUnsuccessfulUpdate,,O saque de {D_s(Character)} não teve êxito,O saque de {D_s(Character)} em {StarSystem} foi defendido e {he(Character)} voltou para casa de mãos vazias,unhappyrulerpublic,,Military,,
+Politics.RaidUpdate,,,{Dis(Character)} quem saqueia {homeSystemOf(Victim)}{moralOutcome},raidonsystem,,Military,,
+Politics.ResurrectDeadFaction.ChooseCapitalUpdate,,,Qual sistema você deseja estabelecer como a capital de {TargetFaction}?,decision,,Politics,,
+Politics.ResurrectDeadFactionUpdate,,,{Up(Faction)} foi ressuscitada em {StarSystem},councilbusiness,,Politics,,
+Politics.ResurrectDeadFactionUpdate.Champion,,{Up(Faction)} ressuscitada ,"{Up(Faction)} foi ressuscitada por {d(Actor)}, defendendo a reivindicação de {d_s(Claimant)}",newleader,,Politics,,
+Politics.SurrenderFaction.DemandHeaderUpdate,,,Exigência pela rendição de {Faction},publicformal,,Aggression,,
+Politics.SurrenderFaction.DemandUpdate,,,{Dis(Leader)} quem exige que {d(TargetLeader)} entregue {Faction} ao controle direto {his(Leader)}{moralOutcome()},publicformal,,Aggression,,
+Politics.SurrenderFaction.OfferUpdate,,,{D(Leader)} está se oferecendo para se juntar à sua facção,discussionprivateexternal,,Politics,"Ele virará um governante na sua facção, e os vassalos dele virarão os seus vassalos",
+Politics.SurrenderFaction.RefuseUpdate,,,{D(Leader)} recusou a oferta de {d_s(OfferingLeader)} de se juntar à facção {his(Leader)},unhappynoble,,Politics,,
+Politics.SurrenderFaction.RequestRefuseUpdate,,,{D(Leader)} recusou o pedido de {d_s(RequestingLeader)} de se juntar à facção {his(RequestingLeader)},unhappynoble,,Politics,,
+Politics.SurrenderFaction.RequestUpdate,,,{D(Leader)} está sugerindo que você se junte à facção {his(Leader)} e abra mão do controle dos seus sistemas,unhappynoble,,Politics,,
+Politics.SurrenderFaction.SurrenderUpdate,,{D(Leader)} se rendeu a {d(TargetLeader)},{Dhas(Leader)} entregado a facção {his(Leader)} a {d(TargetLeader)},swearingallegiance,,Politics,,
+Politics.SystemRebellion.AcceptedRebelSupportUpdate,,,"{Dis(AcceptingCharacter)} quem apoia a rebelião de {d_s(Character,""um usurpador"")} contra {d(EnemyCharacter)} em {StarSystem}{moralOutcome}",combatassistance,,Military,{CombatPlan},
+Politics.SystemRebellion.AcceptedRulerSupportUpdate,,,"{Dis(AcceptingCharacter)} quem ajuda {d(Character, ""um governante"")} a reprimir a rebelião de {dp_s(EnemyCharacter,Character,""um usurpador"")} em {StarSystem}{moralOutcome}",combatassistance,,Military,{CombatPlan},
+Politics.SystemRebellion.CapitalRebellionSucceededUpdate,,A rebelião de {D_s(Rebel)} teve êxito,"{houseOf(Rebel)} derrubou {houseOf(Ruler)}, e {d(NewRuler)} agora é o governante de {factionOf(NewRuler)}",victorycolony,,Aggression,,
+Politics.SystemRebellion.CapitalRebellionSucceededUpdate.Frag,,A rebelião de {D_s(Rebel)} teve êxito,"{Dhas(Rebel)} derrubado {houseOf(Ruler)}, fragmentando {Faction} em sistemas independentes",victorycolony,,Aggression,,
+Politics.SystemRebellion.RebellionFailedUpdate,,A rebelião de {D_s(Rebel)} falhou,A rebelião de {D_s(Rebel)} falhou e {d(Ruler)} manteve o controle de {homeSystemOf(Ruler)},victorycolony,,Aggression,,
+Politics.SystemRebellion.RebellionSucceededUpdate,,{houseOf(Rebel)} se rebelou com sucesso,"{houseOf(Rebel)} derrubou {houseOf(Ruler)}, e {d(NewRuler)} agora governa {homeSystemOf(Rebel)}",victorycolony,,Aggression,,
+Politics.SystemRebellion.RebellionSucceededUpdate.Pre,,,{houseOf(Rebel)} derrubou {houseOf(Ruler)},victorycolony,,Aggression,,
+Politics.SystemRebellion.RefusedRebelSupportUpdate,,,"{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a se rebelar contra {dp(EnemyCharacter,AskingCharacter)} em {StarSystem}{moralOutcome}",unhappypair,,Military,{SilentNull(Reason)},
+Politics.SystemRebellion.RefusedRulerSupportUpdate,,,{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a resistir à rebelião de {d_s(EnemyCharacter)} em {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+Politics.SystemRebellion.SupportRebelDecisionUpdate,,,{Dis(Character)} quem busca o seu apoio militar na rebelião {his(Character)} contra {d(EnemyCharacter)} em {StarSystem}{moralOutcome},publicformal,,Military,{CombatPlan},
+Politics.SystemRebellion.SupportRulerDecisionUpdate,,,"{Dis(Character)} quem busca o seu apoio militar para esmagar a rebelião de {d_s(EnemyCharacter,""um oponente não identificado"")} em {StarSystem}{moralOutcome}",publicformal,,Military,{CombatPlan},
+Politics.SystemRebellion.SystemRebellionUpdate,,,"{Dis(Rebel)} quem lidera um levante contra o governo de {dp_s(Ruler,Rebel)} em {StarSystem}{claimMoralOutcome}",rebellion,rebellion,Military,Os nobres da colônia (e os exércitos deles) estão divididos entre lealistas e rebeldes,
+Politics.SystemRebellionHeaderUpdate,,Rebelião Nobre em {StarSystem},Rebelião Nobre em {StarSystem},rebellion,,Military,,
+Politics.TutorialUpdate1,,,O seu destino,publicformal,,Diplomacy,"Algum dia você se tornará um arconte - chefe de uma casa grande, e governante de uma liga de facções. As dinastias mais poderosas da galáxia não governam apenas sistemas diretamente, mas têm muitas facções vassalas prestando-lhes homenagem. ",
+Politics.TutorialUpdate2,,,Rei dos reis,publicformal,,Diplomacy,"O seu controle sobre os governantes da sua facção não é absoluto; enquanto eles não se opuserem a você, são livres para agir política e militarmente em benefício próprio. Em graus diferentes, cada governante tem o direito de ser o governante do próprio sistema, e você achará difícil justificar substituí-los.
+
+O potencial de governantes poderosos e descontentes se rebelarem ou trocarem de lealdade é alto. Trabalhe para manter a lealdade dos seus vassalos, mas também fique de olho em oportunidades de seduzir os vassalos de um vizinho.",
+Politics.VassalageTutorial,,,Só podemos manter tantos vassalos honestos,publicformal,,,"Casas são independentes ou vassalas de outras casas, trocando proteção por contribuição econômica e militar. Governantes são vassalos de líderes numa facção, e líderes podem ser vassalos de arcontes numa liga. Se você for fraco, é melhor se submeter em vassalagem do que ser conquistado ou entregar a nossa liderança.
+
+Quanto maior o seu império ficar, mais difícil será para a nossa casa gerir. Se você for independente, vai querer permitir que alguns dos seus governantes governem as próprias facções sob você como líderes vassalos, reduzindo o seu número direto de vassalos.<helptext>
+
+Ação Habilitada: Formar Facção Vassala
+Ação Habilitada: Conceder Independência
+Item de Negociação Habilitado: Vassalagem
+Item de Negociação Habilitado: Rendição
+Item de Negociação Habilitado: Posse de Sistema
+Item de Negociação Habilitado: Posse de Vassalo</helptext>",
+Politics.WarTutorial,,,"Solte os cães da guerra",faction_conquered,,,"No coração de toda política está o recurso potencial à guerra. Por mais desonrosa que possa ser, a ameaça de guerra forja impérios e alianças.<helptext>
+
+Ação Habilitada: Atacar sistema
+Ameaça Habilitada: Guerra
+Item de Negociação Habilitado: Paz
+Aba da Casa Habilitada: Guerras</helptext>",
+Politics.RebellionTutorial,,,Rei dos reis,publicformal,,,"O seu controle sobre os governantes da sua facção não é absoluto; enquanto eles não se opuserem a você, são livres para agir política e militarmente em benefício próprio. Em graus diferentes, cada governante tem o direito de ser o governante do próprio sistema, e você achará difícil justificar substituí-los.
+
+O potencial de governantes poderosos e descontentes se rebelarem ou trocarem de lealdade é alto. Trabalhe para manter a lealdade dos seus vassalos, mas também fique de olho em oportunidades de seduzir os vassalos de um vizinho.<helptext>
+
+Ação Habilitada: Depor vassalo
+Ação Habilitada: Liderar uma rebelião
+Item de Negociação Habilitado: Trocar de lealdade
+Ameaça Habilitada: Depor
+Ameaça Habilitada: Rebelião</helptext>",
+Politics.VassalageOffer.AcceptedUpdate,,,{Dhas(OfferingLeader)} virado vassalo de {d_s(TargetLeader)},swearingallegiance,,Politics,,vassalagem
+Politics.VassalageOffer.DemandHeaderUpdate,,,Exigência pela submissão de {TargetLeader},publicformal,,Aggression,,
+Politics.VassalageOffer.DemandUpdate,,,{Dis(Leader)} quem exige que {d(TargetLeader)} se submeta a virar vassalo {his(Leader)},publicformal,,Aggression,,
+Politics.VassalageOffer.OfferUpdate,,,{D(Leader)} está se oferecendo para virar vassalo da sua facção,discussionprivateexternal,,Politics,,
+Politics.VassalageOffer.RefusedUpdate,,,{D(TargetLeader)} recusou a oferta de vassalagem de {d_s(OfferingLeader)},unhappynoble,,Politics,,
+Politics.VassalageOffer.RequestRefusedUpdate,,,{D(TargetLeader)} recusou o pedido de vassalagem de {d_s(RequestingLeader)},unhappynoble,,Politics,,
+Politics.VassalageOffer.RequestUpdate,,,{D(Leader)} está pedindo que você vire vassalo da facção dele,discussionprivateexternal,,Politics,,
+Politics.VassalLimitTutorialUpdate,,,Só podemos manter tantos vassalos honestos,publicformal,,Administration,"Quanto maior o seu império ficar, mais difícil será gerir. Se você tentar manter governantes demais diretamente sob o seu controle, a sua casa lutará para manter a supervisão sobre o domínio dela e você se verá com pouco tempo para outras coisas. Você então vai querer permitir que alguns dos seus governantes governem as próprias facções sob você como líderes vassalos, prestando homenagem a você como arconte deles.",
+Politics.VassalRebellion.JoinUpdate,,,{D(Leader)} começou uma rebelião contra {d(Archon)} e convida você a se juntar à causa {his(Leader)},publicformal,,Aggression,,
+Politics.Wars.EndWarUpdate,,,A guerra entre {AttackingEntity} e {DefendingEntity} terminou,councilbusiness,,Aggression,,
+Politics.Wars.FragmentFactionUpdate,,,Os remanescentes de {Faction} se fragmentam em sistemas independentes,councilbusiness,,Aggression,,
+Politics.Wars.DefeatedVassalAbsorbedUpdate,,,Os remanescentes de {Faction} viraram súditos de {League},councilbusiness,,,,
+Politics.Wars.LeadingClaimSuccessfulUpdate,,,"{D(Leader)} alcançou o objetivo de guerra {his(Leader)}, fazendo de {Ruler} o governante de {Faction}",newleader,,Claims,,
+Politics.Wars.MasterClaimSuccessfulUpdate,,,"{D(Leader)} alcançou o objetivo de guerra {his(Leader)}, fazendo de {Faction} uma vassala de {TargetFaction}",swearingallegiance,,Claims,,
+Politics.Wars.MergeIntoConqueredUpdate,,,{D(Leader)} conquistou e assumiu {Faction},faction_conquered,,Aggression,,
+Politics.Wars.OwningClaimSuccessUpdate,,,"{D(Leader)} alcançou o objetivo de guerra {his(Leader)}, tornando {StarSystem} parte de {Faction}",faction_conquered,,Claims,,
+Politics.Wars.PeaceOffer.AcceptedUpdate,,,{Up(OfferingEntity)} e {AcceptingEntity} agora estão em paz,agreement,,Aggression,,
+Politics.Wars.PeaceOffer.OfferUpdate,,,{Dis(OfferingCharacter)} quem oferece paz,discussionprivateexternal,,Aggression,,
+Politics.Wars.PeaceOffer.RefusedUpdate,,,{D(ConsideringCharacter)} rejeitou a oferta de paz de {d_s(OfferingCharacter)},unhappynoble,,Aggression,{SilentNull(Reason)},
+Politics.Wars.RulingClaimSuccessUpdate,,,"{D(Leader)} alcançou o objetivo de guerra {his(Leader)}, instalando {legalHeadOf(StarSystem)} em {StarSystem}",swearingallegiance,,Claims,,
+Politics.Wars.SystemConquered.ArchonTakesOverSystemUpdate,,,{Dhas(Archon)} assumido o controle de {StarSystem},swearingallegiance,,Politics,,
+Politics.Wars.SystemConquered.ChooseOwnerDecisionUpdate,,,Qual facção deve possuir {StarSystem}?,decision,,Politics,,
+Politics.Wars.SystemConquered.DetermineRulerDecisionUpdate,,,{Dis(Leader)} quem considera o destino de {d(Ruler)},faction_conquered,,Politics,,
+Politics.Wars.SystemConquered.DishonoredPledgeUpdate,,,{D(Leader)} revelou que a justificativa {his(Leader)} para a guerra era uma farsa,negativepublicreaction,,Claims,{He(Leader)} tinha fingido {he(Leader)} estava defendendo {claimSentenceEnding(Claim)},
+Politics.Wars.SystemConquered.FactionConqueredUpdate,,{D(Leader)} conquistou {Faction},{D(Leader)} conquistou {Faction},faction_conquered,,Aggression,,
+Politics.Wars.SystemConquered.GrantSystemUpdate,,,{D(Leader)} concedeu o recém-capturado {StarSystem} a {factionOf(Vassal)},councilbusiness,,Politics,,
+Politics.Wars.SystemConquered.KeepSystemUpdate,,,{D(Leader)} manteve {StarSystem} em {factionOf(Leader)},councilbusiness,,Politics,,
+Politics.Wars.SystemConquered.MasterDemandDecisionUpdate,,,{D(Archon)} pede o controle de {StarSystem},discussionprivateexternal,,Politics,"{Dhas(Archon)} o direito de determinar o destino de {StarSystem} e de {currentHeadOf(StarSystem)}, por causa da guerra {his(Archon)} para pressionar {claimSentenceEnding(Claim)}",
+Politics.Wars.SystemConquered.UnjustifiedAnnexationUpdate,,,{Dhas(Leader)} anexado {StarSystem} ilegalmente,negativepublicreaction,,Aggression,{Up(factionOf(Leader))} não tem uma reivindicação de posse forte sobre {StarSystem},
+Politics.Wars.SystemConquered.VassalRefusesArchonDemandUpdate,,,{D(Leader)} recusou entregar o controle de {StarSystem} a {d(Archon)},unhappyrulerpublic,,Politics,"{SilentNull(Reason)}
+
+{Dhas(Archon)} o direito de determinar o destino de {StarSystem} e de {currentHeadOf(StarSystem)}, por causa da guerra {his(Archon)} para pressionar {claimSentenceEnding(Claim)}",
+PromotedToCouncilUpdate,,{Dwas(TargetCharacter)} promovido ao conselho,{D(currentHeadOf(Character))} designou {d(Character)} ao conselho como Chefe de {Role} de {houseOf(Character)}{moralOutcome},councilmemberaccepted,,Administration,,
+Punishment.ExecutedUpdate,,{D(TargetCharacter)} executado,{D(Executioner)} executou {d(TargetCharacter)}{moralOutcome},execution,,Law,,
+Punishment.ExecutedMultipleUpdate,,,{D(Executioner)} executou {listAsSentence(Characters)},funeral,,,,
+Punishment.ExileCharacterUpdate,,,"{D(Character)} exilou {d(TargetCharacter,""uma pessoa indesejada"")} de {homeSystemOf(Character)}{moralOutcome}",sentaway,,Law,,
+Punishment.ExileFoundRefugeUpdate,,,{Dhas(Character)} encontrado refúgio em {StarSystem},spacetravel,,Law,,
+Punishment.LeviedFineUpdate,,,"{D(Master)} multou {d(Subject,""um dos súditos dele"")}{moralOutcome}",unhappyrulerpublic,,Law,,
+Punishment.LeviedLargeFineUpdate,,,"{D(Master)} aplicou uma multa alta em {d(Subject,""um dos súditos dele"")}{moralOutcome}",unhappyrulerpublic,,,,
+Punishment.HumiliateUpdate,{D(Character)} humilhou publicamente {d(TargetCharacter)}{moralOutcome},,{Dhas(TargetCharacter)} sido condenado a algumas semanas de trabalho nas minas{moralOutcome},negativepublicreaction,,,"É sempre bom para o moral mostrar aos servos que nobres não estão isentos de compartilhar o sofrimento deles. O nobre em questão, claro, raramente concorda.
+
+Trabalhar nas escavadeiras mecânicas em temperaturas congelantes é distintamente desconfortável, mas não se compara à vergonha de ser tratado como igual aos plebeus.",
+Punishment.TortureUpdate,,,"{D(Character)} aplicou chicote de nervos em {d(TargetCharacter,""algum infeliz"")}{moralOutcome}",punishment,,Law,,
+Punishment.TutorialUpdate1,,,Explorando a lei,punishment,,Security,"Como líder, você é responsável pelo destino dos seus súditos. Para ser considerado honroso, você deve buscar justiça em nome deles quando forem prejudicados. Outros líderes também podem exigir que você faça justiça por eles ou pelos súditos deles, e podem ir à guerra se você não o fizer.
+
+A responsabilidade de punir os seus súditos pelos crimes deles é uma ferramenta política útil, porém é desonroso punir em excesso ou punir súditos que não cometeram crimes.<helptext>
+
+Ação Habilitada: Pedir justiça
+Ação Habilitada: Executar um habitante da sua colônia
+Ação Habilitada: Exilar alguém da sua colônia
+Ação Habilitada: Aplicar chicote de nervos em alguém na sua colônia
+Ação Habilitada: Multar um vassalo</helptext>",
+RefusedPromotionToCouncilUpdate,,,{D(currentHeadOf(Character))} recusou o pedido de {d_s(Character)} de ser promovido ao conselho de {houseOf(Character)}{moralOutcome},unhappypair,,Administration,,
+ReHomedHouseMergeUpdate,,,Os remanescentes de {House} encontraram refúgio em {houseOf(Character)} em {homeSystemOf(Character)},spacetravel,,Administration,,
+RequestPromotionToCouncilUpdate,,,"{D(Character)} quer estar no seu conselho, assumindo a responsabilidade por {Role} em {houseOf(Character)}",publicinformal,,Administration,,Áreas da Casa;membro do conselho
+RequestToChangeRoleAcceptedUpdate,,,{D(currentHeadOf(Character))} aceitou o pedido de {d_s(Character)} de ser designado às funções de {Role} em {houseOf(Character)},roles,,Administration,,Áreas da Casa;membro do conselho
+RequestToChangeRoleRefusedUpdate,,,{D(currentHeadOf(Character))} recusou o pedido de {d_s(Character)} de mudar a função {his(Character)} em {houseOf(Character)},unhappypair,,Administration,,
+RequestToChangeRoleUpdate,,,{D(Character)} quer ser designado às funções de {Role} em {houseOf(Character)},discussionprivateinternal,,Administration,,
+Roles.CharacterRoleChanged,,,{Dis(Character)} agora designado a {Role} em {houseOf(Character)},,,Administration,,
+Roles.CharacterRoleChanged.Removed,,,{Dis(Character)} liberado de {Role} em {houseOf(Character)},,,Administration,,
+Roles.ChooseCouncilMemberRoleUpdate,,,Para qual posição do conselho você gostaria de mover {d(Character)}?,decision,,Administration,,Áreas da Casa;membro do conselho
+Roles.CouncilTutorialUpdate,,,Um governante sábio ouve o conselho dele,roles,,Administration,"Para cada área, você também deve nomear um membro do conselho responsável por aquela área. É amplamente esperado, como marca de honra e respeito, que o seu cônjuge se assente no conselho como chefe de uma das áreas.<helptext>
+
+Ação Habilitada: Promover membro da casa ao conselho
+Ação Habilitada: Remover um membro do conselho
+Ação Habilitada: Mudar a posição de um membro do conselho</helptext>",
+Roles.FiredFromCouncilUpdate,,,{D(currentHeadOf(Character))} removeu {d(Character)} da posição {his(Character)} no conselho de {houseOf(Character)}{moralOutcome},sentaway,,Administration,,
+Roles.FiredFromCouncilPersonallyUpdate,,,{D(Character)} removeu {himself(Character)} da posição de conselho de {houseOf(Character)} para focar em gerir a casa,councilbusiness,,,,
+Roles.RemovedFromCouncilUpdate,,,{Dis(Character)} ex-membro do conselho de {houseOf(Character)},sentaway,,Administration,,
+Roles.RolesTutorialUpdate,,,"Sem trabalho, nada prospera",roles,,Administration,"É difícil sobreviver no espaço nestes antigos postos desgastados e sistemas de mineração. Todos devem aprender uma habilidade e trabalhar duro para manter a colônia forte. Conforme as crianças atingem a maioridade, ou você deixa estranhos entrarem na sua casa, deve garantir que sejam designados a contribuir numa das cinco áreas da casa; administração, guerra, diplomacia, segurança e medicina.<helptext>
+
+Ação Habilitada: Designar membro da casa a uma função
+Ação Habilitada: Mudar a função de um membro da casa</helptext>",
+Romance.LoverExpectingChildUpdate,,,{Dis(Character)} com ciúmes de {d(Parent)} esperando um filho com {d(OtherParent)},unhappynoble,,Personal,,
+Romance.RomanticAttractionRevealedByMarriageUpdate,,,É aparente para todos que {Admirer} ama {TargetCharacter},marriage,,Life,,
+RomanceSys.EndRomanceInvolUpdate,,,O romance ilícito entre {d(Character)} e {d(OtherCharacter)} terminou,unhappynoble,,Personal,,
+RomanceSys.EndRomanceVolUpdate,,,{D(Character)} encerrou o romance ilícito com {d(OtherCharacter)},romanceover,,Personal,,
+RomanceSys.IllicitRomanceRefusedUpdate,,,{D(AskedCharacter)} recusou ser o amante secreto de {d_s(Character)},unhappynoble,,Personal,{SilentNull(Reason)},
+RomanceSys.StartRomanceUpdate,,,{D(Character)} e {d(OtherCharacter)} são amantes secretos,secretromance,twinkle,Personal,,
+RomanceSys.SuggestIllicitRomanceDecisionUpdate,,,{D(Character)} quer que você seja o amante secreto dele,secretletter,twinkle,Personal,"Relacionamentos fora do casamento são malvistos, porque perturbam a estabilidade das alianças que as casas formam através do casamento. 
+
+Se você aceitar, o relacionamento será um segredo de dificuldade de descoberta {SecretDifficulty}. ",
+RomancySys.FallInLoveUpdate,,,"{Dis(Character,""Um admirador desconhecido"")} apaixonado por {d(TargetCharacter)}",romanticattraction,,Personal,,amor
+RomancySys.FallInLoveUpdate.Spouse,,,"{Dis(Character)} apaixonado pelo {kinRel(Character,TargetCharacter)} {his(Character)}",romanticattraction,,,,amor
+RomancySys.FallOutOfLoveUpdate,,,"{Dhas(Character,""Um admirador desconhecido"")} perdido o interesse em {d(TargetCharacter)}",unhappynoble,,Personal,"""Não sei bem o que eu tinha achado tão cativante em {him(TargetCharacter)}""",amor
+RulerDeposedUpdate,,{D(Ruler)} deposto,{D(Leader)} depôs {d(Ruler)}{moralOutcome},unhappypair,,Aggression,{He(Ruler)} será substituído por {d(Replacement)},
+RulerDeposeFailedUpdate.FormedNew,,,"{D(Ruler)} se separou de {Faction} depois da tentativa de {d_s(Leader)} de depor {him(Ruler)}, formando {if(isNull(NewFaction),""uma nova facção"",NewFaction)}",newleader,,Aggression,,
+RulerDeposeFailedUpdate,,,{D(Ruler)} se separou de {Faction} depois da tentativa de {d_s(Leader)} de depor {him(Ruler)},,,,,
+RulerNotDeposedUpdate,,,{D(Leader)} permitiu que {d(Ruler)} permanecesse no poder como governante de {StarSystem},happycouple,,Aggression,,
+RulerRebellionUpdate,,A rebelião de {D_s(RebelLeader)},{D(RebelLeader)} se rebelou contra {d(Leader)} e formou {RebelFaction}{claimMoralOutcome},newleader,,Aggression,,
+RulerRebellionUpdate.Pre,,,{D(RebelLeader)} se rebelou contra {d(Leader)}{claimMoralOutcome},newleader,,Aggression,,
+Secrets.TutorialUpdate1,,,Conhecimento é poder,intrigue,,Security,"A galáxia pode ser um lugar impiedoso, e muitos indivíduos têm muito a esconder. Você também, inevitavelmente, agirá em segredo para conseguir o que quer às vezes. Você pode derrubar outros do poder, direta ou indiretamente, revelando os segredos deles e aproveitando como outros se voltam contra eles, especialmente se cometeram crimes ou traíram outros.
+
+A nossa equipe de segurança tentará desenterrar os segredos que você pode usar para trazer alguém ao descrédito, assim como esconder os seus segredos.<helptext>
+
+Ação Habilitada: Revelar Segredo
+Ação Habilitada: Abafar Segredo
+Ação Habilitada: Investigar
+Aba do Personagem Habilitada: Segredos Conhecidos</helptext>",
+Security.CoverUp.ChooseMemberUpdate,,,Em quem você confiará para abafar este segredo?,decision,,Administration,,
+Security.CoverUpUpdate,,,{Dhas(Character)} abafado um segredo: {Secret},intrigue,,Administration,Dificuldade de Descoberta do Segredo agora: {Difficulty},
+Security.DestroyedEvidenceUpdate,,,{Dhas(Actor)} destruído as evidências {his(Actor)} mostrando que: {Secret},secretletter,,Personal,{He(Actor)} não pode mais revelar este segredo,segredo
+Security.Investigation.DiscoveredMultipleElements.Update,,,{D(Investigator)} descobriu mais sobre {Subject},intrigue,,Administration,,
+Security.Investigation.DiscoveredMultipleInvestigations.Update,,,As investigações da sua equipe de segurança renderam mais informações sobre {listAsSentence(Subjects)},intrigue,,Administration,,
+Security.Investigation.DiscoveredSingleElement.Update,,,{D(Investigator)} descobriu: {Information},intrigue,,Administration,A investigação de {D_s(Investigator)} sobre {Subject} descobriu mais informações.,
+Security.Investigation.EndUpdate,,,{D(Investigator)} não está mais investigando {Subject},councilbusiness,,Administration,,
+Security.Investigation.PickInvestigatorDecisionUpdate,,,Quem será designado para investigar {Subject}?,councilbusiness,,Administration,,
+Security.Investigation.StartUpdate,,,{D(Investigator)} focará os esforços em descobrir o máximo possível sobre {Subject},intrigue,,Administration,,
+SecuritySys.SecretBecomeAwareUpdate,,,{D(BecomeAwareCharacter)} descobriu que: {Secret},intrigue,secret,Personal,,segredo
+SecuritySys.SecretDiscoveredBySecurityUpdate,,,{D(Security)} reportou que: {Secret},secretletter,secret,Law,,segredo
+SecuritySys.SecretRevealedUpdate,,{Secret},{D(RevealingCharacter)} revelou que: {SecretNonCollidingKey},caughtredhanded,secret,Law,,segredo
+SecuritySys.SecretRevealedUpdate.NonSpecific,,,Alguém revelou que: {SecretNonCollidingKey},caughtredhanded,secret,Law,,segredo
+SetActingHeadUpdate,,,{Dhas(ActingHead)} assumido a gestão de {houseOf(ActingHead)} até {dis(LegalHead)} apto a substituir {him(ActingHead)},actinghead,,Politics,,
+SetActingHeadUpdate.Leader,,,{Dhas(ActingHead)} assumido o governo de {factionOf(ActingHead)} até {dis(LegalHead)} apto a substituir {him(ActingHead)},actinghead,,Politics,,
+SetActingHeadUpdate.Ruler,,,{Dhas(ActingHead)} assumido o governo de {homeSystemOf(ActingHead)} até {dis(LegalHead)} apto a substituir {him(ActingHead)},actinghead,,Politics,,
+Story.AmbassadorDiseaseUpdate,,Doença do embaixador visitante,"Depois de uma viagem de {homeSystemOf(Ambassador)}, {d(Ambassador)} introduziu algum tipo de doença em {StarSystem}",bedridden,,Medical,,
+Story.ArtifactDiscovery.OldEnglishPlayUpdate,,Artefato descoberto,Uma cópia digital de uma peça de um dramaturgo antigo da Terra foi descoberta em {StarSystem},councilbusiness,,Life,É surpreendente o quanto mudou pouco desde então,
+Story.ArtifactDiscovery.OldPhotosUpdate,,Artefato descoberto,"Uma pasta de fotos antigas, originalmente pertencentes a um astronauta pré-Colapso, foi descoberta em {StarSystem}",councilbusiness,,Life,As fotos da família dele na Terra são um pequeno lembrete da vida sob os céus abertos do nosso mundo natal perdido,
+Story.ArtifactDiscovery.PopulistSpeechesUpdate,,Artefato descoberto,Transcrições de alguns dos discursos de líderes pré-Colapso foram desenterradas,councilbusiness,,Life,É um elo raro com o nosso passado como civilização avançada,
+Story.ArtifactDiscovery.RenaissancePaintingUpdate,,Artefato descoberto,Uma cópia digital de uma pintura do Renascimento foi encontrada em {StarSystem},councilbusiness,,Life,É uma pequena janela para a nossa história compartilhada e há muito esquecida,
+Story.ArtifactDiscovery.SpaceShuttleUpdate,,Artefato descoberto,O destroço de um ônibus espacial antigo foi descoberto em {StarSystem},councilbusiness,,Life,É um elo raro com o nosso passado como civilização avançada,
+Story.ArtifactDiscovery.WarMovieUpdate,,Artefato descoberto,Um esconderijo de filmes de guerra pré-Colapso foi encontrado em {StarSystem},councilbusiness,,Life,,
+Story.ChildhoodFriendsUpdate,,Amigos de infância,{D(Character)} e {d(SecondCharacter)} estão sempre correndo juntos e se tornaram grandes amigos,happycouple,,Life,,
+Story.ChildrenSquabbleUpdate,,Crianças brigam,{D(Character)} e {d(SecondCharacter)} estão constantemente brigando,unhappyrulerpublic,,Life,,
+Story.ExperimentalTreatment.DecisionUpdate,,,{D(Doctor)} gostaria de tentar um novo tratamento experimental em {d(Character)},bedridden,,Medical,,
+Story.ExperimentalTreatment.RefuseUpdate,,Recusou a chance de experimentar,{D(currentHeadOf(Doctor))} recusou permitir experimentação médica em {Character},unhappynoble,,Medical,,
+Story.ExperimentalTreatment.SuccessfulUpdate,,Experimento médico bem-sucedido,"{D(Doctor)} descobriu um novo tratamento médico, melhorando as capacidades da equipe médica de {houseOf(Doctor)}",councilmemberaccepted,,Medical,,
+Story.FoodShortage.AbandonOthersUpdate,,Escassez de comida em {StarSystem},"{Dhas(currentHeadOf(StarSystem))} colocado a comida necessária para {houseOf(StarSystem)} sob guarda, deixando outros se virarem sozinhos",victorycolony,,Military,,
+Story.FoodShortage.TryToSaveUpdate,,Escassez de comida em {StarSystem},"As forças de segurança de {D_s(currentHeadOf(StarSystem))} garantem uma distribuição justa da comida restante, minimizando mortes pela escassez de comida",wealth,,Administration,,
+Story.FoodShortageUpdate,,Escassez de comida em {StarSystem},Graves escassezes de comida irromperam em {StarSystem},negativepublicreaction,,Administration,,
+Story.MercenariesJoinUpdate,,Mercenários se juntaram,Um bando de mercenários pediu para se juntar à frota de {houseOf(Character)},mercenaries,,Military,A nossa popularidade atrai aqueles que querem ser liderados por bons governantes,
+Story.MineCollapsedUpdate,,Mina desmoronou em {StarSystem},Uma mina de minério em {StarSystem} desmoronou além do reparo,abandonedcolony,,Administration,A economia potencial máxima de {StarSystem} foi reduzida,
+Story.MutinyUpdate,,Nave amotinada,"Durante uma patrulha de rotina, uma das naves de {d_s(Character)} se amotinou e desapareceu",spacetravel,,Military,A nossa falta de popularidade com as tropas está nos prejudicando,
+Story.NeedMoreStaff.ReassignUpdate,,Equipe redesignada,{Dhas(currentHeadOf(Character))} aceitado o pedido de {d_s(Character)} de transferir {d(RequestedCharacter)} para {Role},councilbusiness,,Administration,,
+Story.NeedMoreStaffUpdate,,,{D(Character)} está pedindo a {d(currentHeadOf(Character))} mais equipe em {Role},publicinformal,,Administration,,
+Story.NewMineDiscoveredUpdate,,Nova mina descoberta em {StarSystem},{Character} descobriu uma nova mina de minério ao alcance da colônia em {StarSystem},thrivingcolony,,Administration,A economia potencial máxima de {StarSystem} cresceu,
+Story.OwningClaimEvidenceUpdate,,{factionOf(Character)} tem uma reivindicação sobre {StarSystem},"Um esconderijo de manifestos de embarque e mercadorias carimbadas foi desenterrado, sugerindo que {StarSystem} pode ter sido um dia membro de {factionOf(Character)}",wealth,,Claims,Isto será suficiente como base para uma reivindicação,
+Story.PersonalJoyride.CatchWithSecurityUpdate,,,"O seu apoio militar chega antes que o criminoso possa fugir, e você resolve a questão rapidamente",victoryspace,,Personal,,
+Story.PersonalJoyride.EscapedUpdate,,,Infelizmente o criminoso vira o rabo e dispara antes que o seu apoio possa chegar,unhappynoble,,Personal,,
+Story.PersonalJoyride.GiveChaseUpdate,,,"Depois de uma batalha eletrizante, você despedaça o inimigo",victoryspace,,Personal,,
+Story.PersonalJoyride.RanAwayUpdate,,,Você insere as coordenadas da nave amigável mais próxima e foge em velocidade máxima,combatassistance,,Personal,,
+Story.PersonalJoyrideUpdate,,,"Você está num passeio no seu caça favorito no lado distante de {StarSystem}, quando capta a assinatura de nave de um criminoso notório",spacetravel,,Personal,,
+Story.RulerDisputeSettledUpdate,,Disputa de governantes,{Dhas(Character)} decidido que {d(Ruler)} venceu a aposta contra {d(OtherRuler)},agreement,,Diplomacy,,
+Story.RulerDisputeUpdate,,Disputa de governantes,{D(FirstRuler)} e {d(SecondRuler)} entraram numa discussão por uma aposta grande,callingforjustice,,Diplomacy,Você está sendo solicitado a resolver a questão.  A briga é turva o bastante para que você possa escolher qualquer lado com uma justificativa plausível.  Você vai favorecer quem?,
+Story.RulingClaimEvidenceUpdate,,{houseOf(Character)} tem uma reivindicação sobre {StarSystem},"Alguns registros de alocação de comida foram desenterrados, sugerindo que {houseOf(Character)} pode ter governado {StarSystem} um dia",wealth,,Claims,Isto será suficiente como base para uma reivindicação,
+Story.SpaceportExplosion.SendRespondersUpdate,,Explosão de espaçoporto em {StarSystem},{Dhas(currentHeadOf(StarSystem))} enviado socorristas para ajudar sobreviventes da explosão,victorycolony,,Security,,
+Story.SpaceportExplosionUpdate,,Explosão de espaçoporto em {StarSystem},"Uma explosão rasga o espaçoporto em {StarSystem}; muitas naves foram perdidas",abandonedcolony,,Military,,
+Story.SystemWantsFactionUpdate,,Exigência de sistema,Um movimento populista em {StarSystem} está exigindo que a colônia vire parte de {Faction},negativepublicreaction,,Aggression,{Up(Faction)} agora tem uma reivindicação crível de possuir {StarSystem},
+Story.SystemWantsRulerUpdate,,Exigência de sistema,Um movimento populista em {StarSystem} está exigindo que {d(Character)} vire o governante da colônia,negativepublicreaction,,Aggression,{D(Character)} agora tem uma reivindicação crível de governar {StarSystem},
+Story.WantsToWriteHistory.DeniedUpdate,,,{Dhas(currentHeadOf(Character))} negado o pedido de {d_s(Character)} de produzir uma história de {houseOf(Character)},unhappypair,,Diplomacy,,
+Story.WantsToWriteHistory.FailureUpdate,,,"Depois de vários meses, {d(Character)} falha em produzir algo digno de nota",unhappynoble,,Diplomacy,,
+Story.WantsToWriteHistory.SuccessUpdate,,,Uma história gloriosa de {houseOf(Character)} foi produzida por {d(Character)},landing,,Diplomacy,,
+Story.WantsToWriteHistoryUpdate,,,{D(Character)} quer pesquisar e produzir um vídeo sobre a história de {houseOf(Character)},publicinformal,,Diplomacy,,
+StoryMode.DecisionUpdate,,,Você considera a sua próxima ação,decision,,Personal,"<helptext>Escolha uma ação dentre até três opções que o seu personagem está considerando atualmente, com base na situação, opiniões e personalidade dele.  Ignorar uma ação a deixará de lado por um tempo.  Se você não gostar de nenhuma das opções, pode simplesmente escolher esperar até que oportunidades melhores se apresentem.
+
+Este é o único momento em que você pode salvar o jogo ao jogar no Modo História.  Use o botão Menu no canto superior direito para voltar ao Menu e salvar o jogo.</helptext>",
+SwitchedPlayerHouseUpdate,,,Você agora está jogando como {currentHeadOf(House)} em {House},landing,,Personal,,
+SystemConqueredUpdate,,{StarSystem} conquistado,{D(WinningLeader)} conquistou {StarSystem},faction_conquered,,Aggression,,
+Unrest.CreateUnrestHiddenUpdate,,,"{D(Ambassador,""Um agente não identificado"")} conseguiu com sucesso repassar fundos a nobres dissidentes em {StarSystem}, que agora discutem abertamente uma revolta",discussionprivateexternal,,Aggression,,rebelião de sistema
+Unrest.CreateUnrestStoppedUpdate,,,"{D(Ruler)} pegou o agente de {d_s(Sender)}, {d(Assignee)}, espalhando dissidência em {StarSystem}",publicformal,,Aggression,O complô foi frustrado,rebelião de sistema
+Unrest.SuppressUnrestUpdate,,,{D(Ruler)} reprimiu a dissidência em {StarSystem},punishment,,Aggression,,rebelião de sistema
+Unrest.TutorialUpdate,,,Fique de olho na agitação em {homeSystemOf(PlayerCharacter)},rebellion,,Security,"Se você ficar impopular entre a plebe comum em {homeSystemOf(PlayerCharacter)}, nobres rivais podem se sentir encorajados a tentar derrubá-lo e assumir o governo dela.
+
+Com dinheiro suficiente, os seus diplomatas também podem subornar nobres locais para espalhar dissidência num sistema em que estejam, enfraquecendo os seus oponentes.<helptext>
+
+Ação Habilitada: Abafar Agitação
+Ação Habilitada: Gerar Agitação
+Aba do Sistema Estelar Habilitada: Risco de Rebelião do Sistema</helptext>",
+Unrest.UnrestOnSystemUpdate,,,Houve uma explosão de dissidência em {StarSystem},rebellion,,Aggression,Os nobres dele têm mais chance de se rebelar por um tempo,rebelião de sistema
+War.AcceptedAttackSupportUpdate,,,{Dis(AcceptingCharacter)} quem apoia {d(Character)} no ataque {his(Character)} a {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+War.AcceptedDefenseSupportUpdate,,,{Dis(AcceptingCharacter)} aliando-se a {d(Character)} para defender {StarSystem} de um ataque de {d(EnemyCharacter)}{moralOutcome},combatassistance,,Military,{CombatPlan},
+War.RefusedAttackSupportUpdate,,,{D(RefusingCharacter)} recusou apoiar o ataque de {d_s(AskingCharacter)} a {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+War.RefusedDefenseSupportUpdate,,,{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a defender {StarSystem} do ataque de {d(EnemyCharacter)}{moralOutcome},unhappyrulerpublic,,Military,{SilentNull(Reason)},
+War.SupportAttackDecisionUpdate,,,{Dis(Character)} quem pede a você apoio militar para fortalecer o ataque {his(Character)} a {StarSystem},publicformal,,Military,{CombatPlan},
+War.SupportDefenseDecisionUpdate,,,{Dis(Character)} quem pede a você apoio militar para defender {StarSystem} do ataque de {d(EnemyCharacter)},publicformal,,Military,{CombatPlan},
+Combat.RevisedCallToArmsUpdate,,,{D(Master)} quer que as suas forças se juntem à frota de {d_s(FleetLeader)} na batalha contra de {d_s(OpponentFleetLeader)},publicformal,,,"Se você aceitar, {d(FleetLeader)} pode convocar você ou qualquer um dos seus vassalos para ajudar no combate",
+Combat.RevisedRefusedCallToArmsUpdate,{D(Character)} recusou atender ao chamado às armas de {d_s(Master)} em {StarSystem},,,unhappyrulerpublic,,,,
+Combat.RevisedAcceptCallToArmsUpdate,{D(Character)} atendeu ao chamado às armas de {d_s(Master)} em {StarSystem},,,publicformal,,,,
+Combat.MemberBecomesSupporterUpdate,{D(Character)} pediu que o exército da sua casa se junte à frota também,,{D(Character)} pede que o exército da sua casa se junte à frota também,publicformal,,,,
+Combat.RecoveryUpdate,{D(Commander)} recuperou o que {he(Commander)} pôde dos destroços e realizou reparos de campo nas naves de {houseOf(Commander)},,,spacetravel,,,"O exército da nossa casa sofreu {Damage} de dano na batalha, mas conseguimos recuperar {Recovered} de volta",
+Combat.SurpriseLostUpdate,,,{D(Opponent)} ficou ciente do seu ataque a {StarSystem} e está preparando a defesa,attackonsystem,,,,
+Combat.BetraySurpriseDecisionUpdate,,,Você deseja discretamente informar {d(Target)} do ataque que está sendo preparado contra ele?,secretletter,,,,
+Combat.BetrayedSurpriseUpdate,,,{D(Character)} mandou{s(Character)} aviso de que {d(Attacker)} está montando um ataque a {StarSystem},secretletter,,,,
+Combat.DishonorableTacticUpdate,{D(Commander)} usou táticas desleais na batalha contra {OpponentHouse} em {StarSystem},,,spacebattle,,,,
+HouseMembership.JoinYourHouseUpdate,{D(Character)} deixou {House} e se juntou à sua casa,,,councilmemberaccepted,,,,
+HouseMembership.JoinHouseOfKinUpdate,"{D(Character)} deixou {House} e se juntou à casa do {kinRel(Character, Head)} {his(Character)}",,,councilmemberaccepted,,,,
+HouseMembership.RefusedToJoinUpdate,{D(Character)} recusou se juntar à sua casa,,,unhappynoble,,,,
+Morality.RefuseJusticeOfferUpdate,{D(Victim)} recusou a oferta de {d_s(Executor)} de buscar justiça contra {d(Criminal)},,,unhappyrulerpublic,,,,
+Morality.Charging.OfferJusticeUpdate,,,{Dis(Executor)} se oferecendo para levar {d(Criminal)} à justiça pelos crimes {his(Criminal)} contra {d(Victim)},publicformal,,,"Estes são os crimes relevantes pelos quais {Criminal} é responsável:
+{listAsList(Grievances)}",
+Combat.CharacterTraitAddedUpdate,{Dhas(Character)} aprendido uma nova tática de combate: {Tactic},,,roles,,,,
+Roles.ChangeOrAppointCouncilMemberDecisionUpdate,Escolha um membro da casa para ser o seu Chefe de {Role},,,roles,,,"Note que membros do conselho não podem viajar enquanto trabalham em designações. Se você selecionar uma pessoa que está atualmente no exterior, ela será chamada de volta",
+Assignment.AssignCharacterDecisionUpdate,Escolha um membro da casa para {Assignment},,,councilbusiness,,,,designações
+Assignment.PickLocationDecisionUpdate,"Para ser mais eficaz, {Assignee} deve viajar para {StarSystem} para esta designação",,,spacetravel,,,,designações
+Assignment.VariableLocationDecisionUpdate,"Para ser mais eficaz, {Assignee} pode precisar viajar para esta designação",,,spacetravel,,,O local desta designação pode mudar durante a vida dela. Inicialmente fica em {StarSystem}.,designações
+Claims.AcquireOwningClaimUpdate,{Up(ClaimingFaction)} apresentou um caso de que é a dona de direito de {StarSystem},,,councilbusiness,,,"{D(Assignee, ""Um diplomata"")} tem mexido os pauzinhos em toda a região local. Alguns ouviram argumentos de boa governança, outros ouviram argumentos de linhagem e história. Alguns tiveram as palmas untadas. Nem todos estão convencidos, mas o suficiente para reduzir o desgosto pela ação militar ao exercer a reivindicação.",
+Arrest.ArrestUpdate,{D(CurrentRuler)} prendeu {d(Victim)}{moralOutcome},,,punishment,,,{D(Victim)} agora está a sete chaves em {Location},
+Arrest.FreeUpdate,{D(Victim)} foi solto da prisão de {d_s(CurrentRuler)},,,released,,,{He(Victim)} retornou a {houseOf(Victim)} em {homeSystemOf(Victim)},
+Murder.CaughtAssassinationAttempt,{D(Assignee)} foi pego tentando assassinar {d(TargetCharacter)},,,caughtredhanded,,,,
+Murder.RefuseToAssassinateUpdate,{D(Assignee)} se recusa a continuar tentando assassinar {d(TargetCharacter)},,,secretletter,,,,
+Murder.AssassinatedUpdate,{D(TargetCharacter)} foi encontrado assassinado,,,murder,,,,
+Morality.CaughtFrameAttempt,{D(Assignee)} foi pego tentando difamar falsamente {d(TargetCharacter)},,,caughtredhanded,,,{He(Assignee)} estava subornando alguns dos habitantes de {StarSystem} para fingirem ser vítimas de um crime,
+Morality.FramedPCUpdate,Alguns habitantes de {StarSystem} estão alegando que você está conduzindo experimentos científicos desumanos neles. Isto é uma armação!,,,caughtredhanded,,,"Estas são mentiras descaradas, claro, mas parece que as suas protestações não estão sendo acreditadas. Quem pode estar por trás disto?",
+Morality.FramedUpdate,Alguns habitantes de {StarSystem} forneceram provas de que {TargetCharacter} está conduzindo experimentos científicos desumanos neles,,,caughtredhanded,,,"Coitadas daquelas almas, como se a vida de um plebeu já não fosse difícil o bastante",
+Morality.RefuseToFrameUpdate,{D(Assignee)} se recusa a continuar tentando difamar falsamente {d(TargetCharacter)},,,secretletter,,,,
+General.HouseReportUpdate,Relatório de {House},,,councilbusiness,,,,
+General.VisitorReportUpdate,Visitantes em {StarSystem},,,councilbusiness,,,"Visitantes estão realizando designações para outras casas, e podem potencialmente estar trabalhando contra nós. Você pode prender um visitante se ele for particularmente suspeito.
+
+<helptext>Você pode ver a lista de visitantes na aba 'Convidados Hospedados' da sua casa.</helptext>
+
+",designações;prisão
+Negotiation.AcceptFavourRequestDecisionUpdate,{D(Requester)} está pedindo {Request} como retribuição por um favor passado,,,discussionprivateexternal,,,Se você aceitar: {RequestConsequence},
+Roles.Train.SelectSkillDecisionUpdate,Em qual conjunto de habilidades {TargetCharacter} será treinado?,,,decision,,,,
+Security.CoverUpAssignment.ChooseSecretDecisionUpdate,Qual segredo você quer que {d(TargetCharacter)} abafe?,,,decision,,,,
+Assignment.ChooseTargetCharacterDecisionUpdate,Escolher personagem alvo,,,councilbusiness,,,,
+Assignment.ChooseTargetSystemDecisionUpdate,Escolher sistema estelar alvo,,,councilbusiness,,,,
+Military.AdaptShipbuilding.SelectVesselDecisionUpdate,Qual tipo de nave você quer priorizar em {StarSystem}?,,,councilbusiness,,,,
+Assignment.ChooseTargetHouseDecisionUpdate,Escolher casa alvo,,,councilbusiness,,,,
+Assignment.StartAssignmentUpdate,{Dhas(Assignee)} começado a designação: {Assignment},,,councilbusiness,,,,designações
+Assignment.StopAssignmentUpdate,Parada: {Assignment},,,councilbusiness,,,,designações
+Assignment.MoveToTargetAssignmentUpdate,{Dhas(Assignee)} viajado para {StarSystem} para: {Assignment},,,onamission,,,,designações
+Assignment.MoveBackHomeAssignmentUpdate,{Dhas(Assignee)} voltado para casa,,,backhome,,,,designações
+Economy.WearLevelResetUpdate,Parte da infraestrutura em {StarSystem} desmoronou por falta de reparo,,,wealth,,,,
+Combat.CallOffTheAttackRequestUpdate,,,Este é o momento de pedir a {d(TargetCharacter)} que poupe {StarSystem}?,attackonsystem,,Personal,{CombatPlan},
+Combat.StandardAttack.AcceptedAttackSupportUpdate,,,{Dis(AcceptingCharacter)} quem ajuda {d(Character)} a atacar {d(EnemyCharacter)} em {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Combat.StandardAttack.AcceptedDefenseSupportUpdate,,,{Dis(AcceptingCharacter)} quem ajuda {d(Character)} a se defender do ataque de {d_s(EnemyCharacter)} em {StarSystem}{moralOutcome},combatassistance,,Military,{CombatPlan},
+Combat.StandardAttack.RefusedAttackSupportUpdate,,,{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a atacar {d(EnemyCharacter)} em {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,,
+Combat.StandardAttack.RefusedDefenseSupportUpdate,,,{D(RefusingCharacter)} recusou ajudar {d(AskingCharacter)} a se defender do ataque de {d_s(EnemyCharacter)} em {StarSystem}{moralOutcome},unhappyrulerpublic,,Military,,
+Combat.DefenderDoesntShowUpdate,{D(Defender)} não defendeu em {StarSystem},,,attackonsystem,,,,
+Politics.Depose.ResistDeposeUpdate,,,{Dhas(Vassal)} recusado obedecer à ordem de {d_s(Master)} de renunciar. Uma força é imediatamente reunida.,attackonsystem,,,O mundo natal de {D_s(Vassal)} é facilmente acessível a partir do território de {d_s(Master)},
+Arrest.TransferUpdate,,,{D(ArrestingRuler)} transferiu {d(Victim)} para a prisão de {d_s(TargetRuler)} em {homeSystemOf(TargetRuler)},released,,,,
+Politics.Depose.ChosenReplacementDiedDecisionUpdate,,,{D(DeadReplacement)} morreu na batalha em {StarSystem}. Por quem você gostaria de substituir {d(TargetCharacter)}?,councilbusiness,,,,
+Installations.Repair.SelectInstallationDecisionUpdate,,,Qual instalação você quer reparar?,thrivingcolony,,,,
+Installations.Repair.RepairedUpdate,,,A {Installation} em {StarSystem} foi reparada,thrivingcolony,,,{SilentNull(Effects)},
+Installations.Abandon.AbandonedUpdate,,,A {Installation} em {StarSystem} foi abandonada,abandonedcolony,,,,
+Guardianship.StartGuardianshipUpdate,,,{Dis(Guardian)} agora o guardião de {d(Ward)},childinstructed,,,,
+Guardianship.EndGuardianshipNoBlameUpdate,,,A tutela de {d(Ward)} pelo guardião de {D_s(Guardian)} terminou,unhappynoble,,,,
+Guardianship.EndGuardianshipBlameUpdate,,,{Dhas(BlamedCharacter)} encerrado a tutela de {d(Ward)} pelo guardião de {d_s(Guardian)},sentaway,,,,
+Guardianship.EndGuardianshipArrestDecisionUpdate,,,"{D(Ward)} voltará para casa, para {currentHeadOf(Ward)} em {homeSystemOf(Ward)}. Você gostaria de prendê-lo no lugar?",childinstructed,,,,
+Guardianship.AppointGuardianDecisionUpdate,,,Quem você gostaria de nomear como o guardião de {d(Ward)}?,councilbusiness,,,"O guardião será responsável por mentorar e criar {d(Ward)}. {He(Ward)} adquirirá habilidades que espelham os pontos fortes do guardião, e o comportamento {his(Ward)} também pode ser moldado pelo guardião. O guardião ficará satisfeito por confiarmos {d(Ward)} a ele.  ",
+Inheritance.ChangeSuccessionRule.SameHeirUpdate,,,{Dhas(Ruler)} mudado a ordem de sucessão de {Domain}. {D(Heir)} continua sendo o herdeiro {his(Ruler)}.,negativepublicreaction,,,,
+Inheritance.ChangeSuccessionRule.ChangedHeirUpdate,,,{Dhas(Ruler)} mudado a ordem de sucessão de {Domain}. {Heir} agora é o herdeiro {his(Ruler)}.,newleader,,,,
+Inheritance.ChangeSuccessionRule.NonRuler.SameHeirUpdate,,,"A lei de sucessão de {Domain} mudou, mas {Heir} continua sendo o herdeiro",negativepublicreaction,,,,
+Inheritance.ChangeSuccessionRule.NonRuler.ChangedHeirUpdate,,,"A lei de sucessão de {Domain} mudou, e {Heir} agora é o herdeiro dela",newleader,,,,
+Inheritance.DisinheritHeir.DisinheritUpdate,,,{Dhas(Ruler)} deserdado {d(PrevHeir)}. {NewHeir} agora é o herdeiro {his(Ruler)}.,sentaway,,,,
+Inheritance.DisinheritHeir.NonRuler.DisinheritUpdate,,,{PrevHeir} foi deserdado. {NewHeir} agora é o herdeiro de {Domain},sentaway,,,,
+Inheritance.AppointHeir.ChooseHeirDecisionUpdate,,,Quem você gostaria de nomear como o seu herdeiro?,rulerchoice,,,"Você pode escolher qualquer pessoa que seja parente sua ou membro da sua casa.
+
+<helptext>Nota: em vez de usar esta lista, é mais fácil clicar com o botão direito no personagem que você quer nomear e selecionar a ação ""Nomear Herdeiro"" lá.</helptext>",
+Inheritance.AppointHeir.AppointUpdate,,,{Dhas(Ruler)} nomeado {NewHeir} como o herdeiro de {Domain},newleader,,,,
+Inheritance.AppointHeir.NonRuler.AppointUpdate,,,{NewHeir} foi nomeado o novo herdeiro de {Domain},newleader,,,,
+Inheritance.Abdication.AbdicateUpdate,,,{Dhas(Ruler)} abdicado o governo {his(Ruler)} de {Domain},abdicates,,,,

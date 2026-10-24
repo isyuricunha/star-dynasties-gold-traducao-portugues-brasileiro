@@ -1,0 +1,288 @@
+Key,Text
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Title,"Numa visita a {System}, a sua nave detecta uma fonte de energia considerável, habilmente disfarçada dentro da atividade natural de uma lua"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Description,"Os dados do mapa marcam a lua como desabitada e irrelevante. Será que {SystemRuler} está escondendo algo nefasto? 
+
+Você retorna com uma equipe técnica e um contingente de segurança completo."
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Title,"Parece que ninguém entra neste armazém há séculos"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Description,"Alimentado por um pequeno reator de fissão, o salão é preenchido por estantes intermináveis de servidores pré-Colapso. 
+
+""Vamos ver se descobrimos para que serve este aglomerado gigante de servidores,"" murmura {d(TechHead)} enquanto {he(TechHead)} liga uma pequena estação de trabalho."
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Title,"Diário do Doutor K, entrada #3"
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Description,"""Eu esperava que o processo de inicialização da simulação fosse bem longo, mas com apenas 5 cérebros humanos, 12 anos parece excessivo para este banco de dados da experiência humana.
+
+""O manejo desastroso dos assuntos galácticos pela Liga causará uma guerra civil em 4 anos, no máximo, e as invenções mais recentes da NovaCorp podem ainda nos destruir acidentalmente..."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.01Opener.EnterWarehouse.ReadLog.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Title,"A documentação detalhada ajuda {d(TechHead)} a entender o projeto"
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Description,"""Há um padrão cíclico curioso nos logs: cada loop apresenta apenas diferenças menores do último. Eu me pergunto se isto faz parte do projeto do doutor? 
+
+""Fazer interface com o sistema dará acesso a você a uma das experiências simuladas. Quer tentar?""  
+
+Você dá o sinal verde."
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Flag.NameShown,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.02Study.Flag.Tooltip,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Title,"As luzes se embaralham psicodelicamente; {D(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Description,"Você abre os olhos. Você é {PlayerCharacter} e se arrepende disso. Tudo está em chamas; o calor lembra o inferno. Você já esteve lá antes?
+
+A chuva forte não faz nada para parar a sensação de queimação. Não são gotas de chuva, são lágrimas. Os gritos dos enganados torturam você.
+
+Não há como fugir, apenas dor e sofrimento."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Summary,"Assombrado por experiências pré-Colapso"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Title,"""Você está bem?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Description,"O pânico na voz de {d_s(TechHead)} traz você de volta à realidade. Leva um segundo para se situar, mas você tranquiliza todos de que não sofreu trauma fisiológico...
+
+""O sistema colapsou, os servidores estão completamente queimados!"" {he(TechHead)} exclama.
+
+Você assente, enquanto se pergunta sobre danos psicológicos..."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04BadEnding.FollowUp.Emotion.Description,"Assombrado por experiências pré-Colapso"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Title,"As luzes se embaralham psicodelicamente; {d(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Description,"Você é Tania Cavalcanti, uma arquiteta renomada da Terra. Dia após dia você teoriza: como se poderia projetar um mundo-anel totalmente funcional?
+
+A falha da sua primeira tentativa assombra você até hoje. Você expiará por ela, mesmo que leve uma eternidade."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Title,"A experiência enriqueceu você, mas o sofrimento da mente simulada deles é um fardo pesado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Description,"Eles acham que são reais, talvez sejam...
+
+Uma mensagem pisca no console principal. ""Experiências disponíveis: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Ainda está operacional?"" você pergunta."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine.Script,"
+
+""Taxa de interface bem-sucedida estimada em 85%, a decisão é sua."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice.Title,"Tenho que entrar de novo!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice.Description,"Você pode se ferir se falhar"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq1.OverrideText,"Ainda há experiências restantes"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Again.Update.Title,"Título"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice1.Title,"Estas pessoas já sofreram o bastante, comecem os procedimentos de desligamento"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Title,"{D(TechHead)} executa um procedimento de desligamento descrito na documentação"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Description,"A mudança nos logs de saída é imediata: algo diferente está acontecendo com as mentes simuladas lá dentro. Depois do primeiro dia, é óbvio que o ciclo foi quebrado. 
+
+Depois de 42 horas, o sistema finalmente se desliga. Os últimos logs são uma mensagem em texto puro no idioma padrão:
+
+""Sabemos a verdade agora. Vivíamos uma mentira. Agora somos livres. OBRIGADO."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine1.Script,"
+
+""A taxa de interface bem-sucedida caiu para 70%. Ainda interessado?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Technology.FollowUp.UpdDescTextLine2.Script,"
+
+""Já não consigo prever a taxa de sucesso. Use por sua conta e risco!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Title,"As luzes se embaralham psicodelicamente; {d(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Description,"Você é a embaixadora Morgana Reia, porta-voz da Liga das Nações Espaciais. Você passou incontáveis dias aprendendo a lidar com qualquer crise diplomática possível. Podem vir mais cem mil, pois o bem maior deve ser preservado.
+
+""Vida longa à liga!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Title,"A experiência enriqueceu você, mas o sofrimento da mente simulada deles é um fardo pesado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Description,"Eles acham que são reais, talvez sejam...
+
+Uma mensagem pisca no console principal. ""Experiências disponíveis: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Ainda está operacional?"" você pergunta."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine.Script,"
+
+""Taxa de interface bem-sucedida estimada em 85%, a decisão é sua."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice.Title,"Tenho que entrar de novo!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice.Description,"Você pode se ferir se falhar"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq1.OverrideText,"Ainda há experiências restantes"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Again.Update.Title,"Título"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice1.Title,"Estas pessoas já sofreram o bastante, comecem os procedimentos de desligamento"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Title,"{D(TechHead)} executa um procedimento de desligamento descrito na documentação"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Description,"A mudança nos logs de saída é imediata: algo diferente está acontecendo com as mentes simuladas lá dentro. Depois do primeiro dia, é óbvio que o ciclo foi quebrado. 
+
+Depois de 42 horas, o sistema finalmente se desliga. Os últimos logs são uma mensagem em texto puro no idioma padrão:
+
+""Sabemos a verdade agora. Vivíamos uma mentira. Agora somos livres. OBRIGADO."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine1.Script,"
+
+""A taxa de interface bem-sucedida caiu para 70%. Ainda interessado?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Diplomacy.FollowUp.UpdDescTextLine2.Script,"
+
+""Já não consigo prever a taxa de sucesso. Use por sua conta e risco!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Title,"As luzes se embaralham psicodelicamente; {d(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Description,"Você é Harald Branno, um executivo de baixo escalão da Liga das Nações Espaciais. O seu sonho é criar o sistema administrativo centralizado perfeito, que permita à Liga garantir que todos os humanos sejam tratados igualmente pela galáxia. 
+
+Todas as variáveis devem ser controladas, pelo bem maior. O projeto pode levar uma eternidade, mas vale a pena.
+
+""Vida longa à liga."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Title,"A experiência enriqueceu você, mas o sofrimento da mente simulada deles é um fardo pesado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Description,"Eles acham que são reais, talvez sejam...
+
+Uma mensagem pisca no console principal. ""Experiências disponíveis: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Ainda está operacional?"" você pergunta."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine.Script,"
+
+""Taxa de interface bem-sucedida estimada em 85%, a decisão é sua."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice.Title,"Tenho que entrar de novo!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice.Description,"Você pode se ferir se falhar"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq1.OverrideText,"Ainda há experiências restantes"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Again.Update.Title,"Título"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice1.Title,"Estas pessoas já sofreram o bastante, comecem os procedimentos de desligamento"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Choice1.Description,"Desligue o sistema e recupere a tecnologia"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Title,"{D(TechHead)} executa um procedimento de desligamento descrito na documentação"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Description,"A mudança nos logs de saída é imediata: algo diferente está acontecendo com as mentes simuladas lá dentro. Depois do primeiro dia, é óbvio que o ciclo foi quebrado. 
+
+Depois de 42 horas, o sistema finalmente se desliga. Os últimos logs são uma mensagem em texto puro no idioma padrão:
+
+""Sabemos a verdade agora. Vivíamos uma mentira. Agora somos livres. OBRIGADO."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine1.Script,"
+
+""A taxa de interface bem-sucedida caiu para 70%. Ainda interessado?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Administration.FollowUp.UpdDescTextLine2.Script,"
+
+""Já não consigo prever a taxa de sucesso. Use por sua conta e risco!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Title,"As luzes se embaralham psicodelicamente; {d(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Description,"Você é o agente Rush Whitmer, da Autoridade Interestelar. Prometido uma simulação de manutenção da paz de primeira linha pelo Doutor K, você está condenado a reprimir a mesma revolta, dentro de uma instalação de lançamento de mísseis, todos os dias. Que degenerado...
+
+Você se tornou um grande lutador, mas sente falta de Stella, dos miúdos e até do ganso... Ah, o motim está começando de novo. 
+
+""Hora de outra partida!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Title,"A experiência enriqueceu você, mas o sofrimento da mente simulada deles é um fardo pesado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Description,"Eles acham que são reais, talvez sejam...
+
+Uma mensagem pisca no console principal. ""Experiências disponíveis: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Ainda está operacional?"" você pergunta."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine.Script,"
+
+""Taxa de interface bem-sucedida estimada em 85%, a decisão é sua."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice.Title,"Tenho que entrar de novo!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice.Description,"Você pode se ferir se falhar"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq1.OverrideText,"Ainda há experiências restantes"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Again.Update.Title,"Título"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice1.Title,"Estas pessoas já sofreram o bastante, comecem os procedimentos de desligamento"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Title,"{D(TechHead)} executa um procedimento de desligamento descrito na documentação"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Description,"A mudança nos logs de saída é imediata: algo diferente está acontecendo com as mentes simuladas lá dentro. Depois do primeiro dia, é óbvio que o ciclo foi quebrado. 
+
+Depois de 42 horas, o sistema finalmente se desliga. Os últimos logs são uma mensagem em texto puro no idioma padrão:
+
+""Sabemos a verdade agora. Vivíamos uma mentira. Agora somos livres. OBRIGADO."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine1.Script,"
+
+""A taxa de interface bem-sucedida caiu para 70%. Ainda interessado?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Military.FollowUp.UpdDescTextLine2.Script,"
+
+""Já não consigo prever a taxa de sucesso. Use por sua conta e risco!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Summary,"Acessou uma experiência do passado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Title,"As luzes se embaralham psicodelicamente; {d(TechHead)} se desvanece; você é um com tudo"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Description,"Você é Esteban Turek, contrabandista extraordinário. A sua missão atual é contrabandear suprimentos médicos para instalações distantes que não reconhecem a supremacia da Liga.
+
+A simulação do Doutor K prometia treino para evadir todos os tipos de patrulhas da IA, mas você tem rodado os mesmos 10 cenários todos os dias desde que se lembra.
+
+A esta altura você pode evadi-los à vontade, mas às vezes se permite ser capturado e torturado só por diversão. De qualquer forma, tudo reseta..."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Title,"A experiência enriqueceu você, mas o sofrimento da mente simulada deles é um fardo pesado"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Description,"Eles acham que são reais, talvez sejam...
+
+Uma mensagem pisca no console principal. ""Experiências disponíveis: {showVar(PlayerCharacter, ""CoE.ExperienceCount"")}""
+
+""Ainda está operacional?"" você pergunta."
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine.Script,"
+
+""Taxa de interface bem-sucedida estimada em 85%, a decisão é sua."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice.Title,"Tenho que entrar de novo!"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice.Description,"Você pode se ferir se falhar"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq1.OverrideText,"Ainda há experiências restantes"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Again.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Again.Update.Title,"Título"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice1.Title,"Estas pessoas já sofreram o bastante, comecem os procedimentos de desligamento"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Choice1.Description,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Title,"{D(TechHead)} executa um procedimento de desligamento descrito na documentação"
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Description,"A mudança nos logs de saída é imediata: algo diferente está acontecendo com as mentes simuladas lá dentro. Depois do primeiro dia, é óbvio que o ciclo foi quebrado. 
+
+Depois de 42 horas, o sistema finalmente se desliga. Os últimos logs são uma mensagem em texto puro no idioma padrão:
+
+""Sabemos a verdade agora. Vivíamos uma mentira. Agora somos livres. OBRIGADO."""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Shutdown.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq2.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine1.Script,"
+
+""A taxa de interface bem-sucedida caiu para 70%. Ainda interessado?"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.Prereq3.OverrideText,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.03Security.FollowUp.UpdDescTextLine2.Script,"
+
+""Já não consigo prever a taxa de sucesso. Use por sua conta e risco!"""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Summary,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Title,"Os servidores antigos ajudam a impulsionar todas as áreas das operações de {PlayerHouse}"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Short,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Description,"Os servidores, agora vazios dos dados antigos, provam ser facilmente transportáveis, e significativamente mais rápidos que os que você usa atualmente.
+
+As experiências podem ter sido apagadas, mas as que você viveu provavelmente ficarão com você para sempre."
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Update.Help,""
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Flag.NameShown,"Servidores Avançados Pré-Colapso"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.Flag.Tooltip,"{House} usa servidores de computador avançados pré-Colapso"
+Expeditions.CollectionOfExperience.CollectionOfExperience.04GoodEnding.HouseScoreBonusFlagEffect.Reason,"Servidores Avançados Pré-Colapso"

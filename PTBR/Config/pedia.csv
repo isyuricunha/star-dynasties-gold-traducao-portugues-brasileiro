@@ -1,0 +1,726 @@
+﻿Topic,Title,Dependencies,Text,SeeAlso,ImageLoc
+Link.collapse,O Colapso,,"No século XXII, a Terra foi destruída. Não está claro o que aconteceu, embora a crença predominante seja que um experimento científico saiu descontroladamente dos trilhos. Seja qual for a causa, o planeta foi despedaçado, e tempestades eletromagnéticas destruíram a maioria dos outros bens que a humanidade tinha no sistema solar.
+
+Apesar dos esforços de colonização, a civilização humana ainda era totalmente dependente da Terra e de Sol como centro logístico, político e de recursos. As colônias foram lançadas na escuridão e na anarquia. Os fortes sobreviveram tomando dos fracos, e muitos morreram. Foram várias gerações até a situação se estabilizar, e a essa altura restava pouco traço da cultura tecnocrática sofisticada que havia levado a humanidade às estrelas.",,
+Link.colony,Colônia,,"Antes do <link=""collapse"">Colapso</link>, a humanidade estava à beira da colonização rápida da galáxia. Instalações de mineração, pesquisa e indústria foram construídas por dezenas de sistemas estelares, conforme estados e corporações disputavam explorar as possibilidades desta nova fronteira. Depois do Colapso, estas instalações viraram os únicos espaços de vida restantes para a humanidade, pois o conhecimento prático e a economia que seriam necessários para construir mais se perderam.
+
+Uma colônia consiste de várias <link=""installation"">instalações</link> num sistema que estão sob a bandeira de uma única <link=""house>casa</link> governante. As práticas de defesa contra agressores externos criam pressão para unir-se sob uma única bandeira, e o menor tempo de viagem dentro de um sistema permite que a casa mais forte exerça facilmente o seu poder sobre as outras.
+
+Quando a estrutura de poder de uma colônia está estável por muito tempo, torna-se amplamente aceito que a linhagem do <link=""head"">governante</link> dela é a <link=""claims"">autoridade legítima</link> da colônia. Desafiadores serão julgados com mais dureza, e se a casa cair do poder, espera-se que reconquiste agressivamente a sua posição.
+
+A população típica de uma colônia é entre 100.000 e 250.000 pessoas.
+
+Colônias fazem parte de <link=""faction"">facções</link>.",damagedcolony;installation,
+Link.house,Casa,,"A unidade básica de organização social é a Casa. As Casas descendem das gangues que se formaram inicialmente depois do <link=""collapse"">Colapso</link> para controlar o espaço e os recursos nas <link=""colony"">colônias</link>.  Algumas colônias têm dezenas de casas que dividiram a colônia entre elas.
+
+Uma casa controlará as vidas de centenas ou milhares de plebeus, mas as pessoas mais importantes nela são os seus <b>membros</b>; o <link=""head"">chefe</link> da casa, a família dele, e os <link=""councilmember"">conselheiros de confiança</link>.
+
+Membros de uma casa sempre vivem na mesma colônia, embora possam às vezes viajar. Quando um casal <link=""marriage"">casa</link>, um dos parceiros deixa a própria casa e entra na casa do cônjuge. Note que os membros da sua família não são necessariamente membros da sua casa.
+ 
+Uma Casa pode ser uma das seguintes;
+- Uma casa <i>nobre</i> é a forma mais baixa de casa, e controla uma seção de uma <link=""colony"">colônia</link>.
+- Uma casa <i>governante</i> é a casa nobre que governa a colônia. É chefiada por um <link=""vassalage"">barão</link>.
+- Uma casa <i>líder</i> é a casa governante na capital de uma <link=""faction"">facção</link>. É chefiada por um <link=""vassalage"">duque</link>.
+- Uma casa <i>grande</i> é a casa líder da facção mestre de uma <link=""league"">liga</link>. É chefiada por um <link=""vassalage"">arconte</link>.
+
+Veja <link=""vassalage"">Vassalagem</link> para uma representação visual destas relações.
+
+Informações sobre a sua casa aparecem quando você clica na bandeira da sua casa, ou dentro das fronteiras da facção que ela governa no <link=""map"">mapa</link>.",vassalage;houseareas,
+Link.head,Chefe de uma Casa,,"O chefe de uma casa é o indivíduo que possui aquela <link=""house"">casa</link>, e que a controla com punho de ferro. Ele tem o poder de vida e morte sobre os membros da casa e os plebeus contratados, embora <link=""morality"">costumes e tradição</link> refreiem a mão dele.
+
+O chefe de uma casa que;
+- controla parte de uma <link=""colony"">colônia</link> é um <i>Nobre</i>
+- governa uma colônia é um <i>Barão</i>
+- governa uma <link=""faction"">facção</link> é um <i>Duque</i>
+- governa uma <link=""league"">liga</link> é um <i>Arconte</i>
+
+Barões, duques e arcontes são coletivamente chamados de <i>governantes</i>. Veja <link=""vassalage"">Vassalagem</link> para uma representação visual da hierarquia política.
+
+Quando o chefe de uma casa morre, a posse da casa é <link=""inheritance"">herdada</link>. Se o <i>chefe legal</i> é menor de idade, ou de outra forma indisponível para gerir a casa, um <i>chefe interino</i> é temporariamente colocado no comando. Tipicamente é o <link=""marriage"">cônjuge</link> ou um parente próximo do chefe legal.",vassalage,
+Link.faction,Facção,,"<link=""colony>Colônias</link> se bandejam, seja por proteção, ou porque a <link=""house>casa</link> governante de uma colônia é poderosa o bastante para coagir colônias vizinhas a virarem <link=""vassalage"">vassalas</link>.
+
+Uma facção é governada por um <link=""head"">duque</link>. Um duque é obrigado a proteger os <link=""head"">barões</link> vassalos dele e a atender as <link=""morality"">queixas</link> deles. Em troca, barões pagam um <link=""tax"">imposto</link> e precisam fornecer a <link=""fleet"">frota</link> da colônia quando convocados às armas. Além dessas obrigações, barões esperam autonomia significativa, e vão se lançar nas próprias aventuras militares.
+
+Quando a estrutura de poder de uma facção está estável por muito tempo, torna-se amplamente aceito que a linhagem do duque é a <link=""claims"">autoridade legítima</link> da facção, e que a facção deve possuir as colônias vassalas dela.
+
+Uma colônia única que é independente também é chamada de facção. Facções podem fazer parte de uma <link=""league"">liga</link>.",league,
+Link.league,Liga,,"Uma liga é um grupo de <link=""faction"">facções</link> governado por um <link=""head"">arconte</link>. A liga é o maior tipo de agrupamento político.
+
+Veja <link=""vassalage"">Vassalagem</link> para uma representação visual da hierarquia política.
+
+As facções numa liga são governadas pelos duques vassalos do arconte. Uma das facções na liga é a <i>facção mestre</i>. Esta facção é governada pessoalmente pelo arconte. O arconte também governa pessoalmente o <link=""colony"">sistema capital</link> desta facção.
+
+Um duque independente pode virar arconte <link=""formvassal"">formando uma facção vassala</link>, porém isto só é vantajoso se o duque estiver alcançando o <link=""vassallimit"">limite de vassalos</link>. Um duque independente também pode virar arconte se outro duque concordar em virar vassalo dele.
+
+Um barão ou duque vassalo não pode ter os próprios duques vassalos, e portanto não pode virar arconte diretamente. Porém ele pode rebelar-se contra a hierarquia política, tornando-se um duque independente.
+
+Quando uma facção foi vassala de uma liga por muito tempo, a facção mestre ganha uma <link=""claims"">reivindicação</link> de ser a mestra da vassala.",,
+Link.inheritance,Herança,,"Os senhores da guerra que tomaram o poder inicialmente depois <link=""collapse"">do Colapso</link> escolheram membros da família como sucessores. Com o tempo, a herança de sangue virou a norma social e política, formando a base da autoridade legítima para governar.
+
+Quando um indivíduo morre, o primeiro filho dele (dependendo da <link=""succession"">regra de sucessão</link> aplicável) herda os bens e a <link=""claims"">autoridade</link>. Ele também herda as <link=""morality"">queixas</link> e a responsabilidade pelos <link=""morality"">crimes</link>. Se uma criança herda uma posição de poder que ainda é jovem demais para ocupar, um <link=""head"">chefe</link> interino é temporariamente nomeado até ela atingir a maioridade. Você pode ver a linha de sucessão de qualquer <link=""house"">casa</link> ou <link=""colony"">colônia</link> focando nela.
+
+Se um <link=""head"">barão</link> falecido não tem herdeiro natural, cabe ao <link=""head"">duque</link> da <link=""faction"">facção</link> dele nomear um novo. Se um duque ou arconte falecido não tem herdeiro natural, o vassalo mais antigo dele assume o <link=""domain"">domínio</link>.
+
+Se um duque ou arconte herda uma facção, as duas facções se fundem sob a bandeira da de ranking mais alto. Se um barão herda uma facção, a <link=""colony"">colônia</link> dele vira o sistema capital dessa facção. Se um barão herda uma facção, ou um duque <link=""vassalage"">vassalo</link> herda uma facção mestre, ele deixa de ser vassalo do antigo mestre sem conflito ou desonra.
+
+Uma <link=""league"">liga</link> é herdada se a facção mestre dela for herdada.
+
+Se um duque ou arconte herda uma colônia, essa colônia vira parte da facção dele. Se um barão herda uma colônia, ele precisa escolher uma personagem que virará o novo barão dela, já que não pode governar pessoalmente ambas as colônias.
+
+Quando um nobre herda uma colônia ou facção, a casa dele toma aquele território e se funde com a casa anterior que o governava. Quando um governante herda uma casa nobre, essa casa é fundida na dele.",,
+Link.housesizelimit,Limite de Tamanho da Casa,,"A humanidade carece do conhecimento para construir novas <link=""colony"">colônias</link> ou expandir significativamente as existentes, então existe um limite de quantas pessoas podem ser suportadas. Isto criou uma enorme pressão social para limitar o crescimento populacional e o consumo excessivo dos recursos da colônia.
+
+Como <link=""head"">chefe</link> de uma <link=""house"">casa</link>, você deve limitar os membros dela. O tamanho máximo considerado justo depende da sua <link=""houseincome"">renda</link> bruta. O limite aparece quando você foca na sua casa (mostrado como ""Membros: X/Y""). Passar o cursor mostra a relação com a sua renda.
+
+Você limita o tamanho da sua casa gerenciando o número de <link=""marriage"">casamentos</link> e filhos que os membros da casa têm. Cada casal pode ter um único filho, mas precisa da sua permissão para ter mais.",,
+Link.domain,Domínio,,"O domínio de uma <link=""house"">casa</link> é a região que ela controla, ou seja, o domínio de;
+- uma casa governante é a <link=""colony"">colônia</link>
+- uma casa líder é a <link=""faction"">facção</link>
+- uma casa grande é a <link=""league"">liga</link>
+
+Veja <link=""vassalage"">Vassalagem</link> para uma representação visual da hierarquia política.
+
+Para facilitar a navegação, quando você clica na bandeira de uma casa líder ou grande, são mostradas informações sobre o domínio dessa casa (ou seja, a facção ou liga dela) além das informações sobre a casa.",,
+Link.vassalage,Vassalagem,,"A relação entre governantes na <link=""map"">galáxia</link> é de vassalagem; um sistema de obrigações mútuas entre o mestre e o súdito. O mestre oferece proteção e <link=""morality"">justiça</link>, enquanto o súdito oferece apoio <link=""fleet"">militar</link> e <link=""tax"">econômico</link>.
+
+Numa <link=""faction"">facção</link>, um duque tem barões como vassalos. Cada barão paga um <link=""tax"">imposto</link> ao duque, e deve trazer a frota militar quando convocado.
+
+O barão por sua vez tem os próprios vassalos; os nobres que controlam a <link=""colony"">colônia</link>. Assim, quando um duque vai à guerra, a frota dele é composta das naves de todas as casas de todas as colônias da facção.
+
+Um duque pode ser independente, mas também pode ser vassalo de um arconte. Arcontes governam <link=""league"">ligas</link> de facções, e ficam no topo da hierarquia política.
+
+Vassalos desfrutam de autonomia considerável, em grande parte por causa das distâncias entre colônias.  Como resultado, até casas poderosas têm ferramentas limitadas para controlar diretamente os súditos, e manter unida uma facção ou liga grande pode ser mais desafiador do que conquistá-la.
+
+Quando um governante se submete voluntariamente a virar vassalo de outro, quaisquer <link=""morality"">queixas</link> entre eles são esquecidas.
+
+Note que nem todos os governantes dentro do território de outro governante são vassalos <i>diretos</i> dele. Os barões vassalos de um duque que é vassalo de um arconte são vassalos <i>indiretos</i> do arconte. Salvo indicação, ""vassalo"" significa ""vassalo direto"".",formvassal,rulerhierarchy
+Link.tax,Tributação,,"O imposto é a principal fonte de <link=""houseincome"">renda</link> para <link=""head"">duques</link> e <link=""head"">arcontes</link>. Cada <link=""vassalage"">vassalo</link> direto de uma casa presta tributo à casa mestra.
+
+Há três níveis de imposto que você pode definir nos seus vassalos governantes; Baixo (<v>10%</v>), Médio (<v>20%</v>) ou Alto (<v>30%</v>). Nos níveis Baixo e Alto de imposto, os seus vassalos terão um <link=""opinion"">bônus</link> ou penalidade de opinião, respectivamente.
+
+Você pode aumentar o valor do imposto recebido de um vassalo específico, sem afetar negativamente a opinião dele sobre você, usando a <link=""assignments"">designação</link> <link=""administration"">Assistir Coleta de Impostos</link>.",,
+Link.fleet,Frotas Militares,,"Cada <link=""house"">casa</link> deriva o poder da força militar que pode empregar para proteger o <link=""domain"">território</link> dela ou ameaçar os rivais.
+
+Cada casa mantém alguma forma de frota privada. Uma casa <link=""vassalage"">vassala</link> é obrigada a participar das aventuras militares do mestre. Assim, embora um <link=""head"">barão</link> possa ter uma pequena frota pessoal, ele pode comandar uma frota das naves militares combinadas da <link=""colony"">colônia</link> dele quando precisar defendê-la ou atender a um chamado às armas do mestre. Do mesmo modo, um <link=""head"">duque</link> pode comandar as frotas combinadas da <link=""faction"">facção</link> dele, e um <link=""head"">arconte</link> pode comandar as frotas combinadas da <link=""league"">liga</link> dele.
+
+Na prática, quando você ataca ou defende um local específico, só convocará os vassalos próximos a esse local, pois só eles conseguem contribuir com uma porção significativa da frota. Se você clicar ou passar o cursor sobre um sistema estelar no mapa, verá o tamanho da frota combinada que pode empregar naquele local se todos os vassalos no alcance atenderem ao chamado.
+
+A seu favor, as casas numa colônia são motivadas a construir e manter a maior frota privada que puderem para se defender. A frota de uma colônia é construída com retornos decrescentes, ou seja, conforme a frota cresce, ela cresce mais devagar. Há um tamanho máximo de frota que uma colônia pode sustentar, diretamente ligado à quantidade de <h>Riqueza</h> gerada pelas <link=""installation"">instalações</link> dela. Uma colônia tem uma <link=""fleetcomposition"">composição</link> natural de frota baseada nas instalações de produção sobreviventes disponíveis.
+
+Como governante, você gerencia a frota combinada do <link=""domain"">domínio</link> indiretamente;
+- Você pode acelerar a construção de frota numa colônia específica usando a <link=""assignments"">designação</link> <link=""administration"">Reconstruir Frota</link>.
+- Você pode aumentar o tamanho máximo da frota de uma colônia reparando instalações que geram <h>Riqueza</h>.
+- Você pode gradualmente alterar a composição da frota que as casas de uma colônia específica constroem e mantêm usando a designação <link=""technology"">Mudar Composição da Frota</link>.",,
+Link.vassallimit,Limite de Vassalos,,"Há um limite para quantos <link=""vassalage"">vassalos</link> você pode ter sem penalidade. Ele aparece para a sua <link=""house"">casa</link> na barra inferior, à direita do retrato do seu personagem. O limite é calculado como a soma dos seguintes fatores:
+- Valor Base de <v>3</v>
+- A pontuação da sua casa em <link=""administration"">Administração</link> (<pv>+1</pv> para cada <v>50</v> pontos)
+- A pontuação da sua casa em <link=""technology"">Tecnologia</link> (<pv>+1</pv> para cada <v>75</v> pontos)
+- A <link=""houseincome"">renda bruta</link> da sua casa (<pv>+1</pv> para cada <v>20</v><#dcab00><sprite name=""icon_money"" tint=1></color>)
+- Usar a <link=""assignments"">designação</link> <link=""technology"">Monitorar Vassalos</link> (<pv>+1</pv> a <pv>+3</pv> conforme a eficácia)
+- Bônus fornecidos por algumas <link=""installation"">instalações</link>, se estiverem ao alcance do seu sistema natal
+
+Quando a sua casa tem vassalos demais, você sofre duas penalidades;
+- A sua renda bruta é reduzida por uma fração igual ao número de vassalos excedentes dividido pelo limite de vassalos, por exemplo, se você tem <v>7</v> vassalos contra um limite de <v>5</v>, a sua renda bruta é reduzida por (<v>7</v>-<v>5</v>)/<v>5</v> = <v>2</v>/<v>5</v>.
+- O seu <link=""ap"">PA</link> é reduzido pelo número de vassalos excedentes
+
+Se você é um <link=""head"">arconte</link>, pode reduzir os seus vassalos diretos transferindo o controle de barões para os seus duques vassalos. Se você é um duque independente, pode <link=""formvassal"">formar uma facção vassala</link> dentro do seu território, e transferir o controle de barões para o novo duque vassalo. Se você é um duque vassalo, não pode reduzir os vassalos diretos sem reduzir o tamanho do território. Em último caso, você pode conceder independência a um vassalo.",,
+Link.ap,Pontos de Ação (PA),,"Cada personagem recebe <v>12</v> Pontos de Ação (PA) por turno, o que representa o tempo disponível para focar em diferentes atividades. Ações geralmente custam alguns PA para disparar, e você não consegue mais agir eficazmente quando fica sem PA.
+
+Há modificadores padrão de PA por turno:
+- <nv>-4</nv> a <pv>+4</pv> com base na sua <link=""happiness"">felicidade</link> no fim do último turno.
+- Se você tiver vassalos <link=""vassallimit"">demais</link>, perde <nv>-1</nv> PA por cada vassalo acima do limite.
+
+No fim do turno, qualquer PA não usado é convertido em renda para a sua casa. Cada ponto de PA não usado é convertido em 0.5<#dcab00><sprite name=""icon_money"" tint=1></color>.
+
+<b>Nota Importante</b>: Não sinta que precisa gastar todos os seus PA. O PA atua como limite do quanto você pode fazer num único turno, mas haverá turnos (especialmente quando o seu império é pequeno) nos quais não há muito que você possa fazer para melhorar significativamente a sua posição. Fique à espreita, e ataque quando uma oportunidade surgir.",,
+Link.happiness,Felicidade,,"O jogo rastreia o humor geral de cada personagem, que muda com base nos seguintes fatores;
+- Os eventos que acontecem diretamente com esse personagem
+- As circunstâncias contínuas que fazem parte da vida desse personagem
+- As circunstâncias contínuas ou eventos que acontecem com outros personagens de que ele gosta
+
+Personagens diferentes reagirão com mais ou menos força ao mesmo evento com base nos <link=""traits"">traços</link> deles. Por exemplo, um <link=""head"">governante</link> covarde reagirá mais negativamente a ser atacado.
+
+Você pode examinar as razões pelas quais um personagem específico está feliz focando nesse personagem. Note que o valor geral (numa escala de <nv>-100</nv> a <pv>100</pv>) não é uma soma simples da contribuição de cada razão. Conforme um personagem fica significativamente feliz ou infeliz, cada fonte de felicidade tem efeito progressivamente menor (ou seja, tem retornos decrescentes).
+
+Quando você está feliz;
+- As pessoas gostam mais de você
+- Você melhora as <link=""skill"">habilidades</link> mais rápido
+- Você ganha um bônus de <link=""ap"">PA</link>
+- Você ganha um bônus nas <link=""houseareas"">pontuações de capacidade</link> da <link=""house"">casa</link>
+
+Por outro lado, quando você está infeliz, sofre uma penalidade nessas áreas.",opinion,
+Link.houseareas,Áreas da Casa,,"As atividades que uma <link=""house"">casa</link> realiza são divididas em cinco áreas;
+- <link=""administration"">Administração</link>
+- <link=""military"">Guerra</link>
+- <link=""diplomacy"">Diplomacia</link>
+- <link=""security"">Segurança</link>
+- <link=""technology"">Tecnologia</link>
+
+Para cada área, um membro é nomeado <link=""councilmember"">membro do conselho</link> responsável por essa área.
+
+Para a sua casa, a aba Membros da Casa da interface mostra o conselheiro designado e a pontuação da casa em cada área. A pontuação de uma área determina a força de um conjunto de efeitos passivos. Ela se baseia em;
+- As suas <link=""skill"">habilidades</link>
+- As habilidades do <link=""councilmember"">membro do conselho</link> relevante
+- A sua <link=""happiness"">felicidade</link>
+- A felicidade do membro do conselho
+- A <link=""opinion"">opinião</link> do membro do conselho sobre você
+
+Passe o cursor sobre o valor para ver mais detalhes.",,
+Link.morality,Justiça,,"O sistema legal formal das <link=""colony"">colônias</link> morreu no <link=""collapse"">Colapso</link>, mas o comportamento social e político ainda é limitado por um conjunto de normas amplamente aceitas que evoluíram para limitar a agressão e o abuso de poder.
+
+Quando você transgride essas normas, comete um <i>crime</i> e perde <link=""opinion"">honra</link>. Por outro lado, se você vai além do esperado para ajudar o próximo, ganha honra.  
+
+A vítima de um crime fica com uma <i>queixa</i> contra o criminoso. Se ela então agir de uma forma que normalmente seria considerada desonrosa contra o criminoso, é vista como <link=""punishment"">buscando vingança justificada</link>, e não perderá honra enquanto a vingança for proporcional. Por exemplo, executar alguém normalmente é comportamento desonroso, mas você estará justificado em executar um nobre que se rebelou contra você. 
+
+Queixas são esquecidas com o tempo; por quanto tempo depende da gravidade do crime. Enquanto persistem, são <link=""inheritance"">herdadas</link>.
+
+O <link=""head"">chefe interino</link> de uma <link=""house"">casa</link> pode buscar vingança por crimes cometidos contra o chefe legal da casa. Pais podem buscar vingança por crimes cometidos contra os filhos menores, se esses filhos forem membros da mesma casa.
+
+Cometer um crime contra alguém que lhe deve um <link=""favour"">favor</link> o libera da obrigação desse favor.
+
+Você pode tentar incriminar alguém por comportamento desonroso usando a <link=""assignments"">designação</link> <link=""diplomacy"">Difamar</link>.
+
+<b>Ações Judiciais</b>
+
+Se um indivíduo lesa alguém que não pode buscar vingança diretamente, e os crimes são suficientemente graves, a vítima pode exigir justiça de um <link=""head"">governante</link>. O governante a quem a acusação é feita depende das relações sociais e políticas entre a vítima e o criminoso, e da natureza do crime. Pode ser;
+- O <link=""vassalage"">mestre</link> da vítima
+- O mestre do criminoso
+- Um parente da vítima que seja governante
+
+Se um personagem viesse a você para exigir justiça por uma queixa específica, você pode se aproximar preventivamente e se oferecer para vingá-la. Isto é útil se você quiser agir contra um personagem sob o pretexto de retidão.
+
+Se você é acusado, pode então punir o criminoso ou acusar outro governante que esteja em melhor posição de punir. Dependendo da gravidade dos crimes e da relação com a vítima; você pode estar vinculado pela honra a buscar vingança em <v>2</v> turnos, a menos que uma <link=""war"">guerra</link> os impeça. Esta informação aparece no Painel de Justiça ao focar em si mesmo.
+
+Vingar um crime particularmente grave melhora a sua reputação.
+
+Se as relações sociais e políticas relevantes mudarem, e o governante a quem a acusação deveria ser feita mudar, a acusação original é invalidada, e esse governante não pode mais vingar os crimes. Se um governante é acusado mas falha em vingar o crime, não pode ser acusado de novo até que passem vários anos.",punishment,
+Link.administration,Administração,,"A função administrativa de uma <link=""house"">casa governante</link> gerencia a logística dentro do <link=""domain"">domínio</link>, supervisiona a <link=""colony"">colônia</link>, e <link=""tax"">coleta impostos</link>.
+
+<b>Efeitos Passivos</b>
+- Aumenta a sua <link=""houseincome"">renda</link>
+- Aumenta o número de <link=""vassalage"">vassalos</link> que você pode ter
+
+A força desses efeitos é proporcional à <link=""houseareas"">pontuação</link> da casa em Administração.
+
+<b><link=""assignments"">Designações</link></b>
+- <i>Assistir Coleta de Impostos</i>: Aumenta o valor do imposto coletado de um governante vassalo.
+- <i>Reparar Instalação</i>: Repara uma <link=""installation"">instalação</link> numa colônia para gerar os benefícios dela.
+- <i>Reconstruir Colônia</i>: Repara uma <link=""damagedcolony"">colônia abandonada</link>, repovoa-a e a torna parte da sua <link=""faction"">facção</link>.
+- <i>Reconstruir Frota</i>: Aumenta a taxa na qual a <link=""fleet"">frota</link> de uma colônia alcança o tamanho máximo.",skill,
+Link.military,Guerra,,"A raiz do poder de uma <link=""house"">casa</link> é a capacidade de empregar força militar quando necessário. A equipe militar de uma casa é responsável por preparar a frota da casa, treinar a tropa, e por coordenar e liderar frotas <link=""vassalage"">vassalas</link> quando convocadas à guerra.
+
+<b>Efeitos Passivos</b>
+- Fornece um bônus de força à sua <link=""fleet"">frota</link> combinada em <link=""combat"">combates</link> liderados pela sua casa
+- Fornece um bônus de força à frota do seu sistema natal em combate, seja você o líder da frota ou um participante
+
+A força desses efeitos é proporcional à <link=""houseareas"">pontuação</link> da casa em Guerra.
+
+<b><link=""assignments"">Designações</link></b>
+- <i>Melhorar Defesa</i>: Dá um bônus de defesa à sua frota num local específico.
+- <i>Melhorar Ataque</i>: Dá um bônus de ataque à sua frota num local específico. Leva tempo para escalar.
+- <i>Esconder Movimentos da Frota</i>: Melhora as suas chances de manter <link=""combat"">surpresa</link> quando um vassalo específico entra na sua frota.
+- <i>Abafar Agitação</i>: Reduz a chance de uma <link=""systemrebellion"">rebelião de sistema</link> na sua colônia.",skill,
+Link.diplomacy,Diplomacia,,"A espinha dorsal do seu poder é o seu <link=""fleet"">poderio</link> militar. Mas acima dessa base, o poder está no jogo de política entre <link=""house"">casas</link>. A sua equipe de diplomacia é responsável por apresentar as atividades da sua casa sob a melhor luz possível, divulgando propaganda sobre você e suas ações que aumenta a sua <link=""opinion"">popularidade</link>.
+
+<b>Efeitos Passivos</b>
+- Dá um modificador de opinião bônus na opinião de todos sobre você, particularmente os seus <link=""vassalage"">vassalos</link> governantes.
+- Dá um modificador de opinião bônus na opinião de todos sobre os membros da sua casa.
+
+A força desses efeitos é proporcional à <link=""houseareas"">pontuação</link> da casa em Diplomacia.
+
+<b><link=""assignments"">Designações</link></b>
+- <i>Melhorar Relações</i>: Aumenta gradualmente a opinião de um personagem sobre você.
+- <i>Difamar</i>: Incrimina um personagem por comportamento <link=""morality"">desonroso</link> que não cometeu.
+- <i>Espalhar Dissidência</i>: Atiça as chamas da <link=""systemrebellion"">rebelião</link> numa <link=""colony"">colônia</link>.
+- <i>Adquirir Reivindicação</i>: Convence o público de que a sua <link=""faction"">facção</link> tem uma <link=""claims"">reivindicação</link> de posse sobre uma colônia específica.",skill,
+Link.security,Segurança,,"A equipe de segurança de uma <link=""house"">casa</link> é responsável por manter os membros a salvo, e por descobrir informações que a casa pode usar a seu favor.
+
+<b>Efeitos Passivos</b>
+- Fornece uma chance de descobrir <link=""secret"">segredos</link> envolvendo o seu <link=""colony"">sistema capital</link> e os personagens nele, inclusive visitantes.
+- Reduz a eficácia das designações estrangeiras de Assassinar, <link=""diplomacy"">Difamar</link>, Espalhar Dissidência e Rede de Espiões contra a sua casa.
+
+A força desses efeitos é proporcional à <link=""houseareas"">pontuação</link> da casa em Segurança.
+
+<b><link=""assignments"">Designações</link></b>
+- <i>Assassinar</i>: Mata um personagem em segredo.
+- <i>Proteger</i>: Torna um personagem mais difícil de Assassinar.
+- <i>Abafar Segredo</i>: Torna gradualmente um segredo mais difícil de descobrir.
+- <i>Rede de Espiões</i>: Descobre segredos, reduz a <link=""combat"">surpresa</link> de ataque inimiga e combate redes de espionagem inimigas.",skill,
+Link.technology,Tecnologia,,"A equipe de tecnologia de uma casa é responsável por manter o nosso conhecimento de como usar as máquinas e aparelhos que restaram de antes do <link=""collapse"">Colapso</link>, e por investigar e adquirir quaisquer outros que possamos encontrar em colônias arruinadas e outras instalações esquecidas.
+
+<b>Efeitos Passivos</b>
+- Determina a taxa na qual os <link=""expeditionevents"">Eventos de Expedição</link> disparam
+- Reduz a chance de <link=""health"">doença</link>, e aumenta a chance de recuperação de doença
+- Reduz a chance de desfechos ruins no parto
+- Aumenta a taxa de acúmulo de habilidades pelos membros da casa
+- Aumenta o número máximo de vassalos que a casa pode ter
+
+A força desses efeitos é proporcional à <link=""houseareas"">pontuação</link> da casa em Tecnologia.
+
+<b><link=""assignments"">Designações</link></b>
+- <i>Oferecer Atendimento Médico</i>: Melhora os desfechos de saúde de um personagem. Aumenta a probabilidade de ter um filho.
+- <i>Treinar</i>: Aumenta uma habilidade de um personagem.
+- <i>Mudar Composição da Frota</i>: Muda gradualmente a composição da frota mantida por uma colônia específica.
+- <i>Monitorar Vassalos</i>: Aumenta o número de vassalos diretos que você pode gerenciar.",skill,
+Link.health,Saúde,,"O cuidado médico nas colônias é precário. O conhecimento de biologia e anatomia na população é inexistente. Patógenos evoluíram para os quais não temos drogas sintetizáveis. Superlotação, higiene ruim, dieta ruim e condições de vida anormais contribuem para altas taxas de doença e saúde ruim, ao menos dentro da população geral.
+
+Personagens <i>doentes</i> podem continuar realizando a maioria das tarefas, mas têm um modificador de <nv>-50%</nv> nas habilidades. Um personagem doente que melhora pode permanecer <i>doentio</i>. Personagens doentios adoecem e têm desfechos de saúde negativos com mais frequência.
+
+A probabilidade de um membro da sua <link=""house"">casa</link> adoecer, ou melhorar quando está doente, depende geralmente da pontuação de <link=""technology"">tecnologia</link> da sua casa. Você também pode usar a <link=""assignments"">designação</link> Cuidado Médico para proteger a saúde de membros específicos da sua casa.",,
+Link.opinion,Opinião e Reputação,,"O jogo rastreia a opinião que cada personagem tem de cada outro personagem de que ele está <link=""visibility"">ciente</link>. Essa opinião se baseia principalmente em se;
+- o personagem gosta da personalidade do outro personagem
+- o outro personagem se comportou de forma <link=""morality"">honrosa</link>
+- o outro personagem ganhou <i>respeito</i>, ou seja, se demonstrou força ou fraqueza
+- o outro personagem fez coisas que ajudaram ou prejudicaram este
+- o outro personagem fez coisas que ajudaram ou prejudicaram os amigos ou inimigos deste
+
+Personagens formarão opiniões mais fortes ou mais fracas sobre o mesmo evento com base nos <link=""traits"">traços</link> deles. Por exemplo, personagens honrosos desaprovarão mais fortemente comportamento desonroso. Opiniões baseadas em eventos desaparecem com o tempo.
+
+Abaixo dos retratos dos personagens há uma barra que mostra a opinião que aquele personagem tem do personagem sobre o qual você está passando o cursor. Se você não estiver passando o cursor sobre outro personagem, a opinião mostrada será do personagem no primeiro slot da <link=""quickbar"">barra rápida</link>. Este é o personagem de <i>contraste</i>. Se não houver personagem de contraste, e você não estiver passando o cursor sobre outro personagem, será mostrada a opinião do personagem sobre você.
+
+Para ver a razão detalhada por trás da opinião, foque no personagem cujas opiniões você quer ver, e a primeira aba (Sentimentos) conterá uma lista completa das opiniões que aquele personagem tem do outro.
+
+A opinião de um personagem sobre outro é parcialmente pessoal, ou seja, formada por ações que afetaram este ou os pares dele. Mas também inclui um conjunto de opiniões comuns amplamente sustentadas sobre aquele personagem. Essas opiniões são a <i>reputação</i> daquele personagem, e correspondem aos três primeiros itens da lista acima. Você pode ver a reputação de um personagem clicando nele.
+
+Você pode melhorar a opinião de um personagem sobre você agindo mais favoravelmente com ele e com quem ele ama, ou aumentando a sua reputação. Se ele não for membro da sua casa, você também pode usar a <link=""assignments"">designação</link> <link=""diplomacy"">Melhorar Relações</link>.",happiness,
+Link.councilmember,Membro do Conselho,,"O <link=""head"">chefe</link> de uma <link=""house"">casa</link> tem um conselho, no qual se sentam os membros da casa responsáveis pelas cinco <link=""houseareas"">áreas da casa</link>. A pontuação da casa em cada área se baseia principalmente no membro do conselho designado àquela área, então você normalmente vai querer o seu membro mais capaz de cada área no conselho.
+
+Colocar alguém no conselho é um privilégio permanente, e é <link=""morality"">desonroso</link> substituí-lo. Além disso, você é vinculado pela honra a designar uma das posições do conselho ao seu <link=""marriage"">cônjuge</link>.",,
+Link.skill,Habilidades,,"Cada personagem tem um nível de habilidade em cinco habilidades diferentes, cada uma correspondente a uma <link=""houseareas"">área</link> da casa:
+- <link=""administration"">Administração</link>
+- <link=""military"">Guerra</link>
+- <link=""diplomacy"">Diplomacia</link>
+- <link=""security"">Segurança</link>
+- <link=""technology"">Tecnologia</link>
+
+A habilidade de um personagem determina a eficácia dele ao realizar <link=""assignments"">designações</link>, e o quanto ele contribui para a pontuação da casa numa área se for nomeado ao <link=""councilmember"">conselho</link>.
+
+Crianças melhoram gradualmente nas habilidades em que se interessam até atingirem a maioridade. Crianças que receberam um <link=""guardianship"">guardião</link> melhoram mais rápido nas habilidades primárias do guardião. Depois de virar adulto, as habilidades de um personagem podem ser melhoradas das seguintes formas:
+- Realizando uma <link=""assignments"">designação</link>
+- Usando a designação <link=""technology"">Treinar</link>
+- O <link=""head"">chefe</link> de uma casa melhora lentamente as habilidades dele em todas as áreas",,
+Link.marriage,Casamento,,"O casamento é uma das instituições mais importantes da cultura pós-<link=""collapse"">Colapso</link>, por dois motivos;
+- Agir de má-fé com os próprios parentes é <link=""opinion"">desonroso</link>. Casar-se com uma família é um bom jeito de desestimulá-la a te ver como alvo militar. Em geral, um <link=""morality"">crime</link> contra um membro da família é considerado um crime mais hediondo. Parentes também são obrigados a defender uns aos outros de <link=""combat"">agressão</link>.
+- Como o poder legítimo só pode ser transferido via <link=""inheritance"">herança</link>, o casamento é uma das formas-chave pelas quais uma <link=""house"">casa</link> ou indivíduo ambicioso pode ganhar poder.
+
+O seu casamento é uma fonte contínua de <link=""happiness"">felicidade</link> ou infelicidade para o seu personagem, dependendo do quanto você gosta do seu cônjuge e se ele está longe do seu <link=""colony"">sistema natal</link>.
+
+Como o casamento é valioso para formar alianças entre a nobreza (e manter a paz), dissolver um casamento por divórcio normalmente é desonroso.
+
+Quando dois membros de casas diferentes se casam, o parceiro de menor importância vira membro da casa do parceiro mais importante. O parceiro mais importante é determinado pela primeira regra relevante;
+- o personagem mais alto numa <link=""inheritance"">linha de sucessão</link> para virar <link=""head"">governante</link>
+- o personagem que deve herdar uma casa de ranking mais alto
+- o personagem mais velho
+
+Se dois governantes se casam, eles permanecem chefes das respectivas casas e vivem separados.
+
+O cônjuge de um governante tem direitos em virtude da posição. Se um <link=""head"">chefe</link> interino precisar assumir as rédeas temporariamente, ele normalmente é o escolhido. O governante também é vinculado pela honra a colocá-lo no <link=""councilmember"">conselho</link>.
+
+Personagens não são livres para arranjar os próprios casamentos. Em vez disso, para cada personagem há uma <link=""marriageauthority"">autoridade de casamento</link> que pode casá-lo ou divorciar o casamento dele.",marriageauthority,
+Link.codex,Códice,,"Bem-vindo ao Códice de Star Dynasties!
+
+Esta é uma biblioteca de informações sobre o cenário e as regras do jogo Star Dynasties.  Use a lista à esquerda para navegar até o tópico da escolha, ou clique nos tópicos destacados no texto. 
+
+Estes tópicos ajudarão você a entender o cenário:
+- <link=""collapse"">O Colapso</link>
+- <link=""colony"">Colônias</link>
+- <link=""house"">Casas</link>
+- <link=""faction"">Facções</link>
+
+Estes tópicos ajudarão você a entender as mecânicas centrais do jogo:
+- <link=""vassalage"">Vassalagem</link>
+- <link=""opinion"">Opinião e Reputação</link>
+- <link=""morality"">Justiça</link>
+- <link=""assignments"">Designações</link>
+- <link=""combat"">Combate</link>",,
+Link.claims,Reivindicações,,"Quando a estrutura de poder de uma região está estável por muito tempo, ela passa a ser vista como a estrutura legítima daquela região. Agressão destinada a usurpá-la ou conquistá-la dos seus mestres é vista como mais <link=""morality"">desonrosa</link>, já que eles têm uma reivindicação legítima àquela região.
+
+Uma reivindicação pode ser crível (fraca) ou legítima (forte).
+
+Há os seguintes tipos de reivindicação;
+- Um personagem pode ter uma reivindicação a governar uma <link=""colony"">colônia</link>
+- Um personagem pode ter uma reivindicação a governar uma <link=""faction"">facção</link>
+- Uma facção pode ter uma reivindicação a possuir uma colônia
+- Uma facção pode ter uma reivindicação a ter outra facção como <link=""vassalage"">vassala</link>
+
+Reivindicações de personagens são <link=""inheritance"">herdadas</link>.
+
+Uma reivindicação não exercida desaparece com o tempo. Personagens que têm uma reivindicação, mas que não estão no poder, passam uma versão mais fraca da reivindicação (ou nenhuma) aos filhos. Facções que não possuem mais as colônias ou facções vassalas que reivindicam perdem essas reivindicações com o tempo.
+
+Reivindicações de facções a possuir colônias podem ser adquiridas usando a <link=""assignments"">designação</link> <link=""diplomacy"">Adquirir Reivindicação</link>.",championing,
+Link.championing,Defender Reivindicações,,"Você <i>defende</i> uma <link=""claims"">reivindicação</link> ajudando um reivindicante (potencialmente você mesmo) a ganhar a autoridade legítima dele. Defender uma reivindicação justifica agressão que normalmente é um <link=""morality"">crime</link>. Se você ajuda outra pessoa a defender uma reivindicação, está <i>defendendo-a em nome dela</i>. 
+
+Você está sempre justificado em tentar defender as próprias reivindicações, mesmo se falhar várias vezes.  Porém, você não pode apadrinhar repetidamente a reivindicação de outro até que passe algum tempo.
+
+Reivindicações podem ser defendidas diretamente das seguintes formas;
+- Um <link=""head"">duque</link> ou <link=""head"">arconte</link> pode defender a reivindicação de um personagem a ser o <link=""head"">governante</link> de uma das <link=""vassalage"">vassalas</link> <link=""colony"">colônias</link> da <link=""faction"">facção</link> dele <link=""depose"">depondo</link> o governante atual da colônia e substituindo-o
+- Um arconte pode defender a reivindicação de um personagem a ser o governante de uma das facções vassalas dele depondo o governante atual da facção e substituindo-o
+- Um duque ou arconte pode defender a reivindicação de um personagem a governar uma facção morta <link=""formvassal"">ressuscitando essa facção</link> dentro do território dele, se parte dela for reivindicada pela facção morta
+- Um duque ou arconte pode defender a reivindicação de um personagem a governar uma facção estrangeira ou a capital dela declarando <link=""war"">guerra</link>
+- Um duque ou arconte pode defender a reivindicação de uma facção a possuir uma das colônias vassalas <link=""give"">transferindo a posse</link> da colônia para essa facção
+- Um duque ou arconte pode defender a reivindicação de uma facção a possuir o sistema capital <link=""surrender"">rendendo</link> a posse da facção
+- Um duque pode defender a reivindicação de uma facção independente a ser a mestra da facção dele virando vassalo dela
+- Um duque vassalo pode defender a reivindicação de uma facção independente a ser a mestra da facção dele <link=""rebellionbetrayal"">traindo</link> o mestre atual e trocando de lealdade
+- Um arconte pode defender a reivindicação de uma facção independente a ser a mestra de uma das facções vassalas transferindo a posse da facção vassala para essa facção
+- Um governante pode defender várias reivindicações dentro do território do mestre <link=""rebellionbetrayal"">rebelando-se</link> contra ele
+
+Você só pode apadrinhar a reivindicação de um súdito direto.
+
+Se um governante não pode defender uma reivindicação diretamente, ainda pode apadrinhá-la. Se a reivindicação se refere a algo fora do território dele, ele a apadrinha fazendo uma exigência ao governante em cujo território ela reside. Se a reivindicação se refere a algo dentro do território dele, ele a apadrinha fazendo uma exigência ao vassalo que pode defendê-la ou apadrinhá-la por sua vez.
+
+Quando um governante faz uma exigência a outro governante para defender ou apadrinhar uma reivindicação, a consequência da recusa é sempre guerra ou rebelião.",,
+Link.combat,Combate,,"Quando a violência irrompe entre duas <link=""house"">casas</link>, normalmente ela é resolvida por uma batalha entre as <link=""fleet"">frotas</link> combinadas que essas casas conseguem reunir.
+
+<b><link=""fleetassignment"">Designando um Comandante</link></b>
+
+A sua primeira decisão ao se engajar num combate é escolher o comandante que liderará o combate. Comandantes têm um nível de <link=""skill"">habilidade</link> e diferentes <link=""combattactic"">táticas</link> que trazem ao engajamento. Você não pode usar um comandante em vários locais no mesmo turno, a menos que esses locais sejam <link=""map"">próximos</link>. Se ninguém estiver disponível para comandar a frota, você não pode lutar.
+
+<b>Acumulação</b>
+
+Você e o oponente construirão progressivamente as frotas para o engajamento. Em cada turno você escolherá o <link=""head"">governante</link> de uma <link=""colony"">colônia</link> dentro do alcance do local de combate e pedirá o apoio dele. Governantes diferentes têm <link=""morality"">obrigações</link> diferentes de ajudar você;
+- <link=""vassalage"">Vassalos</link> são vinculados pela honra a atender ao chamado às armas do mestre
+- Um mestre é vinculado pela honra a defender um vassalo quando ele é atacado por alguém que não é também vassalo dele
+- Um vassalo é obrigado a não apoiar o lado contra o qual o mestre dele luta, e vice-versa
+- Se um <link=""head"">duque</link> ou <link=""head"">arconte</link> oferece o apoio, os vassalos dele ficam obrigados a oferecer o apoio se solicitados
+- Os parentes do defensor normalmente têm a obrigação de ajudá-lo
+
+Ambos os lados podem tentar fechar acordos para trazer um partido neutro para o próprio lado, e pagar mercenários para reforçar as frotas.
+
+Quanto mais perto a colônia de um governante estiver do local de combate, mais do poderio militar dele ele pode fornecer. Você ainda pode pedir apoio de governantes fora do alcance de combate se eles tiverem vassalos dentro do alcance, pois o apoio desse governante obrigará os vassalos dele a ajudá-lo. Para fornecer o poderio militar, um governante também precisa de um caminho pelo qual possa alcançar o local de combate através do seu território, ou do território de governantes que concordaram em apoiá-lo. Cada governante que entra no combate nomeia um comandante responsável pela sub-frota da colônia dele.
+
+O atacante deve pagar <link=""ap"">PA</link> por cada ação que tomar durante a acumulação. A acumulação termina quando ele escolhe lançar o ataque, porém o defensor ganha <v>4</v> ações adicionais neste ponto.
+
+O atacante pode escolher recuar do ataque. O defensor pode tentar negociar esse recuo.
+
+<b>Surpresa</b>
+
+Quando um atacante começa a acumulação de combate, normalmente começa com o elemento surpresa. Enquanto tem surpresa, ele pede aos governantes que entrem na frota sem que o defensor aja no turno, reduzindo assim o número de ações de acumulação do defensor.
+ 
+A surpresa pode ser perdida de duas formas;
+- Um governante de quem você pede apoio trai o ataque ao defensor. Você pode minimizar o risco não pedindo a governantes que têm alguma lealdade ao defensor, até perder a surpresa.
+- Movimentos de frota são detectados por agentes do defensor. A chance disso acontecer cresce progressivamente para cada governante adicional que entra na sua frota. Você pode minimizar o risco usando a <link=""assignments"">designação</link> <link=""military"">Esconder Movimentos da Frota</link>. Por outro lado, pode aumentar as chances de detectar movimentos de frota inimigos usando a designação <link=""security"">Rede de Espiões</link>.
+
+<b>Resolução</b>
+
+O combate em si acontece em três rodadas. Em cada rodada;
+- Ambos os lados escolhem uma <link=""combattactic"">tática de combate</link> (em segredo), dentre as táticas ainda não usadas naquele combate (as táticas Ataque e Recuo podem sempre ser usadas).
+- Ambos os lados fazem uma rolagem de dano. Isso determina o dano base causado naquela rodada como porcentagem da força da frota.
+- Ambos os lados causam dano à frota do oponente, com base em; o tamanho da frota, a rolagem de dano, a composição relativa das frotas, e as táticas em jogo.
+
+Os comandantes designados à frota podem ser <link=""health"">feridos</link> ou mortos durante o combate. Se isso acontecer antes do fim do combate, a parte da frota pela qual o comandante é responsável fica reduzida em força pelo resto do combate.
+
+O lado vencedor é o que tem a maior frota no fim das três rodadas, ou o lado restante se o outro recuar.
+
+Você pode melhorar as chances de vitória num local específico usando as designações <link=""military"">Melhorar Defesa</link> e <link=""military"">Melhorar Ataque</link>.
+
+<b>Recuperação Pós-Combate</b>
+
+Uma pequena parte do dano infligido à frota de colônia de cada governante é reparada. O valor reparado depende da habilidade de Guerra do comandante que o governante da colônia escolheu.",,
+Link.spacetravel,Viagem Espacial,,"Mesmo antes do <link=""collapse"">Colapso</link>, não havia sido encontrada explicação satisfatória para a existência das ""rotas estelares"", grades de perturbações no espaço pelas quais naves equipadas com propulsores especializados podem viajar a grandes velocidades. A exploração inicial da galáxia pela humanidade seguiu aqueles fios que felizmente ligavam dois sistemas estelares.
+
+Apesar da existência das rotas estelares, a viagem entre <link=""colony"">colônias</link> é lenta. O melhor mensageiro de um governante pode conseguir um salto em um ou dois dias. Para as naves comerciais decadentes que transportam mercadorias, visitantes e comunicações menos importantes entre colônias, um salto levará semanas.
+
+Como resultado, colônias no mesmo território desfrutam de autonomia considerável.",,
+Link.fleetassignment,Designação de Frota,,"Quando uma <link=""house"">casa</link> monta um ataque ou defesa, um comandante de <link=""fleet"">frota</link> deve ser escolhido entre os membros da casa designados à <link=""military"">Guerra</link>. Uma operação de frota pode levar várias semanas ou meses, dado o tempo de <link=""spacetravel"">viagem</link> entre sistemas, então um comandante enviado para gerenciar uma frota numa <link=""colony"">colônia</link> só pode ser designado a operações de frota em sistemas próximos àquela colônia por um turno.",,
+Link.systemrebellion,Rebelião de Sistema,,"A agitação pode crescer numa <link=""colony"">colônia</link>. Quando atinge um limiar crítico, uma <link=""house"">casa</link> nobre lidera uma rebelião contra o <link=""head"">governante</link>. O painel Agitação Populacional rastreia as causas de insatisfação na colônia e o progresso da agitação nela.
+
+Algumas razões padrão de descontentamento são;
+- Pouco número de <link=""installation"">instalações</link> habitáveis na colônia
+- O <link=""head"">barão</link> tem uma <link=""opinion"">reputação</link> ruim
+- O <link=""head"">duque</link> da <link=""faction"">facção</link> da colônia tem reputação ruim
+- O <link=""head"">arconte</link> da liga da colônia tem reputação ruim
+- O governante não é o governante <link=""claims"">legítimo</link> da colônia
+- O sistema não é legitimamente membro da facção que o possui
+
+Casas externas podem provocar ativamente a rebelião numa colônia usando a <link=""assignments"">designação</link> <link=""diplomacy"">Espalhar Dissidência</link>. Por outro lado, a casa governante pode usar a designação <link=""military"">Abafar Agitação</link> para suprimir a dissidência.
+
+Quando uma rebelião de sistema começa, a <link=""fleet"">frota</link> da colônia é dividida entre rebeldes e lealistas e um <link=""combat"">combate</link> começa. Ambos os lados tipicamente pedirão ajuda a colônias vizinhas. A maioria das rebeliões está fadada ao fracasso, pois até casas governantes impopulares normalmente têm relações mais fortes com casas de outras colônias do que a casa nobre rebelde.
+
+Se a casa rebelde vence o combate, ela assume como a nova casa governante da colônia. Por padrão, a colônia permanece membro legítimo e <link=""vassalage"">vassala</link> da facção. Porém, uma rebelião bem-sucedida no sistema capital de uma facção dissolve a facção.
+
+Se a casa governante vence o combate, a rebelião é fracassada. Qualquer militar sobrevivente de ambos os lados é consolidado de volta na frota da colônia.",,
+Link.economy,Economia e Riqueza,,"A maioria dos habitantes das <link=""colony"">colônias</link> trabalha e vive diretamente dentro do território que a <link=""house"">casa</link> patrona controla. Pelo trabalho nas <link=""installation"">fazendas hidropônicas, minas e estaleiros</link> eles são alimentados e alojados em alojamentos apertados. Trabalhadores qualificados podem ser recompensados com melhores condições, mas poucos veem dinheiro algum.
+
+Até casas nobres realizam muito do comércio em bens ou serviços diretamente, trocando comida por minério, ou explorando qualquer tecnologia que a casa teve a sorte de terminar controlando no território dela. Porém, a necessidade universal de <i>viridium</i>, um metal raro vital para a construção e manutenção de naves, levou à adoção dele como moeda comum, facilitando o comércio de longa distância.
+
+Casas com <link=""vassalage"">vassalos</link> acompanham com atenção as atividades econômicas deles, tentando encontrar formas de melhorar a produtividade do território como um todo. Casas governantes também às vezes usam a riqueza para melhorar áreas comuns da colônia, raciocinando que o aumento de tributo com o tempo compensará a generosidade de curto prazo.",houseincome,
+Link.houseincome,Renda da Casa,,"Como <link=""head"">governante</link>, você tem duas fontes principais de renda;
+- a riqueza que você extrai da sua <link=""colony"">colônia</link>
+- os <link=""tax"">impostos</link> que você cobra dos governantes vassalos
+
+Você pode ver um detalhamento da sua renda e despesas focando na sua <link=""house"">casa</link>.
+
+Você pode melhorar a renda;
+- reparando <link=""installation"">instalações</link> na sua colônia que fornecem <h>Riqueza</h>
+- aumentando a <link=""houseareas"">pontuação</link> da sua casa em <link=""administration"">Administração</link>
+- aumentando a <link=""tax"">alíquota de imposto</link> sobre os <link=""vassalage"">governantes vassalos</link>
+- usando a <link=""assignments"">designação</link> Assistir Coleta de Impostos",economy,
+Link.damagedcolony,Colônias Abandonadas,,"<link=""house"">Casas</link> gastam energia considerável simplesmente mantendo as <link=""colony"">instalações</link> das colônias em que residem. Bases foram remendadas e remendadas de novo por centenas de anos, e decaem rapidamente sem atenção constante.
+
+Se todas as <link=""installation"">instalações</link> de uma colônia caírem em desuso, a colônia é abandonada e as casas fogem em miséria para colônias vizinhas.
+
+Um governante pode usar a <link=""assignments"">designação</link> <link=""administration"">Reconstruir Colônia</link> para reparar a instalação principal de uma colônia abandonada e repová-la.",,
+Link.feast,Banquetes,,"Quando uma <link=""house"">casa</link> é abençoada com boa fortuna, é costume que ela ofereça um banquete, convidando os <link=""vassalage"">vassalos</link> e pares das <link=""colony"">colônias</link> vizinhas. Quando uma casa não celebra os sucessos, o <link=""head"">chefe</link> perde <link=""opinion"">respeito</link>. Por outro lado, um banquete bem-sucedido pode aumentar o prestígio.
+
+Além das ocasiões especiais, <link=""head"">duques</link> e <link=""head"">arcontes</link> também podem promover um banquete em honra de alguém. Promover um banquete traz <link=""opinion"">prestígio</link> ao convidado de honra também, pelo que ele normalmente fica grato.
+
+O custo de um banquete escala com o número de governantes convidados. Dependendo da ocasião, alguns governantes esperarão um convite e ficarão irritados por serem esnobados.
+
+Um governante ou líder convidado a um banquete leva uma pequena comitiva. Com tanta nobreza se misturando, sempre há alguma intriga como resultado. O ponto alto do banquete é o <link=""tournament"">torneio</link>.",,
+Link.tournament,Torneios,,"Um elemento comum de um <link=""feast"">banquete</link> é o torneio. 
+
+Cada <link=""head"">governante</link> que participa do banquete apresentará um campeão do próprio grupo. O vencedor do torneio e o mestre dele <link=""opinion"">ganham prestígio</link>. Um governante pode participar diretamente do torneio, mas os participantes arriscam <link=""health"">lesões</link>.
+
+Em cada luta do torneio, você pode instruir o seu campeão a lutar normalmente, lutar agressivamente, ou amarelar. Lutar agressivamente aumenta a chance de vitória, mas também a de lesão. Amarelar minimiza lesões, e pode ser uma boa escolha se você não quiser irritar o oponente. Note que se ambos os participantes tentarem amarelar, você ainda pode acabar vencendo.",,
+Link.quickbar,Barra Rápida,,"No canto inferior esquerdo da interface você tem um conjunto de marcadores para personagens, sistemas estelares (ou seja, <link=""colony"">colônias</link>), e <link=""domain"">domínios</link> (ou seja, <link=""house"">casas</link>, <link=""faction"">facções</link> e <link=""league"">ligas</link>).
+
+Você coloca algo na barra rápida arrastando-o para um slot, ou com Ctrl+Clique-direito para colocá-lo no primeiro slot disponível. Do mesmo modo, você pode limpar um slot com Ctrl+Clique-direito, ou arrastando o conteúdo para fora e soltando.
+
+O primeiro slot da barra rápida é especial e só aceita personagens. Quando um personagem está nesse slot, ele é o personagem de contraste, e os outros retratos de personagens mostrarão a <link=""opinion"">opinião</link> do personagem sobre o personagem de contraste. Você pode colocar um personagem no primeiro slot da barra rápida com Ctrl+clique nele.",,
+Link.secret,Segredos,,"Algumas ações e eventos são visíveis apenas para os personagens envolvidos. Um subconjunto desses eventos ocultos cria <h>segredos</h>, ou seja, algum tipo de evidência que pode ser usada para mostrar o que aconteceu, mas que os personagens prefeririam manter oculta.
+
+Em cada turno há uma pequena chance de outros personagens que conhecem você descobrirem um dos seus segredos. Segredos têm uma <h>dificuldade de descoberta</h> numa escala de ""Fácil"" a ""Muito Difícil"".
+
+Você tem acesso à <link=""assignments"">designação</link> Abafar Segredo, pela qual a evidência de um segredo eventualmente será destruída, e a dificuldade de descoberta do segredo virará ""Nunca"". Alguns segredos automaticamente ficam mais difíceis de descobrir com o passar do tempo e eventualmente expiram - isto aparece quando você passa o cursor sobre a dificuldade de descoberta do segredo.
+
+Você pode tentar ativamente descobrir os segredos de outros personagens (se eles tiverem algum) usando a <link=""assignments"">designação</link> Rede de Espiões.
+
+Se você ficar ciente do segredo de outro personagem, pode geralmente <h>revelá-lo</h> publicamente, potencialmente danificando a posição política dele. Se o segredo fosse sobre um <link=""morality"">crime</link> cometido, a vítima ficará com uma queixa contra ele quando o segredo for revelado. Você também poderia usar o segredo como chantagem, fazendo um <link=""negotiation"">pedido</link> e ameaçando revelá-lo. Uma vez usado como chantagem, um segredo não pode mais ser revelado por você. Um segredo com dificuldade de descoberta ""Nunca"" não pode ser descoberto, mas geralmente ainda é possível revelá-lo ou chantagear um personagem com ele.",,
+Link.war,Guerra,,"Quando as relações entre duas <link=""house"">casas</link> líderes se rompem, um lado pode declarar guerra ao outro se os territórios forem <link=""map"">próximos</link>, ou ameaçar guerra se alguma exigência não for atendida. Declarar guerra normalmente é <link=""morality"">desonroso</link>. Uma guerra se torna justificada se for declarada para vingar um crime, ou para apadrinhar uma <link=""claims"">reivindicação</link> dentro do <link=""domain"">domínio</link> do defensor.
+
+Se uma guerra é justificada com base numa reivindicação, o <link=""head"">governante</link> atacante ainda perderá prestígio se não honrar a reivindicação na primeira oportunidade. Por exemplo, se a guerra foi iniciada para apadrinhar a reivindicação de um personagem a governar uma <link=""colony"">colônia</link>, então o governante é vinculado pela honra a instalar esse personagem como o governante da colônia quando ela for conquistada. Se uma guerra tem base numa reivindicação, o defensor pode encerrá-la a qualquer momento aceitando <link=""championing"">defender a reivindicação</link>.
+
+Quando um <link=""head"">arconte</link> está em guerra, todas as <link=""faction"">facções</link> da <link=""league"">liga</link> dele são consideradas em guerra com o inimigo. Algumas ações políticas não são possíveis entre casas cujos <link=""domain"">domínios</link> respectivos estão em guerra. Do mesmo modo, uma facção em guerra está limitada a não negociar território <link=""map"">próximo</link> ao inimigo.
+
+Quando a guerra é declarada, a casa atacante automaticamente chama de volta os membros antes da declaração. Porém, qualquer outro personagem de ambos os lados que esteja realizando uma <link=""assignments"">designação</link> no território do inimigo será justificadamente <link=""arrest"">preso</link>.
+
+Durante a guerra, qualquer duque ou arconte de ambos os lados pode atacar e <link=""attack"">conquistar</link> sistemas no território do oponente. Quando um sistema é atacado em guerra, a defesa é sempre responsabilidade do governante da facção dele, mesmo se fizer parte de uma liga. Se um sistema é conquistado, o vencedor pode escolher substituir o barão por um <link=""vassalage"">vassalo</link> mais confiável. Anexar sistemas sobre os quais não se tem reivindicação é desonroso.
+
+A guerra termina quando o sistema capital de um lado é conquistado, ou quando ambos os lados concordam com a paz. Uma guerra também é considerada extinta se nenhum dos lados realiza ação agressiva ou faz uma exigência por dez turnos. Porém, uma guerra não termina automaticamente se a reivindicação que o atacante apadrinhava não for mais relevante.
+
+Uma guerra finalizada que foi lucrativa é motivo de <link=""feast"">celebração</link>.",,
+Link.punishment,Punição,,"Quando você tem uma queixa contra alguém, não é <link=""morality"">desonroso</link> puni-lo na proporção do crime. Como <link=""head"">governante</link>, outros virão a você pedindo justiça por crimes contra eles, e você será vinculado pela honra a punir os ofensores.
+
+Qualquer ação que normalmente seria considerada um crime pode servir como punição. Vá à <link=""war"">guerra</link> contra um governante que te lesou, e a sua agressão será vista como punição justa na corte da <link=""opinion"">opinião</link> pública. Há também algumas ações que você pode tomar especificamente para punir os súditos. Como governante de uma <link=""colony"">colônia</link>, você pode punir os habitantes do seu sistema estelar por, em ordem de severidade: execução, exílio e chicote de nervos. Você também pode punir os governantes cobrando multa deles.
+
+Você pode ser tentado a usar a execução para se livrar de um personagem problemático, mesmo sem justificativa.",,
+Link.formvassal,Formar uma Facção Vassala,,"<link=""faction"">Facções</link> surgem pela <link=""rebellionbetrayal"">rebelião</link>, ou quando o <link=""head"">governante</link> de uma facção grande divide o território para torná-lo mais <link=""vassallimit"">gerenciável</link>.
+
+Um <link=""head"">duque</link> ou <link=""head"">arconte</link> independente forma uma facção <link=""vassalage"">vassala</link> escolhendo um dos <link=""head"">barões</link> e concedendo a ele a posse de algumas das outras <link=""colony"">colônias</link> da facção (Nota: as ações de formar uma facção vassala e <link=""give"">transferir um sistema</link> para ela são separadas na interface).
+
+Isto torna o barão um duque, embora ele permaneça vassalo. A facção mestre da nova facção vassala é imediatamente considerada com uma <link=""claims"">reivindicação</link> legítima de ser a mestra dela.
+
+Note que duques vassalos não podem formar facções vassalas, pois eles próprios não podem ter vassalos que sejam duques. Um duque independente que forma uma facção vassala vira o arconte de uma <link=""league"">liga</link>.
+
+Em vez de formar uma nova facção vassala, um duque pode ressuscitar uma morta se o fizer enquanto apadrinha a reivindicação de um personagem a liderá-la. A facção ressuscitada recebe imediatamente qualquer colônia sobre a qual tenha uma reivindicação de posse mais forte do que a facção do duque. É possível que um duque vassalo ressuscite uma facção morta, mas ela virará vassala do arconte dele.",,
+Link.rebellionbetrayal,Rebelião e Traição,,"Como um <link=""vassalage"">vassalo</link> empunha o <link=""fleet"">poder militar</link> do <link=""map"">território</link> dele, o poder de um governante se baseia em grande parte na capacidade de reter a <link=""opinion"">lealdade</link> dos súditos. Vassalos desfrutam de grande liberdade; enquanto não se opuserem ao mestre, podem agir política e militarmente em benefício próprio.
+
+Um <link=""head"">barão</link> ou <link=""head"">duque</link> vassalo popular pode se rebelar contra o mestre, esperando ganhar apoio suficiente para se tornar independente e resistir à retaliação militar. Um governante menos poderoso na borda do território do mestre pode escolher trair a lealdade para um vizinho. Ambas as ações normalmente são <link=""morality"">desonrosas</link>.
+
+Quando um barão se rebela, uma nova <link=""faction"">facção</link> é formada e imediatamente entra em <link=""war"">guerra</link> com a facção-mãe. Se esta fazia parte de uma <link=""league"">liga</link>, a facção rebelde também permanece parte dela. Quaisquer outros barões que se juntem à rebelião e que sejam governantes <link=""claims"">legítimos</link> das colônias concedem à facção rebelde uma reivindicação sobre a colônia. Qualquer facção que tenha uma reivindicação de mestria sobre a facção-mãe ganha uma reivindicação de mestria sobre a facção rebelde.
+
+Quando um duque se rebela, ele se torna independente. Se outros duques vassalos se juntam à rebelião, formam uma <link=""league"">liga</link> rebelde e ele vira o arconte dela. Se os outros duques que se juntam à rebelião são governantes legítimos das facções, a liga rebelde recebe uma reivindicação sobre essa facção. Em ambos os casos, o rebelde está em guerra com o antigo mestre.
+
+Se uma liga perde a última facção vassala, ela é dissolvida e o arconte vira duque.",,
+Link.surrender,Rendição,,"Quando uma <link=""faction"">facção</link> ou <link=""league"">liga</link> é fraca, o <link=""head"">governante</link> pode não conseguir manter a independência. Ele pode buscar virar <link=""vassalage"">vassalo</link> de um governante mais poderoso, ou pode ser forçado a render o <link=""domain"">domínio</link>.
+
+Quando um governante se rende, ele vira um <link=""head"">barão</link> dentro da facção do mestre, governando o <link=""colony"">sistema natal</link>. Todos os antigos vassalos dele viram vassalos do novo mestre. Se um <link=""head"">duque</link> ou <link=""head"">arconte</link> se rende a um duque vassalo, esse duque vira arconte e forma uma nova liga independente da liga anterior. Isto não é <link=""morality"">desonroso</link>.
+
+Você perderá o jogo se deixar de ser um duque.",,
+Link.deposevassal,Depondo um Vassalo,,"Quando a relação entre um <link=""head"">duque</link> ou <link=""head"">arconte</link> e um dos <link=""vassalage"">vassalos</link> se rompe, o mestre pode tentar substituir o vassalo por outro personagem pelo uso da <link=""fleet"">força</link>. Isto normalmente é <link=""morality"">desonroso</link>.
+
+Um vassalo reagirá à sua tentativa de depô-lo de uma de três formas;
+- Ele pode aceitar o destino e abdicar do governo da <link=""colony"">colônia</link> ou <link=""faction"">facção</link> para o seu substituto escolhido.
+- Ele pode iniciar uma <link=""rebellionbetrayal"">rebelião</link>, potencialmente atraindo outros vassalos descontentes à causa. Isto normalmente é desonroso.
+- Ele pode simplesmente recusar a ordem. Se o <link=""colony"">sistema natal</link> dele estiver diretamente <link=""map"">próximo</link> ao resto do seu território, você o atacará imediatamente, substituindo-o se vencer o <link=""combat"">combate</link> resultante. Caso contrário, ele simplesmente se torna independente e num estado de <link=""war"">guerra</link> com você.",,
+Link.visibility,Visibilidade,,"O que é visível para você depende do conhecimento do personagem que você está jogando.
+
+Outros personagens também têm visibilidade parcial. Você pode ver se um personagem conhece outro focando o primeiro personagem e <link=""quickbar"">contrastando</link> o segundo.
+
+<b>Personagens</b>
+
+Você estará sempre ciente de;
+- Os <link=""head"">governantes</link> dentro do seu <link=""domain"">território</link>
+- Os duques e arcontes cujo território faz fronteira com o seu
+- Os barões cujas colônias estão na fronteira da sua facção
+- Os <link=""inheritance"">herdeiros</link> de qualquer governante que você conhece
+- Membros próximos da sua família
+- Membros da sua <link=""house"">casa</link>
+- Nobres que vivem na sua <link=""colony"">capital</link> ou estão a visitando
+
+Você ficará ciente de outros personagens organicamente. Haverá com frequência eventos envolvendo alguém que você não conhece. Quando você troca para um novo personagem jogável, perde a visibilidade de qualquer personagem do qual o novo personagem jogável não esteja ciente.
+
+<b>Casas</b>
+
+Você está ciente de uma casa se está ciente do <link=""head"">chefe</link> dela.
+
+<b>Sistemas</b>
+
+Você está sempre ciente de qualquer sistema no seu território e no território de <link=""faction"">facções</link> vizinhas. Uma vez que você aprende sobre um sistema, mantém visibilidade dele pelo resto do jogo.
+
+<b>Facções e <link=""league"">Ligas</link></b>
+
+Você está sempre ciente de qualquer <link=""map"">facção</link> vizinha, e das facções vizinhas a essas facções. Você aprende sobre uma facção se aprende sobre o governante dela. Uma vez que você aprende sobre uma facção, mantém visibilidade dela pelo resto do jogo.
+
+Você está ciente de uma liga se está ciente do arconte e da facção dele.",,
+Link.traits,Traços,,"Cada personagem no jogo tem um pequeno conjunto de traços de personalidade que modificam a <link=""happiness"">reação emocional</link> dele aos eventos, a <link=""opinion"">opinião</link> base dele sobre outros personagens, a reputação, as <link=""skill"">habilidades</link> e o comportamento. Foque num personagem e passe o cursor sobre os ícones de traços para ver o efeito de cada traço.
+
+Traços de personalidade vêm em pares mutuamente exclusivos. Um personagem com um traço normalmente gostará de personagens com o mesmo traço, e não gostará de personagens com o traço oposto.
+
+Os traços de personalidade são;
+- Bondoso ou Cruel
+- Corajoso ou Covarde
+- Leal ou Volúvel
+- Ganancioso ou Contente
+- Amigável ou Reservado
+- Honroso ou Quebra-Regras
+- Orgulhoso ou Humilde
+- Vingativo ou Perdoador
+- Encantador ou Tedioso
+- Tribal ou Individualista
+- Inteligente ou Estúpido
+
+Além disso, um personagem pode ter o traço Gay ou o traço Bissexual. Eles afetam se o personagem pode iniciar um casamento entre pessoas do mesmo sexo e a felicidade que ele recebe por ser <link=""marriage"">casado</link>. Note que um casamento entre homem e mulher produzirá filhos mesmo se um ou ambos forem Gay.
+
+Crianças adquirem traços gradualmente conforme envelhecem, e frequentemente adotam os traços de personalidade dos pais ou do <link=""guardianship"">guardião</link>. Elas podem adquirir o traço Gay ou o traço Bissexual ao atingir a maioridade.",,
+Link.assignments,Designações,,"Membros da sua <link=""house"">casa</link> podem ser designados a tarefas. Essas tarefas, ou <i>designações</i>, fornecem uma variedade de benefícios.
+
+Uma designação ou completa após um número de turnos, ou tem um efeito contínuo em cada turno em que está ativa. Você pode interromper uma designação a qualquer momento. Se você interromper uma designação completável antes do fim, metade do custo de <#dcab00><sprite name=""icon_money"" tint=1></color> dela é reembolsada.
+
+Muitas designações acontecem fora do seu <link=""colony"">sistema natal</link>. O personagem designado à tarefa pode executá-la pessoalmente (viajando até o local da designação) ou remotamente (trabalhando através de agentes). Designações realizadas pessoalmente são mais eficazes, se você estiver disposto a arriscar golpes contra o seu membro da casa. <link=""councilmember"">Membros do conselho</link> não podem viajar, e sempre realizarão as designações remotamente.
+
+Cada designação é realizada num nível de <i>Eficácia</i> (<v>1</v>-<v>100</v>). Em níveis mais altos, designações contínuas terão efeitos mais fortes, e designações completáveis terminarão mais rápido. A eficácia se baseia em:
+- O nível do personagem designado numa <link=""skill"">habilidade</link> específica. Cada tipo de designação depende de uma habilidade.
+- Se o personagem realiza a designação pessoalmente ou remotamente
+- A <link=""happiness"">felicidade</link> do personagem designado
+- A <link=""opinion"">opinião</link> do personagem designado sobre você
+
+Você pode designar tarefas a qualquer membro adulto da sua casa exceto você mesmo, mas o menu de ações contextuais num personagem só mostrará as designações relacionadas à melhor habilidade dele. Você ainda pode designá-lo a outras tarefas se disparar a designação pelo menu de contexto do alvo. Você não pode designar vários personagens à mesma designação.",,
+Link.love,Amor e Casos,,"Personagens às vezes se apaixonarão por outros personagens. Um personagem apaixonado ficará distraído e terá penalidade nas habilidades, a menos que seja casado ou esteja num caso com o interesse amoroso. Atração por alguém que não é o seu <link=""marriage"">cônjuge</link> é um <link=""secret"">segredo</link>.
+
+Você pode propor um caso com o seu interesse amoroso. Casos, mesmo entre personagens solteiros, são <link=""morality"">desonrosos</link> e são <link=""secret"">segredo</link>. Casos geram uma emoção positiva contínua de <link=""happiness"">felicidade</link> no casal. É possível que uma criança nasça de um caso, mas é improvável.",,
+Link.map,Mapa,,"O mapa da galáxia consiste num conjunto de sistemas estelares ligados por <link=""spacetravel"">rotas estelares</link>. Alguns sistemas estelares contêm uma <link=""colony"">colônia</link>, outros estão vazios. Colônias são governadas por um <link=""vassalage"">barão</link>.
+
+Há <v>115</v> colônias, embora algumas possam estar <link=""damagedcolony"">abandonadas</link>.
+
+Colônias são agrupadas em <link=""faction"">facções</link>. Facções são governadas por um <link=""vassalage"">duque</link>. Facções podem ser agrupadas em <link=""league"">ligas</link>. Ligas são governadas por um <link=""vassalage"">arconte</link>.
+
+Duas colônias são consideradas <i>próximas</i> entre si se houver um caminho de rota estelar entre elas sem outra colônia bloqueando e com no máximo três ""saltos"" de extensão. Do mesmo modo, facções ou ligas são consideradas <i>próximas</i> entre si se houver ao menos uma colônia na primeira que seja próxima a uma colônia na outra.",,
+Link.attack,Conquista Militar,,"Quando você está em <link=""war"">guerra</link> com uma <link=""faction"">facção</link> ou <link=""league"">liga</link>, você pode atacar uma <link=""colony"">colônia</link> no território dela. Isto dispara um combate entre você e o <link=""head"">duque</link> que governa a facção da colônia.
+
+Se você vence o combate, determina o destino da colônia e do <link=""head"">barão</link> dela. Porém, se você é <link=""vassalage"">vassalo</link> de um <link=""head"">arconte</link> que está em guerra apadrinhando uma <link=""claims"">reivindicação</link> relacionada àquela colônia, ele pode intervir neste ponto e tomar essas decisões de você.
+
+A sua primeira decisão será se mantém o barão existente ou instala um novo. Depois, se a guerra foi declarada para apadrinhar uma reivindicação e conquistar a colônia permite <link=""championing"">defendê-la</link>, você será <link=""morality"">vinculado pela honra</link> a fazê-lo neste ponto. Por fim, se você é um arconte, escolhe se mantém a colônia na sua facção ou se a concede a uma facção vassala vizinha. Anexar uma colônia numa facção que não tem reivindicação sobre ela é desonroso, mesmo que o sistema seja conquistado numa guerra justificada.
+
+Se você conquistou o sistema capital do inimigo, a guerra terminará. Conquistar a capital de uma facção a fragmentará em colônias independentes. Conquistar a capital de uma liga a fragmentará em facções independentes.",,
+Link.raid,Saqueios,,"Em cada turno, uma <link=""colony"">colônia</link> acumula <i>espólio</i>, até um máximo definido pelo quão bem reparada a colônia está. Espólio é o material valioso que pode ser carregado com facilidade para fora da colônia.
+
+Um <link=""head"">barão</link> pode atacar uma colônia numa tentativa de saquear o espólio dela. Um saque dispara um <link=""combat"">combate</link> normal para determinar se ele tem êxito.
+
+Duques e arcontes não podem saquear. Um duque ou arconte que ataca um sistema está sempre tentando <link=""conquer"">conquistá-lo</link>.",,
+Link.favour,Favores,,"Quando um personagem concede um benefício significativo a outro sem ter sido obrigado, um <i>favor</i> é criado. Isto inclui;
+- Ajudar um <link=""head"">governante</link> em <link=""combat"">combate</link> quando não há obrigação <link=""vassalage"">feudal</link> ou de parentesco
+- Dar uma <link=""colony"">colônia</link> a um governante
+- Dar uma <link=""faction"">facção</link> a um governante
+- Conceder independência a um vassalo
+- Promover um membro da casa ao <link=""councilmember"">conselho</link>
+
+Se um personagem pede um benefício semelhante de alguém que lhe deve um favor, este é <link=""morality"">vinculado pela honra</link> a retribuir.",,
+Link.give,Dar Vassalo,,"Um <link=""head"">duque</link> ou <link=""head"">arconte</link> pode transferir a posse de uma <link=""colony"">colônia</link> vassala na <link=""faction"">facção</link> dele para outro duque ou arconte. Um arconte também pode transferir a posse de uma facção vassala na <link=""league"">liga</link> dele para outro arconte ou duque independente. O governante vassalo não tem escolha na matéria. 
+
+Um duque vassalo não pode receber a posse de uma facção vassala. Um arconte que doa a última facção vassala vira duque.
+
+Se feito voluntariamente e não como parte de uma troca, isto é um <link=""favour"">favor</link>. Além disso, o governante que concede enfraquece a reivindicação dele sobre aquele pedaço de território.
+
+A menos que uma <link=""claims"">reivindicação</link> esteja envolvida, uma colônia só pode ser transferida para uma facção à qual é <link=""map"">próxima</link>. Do mesmo modo, uma facção só pode ser transferida para uma liga à qual é próxima. Um governante não pode doar parte do território se ela for próxima ao território de um governante com quem está em <link=""war"">guerra</link>, ou se está em guerra contestando uma reivindicação sobre ela.",,
+Link.negotiation,Negociação,,"Quando você faz uma oferta ou pedido a um <link=""head"">governante</link>; ele pode aceitar, recusar, ou responder com um pedido próprio. Neste último caso, você pode aceitar ou recusar a troca sugerida. Aceitar certas ofertas é aceitar um <link=""favour"">favor</link>.
+
+Quando um governante faz uma oferta ou pedido a você, você poderá contrapor com qualquer pedido que poderia fazer a ele.
+
+Quando você faz o pedido inicial, pode acompanhá-lo com uma ameaça. Um governante só pode aceitar ou recusar tal pedido. Se ele recusa, a ameaça é automaticamente executada. Ameaças normalmente são <link=""morality"">desonrosas</link>.
+
+Passando o cursor sobre um pedido ou troca, você pode descobrir se um governante vai definitivamente aceitar ou definitivamente recusar. O jogo não preverá o desfecho quando o personagem poderia razoavelmente seguir qualquer caminho. Porém, o jogo mostrará os fatores precisos que o personagem ponderou ao chegar à decisão depois que você fizer o pedido.
+
+Exigências feitas ao apadrinhar uma <link=""claims"">reivindicação</link> não são previstas.",,
+Link.fleetcomposition,Composição da Frota,,"Naves numa <link=""fleet"">frota</link> são classificadas em um de três tipos;
+- <#043F48FF><sprite name=""vessel_bomber"" tint=1></color> Bombardeiros
+- <#990E0EFF><sprite name=""vessel_interceptor"" tint=1></color> Interceptores
+- <#936100FF><sprite name=""vessel_frigate"" tint=1></color> Fragatas
+
+Cada tipo de nave é forte contra um tipo e fraco contra outro.
+- <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombardeiros causam <pv>200%</pv> de dano a <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Fragatas e <nv>50%</nv> de dano a <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptores
+- <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptores causam <pv>200%</pv> de dano a <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombardeiros e <nv>50%</nv> de dano a <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Fragatas
+- <color=#936100><sprite name=""vessel_frigate"" tint=1></color> Fragatas causam <pv>200%</pv> de dano a <color=#990e0e><sprite name=""vessel_interceptor"" tint=1></color> Interceptores e <nv>50%</nv> de dano a <color=#043f48><sprite name=""vessel_bomber"" tint=1></color> Bombardeiros
+
+Você pode gradualmente modificar a composição da frota mantida por uma <link=""colony"">colônia</link> específica usando a <link=""assignments"">designação</link> <link=""technology"">Mudar Composição da Frota</link>.
+
+Os tipos de nave também ganham bônus diferentes em <link=""combat"">combate</link> das <link=""combattactic"">táticas de combate</link>.",,
+Link.marriageauthority,Autoridade de Casamento,,"A <link=""marriage"">autoridade de casamento</link> de um personagem é o <link=""head"">chefe</link> da casa que tem o direito de arranjar o casamento dele ou divorciá-lo.
+
+Normalmente o chefe de uma casa é a autoridade de casamento dos membros da casa dele (incluindo a si mesmo), mas as seguintes regras prevalecem. Em ordem de prioridade:
+- O governante de um <link=""domain"">domínio</link> é a autoridade de casamento de todos os descendentes dele que vivem naquele domínio. Se um personagem descende de dois governantes cujos domínios se sobrepõem, o governante de <link=""vassalage"">ranking mais alto</link> é a autoridade de casamento.
+- O governante de um domínio é a autoridade de casamento de todos os parentes genéticos próximos* dele que vivem naquele domínio. Se um personagem é geneticamente próximo de dois governantes cujos domínios se sobrepõem, o governante de ranking mais alto é a autoridade de casamento.
+
+Se a autoridade de casamento de um personagem não é o chefe da casa dele, ele terá um ícone de estado no resumo do personagem indicando isto.
+
+Note que embora haja apenas uma autoridade de casamento que pode concordar com um casamento de um personagem específico, pode haver duas autoridades de casamento com poder de divorciar o casamento (uma para cada parceiro).
+
+
+*Parentes genéticos próximos são definidos como: pais, irmãos, filhos, avós, netos, irmãos por inteiro dos seus pais, filhos dos irmãos por inteiro.",,
+Link.installation,Instalações,,"Uma <link=""colony"">colônia</link> é composta de <h>instalações</h>, ou seja, as bases e estações espaciais localizadas num único sistema. Esses bens foram construídos antes do Colapso pelos vários estados e organizações que exploravam e aproveitavam a galáxia. Hoje, são o único espaço de vida restante para a humanidade, e não temos a capacidade de construir mais.
+
+Você pode ver as instalações de uma colônia passando o cursor sobre o sistema estelar dela no mapa, ou clicando nele.
+
+Instalações estão ou <h>Funcionais</h> ou <h>em Desuso</h>. Você pode reparar instalações para usá-las com a <link=""assignments"">designação</link> <h>Reparar Instalação</h>. Isto fornecerá um benefício exclusivo daquele tipo de instalação.
+
+Instalações podem sofrer danos colaterais quando há <link=""combat"">combate</link> no sistema, e voltar ao desuso. Se todas as instalações de uma colônia forem danificadas, a colônia é <link=""damagedcolony"">abandonada</link>.
+
+Normalmente, instalações fornecem um benefício principalmente ou exclusivamente ao governante direto da colônia em que residem. Isto significa que, enquanto as instalações do seu sistema são sempre úteis para você, as instalações nas colônias dos vassalos podem não ser.
+
+Algumas instalações são <h>De Alcance</h>, indicadas por um símbolo laranja no canto inferior esquerdo da imagem. Instalações de alcance fornecem um ou mais benefícios a todos os governantes aliados dentro de uma área do mapa. Isto as torna valiosas para você mesmo quando estão fora do seu sistema natal.",,
+Link.combattactic,Táticas de Combate,,"Em cada rodada da fase de resolução do <link=""combat"">combate</link>, ambos os comandantes de frota escolhem simultaneamente uma tática de combate.
+
+Uma tática é uma coleção de <i>efeitos de tática</i> que permanecem em jogo pelo resto daquele combate. Um efeito de tática tipicamente fornece um bônus ou penalidade aos cálculos de combate. Uma tática só pode ser jogada uma vez por combate, exceto as táticas padrão de <i>Ataque</i> e <i>Recuo</i>.
+
+A maioria dos efeitos de tática tem um tipo, que é <#D91C25FF><sprite name=""icon_tacticoffense"" tint=1></color>, <#03C2DEFF><sprite name=""icon_tacticdefense"" tint=1></color> ou <#7335ADFF><sprite name=""icon_tactictactical"" tint=1></color>. Algumas táticas podem remover do jogo quaisquer efeitos de tática do oponente de um tipo específico. Isto se aplica a efeitos jogados nos turnos atual ou anteriores. Efeitos de tática sem tipo permanecem no lugar depois de jogados.
+
+Personagens aprendem táticas automaticamente conforme a <link=""skill"">habilidade</link> de Guerra aumenta, até um máximo de <v>3</v>. Numa batalha específica você tem acesso a;
+- Duas táticas padrão: <i>Ataque</i> e <i>Recuo</i>
+- As táticas conhecidas pelo comandante que lidera a frota
+- As táticas conhecidas pelo <link=""councilmember"">Chefe de Guerra</link> da sua casa
+
+Note que se você escolher o seu Chefe de Guerra para liderar a frota, cada uma das táticas dele estará disponível duas vezes naquele combate.",,
+Link.arrest,Prisão,,"Um personagem pode ser preso pelo <link=""head"">governante</link> da <link=""colony"">colônia</link> em que está atualmente. Isto normalmente é <link=""morality"">desonroso</link>. Personagens presos são mantidos na colônia até o governante soltá-los, e as ações deles são restringidas. Você pode pedir a um governante que solte um membro da sua <link=""house"">casa</link> que ele tenha prendido.
+
+Prender um personagem interrompe qualquer <link=""assignments"">designação</link> problemática em que ele pudesse estar trabalhando.
+
+Você prenderá automaticamente quaisquer membros de outra casa se uma <link=""war"">guerra</link> começar tornando você inimigo dela. Isto não é desonroso. Quando você declara guerra a outro governante, você chamará de volta automaticamente os membros da sua casa do território inimigo antes que possam ser presos. Quaisquer membros da casa do seu inimigo que estejam em qualquer lugar do seu território são presos e transferidos para o seu sistema natal.",,
+Link.expeditionevents,Eventos de Expedição,,"Os remanescentes da humanidade vivem dentro das ruínas de uma civilização que estava no limiar de uma era dourada de colonização espacial. Vivemos em estruturas que não conseguimos construir, e viajamos em máquinas cujo funcionamento é insondável. Podemos não entender, mas a tecnologia nos dá vida e nos protege do universo hostil. E é uma fonte de poder. Dentro dos cascos de colônias abandonadas, naves perdidas e outros avistamentos misteriosos; estão bugigangas que poderiam trazer glória à sua casa.
+
+A sua <link=""house"">casa</link> se esforça para descobrir essas relíquias da <link=""collapse"">história pré-Colapso</link>, e investigar outros mistérios da galáxia. Tudo num esforço de ganhar vantagem sobre os rivais.
+
+<h>Eventos de Expedição</h> são eventos narrativos sobre esses esforços e aventuras. Eles geralmente, mas nem sempre, vêm com boas recompensas.
+
+Em cada turno você ganha <h>Pontos de Expedição</h>. Você ganha mais se a sua casa tem uma <link=""houseareas"">pontuação</link> maior de <link=""technology"">Tecnologia</link>. O seu progresso aparece numa barra na barra de ferramentas inferior direita. Passe o cursor sobre ela para ver quantos pontos você tem, e quanto ganha a cada turno. Quando você atinge um limiar, um Evento de Expedição dispara.",,
+Link.guardianship,Tutela,,"<i><b>Nota:</b> Este recurso requer o DLC Bloodlines</i>
+
+Quando uma criança da sua <link=""house"">casa</link> relacionada a você tem entre 6 e 16 anos, você pode designar a ela um guardião. A responsabilidade do guardião é proteger a criança e mentorá-la numa <link=""skill"">habilidade</link> específica. Os personagens elegíveis a guardiões são você e os membros do <link=""councilmember"">conselho</link>, e um personagem só pode ter um tutelado por vez.
+
+Enquanto uma criança é tutelada de um guardião, ela adquire pontos de habilidade nas melhores e segundas melhores habilidades do guardião. Além disso, a criança pode absorver os <link=""traits"">traços</link> de personalidade do guardião.
+
+Você pode pedir a outro <link=""head"">governante</link> que seja o guardião de uma criança da sua casa, ou pode ser solicitado a virar o guardião da criança de outro governante. Um governante cuja criança esteja sob a sua tutela provavelmente será significativamente mais leal, pois temerá que você <link=""arrest"">cause dano</link> à criança enquanto ela estiver sob os seus cuidados. Do mesmo modo, você deve pisar em ovos com um governante para quem enviou um dos seus parentes como tutelado. Porém, governantes também ficarão satisfeitos quando você confiar neles dessa forma, então enviar crianças como tuteladas pode ajudar a construir <link=""opinion"">relacionamentos</link> com outros governantes.",,
+Link.succession,Sucessão,,"<i><b>Nota:</b> Este recurso requer o DLC Bloodlines</i>
+
+Uma regra de sucessão identifica o herdeiro que <link=""inheritance"">herdará</link> o <link=""head"">governo</link> de uma <link=""faction"">facção</link> ou <link=""colony"">sistema</link> quando o governante morrer, e a linha de sucessão mais ampla atrás desse herdeiro.
+
+Há quatro regras básicas de sucessão:
+- Filho Mais Velho
+- Filho Mais Novo
+- Parente Mais Próximo
+- Irmão Mais Velho
+
+Cada regra básica de sucessão também tem duas variantes que preferem herdeiros de um sexo sobre o outro.
+
+O governante de um sistema estelar ou facção pode mudar a regra de sucessão que é lei para aquele domínio. Isto normalmente é <link=""morality"">desonroso</link>, pois é injusto com o herdeiro atual, rasga a tradição existente e potencialmente reduz o valor dos seus <link=""marriage"">casamentos</link> políticos com outras <link=""house"">casas</link>. Um caminho menos desonroso é deserdar o herdeiro atual sem mudar abertamente a lei de sucessão - o segundo na linha então vira o herdeiro.
+
+Você também pode escolher sobrepor a lei de sucessão do seu domínio e nomear um membro da casa ou parente súdito como herdeiro, porém esta é a opção mais desonrosa de todas, pois você estará zombando da tradição da herança sanguínea.",,

@@ -1,0 +1,7 @@
+Skill,DisplayName,Visible
+Skill.Administration,Administração,TRUE
+Skill.Military,Guerra,TRUE
+Skill.Diplomacy,Diplomacia,TRUE
+Skill.Security,Segurança,TRUE
+Skill.Medical,Medicina,TRUE
+Skill.Mentoring,Mentoria,FALSE
