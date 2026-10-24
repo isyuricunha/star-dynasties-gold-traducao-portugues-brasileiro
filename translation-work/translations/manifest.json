@@ -28,14 +28,14 @@
     "batch-0005.jsonl": {
       "count": 500,
       "original_sha256": "07ef46927a24fcac034551dfc7dc8d371e53f2f13b42cf3d3db360068534c432",
-      "sha256": "3813cac303716cb6380f5610ec410785c8783a98cf4615ed1c62d4ee9e48f6e8",
-      "translated": 499
+      "sha256": "c17b484058e00ca765edfcbc39c819d72dfa5d1bfaef25f25af3803a0276e04e",
+      "translated": 500
     },
     "batch-0006.jsonl": {
       "count": 500,
       "original_sha256": "0f20ed205baad24c70a61393c6dd71576fe80b3a551b8422b5e91b0a37cf2dca",
-      "sha256": "ae4377feb7b8e43ffa1030109418091534045d6c3cdb8e53ad26e019837acb31",
-      "translated": 0
+      "sha256": "05b8a9ce8d76e8d772901b96168effa2ef0b8f054fe7de54e88b1f38d0173ce6",
+      "translated": 400
     },
     "batch-0007.jsonl": {
       "count": 500,
