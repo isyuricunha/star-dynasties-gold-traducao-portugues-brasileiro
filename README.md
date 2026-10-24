@@ -7,7 +7,7 @@
   <p><em>A Terra se perdeu. O futuro ainda carrega o nome da sua família.</em></p>
   <p>
     <a href="https://github.com/isyuricunha/star-dynasties-gold-traducao-portugues-brasileiro/releases/download/v1.0.0/PTBR.zip">📦 Baixar PTBR.zip (v1.0.0)</a> ·
-    <a href="https://traducao.yuricunha.com/">🌐 Portal de Traduções</a> ·
+    <a href="https://traducao.yuricunha.com/traducoes/star-dynasties">🌐 Vai Brasil! — página da tradução</a> ·
     <a href="https://store.steampowered.com/app/1194590/Star_Dynasties/">🎮 Steam</a>
   </p>
 </div>
